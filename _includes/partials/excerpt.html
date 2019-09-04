@@ -1,0 +1,9 @@
+<div class="small-12 medium-6 large-4 {% if project.is-full-width %}medium-12{% endif %} cell excerpt" data-aos="fade-in">
+  <a href="{{ project.url }}">
+    {% assign image = project.image %}
+    <div class="margin-bottom-1 image" data-interchange="{% include images/interchange-img-small-12-medium-4-cell.html %}">
+    <div class="content"></div>
+    </div>
+    <h5 class="sans-regular white"><span class="project__client">{{ project.client }}</span><span class="dark-gray project__title">{{ project.title }}</span></h5>
+  </a>
+</div>

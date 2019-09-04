@@ -1,0 +1,64 @@
+---
+layout: default
+---
+
+<!-- Images -->
+<div class="grid-container">
+  <div class="grid-x grid-padding-x grid-padding-y small-up-1 medium-up-2 gallery--home" data-equalizer>
+  
+    {% for picture in page.images %}
+      <div class="cell" data-equalizer-watch>
+  
+          <div class="grid-y {% case picture.align-vertical %}{% when 'top' %}align-left{% when 'middle' %}align-center{% when 'bottom' %}align-right{% endcase %}" style="height: 100%;">
+            <div class="shrink cell">
+  
+              {% assign image = picture.image %}
+              <div class="grid-x align-{{picture.align-horizontal}}">
+                <div class="cell small-12 {% case picture.size %}{% when 'small' %}medium-6{% when 'medium' %}medium-8{% when 'large' %}medium-10{% when 'full' %}medium-12{% endcase %}">
+                  {% if picture.commissions %}
+                  <a href="commissions/{{picture.commissions | slugify}}">
+                  {% case picture.aspect-ratio %}
+                  {% when '5-7' %}
+                  <div class="image--5-7 item" data-interchange="{% include images/interchange-img-small-12-medium-12-cell.html %}" data-aos="fade-in" data-tippy-content="{{ picture.commissions }}"></div>
+                  {% when '7-5' %}     
+                  <div class="image--7-5 item" data-interchange="{% include images/interchange-img-small-12-medium-12-cell.html %}" data-aos="fade-in" data-tippy-content="{{ picture.commissions }}"></div>
+                  {% endcase %} 
+                  </a>
+                  {% elsif picture.editorial  %}
+                  <a href="editorial/{{picture.editorial | slugify}}">
+                  {% case picture.aspect-ratio %}
+                  {% when '5-7' %}
+                  <div class="image--5-7 item" data-interchange="{% include images/interchange-img-small-12-medium-12-cell.html %}" data-aos="fade-in" data-tippy-content="{{ picture.editorial }}"></div>
+                  {% when '7-5' %}     
+                  <div class="image--7-5 item" data-interchange="{% include images/interchange-img-small-12-medium-12-cell.html %}" data-aos="fade-in" data-tippy-content="{{ picture.editorial }}"></div>
+                  {% endcase %} 
+                  </a>
+                  {% elsif picture.film  %}
+                  {% assign film = site.film | where: "title", picture.film | first %}
+                  {% case picture.aspect-ratio %}
+                  {% when '5-7' %}
+                  <div class="image--5-7 item item--home" data-interchange="{% include images/interchange-img-small-12-medium-12-cell.html %}" data-aos="fade-in" data-src="{{film.video}}" data-tippy-content="{{ picture.film }}"></div>
+                  {% when '7-5' %}     
+                  <div class="image--7-5 item item--home" data-interchange="{% include images/interchange-img-small-12-medium-12-cell.html %}" data-aos="fade-in" data-src="{{film.video}}" data-tippy-content="{{ picture.film }}"></div>
+                  {% endcase %} 
+                  {% else %}
+                  {% case picture.aspect-ratio %}
+                  {% when '5-7' %}
+                  <div class="image--5-7 item item--home" data-interchange="{% include images/interchange-img-small-12-medium-12-cell.html %}" data-aos="fade-in" data-src="{{image}}"></div>
+                  {% when '7-5' %}     
+                  <div class="image--7-5 item item--home" data-interchange="{% include images/interchange-img-small-12-medium-12-cell.html %}" data-aos="fade-in" data-src="{{image}}"></div>
+                  {% endcase %} 
+                  {% endif %}
+
+                </div>
+              </div>
+  
+            </div>
+          </div>
+  
+      </div>
+    {% endfor %}
+  
+  </div>
+</div>
+<!-- End Images -->

@@ -1,0 +1,27 @@
+<!-- Header -->
+<div class="swup-transition-fade" id="swup-header" data-sticky-container>
+<header class="grid-x grid-padding-x grid-padding-y align-justify align-middle" data-sticky data-options="marginTop:0; stickyOn:medium" style="width:100%"> 
+  <div class="auto cell">
+    {% if page.layout == "project" %}
+    <a href="/">{{page.title}}{% if page.client %}<span class="dark-gray padding-left-1 show-for-large">{{page.client}}</span>{% endif %}</a>
+    {% else %}
+    <a href="/" class="">{{site.title}}</a>
+    {% endif %}
+  </div>
+
+  <div class="shrink cell" style="z-index: 1007">
+  {% for entry in site.data.navigation.header %}{% capture fullurl %}{{ site.baseurl }}{{ entry.url }}{% endcapture %}{% if fullurl == page.url %}{% assign current_page = fullurl %}{% break %}{% elsif page.url contains fullurl %}{% assign current_page = fullurl %}{% endif %}{% endfor %}
+    {% for entry in site.data.navigation.header %}
+    {% if entry.url == current_page %}
+    {% assign current = 'class="active"' %}
+    {% else %}
+    {% assign current = null %}
+    {% endif %}
+    <a href="{{ site.baseurl }}{{ entry.url }}" {{ current }}>{{ entry.title }}</a>{% if forloop.last %}{% else %},{% endif %}
+    {% endfor %}
+  </div>
+</header>
+</div>
+<!-- End Header -->
+
+

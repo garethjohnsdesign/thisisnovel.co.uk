@@ -1,0 +1,23 @@
+<!-- Footer -->
+<footer class="grid-x grid-padding-x grid-padding-y align-justify">
+  
+  <div class="small-12 medium-6 large-shrink cell">
+    <a data-toggle="offCanvasLegal">©</a>
+  </div>
+
+  <div class="small-12 medium-6 large-shrink cell show-for-medium">
+    {% if site.social %}
+      <ul class="menu">
+        {% for item in site.social %}  
+        <li><a href="{{ item[1] }}" target="_blank" rel="noopener"><span class="show-for-sr">{{ item[0] }}</span><svg class="icon icon-socials icon-{{ item[0] }}"><use xlink:href="/assets/icons/symbol-defs.svg#icon-{{ item[0] }}"></use></svg></a></li>
+        {% endfor %} 
+      </ul>
+    {% else %}
+      <ul class="menu">
+        <li><a href="mailto:{{site.email}}">{{site.email}}</a></li>
+      </ul>
+    {% endif %}
+  </div>
+
+</footer>
+<!-- End Footer -->

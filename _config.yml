@@ -1,0 +1,61 @@
+---
+title: Novel
+timezone: UTC
+collections:
+  branded:
+    title: Branded
+    output: false
+  editorial:
+    title: Editorial
+    output: false
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: false
+url: https://www.thisisnovel.co.uk
+description: Novel is the award-winning narrative podcasting company
+permalink: pretty
+exclude:
+- package.json
+- config.codekit3
+- README*
+- LICENSE*
+- CHANGELOG*
+- node_modules
+- ".gitignore"
+- assets/scss
+plugins:
+- jekyll-paginate-v2
+- jekyll-seo-tag
+- jekyll-sitemap
+- jekyll-feed
+- jekyll/imgix
+email: info@thisisnovel.co.uk
+analytics: 
+logo: "/assets/img/logo.svg"
+per_page: 12
+date_format: "%b %Y"
+future: true
+social:
+  instagram: https://www.instagram.com/thisisnovel/
+compress_html:
+  comments:
+  - "<!-- "
+  - " -->"
+  blanklines: true
+  profile: false
+pagination:
+  collection: posts
+  enabled: true
+  per_page: 12
+  limit: 0
+  permalink: "/page/:num/"
+  title: ":title"
+  sort_field: date
+  sort_reverse: true
+autopages:
+  enabled: false
+imgix:
+  source: novel.imgix.net
