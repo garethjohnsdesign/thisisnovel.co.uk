@@ -15,7 +15,7 @@ collections:
     title: Uploads
     output: false
 url: https://www.thisisnovel.co.uk
-description: Novel is the award-winning narrative podcasting company
+description: A premium audio content company. Whether it’s compelling journalism, powerful podcasts or innovative branded content, we tell stories in sound that make people listen.
 permalink: pretty
 exclude:
 - package.json
@@ -27,7 +27,6 @@ exclude:
 - ".gitignore"
 - assets/scss
 plugins:
-- jekyll-paginate-v2
 - jekyll-seo-tag
 - jekyll-sitemap
 - jekyll-feed
