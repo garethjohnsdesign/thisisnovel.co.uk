@@ -196,12 +196,6 @@
 		"oAP": "/_layouts/page.html",
 		"oF": 0
 		},
-	"/_site": {
-		"ft": 65536,
-		"oA": 1,
-		"oAP": "/build/_site",
-		"oF": 0
-		},
 	"/_uploads/logo.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -800,7 +794,7 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"/node_modules/lightGallery/dist/js/lightgallery.js": {
+	"/node_modules/lightgallery/dist/js/lightgallery.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
