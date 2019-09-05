@@ -6,8 +6,8 @@ layout: default
 <section class="grid-y grid-padding-y align-center hero" style="min-height: 100vh">
   <div class="cell">
     <div class="grid-container">
-      <div class="grid-x grid-padding-x grid-padding-y">
-        <div class="small-12 cell text-center">
+      <div class="grid-x grid-padding-x grid-padding-y align-center">
+        <div class="small-10 medium-8 cell text-center">
           <svg class="icon icon-logo-large"><use xlink:href="/assets/icons/symbol-defs.svg#icon-logo"></use></svg>
         </div>
       </div>
@@ -69,6 +69,13 @@ layout: default
 {% assign projects = site.editorial | sort: 'position' | where: "is-highlight", "false" %}
 {% for project in projects %}
 <div class="grid-container">
+
+  <div class="grid-x grid-padding-x grid-padding-y">
+    <div class="small-12 medium-8 cell">
+      <div class="h2">#02 Editorial Archive</div>
+    </div>
+  </div>
+
   <div class="grid-x grid-padding-x grid-padding-y">
     <div class="small-12 medium-8 cell">
       <div class="h3">{{project.client }}</div>
