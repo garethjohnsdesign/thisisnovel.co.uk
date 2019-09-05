@@ -27,7 +27,7 @@ defaults:
     image: 
     client: 
     logo: 
-    span: 
+    episodes: 
     run-time: 
     listen: 
     link: 
@@ -39,7 +39,7 @@ defaults:
     image: 
     client: 
     logo: 
-    span: 
+    episodes: 
     run-time: 
     listen: 
     link: 
