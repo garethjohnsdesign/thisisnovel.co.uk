@@ -1,8 +1,9 @@
 ---
 title: It’s Obscene
 date: 2019-09-05 15:42:00 Z
+image: "/uploads/bellingcat.jpg"
 client: BBC Radio 4
-span: 1
+episodes: 1
 run-time: 28 mins
 listen: https://www.google.com
 link: https://www.google.com

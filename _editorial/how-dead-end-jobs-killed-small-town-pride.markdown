@@ -1,8 +1,9 @@
 ---
 title: How Dead-End Jobs Killed Small-Town Pride
 date: 2019-09-05 15:16:00 Z
+image: "/uploads/bellingcat.jpg"
 client: UnHerd
-span: 1 Episode
+episodes: 1
 run-time: 28 mins
 listen: https://www.google.com
 link: https://www.google.com

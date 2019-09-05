@@ -38,8 +38,8 @@ layout: default
   <div class="cell">
     <div class="grid-container">
       <div class="grid-x grid-padding-x grid-padding-y">
-        <div class="small-12 medium-8 cell h2">
-          <div class="text-uppercase sans-bold margin-bottom-1">#02 Editorial</div>
+        <div class="small-12 medium-10 large-10 cell h2">
+          <div class="sans-bold text-uppercase margin-bottom-1">#02 Editorial</div>
           {{page.editorial-text | markdownify}}
         </div>
       </div>
@@ -65,11 +65,11 @@ layout: default
         <div class="small-12 medium-6 cell">
           {{project.content }}
         </div>
-        <div class="small-12 medium-6 cell text-right">
-          <div class="margin-bottom-1 mono-bold">{{project.span }} — {{project.run-time }}</div>
+        <div class="small-12 medium-6 cell text-left medium-text-right">
+          <div class="margin-bottom-1 mono-bold">Episodes: {{project.episodes }} — Run Time: {{project.run-time }}</div>
             <div>
-              <a href="about.html" class="button hollow mono-bold">Listen <svg class="icon icon-play_arrow"><use xlink:href="/assets/icons/symbol-defs.svg#icon-play_arrow"></use></svg></a>
-              <a href="about.html" class="button hollow mono-bold">Learn More <svg class="icon icon-call_made"><use xlink:href="/assets/icons/symbol-defs.svg#icon-call_made"></use></svg></a>
+              <a href="{{project.listen}}" class="button hollow mono-bold">Listen <svg class="icon icon-play_arrow"><use xlink:href="/assets/icons/symbol-defs.svg#icon-play_arrow"></use></svg></a>
+              <a href="{{project.link}}" class="button hollow mono-bold">Learn More <svg class="icon icon-call_made"><use xlink:href="/assets/icons/symbol-defs.svg#icon-call_made"></use></svg></a>
             </div>
         </div>
       </div>
@@ -80,26 +80,39 @@ layout: default
 <!-- End Editorial Highlights -->
 
 <!-- Editorial Archive -->
-<div class="grid-container">
-  <div class="grid-x grid-padding-x grid-padding-y">
-    <div class="small-12 medium-8 cell">
-      <div class="h2">#02 Editorial Archive</div>
+<div class="editorial-archive">
+  <div class="grid-container">
+    <div class="grid-x grid-padding-x grid-padding-y">
+      <div class="small-12 medium-8 cell">
+        <div class="h2 sans-bold text-uppercase">#02 Editorial Archive</div>
+      </div>
     </div>
   </div>
-</div>
 
-{% assign projects = site.editorial | sort: 'position' | where: "is-highlight", "false" %}
-{% for project in projects %}
-<div class="grid-container">
-  <div class="grid-x grid-padding-x grid-padding-y">
-    <div class="small-12 medium-8 cell">
-      <div class="h3">{{project.client }}</div>
-      <div class="h2">{{project.title }}</div>
-      {{project.content }}
+  {% assign projects = site.editorial | sort: 'position' | where: "is-highlight", "false" %}
+  {% for project in projects %}
+  <div class="grid-container">
+    <div class="grid-x grid-padding-x grid-padding-y">
+
+      <div class="small-12 medium-4 cell">
+        {% assign image = project.image %}
+        <div class="image--1-1" data-interchange="{% include images/interchange-img-small-12-medium-4-cell.html %}"></div>      
+      </div>
+
+      <div class="small-12 medium-8 cell">
+        <div class="h2 margin-top-0">{{project.title }}</div>
+        <div class="margin-bottom-1 mono-bold">Episodes:{{project.episodes }} — Run Time:{{project.run-time }}</div>
+        <div>{{project.content }}</div>
+        <div>
+          <a href="{{project.listen}}" class="button hollow mono-bold">Listen <svg class="icon icon-play_arrow"><use xlink:href="/assets/icons/symbol-defs.svg#icon-play_arrow"></use></svg></a>
+          <a href="{{project.link}}" class="button hollow mono-bold">Learn More <svg class="icon icon-call_made"><use xlink:href="/assets/icons/symbol-defs.svg#icon-call_made"></use></svg></a>
+        </div>
+      </div>
     </div>
   </div>
+  {% endfor %}
+
 </div>
-{% endfor %}
 <!-- End Editorial Archive -->
 
 <!-- Branded -->

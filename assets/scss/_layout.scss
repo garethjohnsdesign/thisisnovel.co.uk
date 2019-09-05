@@ -351,6 +351,12 @@ footer {
   @include xy-grid-layout(2, '.gallery-item');
 }
 
+.image--1-1 {
+  @include aspect-ratio (1, 1);
+  background-size: cover; 
+  background-position: 50%;
+}
+
 .image--7-5 {
   @include aspect-ratio (7, 5);
   background-size: cover; 
@@ -367,6 +373,7 @@ footer {
   @include aspect-ratio (5, 7);
   background-size: cover; 
   background-position: 50%;
+  background-color: $black;
 }
 
 .image--gallery {
@@ -495,6 +502,10 @@ background: linear-gradient(90deg, rgba(255,68,27,1) 0%, rgba(125,67,198,1) 100%
 
 .editorial {
   background-color: $red
+}
+
+.editorial-archive {
+  background-color: $red;
 }
 
 .branded {

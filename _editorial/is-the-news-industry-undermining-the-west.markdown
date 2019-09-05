@@ -1,8 +1,9 @@
 ---
 title: Is the News Industry Undermining the West?
 date: 2019-09-05 15:26:00 Z
+image: "/uploads/bellingcat.jpg"
 client: UnHerd
-span: 1 Episode
+episodes: 1
 run-time: 31 mins
 listen: https://www.google.com
 link: https://www.google.com

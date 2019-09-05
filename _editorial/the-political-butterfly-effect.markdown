@@ -4,7 +4,7 @@ date: 2019-09-04 17:38:00 Z
 image: "/uploads/political-butterfly.jpg"
 client: BBC Radio 4
 logo: "/uploads/logo.svg"
-span: 5 Episodes
+episodes: 5
 run-time: 14 mins
 listen: https://www.bbc.co.uk/programmes/m0000xqs
 link: https://www.bbc.co.uk/programmes/m0000xqs
