@@ -9,12 +9,12 @@
 	],
 "creatorBuild": "31491",
 "files": {
-	"/.gitignore copy": {
+	"/.gitignore": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 2,
-		"oAP": "/.gitignore copy",
+		"oAP": "/.gitignore",
 		"oF": 0
 		},
 	"/404.md": {
