@@ -9,6 +9,14 @@
 	],
 "creatorBuild": "31491",
 "files": {
+	"/.gitignore": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/.gitignore",
+		"oF": 0
+		},
 	"/404.md": {
 		"cB": 0,
 		"cS": 0,
@@ -800,7 +808,7 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"/node_modules/lightGallery/dist/js/lightgallery.js": {
+	"/node_modules/lightgallery/dist/js/lightgallery.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,

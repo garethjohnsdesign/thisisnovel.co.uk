@@ -139,6 +139,12 @@ body {
   transition: background-color 400ms cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
+body {
+	scroll-snap-type: mandatory;
+	scroll-snap-points-y: repeat(100vh);
+	scroll-snap-type: y mandatory;
+}
+
 svg {
   max-width: 100%;
 }
@@ -313,21 +319,6 @@ header, nav {
   }
 }
 
-main {
-  @include breakpoint(small) {
-    @include padding(0, 1, 1, 1);
-  }
-  @include breakpoint(medium) {
-    @include padding(0, 1, null, 1);
-  }
-  @include breakpoint(large) {
-    @include padding(0, 3, null, 3);
-  }
-  @include breakpoint(xxlarge) {
-    @include padding(0, 4, null, 4);
-  }
-}
-
 footer {
   @include breakpoint(small) {
     @include padding(1, 1, 1, 1);
@@ -459,4 +450,31 @@ $max_font: 64px;
   @include breakpoint(large) {
     margin-top: -10rem;
   }
+}
+
+section {
+	min-height: 100vh;
+	scroll-snap-align: start;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.hero {
+  background-color: red
+}
+
+.about {
+  background-color: green
+}
+
+.our-work {
+  background-color: blue
+}
+
+.editorial {
+  background-color: pink
 }

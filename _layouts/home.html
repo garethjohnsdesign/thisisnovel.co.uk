@@ -2,12 +2,61 @@
 layout: default
 ---
 
-<!-- Header -->
-<div class="grid-container">
-  <div class="grid-x grid-padding-x grid-padding-y small-up-1 medium-up-2">
-      <div class="small-12 cell">
-        <h1>{{page.about-text}}</h1>
+<!-- Hero -->
+<section class="grid-y grid-padding-y align-center hero" style="min-height: 100vh">
+  <div class="cell">
+    <div class="grid-container">
+      <div class="grid-x grid-padding-x grid-padding-y">
+        <div class="small-12 cell text-center">
+          <svg class="icon icon-logo-large"><use xlink:href="/assets/icons/symbol-defs.svg#icon-logo"></use></svg>
+        </div>
       </div>
+    </div>
   </div>
-</div>
-<!-- End Header -->
+</section>
+<!-- End Hero -->
+
+<!-- About -->
+<section class="grid-y grid-padding-y align-center about" style="min-height: 100vh">
+  <div class="cell">
+    <div class="grid-container">
+      <div class="grid-x grid-padding-x grid-padding-y">
+        <div class="small-12 medium-8 cell">
+          <h2 class="text-uppercase sans-bold">#01 About</h2>
+          <h2>{{page.about-text}}</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End About -->
+
+<!-- Our Work -->
+<section class="grid-y grid-padding-y align-center our-work" style="min-height: 100vh">
+  <div class="cell">
+    <div class="grid-container">
+      <div class="grid-x grid-padding-x grid-padding-y">
+        <div class="small-12 medium-8 cell h2">
+          <div class="text-uppercase sans-bold margin-bottom-1">#02 Our Work</div>
+          {{page.our-work-text | markdownify}}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Our Work -->
+
+<!-- Editorial -->
+<section class="grid-y grid-padding-y align-center editorial" style="min-height: 100vh">
+  <div class="cell">
+    <div class="grid-container">
+      <div class="grid-x grid-padding-x grid-padding-y">
+        <div class="small-12 medium-8 cell h2">
+          <div class="text-uppercase sans-bold margin-bottom-1">#03 Editorial</div>
+          {{page.editorial-text | markdownify}}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Editorial -->
