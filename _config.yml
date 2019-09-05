@@ -26,11 +26,11 @@ defaults:
   values:
     image: 
     client: 
-    logo:
-    span:
-    run-time:
-    listen:
-    link:
+    logo: 
+    span: 
+    run-time: 
+    listen: 
+    link: 
     is-highlight: false
 - scope:
     path: ''
@@ -38,11 +38,11 @@ defaults:
   values:
     image: 
     client: 
-    logo:
-    span:
-    run-time:
-    listen:
-    link:
+    logo: 
+    span: 
+    run-time: 
+    listen: 
+    link: 
     is-highlight: false
 url: https://www.thisisnovel.co.uk
 description: A premium audio content company. Whether it’s compelling journalism,
