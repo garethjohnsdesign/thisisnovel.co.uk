@@ -1,8 +1,8 @@
 ---
 title: Remembering Christopher Hitchens
 date: 2019-09-04 17:38:00 Z
-image: 
-client: 
+image: "/uploads/remembering-hitchens.jpg"
+client: BBC Radio 4
 logo: "/uploads/logo.svg"
 span: 1 Episode
 run-time: 54 mins

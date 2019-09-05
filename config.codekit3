@@ -652,7 +652,7 @@
 		},
 	"/_uploads/bellingcat.jpg": {
 		"ft": 16384,
-		"iS": 220849,
+		"iS": 913948,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/_uploads/bellingcat.jpg",
@@ -677,6 +677,39 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/_uploads/only-jerkin-09.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/political-butterfly.jpg": {
+		"ft": 16384,
+		"iS": 745855,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/political-butterfly.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/political-butterfly2.jpg": {
+		"ft": 16384,
+		"iS": 1310870,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/political-butterfly2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/remembering-hitchens.jpg": {
+		"ft": 16384,
+		"iS": 977910,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/remembering-hitchens.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,

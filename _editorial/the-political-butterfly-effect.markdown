@@ -1,7 +1,7 @@
 ---
 title: The Political Butterfly Effect
 date: 2019-09-04 17:38:00 Z
-image: "/uploads/only-jerkin-09.jpg"
+image: "/uploads/political-butterfly.jpg"
 client: BBC Radio 4
 logo: "/uploads/logo.svg"
 span: 5 Episodes
