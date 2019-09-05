@@ -62,9 +62,12 @@ layout: default
         <div class="small-12 medium-6 cell">
           {{project.content }}
         </div>
-        <div class="small-12 medium-6 cell">
+        <div class="small-12 medium-6 cell text-right">
           <div class="margin-bottom-1 mono-bold">{{project.span }} — {{project.run-time }}</div>
-          <div><a href="about.html" class="button hollow mono-bold">Listen</a> <a href="about.html" class="button hollow mono-bold">Learn More</a></div>
+            <div>
+              <a href="about.html" class="button hollow mono-bold">Listen <svg class="icon icon-play_arrow"><use xlink:href="/assets/icons/symbol-defs.svg#icon-play_arrow"></use></svg></a>
+              <a href="about.html" class="button hollow mono-bold">Learn More <svg class="icon icon-call_made"><use xlink:href="/assets/icons/symbol-defs.svg#icon-call_made"></use></svg></a>
+            </div>
         </div>
       </div>
     </div>

@@ -1,9 +1,9 @@
 header:
   - title: About
-    url: #about
+    url: "#about"
   - title: Editorial
-    url: #editorial
+    url: "#editorial"
   - title: Branded
-    url: #branded
+    url: "#branded"
   - title: Contact
-    url: #contact
+    url: "#contact"
