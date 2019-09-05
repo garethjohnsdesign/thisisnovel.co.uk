@@ -212,6 +212,310 @@
 		"oAP": "/_editorial/the-strange-case-of-the-arab-whodunit.markdown",
 		"oF": 0
 		},
+	"/_includes/images/contained/1-1/interchange-img-small-12-medium-12.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_includes/images/contained/1-1/interchange-img-small-12-medium-12.html",
+		"oF": 0
+		},
+	"/_includes/images/contained/1-1/interchange-img-small-12-medium-4.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_includes/images/contained/1-1/interchange-img-small-12-medium-4.html",
+		"oF": 0
+		},
+	"/_includes/images/contained/1-1/interchange-img-small-12-medium-6.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_includes/images/contained/1-1/interchange-img-small-12-medium-6.html",
+		"oF": 0
+		},
+	"/_includes/images/contained/16-9/interchange-img-small-12-medium-12.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_includes/images/contained/16-9/interchange-img-small-12-medium-12.twig",
+		"oF": 0
+		},
+	"/_includes/images/contained/16-9/interchange-img-small-12-medium-4.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_includes/images/contained/16-9/interchange-img-small-12-medium-4.twig",
+		"oF": 0
+		},
+	"/_includes/images/contained/16-9/interchange-img-small-12-medium-6.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_includes/images/contained/16-9/interchange-img-small-12-medium-6.twig",
+		"oF": 0
+		},
+	"/_includes/images/contained/5-4/interchange-img-small-12-medium-12.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_includes/images/contained/5-4/interchange-img-small-12-medium-12.twig",
+		"oF": 0
+		},
+	"/_includes/images/contained/5-4/interchange-img-small-12-medium-4.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_includes/images/contained/5-4/interchange-img-small-12-medium-4.twig",
+		"oF": 0
+		},
+	"/_includes/images/contained/5-4/interchange-img-small-12-medium-6.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_includes/images/contained/5-4/interchange-img-small-12-medium-6.twig",
+		"oF": 0
+		},
+	"/_includes/images/contained/5-7/interchange-img-small-12-medium-12.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_includes/images/contained/5-7/interchange-img-small-12-medium-12.twig",
+		"oF": 0
+		},
+	"/_includes/images/contained/5-7/interchange-img-small-12-medium-4.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_includes/images/contained/5-7/interchange-img-small-12-medium-4.twig",
+		"oF": 0
+		},
+	"/_includes/images/contained/5-7/interchange-img-small-12-medium-6.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_includes/images/contained/5-7/interchange-img-small-12-medium-6.twig",
+		"oF": 0
+		},
+	"/_includes/images/contained/6-4/interchange-img-small-12-medium-12.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_includes/images/contained/6-4/interchange-img-small-12-medium-12.twig",
+		"oF": 0
+		},
+	"/_includes/images/contained/6-4/interchange-img-small-12-medium-4.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_includes/images/contained/6-4/interchange-img-small-12-medium-4.twig",
+		"oF": 0
+		},
+	"/_includes/images/contained/6-4/interchange-img-small-12-medium-6.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_includes/images/contained/6-4/interchange-img-small-12-medium-6.twig",
+		"oF": 0
+		},
+	"/_includes/images/contained/7-5/interchange-img-small-12-medium-12.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_includes/images/contained/7-5/interchange-img-small-12-medium-12.twig",
+		"oF": 0
+		},
+	"/_includes/images/contained/7-5/interchange-img-small-12-medium-4.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_includes/images/contained/7-5/interchange-img-small-12-medium-4.twig",
+		"oF": 0
+		},
+	"/_includes/images/contained/7-5/interchange-img-small-12-medium-6.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_includes/images/contained/7-5/interchange-img-small-12-medium-6.twig",
+		"oF": 0
+		},
+	"/_includes/images/feature.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_includes/images/feature.html",
+		"oF": 0
+		},
+	"/_includes/images/full/1-1/interchange-img-small-12-medium-12.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_includes/images/full/1-1/interchange-img-small-12-medium-12.twig",
+		"oF": 0
+		},
+	"/_includes/images/full/1-1/interchange-img-small-12-medium-4.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_includes/images/full/1-1/interchange-img-small-12-medium-4.twig",
+		"oF": 0
+		},
+	"/_includes/images/full/1-1/interchange-img-small-12-medium-6.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_includes/images/full/1-1/interchange-img-small-12-medium-6.twig",
+		"oF": 0
+		},
+	"/_includes/images/full/16-9/interchange-img-small-12-medium-12.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_includes/images/full/16-9/interchange-img-small-12-medium-12.twig",
+		"oF": 0
+		},
+	"/_includes/images/full/16-9/interchange-img-small-12-medium-4.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_includes/images/full/16-9/interchange-img-small-12-medium-4.twig",
+		"oF": 0
+		},
+	"/_includes/images/full/16-9/interchange-img-small-12-medium-6.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_includes/images/full/16-9/interchange-img-small-12-medium-6.twig",
+		"oF": 0
+		},
+	"/_includes/images/full/5-4/interchange-img-small-12-medium-12.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_includes/images/full/5-4/interchange-img-small-12-medium-12.twig",
+		"oF": 0
+		},
+	"/_includes/images/full/5-4/interchange-img-small-12-medium-4.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_includes/images/full/5-4/interchange-img-small-12-medium-4.twig",
+		"oF": 0
+		},
+	"/_includes/images/full/5-4/interchange-img-small-12-medium-6.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_includes/images/full/5-4/interchange-img-small-12-medium-6.twig",
+		"oF": 0
+		},
+	"/_includes/images/full/5-7/interchange-img-small-12-medium-12.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_includes/images/full/5-7/interchange-img-small-12-medium-12.twig",
+		"oF": 0
+		},
+	"/_includes/images/full/5-7/interchange-img-small-12-medium-4.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_includes/images/full/5-7/interchange-img-small-12-medium-4.twig",
+		"oF": 0
+		},
+	"/_includes/images/full/5-7/interchange-img-small-12-medium-6.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_includes/images/full/5-7/interchange-img-small-12-medium-6.twig",
+		"oF": 0
+		},
+	"/_includes/images/full/6-4/interchange-img-small-12-medium-12.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_includes/images/full/6-4/interchange-img-small-12-medium-12.twig",
+		"oF": 0
+		},
+	"/_includes/images/full/6-4/interchange-img-small-12-medium-4.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_includes/images/full/6-4/interchange-img-small-12-medium-4.twig",
+		"oF": 0
+		},
+	"/_includes/images/full/6-4/interchange-img-small-12-medium-6.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_includes/images/full/6-4/interchange-img-small-12-medium-6.twig",
+		"oF": 0
+		},
+	"/_includes/images/full/7-5/interchange-img-small-12-medium-12.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_includes/images/full/7-5/interchange-img-small-12-medium-12.twig",
+		"oF": 0
+		},
+	"/_includes/images/full/7-5/interchange-img-small-12-medium-4.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_includes/images/full/7-5/interchange-img-small-12-medium-4.twig",
+		"oF": 0
+		},
+	"/_includes/images/full/7-5/interchange-img-small-12-medium-6.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_includes/images/full/7-5/interchange-img-small-12-medium-6.twig",
+		"oF": 0
+		},
+	"/_includes/images/full/full/interchange-img-small-12-medium-12.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_includes/images/full/full/interchange-img-small-12-medium-12.html",
+		"oF": 0
+		},
 	"/_includes/images/interchange-img-small-12-medium-12-cell.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -276,14 +580,6 @@
 		"oAP": "/_includes/site/analytics.html",
 		"oF": 0
 		},
-	"/_includes/site/footer.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/_includes/site/footer.html",
-		"oF": 0
-		},
 	"/_includes/site/head.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -298,14 +594,6 @@
 		"hM": 0,
 		"oA": 2,
 		"oAP": "/_includes/site/header.html",
-		"oF": 0
-		},
-	"/_includes/site/loading.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/_includes/site/loading.html",
 		"oF": 0
 		},
 	"/_includes/site/scripts.html": {
@@ -371,6 +659,28 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"/_uploads/only-jerkin-09.jpg": {
+		"ft": 16384,
+		"iS": 4249587,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/only-jerkin-09.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/test.png": {
+		"ft": 32768,
+		"iS": 77154,
+		"oA": 0,
+		"oAP": "/_uploads/test.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"/assets/css/app.css": {
 		"aP": 0,
@@ -653,7 +963,7 @@
 		"oA": 0,
 		"oAP": "/assets/js/min/app-min.js",
 		"oF": 1,
-		"sC": 0,
+		"sC": 3,
 		"tS": 0
 		},
 	"/assets/js/min/app-min.js": {
@@ -938,50 +1248,6 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"/node_modules/lg-fullscreen/dist/lg-fullscreen.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/node_modules/lg-fullscreen/dist/min/lg-fullscreen-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/node_modules/lg-video/dist/lg-video.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/node_modules/lg-video/dist/min/lg-video-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/node_modules/lightgallery/dist/js/lightgallery.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/node_modules/lightGallery/dist/js/min/lightgallery-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/node_modules/popper.js/dist/esm/popper.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/node_modules/popper.js/dist/esm/min/popper-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
 	"/node_modules/swup/lib/index.js": {
 		"bF": 0,
 		"ft": 64,
@@ -989,17 +1255,6 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "/node_modules/swup/lib/min/index-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/node_modules/tippy.js/./esm/index.all.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/node_modules/tippy.js/./esm/min/index.all-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0

@@ -468,6 +468,8 @@ $max_font: 64px;
 section {
 	min-height: 100vh;
 	scroll-snap-align: start;
+  background-size: cover; 
+  background-position: 50%;
 }
 
 header {
@@ -477,8 +479,14 @@ header {
 }
 
 .hero {
+/*
 background: rgb(255,68,27);
 background: linear-gradient(90deg, rgba(255,68,27,1) 0%, rgba(125,67,198,1) 100%);
+*/
+}
+
+.hero {
+  background-color: blue
 }
 
 .about {

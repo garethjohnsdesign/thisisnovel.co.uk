@@ -3,7 +3,8 @@ layout: default
 ---
 
 <!-- Hero -->
-<section class="grid-y grid-padding-y align-center hero" id="hero">
+{% assign image = page.hero-image %}
+<section class="grid-y grid-padding-y align-center hero" data-interchange="{% include images/interchange-img-small-12-medium-12-cell.html %}">
   <div class="cell">
     <div class="grid-container">
       <div class="grid-x grid-padding-x grid-padding-y align-center">
