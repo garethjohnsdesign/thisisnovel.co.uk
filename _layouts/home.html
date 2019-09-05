@@ -163,6 +163,8 @@ layout: default
 <!-- End Branded Highlights -->
 
 <!-- Branded Archive -->
+{% assign projects = site.branded | sort: 'position' | where: "is-highlight", "false" %}
+{% if projects.size > 1 %}
 <div class="editorial-archive">
   <div class="grid-container">
     <div class="grid-x grid-padding-x grid-padding-y">
@@ -171,8 +173,6 @@ layout: default
       </div>
     </div>
   </div>
-
-  {% assign projects = site.branded | sort: 'position' | where: "is-highlight", "false" %}
   {% for project in projects %}
   <div class="grid-container">
     <div class="grid-x grid-padding-x grid-padding-y">
@@ -196,6 +196,7 @@ layout: default
   {% endfor %}
 
 </div>
+{% endif %}
 <!-- End Editorial Archive -->
 
 <!-- Contact -->
@@ -207,7 +208,7 @@ layout: default
         <div class="small-12 medium-8 cell h2">
           <div class="text-uppercase sans-bold margin-bottom-1">#04 Contact</div>
           <div>{{page.contact-text | markdownify}}</div>
-          <div>{{site.email}}
+          <div><a href="mailto:{{site.email}}">{{site.email}}</a></div>
         </div>
       </div>
     </div>

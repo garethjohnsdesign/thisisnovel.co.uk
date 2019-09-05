@@ -70,7 +70,9 @@ per_page: 12
 date_format: "%b %Y"
 future: true
 social:
+  facebook: https://www.facebook.com/thisisnovel
   instagram: https://www.instagram.com/thisisnovel/
+  twitter: https://twitter.com/thisisnovel
 compress_html:
   comments:
   - "<!-- "

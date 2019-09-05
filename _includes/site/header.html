@@ -1,7 +1,7 @@
 <!-- Header -->
 <header class="grid-x grid-padding-x grid-padding-y align-justify align-middle" style="width:100%"> 
-  <div class="auto cell">
-    <a href="/" class=""><svg class="icon icon-logo"><use xlink:href="/assets/icons/symbol-defs.svg#icon-logo"></use></svg></a>
+  <div class="auto cell show-for-medium">
+    <a href="#header"><svg class="icon icon-logo"><use xlink:href="/assets/icons/symbol-defs.svg#icon-logo"></use></svg></a>
   </div>
 
   <div class="shrink cell" style="z-index: 1007">
@@ -15,6 +15,15 @@
     <a href="{{ site.baseurl }}{{ entry.url }}" {{ current }}>{{ entry.title }}</a>{% if forloop.last %}{% else %},{% endif %}
     {% endfor %}
   </div>
+
+  <div class="shrink cell">
+    <ul class="menu align-center">
+      <li><a href="{{site.social.facebook}}" target="_blank"><svg class="icon icon-socials icon-facebook"><use xlink:href="/assets/icons/symbol-defs.svg#icon-facebook"></use></svg></a></li>
+      <li><a href="{{site.social.instagram}}" target="_blank"><svg class="icon icon-socials icon-instagram"><use xlink:href="/assets/icons/symbol-defs.svg#icon-instagram"></use></svg></a></li>
+      <li><a href="{{site.social.twitter}}" target="_blank"><svg class="icon icon-socials icon-twitter"><use xlink:href="/assets/icons/symbol-defs.svg#icon-twitter"></use></svg></a></li>
+    </ul>
+  </div>
+
 </header>
 <!-- End Header -->
 
