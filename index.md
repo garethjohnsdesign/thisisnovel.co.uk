@@ -13,13 +13,11 @@ editorial-text: |-
   Nullam quis risus eget urna mollis ornare vel eu leo. Aenean lacinia bibendum nulla sed Spotify.
 
   Etiam porta sem BBC magna mollis euismod. Maecenas sed diam eget risus varius Audiable sit amet non magna.
-branded-text: |-
-  Nullam quis risus eget urna mollis ornare vel eu leo. Aenean lacinia bibendum nulla sed Spotify.
-
-  Etiam porta sem BBC magna mollis euismod. Maecenas sed diam eget risus varius Audiable sit amet non magna.
-contact-text: Curabitur blandit tempus porttitor. Donec id elit non mi porta gravida
-  at eget metus. Donec id elit non mi porta gravida at eget metus. Vivamus sagittis
-  lacus vel augue laoreet rutrum faucibus dolor auctor.
+branded-text: We help brands get heard. Novel delivers innovative branded content
+  that people actually want to listen to. We’ve partnered with the likes of The Premier
+  League, Jaguar Land Rover, Cannes Lions, Tate Modern, Airbnb, Gorillaz, The Prince’s
+  Trust, Asda and many more brands eager to harness the power of audio.
+contact-text: Whatever the story you want to tell, we’d love to hear from you.
 layout: home
 ---
 
