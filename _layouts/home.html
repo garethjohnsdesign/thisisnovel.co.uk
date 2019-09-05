@@ -31,28 +31,13 @@ layout: default
 </section>
 <!-- End About -->
 
-<!-- Our Work -->
-<section class="grid-y grid-padding-y align-center our-work" style="min-height: 100vh">
-  <div class="cell">
-    <div class="grid-container">
-      <div class="grid-x grid-padding-x grid-padding-y">
-        <div class="small-12 medium-8 cell h2">
-          <div class="text-uppercase sans-bold margin-bottom-1">#02 Our Work</div>
-          {{page.our-work-text | markdownify}}
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End Our Work -->
-
 <!-- Editorial -->
 <section class="grid-y grid-padding-y align-center editorial" style="min-height: 100vh">
   <div class="cell">
     <div class="grid-container">
       <div class="grid-x grid-padding-x grid-padding-y">
         <div class="small-12 medium-8 cell h2">
-          <div class="text-uppercase sans-bold margin-bottom-1">#03 Editorial</div>
+          <div class="text-uppercase sans-bold margin-bottom-1">#02 Editorial</div>
           {{page.editorial-text | markdownify}}
         </div>
       </div>
@@ -60,3 +45,37 @@ layout: default
   </div>
 </section>
 <!-- End Editorial -->
+
+<!-- Editorial Highlights -->
+{% assign projects = site.editorial | sort: 'position' | where: "is-highlight", "true" %}
+{% for project in projects limit:8 %}
+<section class="grid-y grid-padding-y align-center" style="min-height: 100vh">
+  <div class="cell">
+    <div class="grid-container">
+      <div class="grid-x grid-padding-x grid-padding-y">
+        <div class="small-12 medium-8 cell">
+          <div class="h3">{{project.client }}</div>
+          <div class="h2">{{project.title }}</div>
+          {{project.content }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% endfor %}
+<!-- End Editorial Highlights -->
+
+<!-- Contact -->
+<section class="grid-y grid-padding-y align-center contact" style="min-height: 100vh">
+  <div class="cell">
+    <div class="grid-container">
+      <div class="grid-x grid-padding-x grid-padding-y">
+        <div class="small-12 medium-8 cell h2">
+          <div class="text-uppercase sans-bold margin-bottom-1">#04 Contact</div>
+          {{page.contact-text | markdownify}}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Contact -->

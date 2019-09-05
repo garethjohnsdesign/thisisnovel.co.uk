@@ -52,12 +52,28 @@
 		"oAP": "/_data/navigation.yml",
 		"oF": 0
 		},
-	"/_editorial/the-sympathy-of-things.markdown": {
+	"/_editorial/remembering-christopher-hitchens.markdown": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 2,
-		"oAP": "/_editorial/the-sympathy-of-things.markdown",
+		"oAP": "/_editorial/remembering-christopher-hitchens.markdown",
+		"oF": 0
+		},
+	"/_editorial/the-bellingcat-podcast-mh17.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_editorial/the-bellingcat-podcast-mh17.markdown",
+		"oF": 0
+		},
+	"/_editorial/the-political-butterfly-effect.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_editorial/the-political-butterfly-effect.markdown",
 		"oF": 0
 		},
 	"/_includes/images/interchange-img-small-12-medium-12-cell.html": {
