@@ -1,6 +1,7 @@
 ---
 title: AirBnB Detour
 date: 2019-09-05 20:41:00 Z
+image: "/uploads/bellingcat.jpg"
 client: AirBnB
 episodes: 10
 run-time: Various
