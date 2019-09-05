@@ -132,16 +132,28 @@ layout: default
 <!-- End Branded -->
 
 <!-- Branded Highlights -->
-{% assign projects = site.editorial | sort: 'position' | where: "is-highlight", "true" %}
+{% assign projects = site.branded | sort: 'position' | where: "is-highlight", "true" %}
 {% for project in projects %}
-<section class="grid-y grid-padding-y align-center">
+{% assign image = project.image %}
+<section class="grid-y grid-padding-y align-center about" data-interchange="{% include images/interchange-img-small-12-medium-12-cell.html %}">
   <div class="cell">
     <div class="grid-container">
       <div class="grid-x grid-padding-x grid-padding-y">
         <div class="small-12 medium-8 cell">
           <div class="h3">{{project.client }}</div>
-          <div class="h2">{{project.title }}</div>
+          <div class="h1">{{project.title }}</div>
+        </div>
+      </div>
+      <div class="grid-x grid-padding-x grid-padding-y">
+        <div class="small-12 medium-6 cell">
           {{project.content }}
+        </div>
+        <div class="small-12 medium-6 cell text-left medium-text-right">
+          <div class="margin-bottom-1 mono-bold">Episodes:{{project.episodes }} — Run Time:{{project.run-time }}</div>
+            <div>
+              <a href="{{project.listen}}" class="button hollow mono-bold">Listen <svg class="icon icon-play_arrow"><use xlink:href="/assets/icons/symbol-defs.svg#icon-play_arrow"></use></svg></a>
+              <a href="{{project.link}}" class="button hollow mono-bold">Learn More <svg class="icon icon-call_made"><use xlink:href="/assets/icons/symbol-defs.svg#icon-call_made"></use></svg></a>
+            </div>
         </div>
       </div>
     </div>
@@ -150,27 +162,45 @@ layout: default
 {% endfor %}
 <!-- End Branded Highlights -->
 
-<!-- Branded Archive -->
-{% assign projects = site.editorial | sort: 'position' | where: "is-highlight", "false" %}
-{% for project in projects %}
-<section class="grid-y grid-padding-y align-center">
-  <div class="cell">
-    <div class="grid-container">
-      <div class="grid-x grid-padding-x grid-padding-y">
-        <div class="small-12 medium-8 cell">
-          <div class="h3">{{project.client }}</div>
-          <div class="h2">{{project.title }}</div>
-          {{project.content }}
+<!-- Editorial Archive -->
+<div class="editorial-archive">
+  <div class="grid-container">
+    <div class="grid-x grid-padding-x grid-padding-y">
+      <div class="small-12 medium-8 cell">
+        <div class="h2 sans-bold text-uppercase">#02 Editorial Archive</div>
+      </div>
+    </div>
+  </div>
+
+  {% assign projects = site.branded | sort: 'position' | where: "is-highlight", "false" %}
+  {% for project in projects %}
+  <div class="grid-container">
+    <div class="grid-x grid-padding-x grid-padding-y">
+
+      <div class="small-12 medium-4 cell">
+        {% assign image = project.image %}
+        <div class="image--1-1" data-interchange="{% include images/interchange-img-small-12-medium-4-cell.html %}"></div>      
+      </div>
+
+      <div class="small-12 medium-8 cell">
+        <div class="h2 margin-top-0">{{project.title }}</div>
+        <div class="margin-bottom-2">{{project.content }}</div>
+        <div class="margin-bottom-2 mono-bold">Episodes:{{project.episodes }} — Run Time:{{project.run-time }}</div>
+        <div>
+          <a href="{{project.listen}}" class="button hollow mono-bold">Listen <svg class="icon icon-play_arrow"><use xlink:href="/assets/icons/symbol-defs.svg#icon-play_arrow"></use></svg></a>
+          <a href="{{project.link}}" class="button hollow mono-bold">Learn More <svg class="icon icon-call_made"><use xlink:href="/assets/icons/symbol-defs.svg#icon-call_made"></use></svg></a>
         </div>
       </div>
     </div>
   </div>
-</section>
-{% endfor %}
-<!-- End Branded Archive -->
+  {% endfor %}
+
+</div>
+<!-- End Editorial Archive -->
 
 <!-- Contact -->
-<section class="grid-y grid-padding-y align-center contact" id="contact">
+{% assign image = page.hero-image %}
+<section class="grid-y grid-padding-y align-center contact" data-interchange="{% include images/interchange-img-small-12-medium-12-cell.html %}">
   <div class="cell">
     <div class="grid-container">
       <div class="grid-x grid-padding-x grid-padding-y">

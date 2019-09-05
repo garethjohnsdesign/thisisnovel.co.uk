@@ -52,6 +52,14 @@
 		"oAP": "/_data/navigation.yml",
 		"oF": 0
 		},
+	"/_editorial/angels-of-the-bayou.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_editorial/angels-of-the-bayou.markdown",
+		"oF": 0
+		},
 	"/_editorial/capitalism-on-a-knife-edge.markdown": {
 		"cB": 0,
 		"ft": 8192,
@@ -76,6 +84,14 @@
 		"oAP": "/_editorial/dying-whispers.markdown",
 		"oF": 0
 		},
+	"/_editorial/economics-101.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_editorial/economics-101.markdown",
+		"oF": 0
+		},
 	"/_editorial/five-green-bottles.markdown": {
 		"cB": 0,
 		"ft": 8192,
@@ -92,12 +108,28 @@
 		"oAP": "/_editorial/friends-and-foes-a-narrative-history-of-diplomacy.markdown",
 		"oF": 0
 		},
+	"/_editorial/goliath-how-monopolies-came-to-be.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_editorial/goliath-how-monopolies-came-to-be.markdown",
+		"oF": 0
+		},
 	"/_editorial/how-dead-end-jobs-killed-small-town-pride.markdown": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 2,
 		"oAP": "/_editorial/how-dead-end-jobs-killed-small-town-pride.markdown",
+		"oF": 0
+		},
+	"/_editorial/india-lost-and-found.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_editorial/india-lost-and-found.markdown",
 		"oF": 0
 		},
 	"/_editorial/is-mark-zuckerberg-running-for-president.markdown": {
@@ -122,6 +154,22 @@
 		"hM": 0,
 		"oA": 2,
 		"oAP": "/_editorial/its-obscene.markdown",
+		"oF": 0
+		},
+	"/_editorial/murad-subay-the-walls-remember.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_editorial/murad-subay-the-walls-remember.markdown",
+		"oF": 0
+		},
+	"/_editorial/our-daily-bread.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_editorial/our-daily-bread.markdown",
 		"oF": 0
 		},
 	"/_editorial/real-pretenders.markdown": {
