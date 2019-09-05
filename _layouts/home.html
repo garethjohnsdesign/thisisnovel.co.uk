@@ -24,7 +24,7 @@ layout: default
     <div class="grid-container">
       <div class="grid-x grid-padding-x grid-padding-y">
         <div class="small-12 medium-8 cell">
-          <h2 class="text-uppercase sans-bold">#01 About</h2>
+          <h2 class="text-uppercase sans-bold"><span class="underline">#01</span> <span class="underline">About</span></h2>
           <h2>{{page.about-text}}</h2>
         </div>
       </div>
@@ -39,7 +39,7 @@ layout: default
     <div class="grid-container">
       <div class="grid-x grid-padding-x grid-padding-y">
         <div class="small-12 medium-10 large-10 cell h2">
-          <div class="sans-bold text-uppercase margin-bottom-1">#02 Editorial</div>
+          <div class="sans-bold text-uppercase margin-bottom-1"><span class="underline">#02</span> <span class="underline">Editorial</span></div>
           {{page.editorial-text | markdownify}}
         </div>
       </div>
@@ -80,16 +80,17 @@ layout: default
 <!-- End Editorial Highlights -->
 
 <!-- Editorial Archive -->
-<div class="editorial-archive">
+{% assign projects = site.editorial | sort: 'position' | where: "is-highlight", "false" %}
+{% if projects.size > 1 %}
+<div class="editorial-archive padding-vertical-1">
   <div class="grid-container">
     <div class="grid-x grid-padding-x grid-padding-y">
       <div class="small-12 medium-8 cell">
-        <div class="h2 sans-bold text-uppercase">#02 Editorial Archive</div>
+        <div class="h2 sans-bold text-uppercase"><span class="underline">#02</span> <span class="underline">Editorial Archive</span></div>
       </div>
     </div>
   </div>
 
-  {% assign projects = site.editorial | sort: 'position' | where: "is-highlight", "false" %}
   {% for project in projects %}
   <div class="grid-container">
     <div class="grid-x grid-padding-x grid-padding-y">
@@ -113,6 +114,7 @@ layout: default
   {% endfor %}
 
 </div>
+{% endif %}
 <!-- End Editorial Archive -->
 
 <!-- Branded -->
@@ -122,7 +124,7 @@ layout: default
     <div class="grid-container">
       <div class="grid-x grid-padding-x grid-padding-y">
         <div class="small-12 medium-10 large-10 cell h2">
-          <div class="text-uppercase sans-bold margin-bottom-1">#03 Branded</div>
+          <div class="text-uppercase sans-bold margin-bottom-1"><span class="underline">#03</span> <span class="underline">Branded</span></div>
           {{page.branded-text | markdownify}}
         </div>
       </div>
@@ -169,7 +171,7 @@ layout: default
   <div class="grid-container">
     <div class="grid-x grid-padding-x grid-padding-y">
       <div class="small-12 medium-8 cell">
-        <div class="h2 sans-bold text-uppercase">#03 Branded Archive</div>
+        <div class="h2 sans-bold text-uppercase"><span class="underline">#03</span> <span class="underline">Branded Archive</span></div>
       </div>
     </div>
   </div>
@@ -206,7 +208,7 @@ layout: default
     <div class="grid-container">
       <div class="grid-x grid-padding-x grid-padding-y">
         <div class="small-12 medium-8 cell h2">
-          <div class="text-uppercase sans-bold margin-bottom-1">#04 Contact</div>
+          <div class="text-uppercase sans-bold margin-bottom-1"><span class="underline">#04</span> <span class="underline">Contact</span></div>
           <div>{{page.contact-text | markdownify}}</div>
           <div><a href="mailto:{{site.email}}">{{site.email}}</a></div>
         </div>
