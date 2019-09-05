@@ -66,16 +66,17 @@ layout: default
 <!-- End Editorial Highlights -->
 
 <!-- Editorial Archive -->
-{% assign projects = site.editorial | sort: 'position' | where: "is-highlight", "false" %}
-{% for project in projects %}
 <div class="grid-container">
-
   <div class="grid-x grid-padding-x grid-padding-y">
     <div class="small-12 medium-8 cell">
       <div class="h2">#02 Editorial Archive</div>
     </div>
   </div>
+</div>
 
+{% assign projects = site.editorial | sort: 'position' | where: "is-highlight", "false" %}
+{% for project in projects %}
+<div class="grid-container">
   <div class="grid-x grid-padding-x grid-padding-y">
     <div class="small-12 medium-8 cell">
       <div class="h3">{{project.client }}</div>

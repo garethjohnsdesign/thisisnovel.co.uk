@@ -466,7 +466,8 @@ header {
 }
 
 .hero {
-  background-color: red
+background: rgb(255,68,27);
+background: linear-gradient(90deg, rgba(255,68,27,1) 0%, rgba(125,67,198,1) 100%);
 }
 
 .about {
