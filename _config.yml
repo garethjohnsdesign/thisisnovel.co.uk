@@ -14,6 +14,36 @@ collections:
   uploads:
     title: Uploads
     output: false
+defaults:
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: page
+- scope:
+    path: ''
+    type: editorial
+  values:
+    image: 
+    client: 
+    logo:
+    span:
+    run-time:
+    listen:
+    link:
+    is-highlight: false
+- scope:
+    path: ''
+    type: branded
+  values:
+    image: 
+    client: 
+    logo:
+    span:
+    run-time:
+    listen:
+    link:
+    is-highlight: false
 url: https://www.thisisnovel.co.uk
 description: A premium audio content company. Whether it’s compelling journalism,
   powerful podcasts or innovative branded content, we tell stories in sound that make
