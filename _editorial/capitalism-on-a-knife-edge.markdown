@@ -3,7 +3,7 @@ title: Capitalism on a Knife Edge
 date: 2019-09-05 15:18:00 Z
 image: "/uploads/bellingcat.jpg"
 client: UnHerd
-episodes: 1 
+episodes: 1
 run-time: 42 mins
 listen: https://www.google.com
 link: https://www.google.com
