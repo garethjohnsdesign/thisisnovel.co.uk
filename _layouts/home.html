@@ -51,7 +51,8 @@ layout: default
 <!-- Editorial Highlights -->
 {% assign projects = site.editorial | sort: 'position' | where: "is-highlight", "true" %}
 {% for project in projects %}
-<section class="grid-y grid-padding-y align-center">
+{% assign image = project.image %}
+<section class="grid-y grid-padding-y align-center about" data-interchange="{% include images/interchange-img-small-12-medium-12-cell.html %}">
   <div class="cell">
     <div class="grid-container">
       <div class="grid-x grid-padding-x grid-padding-y">
