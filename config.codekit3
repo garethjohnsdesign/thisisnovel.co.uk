@@ -9,14 +9,6 @@
 	],
 "creatorBuild": "31491",
 "files": {
-	"/.gitignore": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/.gitignore",
-		"oF": 0
-		},
 	"/404.md": {
 		"cB": 0,
 		"cS": 0,

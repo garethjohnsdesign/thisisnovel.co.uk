@@ -2,11 +2,7 @@
 <div class="swup-transition-fade" id="swup-header" data-sticky-container>
 <header class="grid-x grid-padding-x grid-padding-y align-justify align-middle" data-sticky data-options="marginTop:0; stickyOn:medium" style="width:100%"> 
   <div class="auto cell">
-    {% if page.layout == "project" %}
-    <a href="/">{{page.title}}{% if page.client %}<span class="dark-gray padding-left-1 show-for-large">{{page.client}}</span>{% endif %}</a>
-    {% else %}
-    <a href="/" class="">{{site.title}}</a>
-    {% endif %}
+    <a href="/" class=""><svg class="icon icon-logo"><use xlink:href="/assets/icons/symbol-defs.svg#icon-logo"></use></svg></a>
   </div>
 
   <div class="shrink cell" style="z-index: 1007">
