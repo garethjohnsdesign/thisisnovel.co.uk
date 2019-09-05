@@ -140,7 +140,8 @@ layout: default
       <div class="grid-x grid-padding-x grid-padding-y">
         <div class="small-12 medium-8 cell h2">
           <div class="text-uppercase sans-bold margin-bottom-1">#04 Contact</div>
-          {{page.contact-text | markdownify}}
+          <div>{{page.contact-text | markdownify}}</div>
+          <div>{{site.email}}
         </div>
       </div>
     </div>
