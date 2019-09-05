@@ -2,7 +2,7 @@
 title: The Bellingcat Podcast - MH17
 date: 2019-09-04 17:38:00 Z
 image: 
-client:
+client: 
 logo: "/uploads/logo.svg"
 span: 6 Episodes
 run-time: Various
