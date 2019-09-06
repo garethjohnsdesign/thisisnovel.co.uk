@@ -6,6 +6,7 @@ import Foundation from 'foundation-sites';
 import AOS from 'aos';
 import Swup from 'swup';
 import SwupBodyClassPlugin from "@swup/body-class-plugin";
+import Plyr from 'plyr';
 
 // 1. Special Queries
 // ------------------
@@ -19,6 +20,10 @@ Foundation.Interchange.SPECIAL_QUERIES[ "xxlarge-retina" ] = 'only screen and (m
 // -------------
 
 $( document ).foundation();
+
+
+// 2. Smooth Scroll
+// ----------------
 
 // Select all links with hashes
 $('a[href*="#"]')
@@ -56,3 +61,6 @@ $('a[href*="#"]')
       }
     }
   });
+
+
+const player = new Plyr('#player');
