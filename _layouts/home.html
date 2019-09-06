@@ -11,7 +11,7 @@ layout: default
         <div class="small-10 medium-8 cell text-center">
           <svg class="icon icon-logo-large"><use xlink:href="/assets/icons/symbol-defs.svg#icon-logo"></use></svg>
 
-          <audio id="player" controls>
+          <audio id="player" controls data-plyr-config='{ "title": "Example Title" }'>
               <source src="/uploads/test-01.mp3" type="audio/mp3" />
               <source src="/path/to/audio.ogg" type="audio/ogg" />
           </audio>
@@ -63,6 +63,7 @@ layout: default
     <div class="grid-container">
       <div class="grid-x grid-padding-x grid-padding-y">
         <div class="small-12 medium-8 cell">
+          <div class="h3"><svg class="icon icon-radio-four"><use xlink:href="/assets/icons/symbol-defs.svg#icon-radio-four"></use></svg></div>
           <div class="h3">{{project.client }}</div>
           <div class="h1">{{project.title }}</div>
         </div>
