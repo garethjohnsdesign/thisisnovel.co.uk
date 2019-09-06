@@ -15,6 +15,40 @@ layout: compress
 {% include site/header.html %}
 <!-- End Header -->
 
+<div class="intro-middle">
+  <div class="grid-x"> 
+    <div class="small-12 cell show-for-medium text-center">
+      <ul class="menu simple align-center">
+      {% for entry in site.data.navigation.header %}{% capture fullurl %}{{ site.baseurl }}{{ entry.url }}{% endcapture %}{% if fullurl == page.url %}{% assign current_page = fullurl %}{% break %}{% elsif page.url contains fullurl %}{% assign current_page = fullurl %}{% endif %}{% endfor %}
+        {% for entry in site.data.navigation.header %}
+        {% if entry.url == current_page %}
+        {% assign current = 'class="active"' %}
+        {% else %}
+        {% assign current = null %}
+        {% endif %}
+        <li><a href="{{ site.baseurl }}{{ entry.url }}" {{ current }}>{{ entry.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!--
+<div class="social-links show-for-medium">
+  <ul class="menu simple">
+  {% for entry in site.data.navigation.header %}{% capture fullurl %}{{ site.baseurl }}{{ entry.url }}{% endcapture %}{% if fullurl == page.url %}{% assign current_page = fullurl %}{% break %}{% elsif page.url contains fullurl %}{% assign current_page = fullurl %}{% endif %}{% endfor %}
+    {% for entry in site.data.navigation.header %}
+    {% if entry.url == current_page %}
+    {% assign current = 'class="active"' %}
+    {% else %}
+    {% assign current = null %}
+    {% endif %}
+    <li><a href="{{ site.baseurl }}{{ entry.url }}" {{ current }}>{{ entry.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
+-->
+
 <!-- Main -->
 {{content}}
 <!-- Main -->

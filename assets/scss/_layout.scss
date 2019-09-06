@@ -518,3 +518,12 @@ background: linear-gradient(90deg, rgba(255,68,27,1) 0%, rgba(125,67,198,1) 100%
   background-color: brown
 }
 */
+
+.intro-middle {
+width: 100vh;
+left: calc(100% - 3rem);
+position: fixed;
+top: 50%;
+transform: rotate(-90deg) translate(-50%, 0%);
+transform-origin: left top;
+}

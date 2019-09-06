@@ -4,17 +4,6 @@
     <a href="#header"><svg class="icon icon-logo"><use xlink:href="/assets/icons/symbol-defs.svg#icon-logo"></use></svg></a>
   </div>
 
-  <div class="shrink cell" style="z-index: 1007">
-  {% for entry in site.data.navigation.header %}{% capture fullurl %}{{ site.baseurl }}{{ entry.url }}{% endcapture %}{% if fullurl == page.url %}{% assign current_page = fullurl %}{% break %}{% elsif page.url contains fullurl %}{% assign current_page = fullurl %}{% endif %}{% endfor %}
-    {% for entry in site.data.navigation.header %}
-    {% if entry.url == current_page %}
-    {% assign current = 'class="active"' %}
-    {% else %}
-    {% assign current = null %}
-    {% endif %}
-    <a href="{{ site.baseurl }}{{ entry.url }}" {{ current }}>{{ entry.title }}</a>{% if forloop.last %}{% else %},{% endif %}
-    {% endfor %}
-  </div>
 
   <div class="shrink cell show-for-medium">
     <ul class="menu align-center">
