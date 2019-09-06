@@ -28,7 +28,7 @@ layout: default
 <!-- About -->
 {% assign image = page.hero-image %}
 <section class="grid-y grid-padding-y align-center about" data-interchange="{% include images/interchange-img-small-12-medium-12-cell.html %}" id="about">
-  <div class="cell">
+  <div class="cell padding-horizontal-3">
     <div class="grid-container">
       <div class="grid-x grid-padding-x grid-padding-y">
         <div class="small-12 medium-8 cell">
@@ -43,7 +43,7 @@ layout: default
 
 <!-- Editorial -->
 <section class="grid-y grid-padding-y align-center editorial" id="editorial">
-  <div class="cell">
+  <div class="cell padding-horizontal-3">
     <div class="grid-container">
       <div class="grid-x grid-padding-x grid-padding-y">
         <div class="small-12 medium-10 large-10 cell h2">
@@ -61,7 +61,7 @@ layout: default
 {% for project in projects %}
 {% assign image = project.image %}
 <section class="grid-y grid-padding-y align-center about" data-interchange="{% include images/interchange-img-small-12-medium-12-cell.html %}">
-  <div class="cell">
+  <div class="cell padding-horizontal-3">
     <div class="grid-container">
       <div class="grid-x grid-padding-x grid-padding-y">
         <div class="small-12 medium-8 cell">
@@ -94,7 +94,7 @@ layout: default
 <!-- Editorial Archive -->
 {% assign projects = site.editorial | sort: 'position' | where: "is-highlight", "false" %}
 {% if projects.size > 1 %}
-<div class="editorial-archive padding-vertical-1">
+<div class="editorial-archive padding-vertical-1 padding-horizontal-3">
   <div class="grid-container">
     <div class="grid-x grid-padding-x grid-padding-y">
       <div class="small-12 medium-8 cell">
@@ -132,7 +132,7 @@ layout: default
 <!-- Branded -->
 {% assign image = page.hero-image %}
 <section class="grid-y grid-padding-y align-center" data-interchange="{% include images/interchange-img-small-12-medium-12-cell.html %}" id="branded">
-  <div class="cell">
+  <div class="cell padding-horizontal-3">
     <div class="grid-container">
       <div class="grid-x grid-padding-x grid-padding-y">
         <div class="small-12 medium-10 large-10 cell h2">
@@ -150,7 +150,7 @@ layout: default
 {% for project in projects %}
 {% assign image = project.image %}
 <section class="grid-y grid-padding-y align-center about" data-interchange="{% include images/interchange-img-small-12-medium-12-cell.html %}">
-  <div class="cell">
+  <div class="cell padding-horizontal-3">
     <div class="grid-container">
       <div class="grid-x grid-padding-x grid-padding-y">
         <div class="small-12 medium-8 cell">
@@ -183,7 +183,7 @@ layout: default
 <!-- Branded Archive -->
 {% assign projects = site.branded | sort: 'position' | where: "is-highlight", "false" %}
 {% if projects.size > 1 %}
-<div class="editorial-archive">
+<div class="editorial-archive padding-horizontal-3">
   <div class="grid-container">
     <div class="grid-x grid-padding-x grid-padding-y">
       <div class="small-12 medium-8 cell">
@@ -220,7 +220,7 @@ layout: default
 <!-- Contact -->
 {% assign image = page.hero-image %}
 <section class="grid-y grid-padding-y align-center contact" data-interchange="{% include images/interchange-img-small-12-medium-12-cell.html %}" id="contact">
-  <div class="cell">
+  <div class="cell padding-horizontal-3">
     <div class="grid-container">
       <div class="grid-x grid-padding-x grid-padding-y">
         <div class="small-12 medium-8 cell h2">
