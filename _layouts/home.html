@@ -63,8 +63,11 @@ layout: default
     <div class="grid-container">
       <div class="grid-x grid-padding-x grid-padding-y">
         <div class="small-12 medium-8 cell">
-          <div class="h3"><svg class="icon icon-radio-four"><use xlink:href="/assets/icons/symbol-defs.svg#icon-radio-four"></use></svg></div>
+          {% if project.logo %}
+          <div class="h3"><svg class="icon icon-{{project.logo}}"><use xlink:href="/assets/icons/symbol-defs.svg#icon-{{project.logo}}"></use></svg></div>
+          {% else %}
           <div class="h3">{{project.client }}</div>
+          {% endif %}
           <div class="h1">{{project.title }}</div>
         </div>
       </div>
@@ -149,7 +152,11 @@ layout: default
     <div class="grid-container">
       <div class="grid-x grid-padding-x grid-padding-y">
         <div class="small-12 medium-8 cell">
+          {% if project.logo %}
+          <div class="h3"><svg class="icon icon-{{project.logo}}"><use xlink:href="/assets/icons/symbol-defs.svg#icon-{{project.logo}}"></use></svg></div>
+          {% else %}
           <div class="h3">{{project.client }}</div>
+          {% endif %}
           <div class="h1">{{project.title }}</div>
         </div>
       </div>
