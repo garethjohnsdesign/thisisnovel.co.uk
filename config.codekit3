@@ -1040,6 +1040,16 @@
 		"oAP": "/assets/fonts/titling-gothic-wide-bold.woff2",
 		"oF": 0
 		},
+	"/assets/icons/symbol-defs.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/assets/icons/symbol-defs.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"/assets/img/logo.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -1069,7 +1079,7 @@
 		"oA": 0,
 		"oAP": "/assets/js/min/app-min.js",
 		"oF": 1,
-		"sC": 3,
+		"sC": 0,
 		"tS": 0
 		},
 	"/assets/js/min/app-min.js": {
@@ -1350,6 +1360,17 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "/node_modules/jquery/dist/min/jquery-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/popper.js/dist/esm/popper.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/popper.js/dist/esm/min/popper-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
