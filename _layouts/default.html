@@ -15,7 +15,8 @@ layout: compress
 {% include site/header.html %}
 <!-- End Header -->
 
-<div class="intro-middle">
+<!-- Navigation -->
+<div class="navigation">
   <div class="grid-x"> 
     <div class="small-12 cell show-for-medium text-center">
       <ul class="menu simple align-center">
@@ -32,22 +33,20 @@ layout: compress
     </div>
   </div>
 </div>
+<!-- End Navigation -->
 
-<!--
-<div class="social-links show-for-medium">
-  <ul class="menu simple">
-  {% for entry in site.data.navigation.header %}{% capture fullurl %}{{ site.baseurl }}{{ entry.url }}{% endcapture %}{% if fullurl == page.url %}{% assign current_page = fullurl %}{% break %}{% elsif page.url contains fullurl %}{% assign current_page = fullurl %}{% endif %}{% endfor %}
-    {% for entry in site.data.navigation.header %}
-    {% if entry.url == current_page %}
-    {% assign current = 'class="active"' %}
-    {% else %}
-    {% assign current = null %}
-    {% endif %}
-    <li><a href="{{ site.baseurl }}{{ entry.url }}" {{ current }}>{{ entry.title }}</a></li>
-    {% endfor %}
-  </ul>
+<!-- Audio Player -->
+<div class="audio">
+  <div class="grid-x align-center"> 
+    <div class="small-6 cell show-for-medium text-center">
+      <audio id="player" controls data-plyr-config='{ "title": "Example Title" }'>
+          <source src="/uploads/test-01.mp3" type="audio/mp3" />
+          <source src="/path/to/audio.ogg" type="audio/ogg" />
+      </audio>
+    </div>
+  </div>
 </div>
--->
+<!-- Audio Player -->
 
 <!-- Main -->
 {{content}}
