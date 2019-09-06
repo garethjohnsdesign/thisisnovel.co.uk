@@ -743,17 +743,6 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"/_uploads/only-jerkin-09.jpg": {
-		"ft": 16384,
-		"iS": 4249587,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/only-jerkin-09.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"/_uploads/political-butterfly.jpg": {
 		"ft": 16384,
 		"iS": 745855,
@@ -786,6 +775,14 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"/_uploads/test-01.mp3": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_uploads/test-01.mp3",
+		"oF": 0
 		},
 	"/_uploads/test.png": {
 		"ft": 32768,
@@ -1360,17 +1357,6 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "/node_modules/jquery/dist/min/jquery-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/node_modules/popper.js/dist/esm/popper.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/node_modules/popper.js/dist/esm/min/popper-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
