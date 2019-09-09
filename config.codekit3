@@ -722,30 +722,6 @@
 		"oAP": "/build/_site",
 		"oF": 0
 		},
-	"/_uploads/01. Smells Like Teen Spirit.mp3": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/_uploads/01. Smells Like Teen Spirit.mp3",
-		"oF": 0
-		},
-	"/_uploads/02. In Bloom.mp3": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/_uploads/02. In Bloom.mp3",
-		"oF": 0
-		},
-	"/_uploads/03. Come as You Are.mp3": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/_uploads/03. Come as You Are.mp3",
-		"oF": 0
-		},
 	"/_uploads/04. Breed.mp3": {
 		"cB": 0,
 		"ft": 8192,
@@ -812,7 +788,7 @@
 		},
 	"/_uploads/bellingcat.jpg": {
 		"ft": 16384,
-		"iS": 913948,
+		"iS": 721969,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/_uploads/bellingcat.jpg",
@@ -833,7 +809,7 @@
 		},
 	"/_uploads/political-butterfly.jpg": {
 		"ft": 16384,
-		"iS": 745855,
+		"iS": 605968,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/_uploads/political-butterfly.jpg",
@@ -844,7 +820,7 @@
 		},
 	"/_uploads/political-butterfly2.jpg": {
 		"ft": 16384,
-		"iS": 1310870,
+		"iS": 1088264,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/_uploads/political-butterfly2.jpg",
@@ -855,7 +831,7 @@
 		},
 	"/_uploads/remembering-hitchens.jpg": {
 		"ft": 16384,
-		"iS": 977910,
+		"iS": 911141,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/_uploads/remembering-hitchens.jpg",
@@ -864,31 +840,15 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/_uploads/test-01.mp3": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/_uploads/test-01.mp3",
-		"oF": 0
-		},
-	"/_uploads/test-02.mp3": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/_uploads/test-02.mp3",
-		"oF": 0
-		},
-	"/_uploads/test.png": {
-		"ft": 32768,
-		"iS": 77154,
+	"/_uploads/test.jpg": {
+		"ft": 16384,
+		"iS": 52479,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "/_uploads/test.png",
+		"oAP": "/_uploads/test.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"oT": 1,
 		"q": 100
 		},
 	"/assets/css/app.css": {
