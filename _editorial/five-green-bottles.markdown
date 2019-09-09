@@ -5,7 +5,7 @@ image: "/uploads/bellingcat.jpg"
 client: BBC Radio 4
 episodes: 5
 run-time: 14 mins
-listen: https://www.google.com
+listen: "/uploads/03. Come as You Are.mp3"
 link: https://www.google.com
 ---
 

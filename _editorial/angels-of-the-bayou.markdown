@@ -5,7 +5,6 @@ image: "/uploads/bellingcat.jpg"
 client: BBC Radio 4
 episodes: 1
 run-time: 28 mins
-listen: https://www.google.com
 link: https://www.google.com
 ---
 

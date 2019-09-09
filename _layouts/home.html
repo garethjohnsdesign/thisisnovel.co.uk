@@ -8,7 +8,7 @@ layout: default
   <div class="cell">
     <div class="grid-container">
       <div class="grid-x grid-padding-x grid-padding-y align-center">
-        <div class="small-10 medium-8 cell text-center">
+        <div class="small-10 medium-8 cell text-center" data-aos="fade-in">
           <svg class="icon icon-logo-large"><use xlink:href="/assets/icons/symbol-defs.svg#icon-logo"></use></svg>
         </div>
       </div>
@@ -18,12 +18,12 @@ layout: default
 <!-- End Hero -->
 
 <!-- About -->
-{% assign image = page.hero-image %}
+{% assign image = page.about-image %}
 <section class="grid-y grid-padding-y align-center about" data-interchange="{% include images/interchange-img-small-12-medium-12-cell.html %}" id="about">
   <div class="cell padding-horizontal-3">
     <div class="grid-container">
       <div class="grid-x grid-padding-x grid-padding-y">
-        <div class="small-12 medium-8 cell">
+        <div class="small-12 medium-8 cell" data-aos="fade-in">
           <h2 class="text-uppercase sans-bold"><span class="underline">#01</span> <span class="underline">About</span></h2>
           <h2>{{page.about-text}}</h2>
         </div>
@@ -38,7 +38,7 @@ layout: default
   <div class="cell padding-horizontal-3">
     <div class="grid-container">
       <div class="grid-x grid-padding-x grid-padding-y">
-        <div class="small-12 medium-10 large-10 cell h2">
+        <div class="small-12 medium-10 large-10 cell h2" data-aos="fade-in">
           <div class="sans-bold text-uppercase margin-bottom-1"><span class="underline">#02</span> <span class="underline">Editorial</span></div>
           {{page.editorial-text | markdownify}}
         </div>
@@ -50,81 +50,18 @@ layout: default
 
 <!-- Editorial Highlights -->
 {% assign projects = site.editorial | sort: 'position' | where: "is-highlight", "true" %}
-{% for project in projects %}
-{% assign image = project.image %}
-<section class="grid-y grid-padding-y align-center about" data-interchange="{% include images/interchange-img-small-12-medium-12-cell.html %}">
-  <div class="cell padding-horizontal-3">
-    <div class="grid-container">
-      <div class="grid-x grid-padding-x grid-padding-y">
-        <div class="small-12 medium-8 cell">
-          {% if project.logo %}
-          <div class="h3"><svg class="icon icon-{{project.logo}}"><use xlink:href="/assets/icons/symbol-defs.svg#icon-{{project.logo}}"></use></svg></div>
-          {% else %}
-          <div class="h3">{{project.client }}</div>
-          {% endif %}
-          <div class="h1">{{project.title }}</div>
-        </div>
-      </div>
-      <div class="grid-x grid-padding-x grid-padding-y">
-        <div class="small-12 medium-6 cell">
-          {{project.content }}
-        </div>
-        <div class="small-12 medium-6 cell text-left medium-text-right">
-          <div class="margin-bottom-1 mono-bold">Episodes:{{project.episodes }} — Run Time:{{project.run-time }}</div>
-            <div>
-              <button class="button hollow mono-bold" data-audio-title="{{project.title}}" data-src="{{project.listen}}">Listen <svg class="icon icon-play_arrow"><use xlink:href="/assets/icons/symbol-defs.svg#icon-play_arrow"></use></svg></button>
-              <a href="{{project.link}}" class="button hollow mono-bold">Learn More <svg class="icon icon-call_made"><use xlink:href="/assets/icons/symbol-defs.svg#icon-call_made"></use></svg></a>
-            </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-{% endfor %}
+{% include partials/highlight.html %}
 <!-- End Editorial Highlights -->
 
 <!-- Editorial Archive -->
 {% assign projects = site.editorial | sort: 'position' | where: "is-highlight", "false" %}
-{% if projects.size > 1 %}
-<div class="editorial-archive padding-vertical-1 padding-horizontal-3">
-  <div class="grid-container">
-    <div class="grid-x grid-padding-x grid-padding-y">
-      <div class="small-12 medium-8 cell">
-        <div class="h2 sans-bold text-uppercase"><span class="underline">#02</span> <span class="underline">Editorial Archive</span></div>
-      </div>
-    </div>
-  </div>
-
-  {% for project in projects %}
-  <div class="grid-container">
-    <div class="grid-x grid-padding-x grid-padding-y">
-
-      <div class="small-12 medium-4 cell">
-        {% assign image = project.image %}
-        <div class="image--1-1" data-interchange="{% include images/interchange-img-small-12-medium-4-cell.html %}"></div>      
-      </div>
-
-      <div class="small-12 medium-8 cell">
-        <div class="h2 margin-top-0">{{project.title }}</div>
-        <div class="margin-bottom-2">{{project.content }}</div>
-        <div class="margin-bottom-2 mono-bold">Episodes:{{project.episodes }} — Run Time:{{project.run-time }}</div>
-        <div>
-          <a href="{{project.listen}}" class="button hollow mono-bold">Listen <svg class="icon icon-play_arrow"><use xlink:href="/assets/icons/symbol-defs.svg#icon-play_arrow"></use></svg></a>
-          <a href="{{project.link}}" class="button hollow mono-bold">Learn More <svg class="icon icon-call_made"><use xlink:href="/assets/icons/symbol-defs.svg#icon-call_made"></use></svg></a>
-        </div>
-      </div>
-    </div>
-  </div>
-  {% endfor %}
-
-</div>
-{% endif %}
+{% include partials/archive.html %}
 <!-- End Editorial Archive -->
 
 <!-- Branded -->
-{% assign image = page.hero-image %}
+{% assign image = page.branded-image %}
 <section class="grid-y grid-padding-y align-center" data-interchange="{% include images/interchange-img-small-12-medium-12-cell.html %}" id="branded">
-  <div class="cell padding-horizontal-3">
+  <div class="cell padding-horizontal-3"  data-aos="fade-in">
     <div class="grid-container">
       <div class="grid-x grid-padding-x grid-padding-y">
         <div class="small-12 medium-10 large-10 cell h2">
@@ -139,80 +76,18 @@ layout: default
 
 <!-- Branded Highlights -->
 {% assign projects = site.branded | sort: 'position' | where: "is-highlight", "true" %}
-{% for project in projects %}
-{% assign image = project.image %}
-<section class="grid-y grid-padding-y align-center about" data-interchange="{% include images/interchange-img-small-12-medium-12-cell.html %}">
-  <div class="cell padding-horizontal-3">
-    <div class="grid-container">
-      <div class="grid-x grid-padding-x grid-padding-y">
-        <div class="small-12 medium-8 cell">
-          {% if project.logo %}
-          <div class="h3"><svg class="icon icon-{{project.logo}}"><use xlink:href="/assets/icons/symbol-defs.svg#icon-{{project.logo}}"></use></svg></div>
-          {% else %}
-          <div class="h3">{{project.client }}</div>
-          {% endif %}
-          <div class="h1">{{project.title }}</div>
-        </div>
-      </div>
-      <div class="grid-x grid-padding-x grid-padding-y">
-        <div class="small-12 medium-6 cell">
-          {{project.content }}
-        </div>
-        <div class="small-12 medium-6 cell text-left medium-text-right">
-          <div class="margin-bottom-1 mono-bold">Episodes:{{project.episodes }} — Run Time:{{project.run-time }}</div>
-            <div>
-              <a href="{{project.listen}}" class="button hollow mono-bold">Listen <svg class="icon icon-play_arrow"><use xlink:href="/assets/icons/symbol-defs.svg#icon-play_arrow"></use></svg></a>
-              <a href="{{project.link}}" class="button hollow mono-bold">Learn More <svg class="icon icon-call_made"><use xlink:href="/assets/icons/symbol-defs.svg#icon-call_made"></use></svg></a>
-            </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-{% endfor %}
+{% include partials/highlight.html %}
 <!-- End Branded Highlights -->
 
 <!-- Branded Archive -->
 {% assign projects = site.branded | sort: 'position' | where: "is-highlight", "false" %}
-{% if projects.size > 1 %}
-<div class="editorial-archive padding-horizontal-3">
-  <div class="grid-container">
-    <div class="grid-x grid-padding-x grid-padding-y">
-      <div class="small-12 medium-8 cell">
-        <div class="h2 sans-bold text-uppercase"><span class="underline">#03</span> <span class="underline">Branded Archive</span></div>
-      </div>
-    </div>
-  </div>
-  {% for project in projects %}
-  <div class="grid-container">
-    <div class="grid-x grid-padding-x grid-padding-y">
-
-      <div class="small-12 medium-4 cell">
-        {% assign image = project.image %}
-        <div class="image--1-1" data-interchange="{% include images/interchange-img-small-12-medium-4-cell.html %}"></div>      
-      </div>
-
-      <div class="small-12 medium-8 cell">
-        <div class="h2 margin-top-0">{{project.title }}</div>
-        <div class="margin-bottom-2">{{project.content }}</div>
-        <div class="margin-bottom-2 mono-bold">Episodes:{{project.episodes }} — Run Time:{{project.run-time }}</div>
-        <div>
-          <a href="{{project.listen}}" class="button hollow mono-bold">Listen <svg class="icon icon-play_arrow"><use xlink:href="/assets/icons/symbol-defs.svg#icon-play_arrow"></use></svg></a>
-          <a href="{{project.link}}" class="button hollow mono-bold">Learn More <svg class="icon icon-call_made"><use xlink:href="/assets/icons/symbol-defs.svg#icon-call_made"></use></svg></a>
-        </div>
-      </div>
-    </div>
-  </div>
-  {% endfor %}
-
-</div>
-{% endif %}
-<!-- End Editorial Archive -->
+{% include partials/archive.html %}
+<!-- End Branded Archive -->
 
 <!-- Contact -->
-{% assign image = page.hero-image %}
+{% assign image = page.contact-image %}
 <section class="grid-y grid-padding-y align-center contact" data-interchange="{% include images/interchange-img-small-12-medium-12-cell.html %}" id="contact">
-  <div class="cell padding-horizontal-3">
+  <div class="cell padding-horizontal-3" data-aos="fade-in">
     <div class="grid-container">
       <div class="grid-x grid-padding-x grid-padding-y">
         <div class="small-12 medium-8 cell h2">

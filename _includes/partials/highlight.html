@@ -1,0 +1,33 @@
+{% for project in projects %}
+{% assign image = project.image %}
+<section class="grid-y grid-padding-y align-center" data-interchange="{% include images/interchange-img-small-12-medium-12-cell.html %}">
+<div class="cell padding-horizontal-3" data-aos="fade-in">
+  <div class="grid-container">
+    <div class="grid-x grid-padding-x grid-padding-y">
+      <div class="small-12 medium-8 cell">
+        {% if project.logo %}
+        <div class="h3"><svg class="icon icon-{{project.logo}}"><use xlink:href="/assets/icons/symbol-defs.svg#icon-{{project.logo}}"></use></svg></div>
+        {% else %}
+        <div class="h3">{{project.client }}</div>
+        {% endif %}
+        <div class="h1">{{project.title }}</div>
+      </div>
+    </div>
+    <div class="grid-x grid-padding-x grid-padding-y">
+      <div class="small-12 medium-6 cell">
+        {{project.content }}
+      </div>
+      <div class="small-12 medium-6 cell text-left medium-text-right">
+        <div class="margin-bottom-1 mono-bold">Episodes:{{project.episodes }} — Run Time:{{project.run-time }}</div>
+          <div>
+          {% if project.listen %}
+            <button class="button hollow mono-bold" data-audio-title="{{project.title}}" data-src="{{project.listen}}">Listen <svg class="icon icon-play_arrow"><use xlink:href="/assets/icons/symbol-defs.svg#icon-play_arrow"></use></svg></button>
+          {% endif %}
+            <a href="{{project.link}}" class="button hollow mono-bold">Learn More <svg class="icon icon-call_made"><use xlink:href="/assets/icons/symbol-defs.svg#icon-call_made"></use></svg></a>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+{% endfor %}

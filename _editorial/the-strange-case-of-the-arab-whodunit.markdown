@@ -5,7 +5,7 @@ image: "/uploads/bellingcat.jpg"
 client: BBC Radio 4
 episodes: 1
 run-time: 28 mins
-listen: https://www.google.com
+listen: "/uploads/01. Smells Like Teen Spirit.mp3"
 link: https://www.google.com
 ---
 

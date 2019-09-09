@@ -21,6 +21,20 @@ Foundation.Interchange.SPECIAL_QUERIES[ "xxlarge-retina" ] = 'only screen and (m
 
 $( document ).foundation();
 
+// 8. Animate on Scroll
+// --------------------
+
+$(function() {
+  AOS.init({ 
+   offset: 64,
+   easing: 'ease-in-out-quart', 
+   duration: 600
+   });   
+});
+$(function() {
+  window.addEventListener('load', AOS.refresh);
+});
+
 
 // 2. Smooth Scroll
 // ----------------
@@ -122,7 +136,7 @@ $(".home").on("click", ".plyr__control.prev-audio-item", function () {
   $prev.click()
 })
 
-$("[data-src]:first").addClass("secondary");
+// $("[data-src]:first").addClass("secondary");
 
 $(".home").on("click", "[data-src]", function (e) {
 var $this = $(this)

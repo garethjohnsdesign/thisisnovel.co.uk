@@ -526,6 +526,7 @@ position: fixed;
 top: 50%;
 transform: rotate(-90deg) translate(-50%, 0%);
 transform-origin: left top;
+z-index: 21;
 }
 
 .audio {
@@ -535,4 +536,17 @@ position: fixed;
 top: 50%;
 transform: rotate(-90deg) translate(-50%, 0%);
 transform-origin: left top;
+z-index: 21;
+}
+
+.read-more-content,
+ {
+  display: none;
+  margin-top: 1rem;
+
+  &.expanded {
+    .read-more {
+      display: block;
+    }
+  }
 }

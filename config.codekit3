@@ -52,6 +52,14 @@
 		"oAP": "/_branded/the-cannes-lions-podcast.markdown",
 		"oF": 0
 		},
+	"/_branded/the-official-fantasy-premier-league-podcast copy.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_branded/the-official-fantasy-premier-league-podcast copy.markdown",
+		"oF": 0
+		},
 	"/_branded/the-official-fantasy-premier-league-podcast.markdown": {
 		"cB": 0,
 		"ft": 8192,
@@ -620,12 +628,20 @@
 		"oAP": "/_includes/pagination/collection.html",
 		"oF": 0
 		},
-	"/_includes/partials/excerpt.html": {
+	"/_includes/partials/archive.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 2,
-		"oAP": "/_includes/partials/excerpt.html",
+		"oAP": "/_includes/partials/archive.html",
+		"oF": 0
+		},
+	"/_includes/partials/highlight.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_includes/partials/highlight.html",
 		"oF": 0
 		},
 	"/_includes/reveal/meta.html": {

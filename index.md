@@ -3,6 +3,9 @@ title: Novel
 position: 0
 image: "/uploads/og-image.png"
 hero-image: "/uploads/test.jpg"
+about-image: "/uploads/test.jpg"
+branded-image: "/uploads/test.jpg"
+contact-image: "/uploads/test.jpg"
 about-text: This is Novel. A premium audio content company. Whether it’s compelling
   journalism, powerful podcasts or innovative branded content, we tell stories in
   sound that make people listen.

@@ -5,7 +5,7 @@ image: "/uploads/bellingcat.jpg"
 client: BBC Radio 3
 episodes: 1
 run-time: 57 mins
-listen: https://www.google.com
+
 link: https://www.google.com
 ---
 

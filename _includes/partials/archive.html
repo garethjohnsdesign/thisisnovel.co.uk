@@ -1,0 +1,72 @@
+{% if projects.size > 0 %}
+<div class="editorial-archive padding-vertical-1 padding-horizontal-3">
+  <div class="grid-container">
+    <div class="grid-x grid-padding-x grid-padding-y" data-aos="fade-in">
+      <div class="small-12 medium-8 cell">
+        <div class="h2 sans-bold text-uppercase"><span class="underline">#02</span> <span class="underline">Editorial Archive</span></div>
+      </div>
+    </div>
+  </div>
+
+  {% for project in projects limit:5 %}
+  <div class="grid-container">
+    <div class="grid-x grid-padding-x grid-padding-y" data-aos="fade-in">
+
+      <div class="small-12 medium-4 cell">
+        {% assign image = project.image %}
+        <div class="image--1-1" data-interchange="{% include images/interchange-img-small-12-medium-4-cell.html %}"></div>      
+      </div>
+
+      <div class="small-12 medium-8 cell">
+        <div class="h2 margin-top-0">{{project.title }}</div>
+        <div class="margin-bottom-2">{{project.content }}</div>
+        <div class="margin-bottom-2 mono-bold">Episodes:{{project.episodes }} — Run Time:{{project.run-time }}</div>
+        <div>
+        {% if project.listen %}
+        <button class="button hollow mono-bold" data-audio-title="{{project.title}}" data-src="{{project.listen}}">Listen <svg class="icon icon-play_arrow"><use xlink:href="/assets/icons/symbol-defs.svg#icon-play_arrow"></use></svg></button>
+        {% endif %}
+        <a href="{{project.link}}" class="button hollow mono-bold">Learn More <svg class="icon icon-call_made"><use xlink:href="/assets/icons/symbol-defs.svg#icon-call_made"></use></svg></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+
+  {% if projects.size > 5 %}
+  <div class="grid-container">
+    <div class="grid-x grid-padding-x grid-padding-y align-center" data-aos="fade-in">
+      <div class="small-12 medium-8 cell text-center">
+        <button class="button hollow mono-bold" data-toggle="read-more-content" href="#">Load More <svg class="icon icon-arrow_downward"><use xlink:href="/assets/icons/symbol-defs.svg#icon-arrow_downward"></use></svg></button>
+      </div>
+    </div>
+  </div>
+
+  <div class="read-more-content" id="read-more-content" data-toggler data-animate="fade-in fade-out">
+  {% for project in projects offset:5 %}
+  <div class="grid-container">
+    <div class="grid-x grid-padding-x grid-padding-y" data-aos="fade-in">
+
+      <div class="small-12 medium-4 cell">
+        {% assign image = project.image %}
+        <div class="image--1-1" data-interchange="{% include images/interchange-img-small-12-medium-4-cell.html %}"></div>      
+      </div>
+
+      <div class="small-12 medium-8 cell">
+        <div class="h2 margin-top-0">{{project.title }}</div>
+        <div class="margin-bottom-2">{{project.content }}</div>
+        <div class="margin-bottom-2 mono-bold">Episodes:{{project.episodes }} — Run Time:{{project.run-time }}</div>
+        <div>
+        {% if project.listen %}
+        <button class="button hollow mono-bold" data-audio-title="{{project.title}}" data-src="{{project.listen}}">Listen <svg class="icon icon-play_arrow"><use xlink:href="/assets/icons/symbol-defs.svg#icon-play_arrow"></use></svg></button>
+        {% endif %}
+        <a href="{{project.link}}" class="button hollow mono-bold">Learn More <svg class="icon icon-call_made"><use xlink:href="/assets/icons/symbol-defs.svg#icon-call_made"></use></svg></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+  </div>
+  {% endif %}
+
+</div>
+{% endif %}
