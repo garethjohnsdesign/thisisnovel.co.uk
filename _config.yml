@@ -91,4 +91,4 @@ pagination:
 autopages:
   enabled: false
 imgix:
-  source: novel.imgix.net
+  source: thisisnovel.imgix.net
