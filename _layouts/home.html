@@ -55,6 +55,8 @@ layout: default
 
 <!-- Editorial Archive -->
 {% assign projects = site.editorial | sort: 'position' | where: "is-highlight", "false" %}
+{% assign section = "Editorial" %}
+{% assign section-number = "2" %}
 {% include partials/archive.html %}
 <!-- End Editorial Archive -->
 
@@ -81,6 +83,8 @@ layout: default
 
 <!-- Branded Archive -->
 {% assign projects = site.branded | sort: 'position' | where: "is-highlight", "false" %}
+{% assign section = "Branded" %}
+{% assign section-number = "3" %}
 {% include partials/archive.html %}
 <!-- End Branded Archive -->
 

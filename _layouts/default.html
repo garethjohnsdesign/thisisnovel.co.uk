@@ -20,6 +20,11 @@ layout: compress
   <div class="grid-x"> 
     <div class="small-12 cell show-for-medium text-center">
       <ul class="menu simple align-center">
+
+        <li><a href="{{site.social.facebook}}" target="_blank"><svg class="icon icon-socials icon-facebook"><use xlink:href="/assets/icons/symbol-defs.svg#icon-facebook"></use></svg></a></li>
+        <li><a href="{{site.social.instagram}}" target="_blank"><svg class="icon icon-socials icon-instagram"><use xlink:href="/assets/icons/symbol-defs.svg#icon-instagram"></use></svg></a></li>
+        <li><a href="{{site.social.twitter}}" target="_blank"><svg class="icon icon-socials icon-twitter"><use xlink:href="/assets/icons/symbol-defs.svg#icon-twitter"></use></svg></a></li>
+
       {% for entry in site.data.navigation.header %}{% capture fullurl %}{{ site.baseurl }}{{ entry.url }}{% endcapture %}{% if fullurl == page.url %}{% assign current_page = fullurl %}{% break %}{% elsif page.url contains fullurl %}{% assign current_page = fullurl %}{% endif %}{% endfor %}
         {% for entry in site.data.navigation.header %}
         {% if entry.url == current_page %}
@@ -29,6 +34,7 @@ layout: compress
         {% endif %}
         <li><a href="{{ site.baseurl }}{{ entry.url }}" {{ current }}>{{ entry.title }}</a></li>
         {% endfor %}
+
       </ul>
     </div>
   </div>

@@ -837,6 +837,28 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/_uploads/branded.jpg": {
+		"ft": 16384,
+		"iS": 50444,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/branded.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/_uploads/contact.jpg": {
+		"ft": 16384,
+		"iS": 49024,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/contact.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"/_uploads/logo.svg": {
 		"ft": 2097152,
 		"miP": 0,
