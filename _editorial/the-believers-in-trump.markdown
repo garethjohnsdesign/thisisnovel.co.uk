@@ -5,7 +5,6 @@ image: "/uploads/bellingcat.jpg"
 client: UnHerd
 episodes: 1
 run-time: 32 mins
-
 link: https://www.google.com
 ---
 

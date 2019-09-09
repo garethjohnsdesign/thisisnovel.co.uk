@@ -5,7 +5,6 @@ image: "/uploads/bellingcat.jpg"
 client: Audible
 episodes: 1
 run-time: 42 mins
-
 link: https://www.google.com
 is-highlight: false
 ---

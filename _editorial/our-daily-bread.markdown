@@ -5,7 +5,6 @@ image: "/uploads/bellingcat.jpg"
 client: BBC World Service
 episodes: 1
 run-time: 26 mins
-
 link: https://www.google.com
 ---
 
