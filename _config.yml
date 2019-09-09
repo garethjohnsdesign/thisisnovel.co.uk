@@ -63,6 +63,7 @@ plugins:
 - jekyll-sitemap
 - jekyll-feed
 - jekyll/imgix
+company: Novel Ltd
 email: info@thisisnovel.co.uk
 analytics: 
 logo: "/assets/img/logo.svg"

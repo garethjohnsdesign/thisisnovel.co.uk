@@ -1,7 +1,11 @@
 <!-- Header -->
 <header class="grid-x grid-padding-x grid-padding-y align-justify align-middle" style="width:100%"> 
   <div class="auto cell show-for-medium">
+  {% if page.layout == 'home' %}
     <a href="#header"><svg class="icon icon-logo"><use xlink:href="/assets/icons/symbol-defs.svg#icon-logo"></use></svg></a>
+    {% else %}  
+    <a href="/"><svg class="icon icon-logo"><use xlink:href="/assets/icons/symbol-defs.svg#icon-logo"></use></svg></a>
+  {% endif %}
   </div>
 
 

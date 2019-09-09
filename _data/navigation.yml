@@ -9,12 +9,7 @@ header:
     url: "#contact"
 
 footer:
-  - title: About
-    url: "#about"
-  - title: Editorial
-    url: "#editorial"
-  - title: Branded
-    url: "#branded"
-  - title: Contact
-    url: "#contact"
-
+  - title: Terms
+    url: "/terms/"
+  - title: Privacy
+    url: "/privacy/"
