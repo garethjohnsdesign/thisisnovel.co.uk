@@ -64,74 +64,123 @@ $('a[href*="#"]')
   });
 */
 
-const player = new Plyr('#player');
+// 2. Audio Player
+// ----------------
 
+const controls = `
+<div class="plyr__controls">
+    <button type="button" class="plyr__control next-audio-item">
+        <svg role="presentation"><use xlink:href="#plyr-rewind"></use></svg>
+        <span class="plyr__tooltip" role="tooltip">Rewind {seektime} secs</span>
+    </button>
+    <button type="button" class="plyr__control" aria-label="Play, {title}" data-plyr="play">
+        <svg class="icon--pressed" role="presentation"><use xlink:href="#plyr-pause"></use></svg>
+        <svg class="icon--not-pressed" role="presentation"><use xlink:href="#plyr-play"></use></svg>
+        <span class="label--pressed plyr__tooltip" role="tooltip">Pause</span>
+        <span class="label--not-pressed plyr__tooltip" role="tooltip">Play</span>
+    </button>
+    <button type="button" class="plyr__control next-audio-item">
+        <svg role="presentation"><use xlink:href="#plyr-fast-forward"></use></svg>
+        <span class="plyr__tooltip" role="tooltip">Forward {seektime} secs</span>
+    </button>
+    <div class="plyr__progress">
+        <input data-plyr="seek" type="range" min="0" max="100" step="0.01" value="0" aria-label="Seek">
+        <progress class="plyr__progress__buffer" min="0" max="100" value="0">% buffered</progress>
+        <span role="tooltip" class="plyr__tooltip">00:00</span>
+    </div>
 
-/*
-const plyr = new Plyr(document.querySelector('.plyr'));
+    <div>
+        {title}
+    </div>
 
-var radio = document.querySelector('.plyr').plyr;
+    <div class="plyr__time plyr__time--current" aria-label="Current time">00:00</div>
+    <div class="plyr__time plyr__time--duration" aria-label="Duration">00:00</div>
+    <button type="button" class="plyr__control" aria-label="Mute" data-plyr="mute">
+        <svg class="icon--pressed" role="presentation"><use xlink:href="#plyr-muted"></use></svg>
+        <svg class="icon--not-pressed" role="presentation"><use xlink:href="#plyr-volume"></use></svg>
+        <span class="label--pressed plyr__tooltip" role="tooltip">Unmute</span>
+        <span class="label--not-pressed plyr__tooltip" role="tooltip">Mute</span>
+    </button>
+    <div class="plyr__volume">
+        <input data-plyr="volume" type="range" min="0" max="1" step="0.05" value="1" autocomplete="off" aria-label="Volume">
+    </div>
+    <button type="button" class="plyr__control" data-plyr="captions">
+        <svg class="icon--pressed" role="presentation"><use xlink:href="#plyr-captions-on"></use></svg>
+        <svg class="icon--not-pressed" role="presentation"><use xlink:href="#plyr-captions-off"></use></svg>
+        <span class="label--pressed plyr__tooltip" role="tooltip">Disable captions</span>
+        <span class="label--not-pressed plyr__tooltip" role="tooltip">Enable captions</span>
+    </button>
+    <button type="button" class="plyr__control" data-plyr="fullscreen">
+        <svg class="icon--pressed" role="presentation"><use xlink:href="#plyr-exit-fullscreen"></use></svg>
+        <svg class="icon--not-pressed" role="presentation"><use xlink:href="#plyr-enter-fullscreen"></use></svg>
+        <span class="label--pressed plyr__tooltip" role="tooltip">Exit fullscreen</span>
+        <span class="label--not-pressed plyr__tooltip" role="tooltip">Enter fullscreen</span>
+    </button>
+</div>
+`;
 
-var player = document.querySelector('.playlist');
-var songs = player.querySelectorAll('.playlist--list li');
-var i;
-var active = null;
+// Setup the player
+const player = window.pl = new Plyr('#player', {
+  controls
+});
 
-for(i = 0; i < songs.length; i++) {
-	songs[i].onclick = changeChannel;
+player.source = {
+    type: 'audio',
+    title: 'Example title',
+    sources: [
+        {
+            src: '/uploads/test-02.mp3',
+            type: 'audio/mp3',
+        },
+        {
+            src: '/uploads/test-02.ogg',
+            type: 'audio/ogg',
+        },
+    ],
+};
+
+function playSrc (url, $source) {
+  //console.log(url)
+  player.source = {
+      type: 'audio',
+      title: $source.data("audio-title") || '',
+      sources: [
+        {
+            src: url,
+            type: ~url.indexOf(".ogg") ? "audio/ogg" : "audio/mp3"
+        }
+      ]
+  };
+   
+  $("[data-src]").removeClass("audio-active");
+  $source.addClass("audio-active");
+  player.play();
 }
 
-setSource( getId(songs[0]), buildSource(songs[0]) );
 
-document.querySelector('.plyr').addEventListener('ended', nextSong);
+$(".home").on("click", ".plyr__control.next-audio-item", function () {
+  var $allSources = $("[data-src")
+  var activeIndex = $allSources.index($(".audio-active[data-src]"))
+  var $next = $allSources.eq((activeIndex + 1) % $allSources.length)
+  $next.click()
+})
 
-function changeChannel(e) {
-	setSource( getId(e.target), buildSource(e.target), true );
-}
 
-function getId(el) {
-	return Number(el.getAttribute('data-id'));
-}
+$(".home").on("click", ".plyr__control.prev-audio-item", function () {
+  var $allSources = $("[data-src")
+  var activeIndex = $allSources.index($(".audio-active[data-src]"))
+  var $prev = $allSources.eq(activeIndex - 1)
+  $prev.click()
+})
 
-function buildSource(el) {
-	var obj = [{
-		src: el.getAttribute('data-audio'),
-		type: 'audio/ogg'
-	}];
+$("[data-src]:first").addClass("audio-active");
 
-	return obj;
-}
 
-function setSource(selected, sourceAudio, play) {
-	if(active !== selected) {
-		active = selected;
-		radio.source({
-			type: 'audio',
-			title: 'test',
-			sources: sourceAudio
-		});
+$(".home").on("click", "[data-src]", function (e) {
+var $this = $(this)
+  var src = $this.data("src")
+  playSrc(src, $this)
 
-		for(var i = 0; i < songs.length; i++) {
-			if(Number(songs[i].getAttribute('data-id')) === selected) {
-				songs[i].className = 'active';
-			} else {
-				songs[i].className = '';
-			}
-		}
-
-		if(play) {
-			radio.play();
-		}
-	} else {
-		radio.togglePlay();
-	}
-}
-
-function nextSong(e) {
-	var next = active + 1;
-
-	if(next < songs.length) {
-		setSource( getId(songs[next]), buildSource(songs[next]), true );
-	}
-}
-*/
+   e.preventDefault()
+   return false;
+})
