@@ -12,6 +12,10 @@
 <title>facebook</title>
 <path d="M14.984 0.187v4.125h-2.453c-1.922 0-2.281 0.922-2.281 2.25v2.953h4.578l-0.609 4.625h-3.969v11.859h-4.781v-11.859h-3.984v-4.625h3.984v-3.406c0-3.953 2.422-6.109 5.953-6.109 1.687 0 3.141 0.125 3.563 0.187z"></path>
 </symbol>
+<symbol id="icon-pause" viewBox="0 0 24 24">
+<title>pause</title>
+<path d="M14.016 5.016h3.984v13.969h-3.984v-13.969zM6 18.984v-13.969h3.984v13.969h-3.984z"></path>
+</symbol>
 <symbol id="icon-play_arrow" viewBox="0 0 24 24">
 <title>play_arrow</title>
 <path d="M8.016 5.016l10.969 6.984-10.969 6.984v-13.969z"></path>
@@ -19,6 +23,14 @@
 <symbol id="icon-call_made" viewBox="0 0 24 24">
 <title>call_made</title>
 <path d="M9 5.016h9.984v9.984h-1.969v-6.609l-11.625 11.625-1.406-1.406 11.625-11.625h-6.609v-1.969z"></path>
+</symbol>
+<symbol id="icon-arrow_back_ios" viewBox="0 0 24 24">
+<title>arrow_back_ios</title>
+<path d="M11.672 3.891l-8.109 8.109 8.109 8.109-1.781 1.781-9.891-9.891 9.891-9.891z"></path>
+</symbol>
+<symbol id="icon-arrow_forward_ios" viewBox="0 0 24 24">
+<title>arrow_forward_ios</title>
+<path d="M5.859 4.125l2.156-2.109 9.984 9.984-9.984 9.984-2.156-2.109 7.922-7.875z"></path>
 </symbol>
 <symbol id="icon-cannes-lions" viewBox="0 0 81 32">
 <title>cannes-lions</title>

@@ -78,7 +78,7 @@ layout: default
         <div class="small-12 medium-6 cell text-left medium-text-right">
           <div class="margin-bottom-1 mono-bold">Episodes:{{project.episodes }} — Run Time:{{project.run-time }}</div>
             <div>
-              <a href="{{project.listen}}" class="button hollow mono-bold">Listen <svg class="icon icon-play_arrow"><use xlink:href="/assets/icons/symbol-defs.svg#icon-play_arrow"></use></svg></a>
+              <button class="button hollow mono-bold" data-audio-title="{{project.title }}" data-src="/uploads/test-01.mp3">Listen <svg class="icon icon-play_arrow"><use xlink:href="/assets/icons/symbol-defs.svg#icon-play_arrow"></use></svg></button>
               <a href="{{project.link}}" class="button hollow mono-bold">Learn More <svg class="icon icon-call_made"><use xlink:href="/assets/icons/symbol-defs.svg#icon-call_made"></use></svg></a>
             </div>
         </div>

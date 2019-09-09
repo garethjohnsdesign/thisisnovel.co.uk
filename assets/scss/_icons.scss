@@ -33,3 +33,18 @@ Single-colored icons can be modified like so:
 .icon-play_arrow {
 //   font-size: 1rem;
 }
+
+.prev-audio-item {
+  transform: rotate(90deg);
+//   transform-origin: left top;
+}
+
+.next-audio-item {
+  transform: rotate(90deg);
+//   transform-origin: left top;
+}
+
+.play-audio-item {
+  transform: rotate(90deg);
+//   transform-origin: left top;
+}
