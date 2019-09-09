@@ -722,6 +722,94 @@
 		"oAP": "/build/_site",
 		"oF": 0
 		},
+	"/_uploads/01. Smells Like Teen Spirit.mp3": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_uploads/01. Smells Like Teen Spirit.mp3",
+		"oF": 0
+		},
+	"/_uploads/02. In Bloom.mp3": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_uploads/02. In Bloom.mp3",
+		"oF": 0
+		},
+	"/_uploads/03. Come as You Are.mp3": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_uploads/03. Come as You Are.mp3",
+		"oF": 0
+		},
+	"/_uploads/04. Breed.mp3": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_uploads/04. Breed.mp3",
+		"oF": 0
+		},
+	"/_uploads/05. Lithium.mp3": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_uploads/05. Lithium.mp3",
+		"oF": 0
+		},
+	"/_uploads/06. Polly.mp3": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_uploads/06. Polly.mp3",
+		"oF": 0
+		},
+	"/_uploads/07. Territorial Pissings.mp3": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_uploads/07. Territorial Pissings.mp3",
+		"oF": 0
+		},
+	"/_uploads/08. Drain You.mp3": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_uploads/08. Drain You.mp3",
+		"oF": 0
+		},
+	"/_uploads/09. Lounge Act.mp3": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_uploads/09. Lounge Act.mp3",
+		"oF": 0
+		},
+	"/_uploads/10. Stay Away.mp3": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_uploads/10. Stay Away.mp3",
+		"oF": 0
+		},
+	"/_uploads/11. On a Plain.mp3": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_uploads/11. On a Plain.mp3",
+		"oF": 0
+		},
 	"/_uploads/bellingcat.jpg": {
 		"ft": 16384,
 		"iS": 913948,
@@ -1044,6 +1132,16 @@
 		"oA": 2,
 		"oAP": "/assets/fonts/titling-gothic-wide-bold.woff2",
 		"oF": 0
+		},
+	"/assets/icons/symbol-defs.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/assets/icons/symbol-defs.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"/assets/img/logo.svg": {
 		"ft": 2097152,

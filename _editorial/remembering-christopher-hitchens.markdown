@@ -6,7 +6,7 @@ client: BBC Radio 4
 logo: radio-four
 episodes: 1
 run-time: 54 mins
-listen: https://www.bbc.co.uk/programmes/m0000xqs
+listen: "/uploads/03. Come as You Are.mp3"
 link: https://www.bbc.co.uk/programmes/m0000xqs
 is-highlight: true
 ---

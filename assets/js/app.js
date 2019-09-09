@@ -25,7 +25,6 @@ $( document ).foundation();
 // 2. Smooth Scroll
 // ----------------
 
-/*
 // Select all links with hashes
 $('a[href*="#"]')
   // Remove links that don't actually link to anything
@@ -62,7 +61,6 @@ $('a[href*="#"]')
       }
     }
   });
-*/
 
 // 2. Audio Player
 // ----------------
@@ -103,15 +101,15 @@ function playSrc (url, $source) {
       ]
   };
    
-  $("[data-src]").removeClass("audio-active");
-  $source.addClass("audio-active");
+  $("[data-src]").removeClass("secondary");
+  $source.addClass("secondary");
   player.play();
 }
 
 
 $(".home").on("click", ".plyr__control.next-audio-item", function () {
   var $allSources = $("[data-src")
-  var activeIndex = $allSources.index($(".audio-active[data-src]"))
+  var activeIndex = $allSources.index($(".secondary[data-src]"))
   var $next = $allSources.eq((activeIndex + 1) % $allSources.length)
   $next.click()
 })
@@ -119,13 +117,12 @@ $(".home").on("click", ".plyr__control.next-audio-item", function () {
 
 $(".home").on("click", ".plyr__control.prev-audio-item", function () {
   var $allSources = $("[data-src")
-  var activeIndex = $allSources.index($(".audio-active[data-src]"))
+  var activeIndex = $allSources.index($(".secondary[data-src]"))
   var $prev = $allSources.eq(activeIndex - 1)
   $prev.click()
 })
 
-$("[data-src]:first").addClass("audio-active");
-
+$("[data-src]:first").addClass("secondary");
 
 $(".home").on("click", "[data-src]", function (e) {
 var $this = $(this)
