@@ -7,3 +7,14 @@ header:
     url: "#branded"
   - title: Contact
     url: "#contact"
+
+footer:
+  - title: About
+    url: "#about"
+  - title: Editorial
+    url: "#editorial"
+  - title: Branded
+    url: "#branded"
+  - title: Contact
+    url: "#contact"
+
