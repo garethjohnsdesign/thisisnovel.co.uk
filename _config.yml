@@ -65,7 +65,7 @@ plugins:
 - jekyll/imgix
 company: Novel Ltd
 email: info@thisisnovel.co.uk
-analytics: 
+analytics: UA-148099552-1
 logo: "/assets/img/logo.svg"
 per_page: 12
 date_format: "%b %Y"
