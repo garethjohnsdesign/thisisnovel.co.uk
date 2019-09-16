@@ -6,7 +6,7 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="format-detection" content="telephone=no">
   
-  <title>{% if page.layout == 'home' %}{{ site.title }}{% else %}{{ page.title | escape }} — {{ site.title | escape }}{% endif %}</title>
+  <title>{% if page.layout == 'holding' %}{{ site.title }}{% else %}{{ page.title | escape }} — {{ site.title | escape }}{% endif %}</title>
   
   <link rel="stylesheet" type="text/css" href="{{ "/assets/css/app.css" | prepend: site.baseurl }}">
   
@@ -21,6 +21,8 @@
   <meta name="msapplication-config" content="/assets/favicons/browserconfig.xml">
   <meta name="theme-color" content="#0a0a0a">
 
+  <meta name="google-site-verification" content="t-NQd7ZnlNmSmOutMBeZfCUrpSWdUKcBzvC-INTTd3M" />
+
   {% seo title=false %}
 
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
@@ -33,7 +35,7 @@
   
   <!-- Google Analytics -->
   {% if site.analytics %}
-  {% include analytics.html %}
+  {% include site/analytics.html %}
   {% endif %}
   <!-- End Google Analytics -->
   
