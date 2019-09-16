@@ -724,6 +724,14 @@
 		"oAP": "/_layouts/default.html",
 		"oF": 0
 		},
+	"/_layouts/holding.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_layouts/holding.html",
+		"oF": 0
+		},
 	"/_layouts/home.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -754,92 +762,12 @@
 		"oAP": "/build/_site",
 		"oF": 0
 		},
-	"/_uploads/01. Smells Like Teen Spirit.mp3": {
+	"/_uploads/bellingcat-preview.mp3": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 2,
-		"oAP": "/_uploads/01. Smells Like Teen Spirit.mp3",
-		"oF": 0
-		},
-	"/_uploads/02. In Bloom.mp3": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/_uploads/02. In Bloom.mp3",
-		"oF": 0
-		},
-	"/_uploads/03. Come as You Are.mp3": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/_uploads/03. Come as You Are.mp3",
-		"oF": 0
-		},
-	"/_uploads/04. Breed.mp3": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/_uploads/04. Breed.mp3",
-		"oF": 0
-		},
-	"/_uploads/05. Lithium.mp3": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/_uploads/05. Lithium.mp3",
-		"oF": 0
-		},
-	"/_uploads/06. Polly.mp3": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/_uploads/06. Polly.mp3",
-		"oF": 0
-		},
-	"/_uploads/07. Territorial Pissings.mp3": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/_uploads/07. Territorial Pissings.mp3",
-		"oF": 0
-		},
-	"/_uploads/08. Drain You.mp3": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/_uploads/08. Drain You.mp3",
-		"oF": 0
-		},
-	"/_uploads/09. Lounge Act.mp3": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/_uploads/09. Lounge Act.mp3",
-		"oF": 0
-		},
-	"/_uploads/10. Stay Away.mp3": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/_uploads/10. Stay Away.mp3",
-		"oF": 0
-		},
-	"/_uploads/11. On a Plain.mp3": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/_uploads/11. On a Plain.mp3",
+		"oAP": "/_uploads/bellingcat-preview.mp3",
 		"oF": 0
 		},
 	"/_uploads/bellingcat.jpg": {
@@ -864,6 +792,22 @@
 		"opt": 1,
 		"q": 100
 		},
+	"/_uploads/cannes-lions-preview.mp3": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_uploads/cannes-lions-preview.mp3",
+		"oF": 0
+		},
+	"/_uploads/christopher-hitchens-preview.mp3": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_uploads/christopher-hitchens-preview.mp3",
+		"oF": 0
+		},
 	"/_uploads/contact.jpg": {
 		"ft": 16384,
 		"iS": 49024,
@@ -884,6 +828,14 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"/_uploads/political-butterfly-preview.mp3": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_uploads/political-butterfly-preview.mp3",
+		"oF": 0
 		},
 	"/_uploads/political-butterfly.jpg": {
 		"ft": 16384,
@@ -906,6 +858,14 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"/_uploads/premier-league-preview.mp3": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_uploads/premier-league-preview.mp3",
+		"oF": 0
 		},
 	"/_uploads/remembering-hitchens.jpg": {
 		"ft": 16384,
@@ -1936,14 +1896,6 @@
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
-		},
-	"/node_modules/plyr/dist/plyr.min.mjs": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/node_modules/plyr/dist/plyr.min.mjs",
-		"oF": 0
 		},
 	"/node_modules/swup/lib/index.js": {
 		"bF": 0,

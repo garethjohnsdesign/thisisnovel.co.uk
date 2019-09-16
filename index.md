@@ -21,6 +21,6 @@ branded-text: We help brands get heard. Novel delivers innovative branded conten
   Trust](https://www.princes-trust.org.uk), [Asda](https://www.asda.com) and many
   more brands eager to harness the power of audio.
 contact-text: Whatever the story you want to tell, we’d love to hear from you.
-layout: home
+layout: holding
 ---
 
