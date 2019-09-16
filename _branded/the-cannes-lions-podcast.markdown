@@ -1,7 +1,7 @@
 ---
 title: The Cannes Lions Podcast
 date: 2019-09-05 20:40:00 Z
-image: "/uploads/remembering-hitchens.jpg"
+image: "/uploads/cannes-lions.jpg"
 client: Cannes Lions
 logo: cannes-lions
 episodes: 5

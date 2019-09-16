@@ -1,9 +1,9 @@
 {% if projects.size > 0 %}
-<div class="archive padding-vertical-1 padding-horizontal-3">
+<div class="archive padding-vertical-3 padding-horizontal-3">
   <div class="grid-container">
     <div class="grid-x grid-padding-x grid-padding-y" data-aos="fade-in">
       <div class="small-12 medium-8 cell">
-        <div class="h2 sans-bold text-uppercase"><span class="underline">#0{{ section-number }}</span> <span class="underline">{{ section }} Archive</span></div>
+      <h3 class="text-uppercase sans-bold margin-bottom-3"><span class="underline">#0{{ section-number }}</span> <span class="underline">{{ section }} Archive</span></h3>
       </div>
     </div>
   </div>
@@ -12,12 +12,12 @@
   <div class="grid-container">
     <div class="grid-x grid-padding-x grid-padding-y" data-aos="fade-in">
 
-      <div class="small-12 medium-4 cell">
+      <div class="small-12 medium-6 cell">
         {% assign image = project.image %}
-        <div class="image--1-1" data-interchange="{% include images/interchange-img-small-12-medium-4-cell.html %}"></div>      
+        <div class="image--7-5" data-interchange="{% include images/interchange-img-small-12-medium-4-cell.html %}"></div>      
       </div>
 
-      <div class="small-12 medium-8 cell">
+      <div class="small-12 medium-6 cell">
         <div class="h2 margin-top-0">{{project.title }}</div>
         <div class="margin-bottom-2">{{project.content }}</div>
         <div class="margin-bottom-2 mono-bold">Episodes:{{project.episodes }} — Run Time:{{project.run-time }}</div>
@@ -46,12 +46,12 @@
   <div class="grid-container">
     <div class="grid-x grid-padding-x grid-padding-y" data-aos="fade-in">
 
-      <div class="small-12 medium-4 cell">
+      <div class="small-12 medium-6 cell">
         {% assign image = project.image %}
-        <div class="image--1-1" data-interchange="{% include images/interchange-img-small-12-medium-4-cell.html %}"></div>      
+        <div class="image--7-5" data-interchange="{% include images/interchange-img-small-12-medium-4-cell.html %}"></div>      
       </div>
 
-      <div class="small-12 medium-8 cell">
+      <div class="small-12 medium-6 cell">
         <div class="h2 margin-top-0">{{project.title }}</div>
         <div class="margin-bottom-2">{{project.content }}</div>
         <div class="margin-bottom-2 mono-bold">Episodes:{{project.episodes }} — Run Time:{{project.run-time }}</div>

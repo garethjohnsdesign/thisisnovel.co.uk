@@ -1,7 +1,7 @@
 ---
 title: Our Daily Bread
 date: 2019-09-05 20:27:00 Z
-image: "/uploads/bellingcat.jpg"
+image: "/uploads/our-daily-bread.jpg"
 client: BBC World Service
 episodes: 1
 run-time: 26 mins

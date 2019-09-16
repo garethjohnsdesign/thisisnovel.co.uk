@@ -1,7 +1,7 @@
 ---
 title: Dying Whispers
 date: 2019-09-05 15:37:00 Z
-image: "/uploads/bellingcat.jpg"
+image: "/uploads/dying-whispers.jpg"
 client: BBC World Service
 episodes: 1
 run-time: 28 mins

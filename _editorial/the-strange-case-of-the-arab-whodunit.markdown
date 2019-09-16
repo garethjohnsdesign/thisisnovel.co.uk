@@ -1,7 +1,7 @@
 ---
 title: The Strange Case of the Arab Whodunit
 date: 2019-09-05 15:20:00 Z
-image: "/uploads/bellingcat.jpg"
+image: "/uploads/the-arab.jpg"
 client: BBC Radio 4
 episodes: 1
 run-time: 28 mins

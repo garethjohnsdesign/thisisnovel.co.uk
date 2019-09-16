@@ -762,6 +762,28 @@
 		"oAP": "/build/_site",
 		"oF": 0
 		},
+	"/_uploads/angels-of-bayou.jpg": {
+		"ft": 16384,
+		"iS": 1132083,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/angels-of-bayou.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/_uploads/anita-hill.jpg": {
+		"ft": 16384,
+		"iS": 533980,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/anita-hill.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"/_uploads/bellingcat-preview.mp3": {
 		"cB": 0,
 		"ft": 8192,
@@ -769,6 +791,17 @@
 		"oA": 2,
 		"oAP": "/_uploads/bellingcat-preview.mp3",
 		"oF": 0
+		},
+	"/_uploads/bellingcat-rev.jpg": {
+		"ft": 16384,
+		"iS": 766128,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/bellingcat-rev.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
 		},
 	"/_uploads/bellingcat.jpg": {
 		"ft": 16384,
@@ -778,7 +811,7 @@
 		"oAP": "/_uploads/bellingcat.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/branded.jpg": {
@@ -800,6 +833,28 @@
 		"oAP": "/_uploads/cannes-lions-preview.mp3",
 		"oF": 0
 		},
+	"/_uploads/cannes-lions.jpg": {
+		"ft": 16384,
+		"iS": 814968,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/cannes-lions.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/_uploads/cannes-lions2.jpg": {
+		"ft": 16384,
+		"iS": 863986,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/cannes-lions2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"/_uploads/christopher-hitchens-preview.mp3": {
 		"cB": 0,
 		"ft": 8192,
@@ -819,6 +874,72 @@
 		"opt": 1,
 		"q": 100
 		},
+	"/_uploads/dying-whispers.jpg": {
+		"ft": 16384,
+		"iS": 659531,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/dying-whispers.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/economics-101.jpg": {
+		"ft": 16384,
+		"iS": 623275,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/economics-101.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/_uploads/fantasy-premier-league.jpg": {
+		"ft": 16384,
+		"iS": 222275,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/fantasy-premier-league.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/_uploads/five-green-bottles.jpg": {
+		"ft": 16384,
+		"iS": 1108011,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/five-green-bottles.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/_uploads/goliath.jpg": {
+		"ft": 16384,
+		"iS": 606237,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/goliath.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/_uploads/its-obscene.jpg": {
+		"ft": 16384,
+		"iS": 216412,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/its-obscene.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"/_uploads/logo.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -828,6 +949,28 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"/_uploads/murad-subay.jpg": {
+		"ft": 16384,
+		"iS": 809198,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/murad-subay.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/_uploads/our-daily-bread.jpg": {
+		"ft": 16384,
+		"iS": 457230,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/our-daily-bread.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
 		},
 	"/_uploads/political-butterfly-preview.mp3": {
 		"cB": 0,
@@ -845,7 +988,7 @@
 		"oAP": "/_uploads/political-butterfly.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/political-butterfly2.jpg": {
@@ -856,7 +999,7 @@
 		"oAP": "/_uploads/political-butterfly2.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/premier-league-preview.mp3": {
@@ -867,6 +1010,17 @@
 		"oAP": "/_uploads/premier-league-preview.mp3",
 		"oF": 0
 		},
+	"/_uploads/real-pretenders.jpg": {
+		"ft": 16384,
+		"iS": 302771,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/real-pretenders.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"/_uploads/remembering-hitchens.jpg": {
 		"ft": 16384,
 		"iS": 911141,
@@ -875,7 +1029,51 @@
 		"oAP": "/_uploads/remembering-hitchens.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/_uploads/right-click.jpg": {
+		"ft": 16384,
+		"iS": 439140,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/right-click.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/_uploads/rise-and-fall.jpg": {
+		"ft": 16384,
+		"iS": 1071897,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/rise-and-fall.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/_uploads/slaughter-of-innocents.jpg": {
+		"ft": 16384,
+		"iS": 206553,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/slaughter-of-innocents.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/_uploads/taliban.jpg": {
+		"ft": 16384,
+		"iS": 345254,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/taliban.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/test.jpg": {
@@ -886,7 +1084,18 @@
 		"oAP": "/_uploads/test.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/_uploads/the-arab.jpg": {
+		"ft": 16384,
+		"iS": 104099,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/the-arab.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/assets/css/app.css": {
@@ -1130,6 +1339,37 @@
 		"oA": 2,
 		"oAP": "/assets/fonts/titling-gothic-wide-bold.woff2",
 		"oF": 0
+		},
+	"/assets/icons/symbol-defs.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/assets/icons/symbol-defs.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/assets/img/logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/assets/img/logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/assets/img/og-image.png": {
+		"ft": 32768,
+		"iS": 29636,
+		"oA": 0,
+		"oAP": "/assets/img/og-image.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"/assets/js/app.js": {
 		"bF": 4,

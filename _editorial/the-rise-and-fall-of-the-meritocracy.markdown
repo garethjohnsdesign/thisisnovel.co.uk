@@ -1,7 +1,7 @@
 ---
 title: The Rise and Fall of the Meritocracy
 date: 2019-09-05 15:40:00 Z
-image: "/uploads/bellingcat.jpg"
+image: "/uploads/rise-and-fall.jpg"
 client: BBC Radio 4
 episodes: 1
 run-time: 28 mins

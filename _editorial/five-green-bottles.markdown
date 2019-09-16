@@ -1,7 +1,7 @@
 ---
 title: Five Green Bottles
 date: 2019-09-05 15:36:00 Z
-image: "/uploads/bellingcat.jpg"
+image: "/uploads/five-green-bottles.jpg"
 client: BBC Radio 4
 episodes: 5
 run-time: 14 mins
