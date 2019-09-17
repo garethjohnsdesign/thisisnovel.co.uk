@@ -1,7 +1,7 @@
 ---
 title: Communism's Forgotten Victims
 date: 2019-09-05 15:19:00 Z
-position: 10
+position: 11
 client: UnHerd
 episodes: 1
 run-time: 34 mins
