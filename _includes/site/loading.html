@@ -3,14 +3,22 @@
 <section class="grid-y grid-padding-y align-center hero" {% if image %}data-interchange="{% include images/interchange-img-small-12-medium-12-cell.html %}"{% endif %}>
   <div class="shrink cell">
     <div class="grid-container">
-      <div class="grid-x grid-padding-x grid-padding-y align-center">
+
+      <div class="grid-x grid-padding-x grid-padding-y align-center show-for-small-only">
+        <div class="small-10 medium-8 cell text-center aos-init aos-animate" data-aos="fade-in">
+          <h1 class="font-wide"><svg class="icon icon-logo-large"><use xlink:href="/assets/icons/symbol-defs.svg#icon-logo"></use></svg></h1>
+        </div>
+      </div>
+
+      <div class="grid-x grid-padding-x grid-padding-y align-center show-for-medium">
         <div class="small-12 cell text-center">
 
-<div class="ml3 text-lowercase sans-bold">
-  <span class="text-wrapper">
-    <span class="letters">{{site.title}}</span>
-  </span>
-</div>
+          <div class="ml3 text-lowercase sans-bold">
+            <span class="text-wrapper">
+              <span class="letters">{{site.title}}</span>
+            </span>
+          </div>
+
         </div>
       </div>
     </div>

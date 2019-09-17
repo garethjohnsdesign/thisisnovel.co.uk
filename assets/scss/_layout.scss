@@ -466,6 +466,9 @@ section {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50%;
+}
+
+.snapping {
   @include breakpoint(small) {
   padding: 2rem 1rem;
   }
@@ -473,15 +476,9 @@ section {
   padding: 2rem 2rem;
   }
   @include breakpoint(large) {
-  padding: 5rem 3rem;
+  padding: 3rem 5rem;
   }
 }
-
-/*
-.snapping {
-  scroll-snap-align: start;
-}
-*/
 
 $scrollhide-nav-transition-speed: 1s;
 

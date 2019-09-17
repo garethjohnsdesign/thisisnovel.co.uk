@@ -3,9 +3,8 @@ layout: default
 ---
 
 <!-- About -->
-{% assign image = page.about-image %}
 <section class="snapping grid-y grid-padding-y align-center about" id="about" {% if image %}data-interchange="{% include images/interchange-img-small-12-medium-12-cell.html %}"{% endif %}>
-  <div class="cell padding-horizontal-3">
+  <div class="cell">
     <div class="grid-container">
       <div class="grid-x grid-padding-x grid-padding-y">
         <div class="small-12 medium-10 large-10 cell" data-aos="fade-in">
@@ -16,9 +15,13 @@ layout: default
     </div>
   </div>
 
-<video id="video_background" preload="true" muted>
-<source src="uploads/background.mp4" type="video/mp4">
-</video>
+  <video class="show-for-small-only" autoplay muted playsinline>
+  <source src="uploads/background.mp4" type="video/mp4">
+  </video>
+  
+  <video class="show-for-medium" id="video_background" preload="true" muted playsinline>
+  <source src="uploads/background.mp4" type="video/mp4">
+  </video>
 
 </section>
 <!-- End About -->
@@ -26,7 +29,7 @@ layout: default
 <!-- Editorial -->
 {% assign image = page.editorial-image %}
 <section class="snapping grid-y grid-padding-y align-center editorial" id="editorial" {% if image %}data-interchange="{% include images/interchange-img-small-12-medium-12-cell.html %}"{% endif %}>
-  <div class="cell padding-horizontal-3">
+  <div class="cell">
     <div class="grid-container">
       <div class="grid-x grid-padding-x grid-padding-y">
         <div class="small-12 medium-10 large-10 cell" data-aos="fade-in">
@@ -54,7 +57,7 @@ layout: default
 <!-- Branded -->
 {% assign image = page.branded-image %}
 <section class="snapping grid-y grid-padding-y align-center" id="branded" {% if image %}data-interchange="{% include images/interchange-img-small-12-medium-12-cell.html %}"{% endif %}>
-  <div class="cell padding-horizontal-3"  data-aos="fade-in">
+  <div class="cell"  data-aos="fade-in">
     <div class="grid-container">
       <div class="grid-x grid-padding-x grid-padding-y">
         <div class="small-12 medium-10 large-10 cell">
@@ -82,7 +85,7 @@ layout: default
 <!-- Contact -->
 {% assign image = page.contact-image %}
 <section class="snapping grid-y grid-padding-y align-center contact" id="contact" {% if image %}data-interchange="{% include images/interchange-img-small-12-medium-12-cell.html %}"{% endif %}>
-  <div class="cell padding-horizontal-3" data-aos="fade-in">
+  <div class="cell" data-aos="fade-in">
     <div class="grid-container">
       <div class="grid-x grid-padding-x grid-padding-y">
         <div class="small-12 medium-8 cell h2">
