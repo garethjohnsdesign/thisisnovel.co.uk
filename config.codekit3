@@ -692,6 +692,14 @@
 		"oAP": "/_includes/site/header.html",
 		"oF": 0
 		},
+	"/_includes/site/loading copy.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_includes/site/loading copy.html",
+		"oF": 0
+		},
 	"/_includes/site/loading.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -2205,6 +2213,17 @@
 		"oAP": "/build/node_modules",
 		"oF": 0
 		},
+	"/node_modules/animejs/lib/anime.es.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/animejs/lib/min/anime.es-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"/node_modules/aos/dist/aos.js": {
 		"bF": 0,
 		"ft": 64,
@@ -2245,17 +2264,6 @@
 		"oA": 1,
 		"oAP": "/node_modules/plyr/dist/plyr.min.mjs",
 		"oF": 0
-		},
-	"/node_modules/swup/lib/index.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/node_modules/swup/lib/min/index-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
 		},
 	"/package.json": {
 		"ft": 524288,
