@@ -13,17 +13,17 @@
         <div class="h1">{{project.title }}</div>
       </div>
     </div>
-    <div class="grid-x grid-padding-x grid-padding-y">
+    <div class="grid-x grid-padding-x grid-padding-y align-justify">
       <div class="small-12 medium-6 cell description">
         {{project.content | markdownify }}
       </div>
-      <div class="small-12 medium-6 cell text-left medium-text-right">
+      <div class="small-12 medium-shrink cell text-left">
         <div class="margin-bottom-1 mono-bold">Episodes:{{project.episodes }} — Run Time:{{project.run-time }}</div>
           <div>
           {% if project.listen %}
-            <button class="button hollow mono-bold" data-audio-title="{{project.title}}" data-src="{{project.listen}}">Listen <span class="testing"><svg class="icon icon-play_arrow"><use xlink:href="/assets/icons/symbol-defs.svg#icon-play_arrow"></use></svg></span></button>
+            <button class="button clear" data-audio-title="{{project.title}}" data-src="{{project.listen}}"><svg class="icon icon-listen"><use xlink:href="/assets/icons/symbol-defs.svg#icon-listen"></use></svg></button>
           {% endif %}
-            <a href="{{project.link}}" class="button hollow mono-bold">Learn More <svg class="icon icon-call_made"><use xlink:href="/assets/icons/symbol-defs.svg#icon-call_made"></use></svg></a>
+            <a href="{{project.link}}" class="button clear"><svg class="icon icon-learn"><use xlink:href="/assets/icons/symbol-defs.svg#icon-learn"></use></svg></a>
           </div>
       </div>
     </div>

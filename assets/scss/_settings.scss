@@ -94,7 +94,7 @@ $foundation-palette: (
 */
 $foundation-palette: (
   primary: $white,
-  secondary: $black,
+  secondary: $dark-gray,
   success: #3adb76,
   warning: #ffae00,
   alert: #cc4b37,
@@ -354,6 +354,7 @@ $breadcrumbs-item-separator-color: $medium-gray;
 
 $button-font-family: inherit;
 $button-padding: 0.85em 1em;
+$button-padding: 0;
 $button-margin: 0 0 $global-margin 0;
 $button-fill: solid;
 $button-background: $primary-color;
@@ -373,8 +374,7 @@ $button-sizes: (
 $button-palette: $foundation-palette;
 $button-opacity-disabled: 0.25;
 $button-background-hover-lightness: -20%;
-// $button-hollow-hover-lightness: -50%;
-$button-hollow-hover-lightness: -100%;
+$button-hollow-hover-lightness: -50%;
 $button-transition: background-color 0.25s ease-out, color 0.25s ease-out;
 $button-responsive-expanded: false;
 
