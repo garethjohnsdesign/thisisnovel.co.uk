@@ -1,7 +1,7 @@
 ---
 title: Is the News Industry Undermining the West?
 date: 2019-09-05 15:26:00 Z
-position: 12
+position: 13
 client: UnHerd
 episodes: 1
 run-time: 31 mins
