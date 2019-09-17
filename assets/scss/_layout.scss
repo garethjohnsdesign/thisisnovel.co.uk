@@ -144,10 +144,12 @@ body {
   transition: background-color 400ms cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
+/*
 body {
   scroll-snap-type: y proximity;
   overflow-y: scroll;
 }
+*/
 
 svg {
   max-width: 100%;
@@ -475,9 +477,11 @@ section {
   }
 }
 
+/*
 .snapping {
   scroll-snap-align: start;
 }
+*/
 
 $scrollhide-nav-transition-speed: 1s;
 

@@ -61,6 +61,13 @@ motion-ui@~2.0.0:
   resolved "https://registry.yarnpkg.com/motion-ui/-/motion-ui-2.0.3.tgz#3a87f8fea4512d654c0822a0b346f23dadf0d0b7"
   integrity sha512-f9xzh/hbZTUYjk4M7y1aDcsiPTfqUbuvCv/+If05TSIBEJMu3hGBU+YSe9csQPP7WBBHXxjossEygM/TJo2enw==
 
+panelsnap@^1.3.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/panelsnap/-/panelsnap-1.3.0.tgz#21123139c0f0641b33127cfef8bb675fc01c40b7"
+  integrity sha512-nxX7oAMVU516lAN8CZZHuECaENI85qDRhgU0jIPxqeVssnfSPBvQhIqaCtCscw8H+wMjaeQBb5XGkqhUbhTAHA==
+  dependencies:
+    tweezer.js "^1.4.0"
+
 plyr@^3.5.6:
   version "3.5.6"
   resolved "https://registry.yarnpkg.com/plyr/-/plyr-3.5.6.tgz#1679d098af3fd0541bba62bc03f662f7c9ae6f2b"
@@ -81,6 +88,16 @@ scroll-snap@^2.0.4:
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/scroll-snap/-/scroll-snap-2.0.4.tgz#0387d78a1edb95792de5d5dcd8386d1f87153f77"
   integrity sha512-7EkOVqfiSK3bb6aZUlalWjoU+FT3muP+VZx0R04Et7cW0NYnAC8aN3PqwP6lf3OF6csly7zHbZ3jcmg67dcWBg==
+
+snapscroll@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/snapscroll/-/snapscroll-2.0.0.tgz#f99c80b32e92176c23fd3480145a5bd2a05e2a5b"
+  integrity sha512-WixBDVHeeZNqvKHG0pSHtGl+mf4sg+rAHeNn/4YAnvTI9un8S9eOOKtx7dQx9ATU30SkUwQYdkejwHu4GsR3BQ==
+
+tweezer.js@^1.4.0:
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/tweezer.js/-/tweezer.js-1.5.0.tgz#ca50ac5215022203fd3be4d28617e8e2305f5c0c"
+  integrity sha512-aSiJz7rGWNAQq7hjMK9ZYDuEawXupcCWgl3woQQSoDP2Oh8O4srWb/uO1PzzHIsrPEOqrjJ2sUb9FERfzuBabQ==
 
 url-polyfill@^1.1.5:
   version "1.1.7"

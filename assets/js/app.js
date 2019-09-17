@@ -6,7 +6,7 @@ import Foundation from 'foundation-sites';
 import anime from 'animejs/lib/anime.es.js';
 import AOS from 'aos';
 import Plyr from 'plyr';
-import ScrollSnap from 'scroll-snap'
+import PanelSnap from 'panelsnap';
 
 // 1. Special Queries
 // ------------------
@@ -201,3 +201,14 @@ video.addEventListener("canplay", function() {
     video.play();
   }, 3000);
 });
+
+var defaultOptions = {
+    container: document.body,
+    panelSelector: '.snapping',
+    directionThreshold: 50,
+    delay: 0,
+    duration: 300,
+    easing: function(t) { return t },
+  };
+
+new PanelSnap(defaultOptions);
