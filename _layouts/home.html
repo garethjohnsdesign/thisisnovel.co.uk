@@ -3,21 +3,17 @@ layout: default
 ---
 
 <!-- About -->
-<section class="snapping grid-y grid-padding-y align-right about" id="about" {% if image %}data-interchange="{% include images/interchange-img-small-12-medium-12-cell.html %}"{% endif %}>
-  <div class="cell">
+<section class="snapping grid-y grid-padding-y align-center about" id="about" {% if image %}data-interchange="{% include images/interchange-img-small-12-medium-12-cell.html %}"{% endif %}>
+  <div class="shrink cell">
     <div class="grid-container">
       <div class="grid-x grid-padding-x grid-padding-y">
         <div class="small-12 medium-10 large-10 cell" data-aos="fade-in">
-          <h4 class="text-uppercase sans-bold margin-bottom-3"><span class="underline show-for-medium margin-right-1">#01</span> <span class="underline">About</span></h4>
+<!--           <h4 class="text-uppercase sans-bold margin-bottom-3 show-for-medium"><span class="underline show-for-medium margin-right-1">#01</span> <span class="underline">About</span></h4> -->
           <h2>{{page.about-text}}</h2>
         </div>
       </div>
     </div>
   </div>
-
-  <video class="show-for-small-only" autoplay muted playsinline>
-  <source src="uploads/background.mp4" type="video/mp4">
-  </video>
   
   <video class="show-for-medium" id="video_background" preload="true" muted playsinline>
   <source src="uploads/background.mp4" type="video/mp4">
