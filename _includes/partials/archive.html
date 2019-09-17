@@ -3,7 +3,7 @@
   <div class="grid-container">
     <div class="grid-x grid-padding-x grid-padding-y" data-aos="fade-in">
       <div class="small-12 medium-8 cell">
-      <h4 class="text-uppercase sans-bold margin-bottom-3"><span class="underline show-for-medium margin-right-1">#0{{ section-number }}</span> <span class="underline">{{ section }} Archive</span></h4>
+      <h4 class="text-uppercase sans-bold margin-bottom-2"><span class="underline show-for-medium margin-right-1">#0{{ section-number }}</span> <span class="underline">{{ section }} Archive</span></h4>
       </div>
     </div>
   </div>
@@ -18,16 +18,27 @@
       </div>
 
       <div class="small-12 medium-6 cell">
+
+      <div class="grid-y align-justify" style="height: 100%">
+
+        <div class="shrink cell">
+
         <div class="h3 margin-top-0">{{project.title }}</div>
-        <div class="margin-bottom-2">{{project.content }}</div>
-        <div class="margin-bottom-2 mono-bold">Episodes:{{project.episodes }} — Run Time:{{project.run-time }}</div>
-        <div>
-        {% if project.listen %}
-        <button class="button hollow mono-bold" data-audio-title="{{project.title}}" data-src="{{project.listen}}">Listen <svg class="icon icon-play_arrow"><use xlink:href="/assets/icons/symbol-defs.svg#icon-play_arrow"></use></svg></button>
-        {% endif %}
-        <a href="{{project.link}}" class="button hollow mono-bold">Learn More <svg class="icon icon-call_made"><use xlink:href="/assets/icons/symbol-defs.svg#icon-call_made"></use></svg></a>
+        <div class="margin-bottom-1">{{project.content }}</div>
+        <div class="margin-bottom-1 mono-bold">Episodes:{{project.episodes }} — Run Time:{{project.run-time }}</div>
         </div>
+
+        <div class="shrink cell">
+        {% if project.listen %}
+        <button class="button hollow mono-bold margin-bottom-0" data-audio-title="{{project.title}}" data-src="{{project.listen}}">Listen <svg class="icon icon-play_arrow"><use xlink:href="/assets/icons/symbol-defs.svg#icon-play_arrow"></use></svg></button>
+        {% endif %}
+        <a href="{{project.link}}" class="button hollow mono-bold margin-bottom-0">Learn More <svg class="icon icon-call_made"><use xlink:href="/assets/icons/symbol-defs.svg#icon-call_made"></use></svg></a>
+        </div>
+
       </div>
+
+      </div>
+
     </div>
   </div>
   {% endfor %}
@@ -52,15 +63,23 @@
       </div>
 
       <div class="small-12 medium-6 cell">
+      <div class="grid-y" style="height: 100%">
+
+        <div class="auto cell">
+
         <div class="h3 margin-top-0">{{project.title }}</div>
-        <div class="margin-bottom-2 description">{{project.content }}</div>
-        <div class="margin-bottom-2 mono-bold">Episodes:{{project.episodes }} — Run Time:{{project.run-time }}</div>
-        <div>
-        {% if project.listen %}
-        <button class="button hollow mono-bold" data-audio-title="{{project.title}}" data-src="{{project.listen}}">Listen <svg class="icon icon-play_arrow"><use xlink:href="/assets/icons/symbol-defs.svg#icon-play_arrow"></use></svg></button>
-        {% endif %}
-        <a href="{{project.link}}" class="button hollow mono-bold">Learn More <svg class="icon icon-call_made"><use xlink:href="/assets/icons/symbol-defs.svg#icon-call_made"></use></svg></a>
+        <div class="margin-bottom-1">{{project.content }}</div>
+        <div class="margin-bottom-1 mono-bold">Episodes:{{project.episodes }} — Run Time:{{project.run-time }}</div>
         </div>
+
+        <div class="shrink cell">
+        {% if project.listen %}
+        <button class="button hollow mono-bold margin-bottom-0" data-audio-title="{{project.title}}" data-src="{{project.listen}}">Listen <svg class="icon icon-play_arrow"><use xlink:href="/assets/icons/symbol-defs.svg#icon-play_arrow"></use></svg></button>
+        {% endif %}
+        <a href="{{project.link}}" class="button hollow mono-bold margin-bottom-0">Learn More <svg class="icon icon-call_made"><use xlink:href="/assets/icons/symbol-defs.svg#icon-call_made"></use></svg></a>
+        </div>
+
+      </div>
       </div>
     </div>
   </div>

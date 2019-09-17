@@ -643,3 +643,21 @@ video {
   left: 0;
   z-index: -10;
 }
+
+header {
+  @include breakpoint(small) {
+  padding: 1rem;
+  }
+  @include breakpoint(medium) {
+  padding: 1.5rem;
+  }
+  @include breakpoint(large) {
+  padding: 2rem;
+  }
+}
+
+/*
+.testing {
+  border-left: 1px solid inherit;
+}
+*/

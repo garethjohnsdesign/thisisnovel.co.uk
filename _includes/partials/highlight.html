@@ -21,7 +21,7 @@
         <div class="margin-bottom-1 mono-bold">Episodes:{{project.episodes }} — Run Time:{{project.run-time }}</div>
           <div>
           {% if project.listen %}
-            <button class="button hollow mono-bold" data-audio-title="{{project.title}}" data-src="{{project.listen}}">Listen <svg class="icon icon-play_arrow"><use xlink:href="/assets/icons/symbol-defs.svg#icon-play_arrow"></use></svg></button>
+            <button class="button hollow mono-bold" data-audio-title="{{project.title}}" data-src="{{project.listen}}">Listen <span class="testing"><svg class="icon icon-play_arrow"><use xlink:href="/assets/icons/symbol-defs.svg#icon-play_arrow"></use></svg></span></button>
           {% endif %}
             <a href="{{project.link}}" class="button hollow mono-bold">Learn More <svg class="icon icon-call_made"><use xlink:href="/assets/icons/symbol-defs.svg#icon-call_made"></use></svg></a>
           </div>
