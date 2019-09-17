@@ -1110,12 +1110,12 @@
 		"opt": 1,
 		"q": 100
 		},
-	"/_uploads/Premier League Website Preview.mp3": {
+	"/_uploads/premier-league-preview.mp3": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 2,
-		"oAP": "/_uploads/Premier League Website Preview.mp3",
+		"oAP": "/_uploads/premier-league-preview.mp3",
 		"oF": 0
 		},
 	"/_uploads/real-pretenders-preview.mp3": {
@@ -1501,6 +1501,16 @@
 		"oA": 2,
 		"oAP": "/assets/fonts/titling-gothic-wide-bold.woff2",
 		"oF": 0
+		},
+	"/assets/icons/symbol-defs.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/assets/icons/symbol-defs.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"/assets/img/logo.svg": {
 		"ft": 2097152,
@@ -2287,17 +2297,6 @@
 		"oA": 1,
 		"oAP": "/node_modules/plyr/dist/plyr.min.mjs",
 		"oF": 0
-		},
-	"/node_modules/snapscroll/src/snapscroll.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/node_modules/snapscroll/src/min/snapscroll-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
 		},
 	"/node_modules/tweezer.js/dist/tweezer.module.js": {
 		"bF": 0,

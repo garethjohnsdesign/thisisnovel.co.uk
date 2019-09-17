@@ -6,7 +6,6 @@ client: AirBnB
 logo: airbnb
 episodes: 10
 run-time: Various
-listen: "/uploads/01. Smells Like Teen Spirit.mp3"
 link: https://www.google.com
 is-highlight: true
 ---
