@@ -3,7 +3,7 @@ title: Novel
 position: 0
 image: "/uploads/og-image.png"
 hero-image: 
-about-image: 
+about-image:
 branded-image: 
 contact-image: 
 about-text: This is Novel. A premium audio content company. Whether it’s compelling

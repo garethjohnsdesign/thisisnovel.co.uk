@@ -1,10 +1,10 @@
 {% for project in projects %}
 {% assign image = project.image %}
-<section class="grid-y grid-padding-y align-center" data-interchange="{% include images/interchange-img-small-12-medium-12-cell.html %}">
+<section class="grid-y grid-padding-y align-right" data-interchange="{% include images/interchange-img-small-12-medium-12-cell.html %}">
 <div class="cell padding-horizontal-3" data-aos="fade-in">
   <div class="grid-container">
     <div class="grid-x grid-padding-x grid-padding-y">
-      <div class="small-12 medium-8 cell">
+      <div class="small-12 medium-10 cell">
         {% if project.logo %}
         <div class="h3"><svg class="icon icon-{{project.logo}} icon-client"><use xlink:href="/assets/icons/symbol-defs.svg#icon-{{project.logo}}"></use></svg></div>
         {% else %}
@@ -14,8 +14,8 @@
       </div>
     </div>
     <div class="grid-x grid-padding-x grid-padding-y">
-      <div class="small-12 medium-6 cell">
-        {{project.content }}
+      <div class="small-12 medium-6 cell description">
+        {{project.content | markdownify }}
       </div>
       <div class="small-12 medium-6 cell text-left medium-text-right">
         <div class="margin-bottom-1 mono-bold">Episodes:{{project.episodes }} — Run Time:{{project.run-time }}</div>
