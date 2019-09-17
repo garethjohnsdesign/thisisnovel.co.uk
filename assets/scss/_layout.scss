@@ -146,6 +146,7 @@ body {
 
 body {
   scroll-snap-type: y proximity;
+  overflow-y: scroll;
 }
 
 svg {
@@ -460,11 +461,14 @@ $max_font: 64px;
 
 section {
 	min-height: 100vh;
-  scroll-snap-align: start;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50%;
   padding: 5rem 3rem;
+}
+
+.snapping {
+  scroll-snap-align: start;
 }
 
 $scrollhide-nav-transition-speed: 1s;

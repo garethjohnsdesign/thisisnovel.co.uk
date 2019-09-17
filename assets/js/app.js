@@ -6,6 +6,7 @@ import Foundation from 'foundation-sites';
 import anime from 'animejs/lib/anime.es.js';
 import AOS from 'aos';
 import Plyr from 'plyr';
+import ScrollSnap from 'scroll-snap'
 
 // 1. Special Queries
 // ------------------
