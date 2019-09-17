@@ -1,7 +1,7 @@
 ---
 title: Remembering Christopher Hitchens
 date: 2019-09-04 17:38:00 Z
-image: "/uploads/remembering-hitchens.jpg"
+image: "/uploads/remembering-hitchens-rev.jpg"
 client: BBC Radio 4
 logo: radio-four
 episodes: 1

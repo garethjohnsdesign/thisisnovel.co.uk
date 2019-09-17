@@ -6,7 +6,7 @@ client: The Premier League
 logo: premier-league
 episodes: 32
 run-time: Various
-listen: https://www.google.com
+listen: "/uploads/premier-league-preview.mp3"
 link: https://www.google.com
 is-highlight: true
 ---

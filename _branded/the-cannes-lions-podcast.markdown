@@ -6,6 +6,7 @@ client: Cannes Lions
 logo: cannes-lions
 episodes: 5
 run-time: Various
+listen: "/uploads/cannes-lions-preview.mp3"
 link: https://www.google.com
 is-highlight: true
 ---
