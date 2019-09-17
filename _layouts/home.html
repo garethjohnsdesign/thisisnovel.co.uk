@@ -3,12 +3,12 @@ layout: default
 ---
 
 <!-- About -->
-<section class="snapping grid-y grid-padding-y align-center about" id="about" {% if image %}data-interchange="{% include images/interchange-img-small-12-medium-12-cell.html %}"{% endif %}>
+<section class="snapping grid-y grid-padding-y align-right about" id="about" {% if image %}data-interchange="{% include images/interchange-img-small-12-medium-12-cell.html %}"{% endif %}>
   <div class="cell">
     <div class="grid-container">
       <div class="grid-x grid-padding-x grid-padding-y">
         <div class="small-12 medium-10 large-10 cell" data-aos="fade-in">
-          <h4 class="text-uppercase sans-bold margin-bottom-3"><span class="underline">#01</span> <span class="underline margin-left-1">About</span></h4>
+          <h4 class="text-uppercase sans-bold margin-bottom-3"><span class="underline show-for-medium margin-right-1">#01</span> <span class="underline">About</span></h4>
           <h2>{{page.about-text}}</h2>
         </div>
       </div>
@@ -33,7 +33,7 @@ layout: default
     <div class="grid-container">
       <div class="grid-x grid-padding-x grid-padding-y">
         <div class="small-12 medium-10 large-10 cell" data-aos="fade-in">
-          <h4 class="text-uppercase sans-bold margin-bottom-3"><span class="underline">#02</span> <span class="underline margin-left-1">Editorial</span></h4>
+          <h4 class="text-uppercase sans-bold margin-bottom-3"><span class="underline show-for-medium margin-right-1">#02</span> <span class="underline">Editorial</span></h4>
           <div class="h2">{{page.editorial-text | markdownify}}</div>
         </div>
       </div>
@@ -61,7 +61,7 @@ layout: default
     <div class="grid-container">
       <div class="grid-x grid-padding-x grid-padding-y">
         <div class="small-12 medium-10 large-10 cell">
-          <h4 class="text-uppercase sans-bold margin-bottom-3"><span class="underline">#03</span> <span class="underline margin-left-1">Branded</span></h4>
+          <h4 class="text-uppercase sans-bold margin-bottom-3"><span class="underline show-for-medium margin-right-1">#03</span> <span class="underline">Branded</span></h4>
           <h2>{{page.branded-text | markdownify}}</h2>
         </div>
       </div>
@@ -89,7 +89,7 @@ layout: default
     <div class="grid-container">
       <div class="grid-x grid-padding-x grid-padding-y">
         <div class="small-12 medium-8 cell h2">
-          <h4 class="text-uppercase sans-bold margin-bottom-3"><span class="underline">#04</span> <span class="underline margin-left-1">Contact</span></h4>
+          <h4 class="text-uppercase sans-bold margin-bottom-3"><span class="underline show-for-medium margin-right-1">#04</span> <span class="underline">Contact</span></h4>
           <div class="h2">{{page.contact-text | markdownify}}</div>
           <div><a href="mailto:{{site.email}}">{{site.email}}</a></div>
         </div>

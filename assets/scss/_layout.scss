@@ -465,19 +465,27 @@ section {
 	min-height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 50%;
+  background-position: 75% 50%;
 }
 
 .snapping {
   @include breakpoint(small) {
-  padding: 2rem 1rem;
+  padding: 5rem 1rem 2rem 1rem;
   }
   @include breakpoint(medium) {
   padding: 2rem 2rem;
   }
   @include breakpoint(large) {
-  padding: 3rem 5rem;
+  padding: 4rem 5rem;
   }
+}
+
+.navigation-small {
+  position: fixed;
+  z-index: 10;
+  right: 0;
+  top: 0;
+  left: 0;
 }
 
 $scrollhide-nav-transition-speed: 1s;
@@ -589,7 +597,15 @@ line-height: 1.6
 */
 
 h2 p {
-line-height: 1.2
+  @include breakpoint(small) {
+  line-height: 1.4
+  }
+  @include breakpoint(medium) {
+  line-height: 1.4
+  }
+  @include breakpoint(large) {
+  line-height: 1.2
+  }
 }
 
 .description p {

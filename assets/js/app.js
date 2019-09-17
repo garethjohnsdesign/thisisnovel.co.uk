@@ -128,19 +128,20 @@ $('a[href*="#"]')
 
 const controls = `
 <div class="plyr__controls">
-    <div class="plyr__control">
+    <div class="plyr__control show-for-medium">
       {title}
     </div>
-    <button type="button" class="plyr__control next-audio-item">
+    <button type="button" class="plyr__control next-audio-item show-for-medium">
         <svg class="icon icon-arrow_forward_ios"><use xlink:href="/assets/icons/symbol-defs.svg#icon-arrow_forward_ios"></use></svg>
     </button>
-    <button type="button" class="plyr__control prev-audio-item">
+    <button type="button" class="plyr__control prev-audio-item show-for-medium">
         <svg class="icon icon-arrow_back_ios"><use xlink:href="/assets/icons/symbol-defs.svg#icon-arrow_back_ios"></use></svg>
     </button>
     <button type="button" class="plyr__control play-audio-item" aria-label="Play, {title}" data-plyr="play">
         <svg class="icon--pressed icon icon-pause"><use xlink:href="/assets/icons/symbol-defs.svg#icon-pause"></use></svg>
         <svg class="icon--not-pressed icon icon-play_arrow"><use xlink:href="/assets/icons/symbol-defs.svg#icon-play_arrow"></use></svg>
     </button>
+    </div>
 </div>
 `;
 
@@ -194,6 +195,8 @@ var $this = $(this)
    return false;
 })
 
+// 2. Video Player
+// ----------------
 
 var video = document.getElementById("video_background");
 video.addEventListener("canplay", function() {
@@ -201,6 +204,9 @@ video.addEventListener("canplay", function() {
     video.play();
   }, 3000);
 });
+
+// 2. Snapping
+// ----------------
 
 var defaultOptions = {
     container: document.body,
@@ -212,3 +218,55 @@ var defaultOptions = {
   };
 
 new PanelSnap(defaultOptions);
+
+
+// 2. Audio Player Mobile
+// ----------------
+
+/*
+const playermobile = window.pl = new Plyr('#playermobile', {
+  controls
+});
+
+function playSrcMobile (url, $source) {
+  playermobile.source = {
+      type: 'audio',
+      title: $source.data("audio-title") || '',
+      sources: [
+        {
+            src: url,
+            type: ~url.indexOf(".ogg") ? "audio/ogg" : "audio/mp3"
+        }
+      ]
+  };
+   
+  $("[data-src]").removeClass("secondary");
+  $source.addClass("secondary");
+  playermobile.play();
+}
+
+
+$(".home").on("click", ".plyr__control.next-audio-item", function () {
+  var $allSources = $("[data-src")
+  var activeIndex = $allSources.index($(".secondary[data-src]"))
+  var $next = $allSources.eq((activeIndex + 1) % $allSources.length)
+  $next.click()
+})
+
+
+$(".home").on("click", ".plyr__control.prev-audio-item", function () {
+  var $allSources = $("[data-src")
+  var activeIndex = $allSources.index($(".secondary[data-src]"))
+  var $prev = $allSources.eq(activeIndex - 1)
+  $prev.click()
+})
+
+$(".home").on("click", "[data-src]", function (e) {
+var $this = $(this)
+  var src = $this.data("src")
+  playSrcMobile(src, $this)
+
+   e.preventDefault()
+   return false;
+})
+*/

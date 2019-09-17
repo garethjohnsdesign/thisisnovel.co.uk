@@ -41,11 +41,11 @@ Single-colored icons can be modified like so:
 }
 
 .icon-logo {
-  width: 5.7177734375em;
+  width: 4.388671875em;
 }
 
 .icon-logo {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .icon-logo-large {
@@ -54,18 +54,30 @@ Single-colored icons can be modified like so:
 }
 
 .prev-audio-item {
+  @include breakpoint(small) {
+  transform: rotate(0deg);
+  }
+  @include breakpoint(medium) {
   transform: rotate(90deg);
-//   transform-origin: left top;
+  }
 }
 
 .next-audio-item {
+  @include breakpoint(small) {
+  transform: rotate(0deg);
+  }
+  @include breakpoint(medium) {
   transform: rotate(90deg);
-//   transform-origin: left top;
+  }
 }
 
 .play-audio-item {
+  @include breakpoint(small) {
+  transform: rotate(0deg);
+  }
+  @include breakpoint(medium) {
   transform: rotate(90deg);
-//   transform-origin: left top;
+  }
 }
 
 .icon-socials {
