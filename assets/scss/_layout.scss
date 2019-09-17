@@ -393,26 +393,6 @@ footer {
 // 8. Home
 // -------	
 
-// 9. Hover Effect
-// ---------------
-
-.item {
-  cursor: pointer;
-}
-
-.tippy-tooltip.custom-theme {
-  background-color: transparent;
-  color: $black;
-}
-
-.tippy-tooltip.custom-theme[data-animatefill] {
-  background-color: transparent;
-}
-
-.tippy-tooltip.custom-theme .tippy-backdrop {
-  background-color: transparent;
-}
-
 
 // 10. Partials
 // ------------
@@ -482,17 +462,24 @@ section {
 	min-height: 100vh;
   scroll-snap-align: start;
   background-size: cover;
-//   background-attachment: fixed;
+  background-repeat: no-repeat;
   background-position: 50%;
-//   -webkit-transform: translate3d(0,0,0);
   padding: 5rem 0rem;
 }
 
-header {
+$scrollhide-nav-transition-speed: 1s;
+
+.scrollhide-nav {
   position: fixed;
+  z-index: 10;
+  right: 0;
   top: 0;
   left: 0;
-  z-index: 10
+  transition: transform $scrollhide-nav-transition-speed cubic-bezier(0.86, 0, 0.07, 1);
+
+  &.hidden {
+    transform: translateY(-100%);
+  }
 }
 
 .hero {
