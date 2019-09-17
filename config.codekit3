@@ -773,6 +773,14 @@
 		"opt": 1,
 		"q": 100
 		},
+	"/_uploads/angels-of-the-bayou-preview.mp3": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_uploads/angels-of-the-bayou-preview.mp3",
+		"oF": 0
+		},
 	"/_uploads/anita-hill.jpg": {
 		"ft": 16384,
 		"iS": 533980,
@@ -783,6 +791,14 @@
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
+		},
+	"/_uploads/arab-whodunnit-preview.mp3": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_uploads/arab-whodunnit-preview.mp3",
+		"oF": 0
 		},
 	"/_uploads/bellingcat-preview.mp3": {
 		"cB": 0,
@@ -874,6 +890,14 @@
 		"opt": 1,
 		"q": 100
 		},
+	"/_uploads/dying-whispers-preview.mp3": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_uploads/dying-whispers-preview.mp3",
+		"oF": 0
+		},
 	"/_uploads/dying-whispers.jpg": {
 		"ft": 16384,
 		"iS": 659531,
@@ -884,6 +908,14 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"/_uploads/economics-101-preview.mp3": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_uploads/economics-101-preview.mp3",
+		"oF": 0
 		},
 	"/_uploads/economics-101.jpg": {
 		"ft": 16384,
@@ -907,6 +939,14 @@
 		"opt": 1,
 		"q": 100
 		},
+	"/_uploads/five-green-bottles-preview.mp3": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_uploads/five-green-bottles-preview.mp3",
+		"oF": 0
+		},
 	"/_uploads/five-green-bottles.jpg": {
 		"ft": 16384,
 		"iS": 1108011,
@@ -918,6 +958,22 @@
 		"opt": 1,
 		"q": 100
 		},
+	"/_uploads/friends-and-foes-history-of-dimocracy-preview.mp3": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_uploads/friends-and-foes-history-of-dimocracy-preview.mp3",
+		"oF": 0
+		},
+	"/_uploads/goliath-how-monopolies-came-to-be-preview.mp3": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_uploads/goliath-how-monopolies-came-to-be-preview.mp3",
+		"oF": 0
+		},
 	"/_uploads/goliath.jpg": {
 		"ft": 16384,
 		"iS": 606237,
@@ -928,6 +984,14 @@
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
+		},
+	"/_uploads/its-obscene-preview.mp3": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_uploads/its-obscene-preview.mp3",
+		"oF": 0
 		},
 	"/_uploads/its-obscene.jpg": {
 		"ft": 16384,
@@ -950,6 +1014,14 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"/_uploads/murad-subay-preview.mp3": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_uploads/murad-subay-preview.mp3",
+		"oF": 0
+		},
 	"/_uploads/murad-subay.jpg": {
 		"ft": 16384,
 		"iS": 809198,
@@ -960,6 +1032,14 @@
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
+		},
+	"/_uploads/our-daily-bread-preview.mp3": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_uploads/our-daily-bread-preview.mp3",
+		"oF": 0
 		},
 	"/_uploads/our-daily-bread.jpg": {
 		"ft": 16384,
@@ -972,12 +1052,12 @@
 		"opt": 1,
 		"q": 100
 		},
-	"/_uploads/political-butterfly-preview.mp3": {
+	"/_uploads/political-butterfly-preview-updated.mp3": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 2,
-		"oAP": "/_uploads/political-butterfly-preview.mp3",
+		"oAP": "/_uploads/political-butterfly-preview-updated.mp3",
 		"oF": 0
 		},
 	"/_uploads/political-butterfly.jpg": {
@@ -1002,12 +1082,12 @@
 		"opt": 1,
 		"q": 100
 		},
-	"/_uploads/premier-league-preview.mp3": {
+	"/_uploads/real-pretenders-preview.mp3": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 2,
-		"oAP": "/_uploads/premier-league-preview.mp3",
+		"oAP": "/_uploads/real-pretenders-preview.mp3",
 		"oF": 0
 		},
 	"/_uploads/real-pretenders.jpg": {
@@ -1031,6 +1111,14 @@
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
+		},
+	"/_uploads/right-click-preview.mp3": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_uploads/right-click-preview.mp3",
+		"oF": 0
 		},
 	"/_uploads/right-click.jpg": {
 		"ft": 16384,
@@ -1065,6 +1153,14 @@
 		"opt": 1,
 		"q": 100
 		},
+	"/_uploads/slaughter-of-the-innocents-preview.mp3": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_uploads/slaughter-of-the-innocents-preview.mp3",
+		"oF": 0
+		},
 	"/_uploads/taliban.jpg": {
 		"ft": 16384,
 		"iS": 345254,
@@ -1097,6 +1193,14 @@
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
+		},
+	"/_uploads/the-rise-and-fall-of-the-meritocracy-preview.mp3": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_uploads/the-rise-and-fall-of-the-meritocracy-preview.mp3",
+		"oF": 0
 		},
 	"/assets/css/app.css": {
 		"aP": 0,

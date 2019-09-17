@@ -5,6 +5,7 @@ image: "/uploads/goliath.jpg"
 client: BBC Radio 4
 episodes: 1
 run-time: 28 mins
+listen: "/uploads/goliath-how-monopolies-came-to-be-preview.mp3"
 link: https://www.google.com
 ---
 

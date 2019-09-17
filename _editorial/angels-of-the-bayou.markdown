@@ -5,6 +5,7 @@ image: "/uploads/angels-of-bayou.jpg"
 client: BBC Radio 4
 episodes: 1
 run-time: 28 mins
+listen: "/uploads/angels-of-the-bayou-preview.mp3"
 link: https://www.google.com
 ---
 

@@ -5,6 +5,7 @@ image: "/uploads/bellingcat.jpg"
 client: BBC Radio 4
 episodes: 10
 run-time: 14 mins
+listen: "/uploads/five-green-bottles-preview.mp3"
 link: https://www.google.com
 ---
 

@@ -5,6 +5,7 @@ image: "/uploads/economics-101.jpg"
 client: BBC Radio 4
 episodes: 1
 run-time: 28 mins
+listen: "/uploads/economics-101-preview.mp3"
 link: https://www.google.com
 is-highlight: false
 ---

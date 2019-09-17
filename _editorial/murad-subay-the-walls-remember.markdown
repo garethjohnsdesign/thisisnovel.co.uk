@@ -5,6 +5,7 @@ image: "/uploads/bellingcat.jpg"
 client: BBC World Service
 episodes: 1
 run-time: 26 mins
+listen: "/uploads/murad-subay-preview.mp3"
 link: https://www.google.com
 ---
 

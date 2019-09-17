@@ -5,6 +5,7 @@ image: "/uploads/our-daily-bread.jpg"
 client: BBC World Service
 episodes: 1
 run-time: 26 mins
+listen: "/uploads/our-daily-bread-preview.mp3"
 link: https://www.google.com
 ---
 

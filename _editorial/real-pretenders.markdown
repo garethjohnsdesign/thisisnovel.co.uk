@@ -5,6 +5,7 @@ image: "/uploads/bellingcat.jpg"
 client: BBC Radio 3
 episodes: 1
 run-time: 57 mins
+listen: "/uploads/real-pretenders-preview.mp3"
 link: https://www.google.com
 ---
 

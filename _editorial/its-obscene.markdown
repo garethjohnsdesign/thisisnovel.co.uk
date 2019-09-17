@@ -5,6 +5,7 @@ image: "/uploads/its-obscene.jpg"
 client: BBC Radio 4
 episodes: 1
 run-time: 28 mins
+listen: "/uploads/its-obscene-preview.mp3"
 link: https://www.google.com
 ---
 

@@ -5,6 +5,7 @@ image: "/uploads/rise-and-fall.jpg"
 client: BBC Radio 4
 episodes: 1
 run-time: 28 mins
+listen: "/uploads/the-rise-and-fall-of-the-meritocracy-preview.mp3"
 link: https://www.google.com
 ---
 
