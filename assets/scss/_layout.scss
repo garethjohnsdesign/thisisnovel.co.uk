@@ -73,14 +73,15 @@
 // ----------
 
 .loader {
-    z-index: -1040;
+    z-index: 1040;
     position: fixed;
-    background: transparent;
+    background: $white;
+    color: $black;
     top: 0;
     left: 0;
     height: 100%;
     width: 100%; 
-    opacity: 0;
+    opacity: 1;
     visibility: visible; 
     transform: translateY(0%);
     transition: transform 800ms;

@@ -692,6 +692,14 @@
 		"oAP": "/_includes/site/header.html",
 		"oF": 0
 		},
+	"/_includes/site/loading.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_includes/site/loading.html",
+		"oF": 0
+		},
 	"/_includes/site/navigation.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -2197,17 +2205,6 @@
 		"oAP": "/build/node_modules",
 		"oF": 0
 		},
-	"/node_modules/@swup/body-class-plugin/lib/index.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/node_modules/@swup/body-class-plugin/lib/min/index-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
 	"/node_modules/aos/dist/aos.js": {
 		"bF": 0,
 		"ft": 64,
@@ -2240,6 +2237,14 @@
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
+		},
+	"/node_modules/plyr/dist/plyr.min.mjs": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/node_modules/plyr/dist/plyr.min.mjs",
+		"oF": 0
 		},
 	"/node_modules/swup/lib/index.js": {
 		"bF": 0,

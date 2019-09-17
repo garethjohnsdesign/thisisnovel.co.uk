@@ -4,8 +4,6 @@
 import $ from "jquery";
 import Foundation from 'foundation-sites';
 import AOS from 'aos';
-import Swup from 'swup';
-import SwupBodyClassPlugin from "@swup/body-class-plugin";
 import Plyr from 'plyr';
 
 // 1. Special Queries
@@ -20,6 +18,18 @@ Foundation.Interchange.SPECIAL_QUERIES[ "xxlarge-retina" ] = 'only screen and (m
 // -------------
 
 $( document ).foundation();
+
+// 1. Loader
+// ---------------
+
+if ($("body").hasClass("home")) {
+  $( ".loader" ).removeClass( "hide" );
+  $( ".loader" ).addClass( "loading" );
+  setTimeout( function() {
+  $( ".loader" ).addClass( "loaded" );
+  }, 2500 
+  );
+}
 
 // 8. Animate on Scroll
 // --------------------

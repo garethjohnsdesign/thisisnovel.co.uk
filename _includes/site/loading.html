@@ -1,0 +1,14 @@
+<!-- Hero -->
+{% assign image = page.hero-image %}
+<section class="grid-y grid-padding-y align-center hero" {% if image %}data-interchange="{% include images/interchange-img-small-12-medium-12-cell.html %}"{% endif %}>
+  <div class="cell">
+    <div class="grid-container">
+      <div class="grid-x grid-padding-x grid-padding-y align-center">
+        <div class="small-10 medium-8 cell text-center" data-aos="fade-in">
+          <svg class="icon icon-logo-large"><use xlink:href="/assets/icons/symbol-defs.svg#icon-logo"></use></svg>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Hero -->
