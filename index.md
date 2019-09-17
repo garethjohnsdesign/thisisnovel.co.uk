@@ -6,9 +6,9 @@ hero-image:
 about-image: 
 branded-image: 
 contact-image: 
-about-text: This is Novel. A premium audio content company. Whether it’s compelling
-  journalism, powerful podcasts or innovative branded content, we tell stories in
-  sound that make people listen.
+about-text: "This is Novel. \n\nA premium audio content company. \n\nWhether it’s
+  compelling journalism, powerful podcasts or innovative branded content, we tell
+  stories in sound that make people listen."
 editorial-text: |-
   Novel produces chart topping independent podcasts and award-winning content for leading broadcast networks and platforms, including the [BBC](https://www.bbc.co.uk), [Audible](https://www.audible.co.uk) and [Spotify](https://www.spotify.com/uk/).
 
