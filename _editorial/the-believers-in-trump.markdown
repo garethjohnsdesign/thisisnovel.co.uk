@@ -1,7 +1,7 @@
 ---
 title: The Believers in Trump
 date: 2019-09-05 15:40:00 Z
-position: 18
+position: 19
 image: "/uploads/trump.jpg"
 client: UnHerd
 episodes: 1
