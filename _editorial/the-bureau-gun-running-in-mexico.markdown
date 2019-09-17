@@ -1,7 +1,7 @@
 ---
 title: The Bureau - Gun Running in Mexico
 date: 2019-09-05 15:39:00 Z
-image: "/uploads/bellingcat.jpg"
+
 client: Audible
 episodes: 1
 run-time: 42 mins

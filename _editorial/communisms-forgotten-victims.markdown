@@ -1,7 +1,7 @@
 ---
 title: Communism's Forgotten Victims
 date: 2019-09-05 15:19:00 Z
-image: "/uploads/bellingcat.jpg"
+
 client: UnHerd
 episodes: 1
 run-time: 34 mins
