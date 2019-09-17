@@ -1,6 +1,7 @@
 ---
 title: Is the News Industry Undermining the West?
 date: 2019-09-05 15:26:00 Z
+published: false
 position: 21
 client: UnHerd
 episodes: 1
