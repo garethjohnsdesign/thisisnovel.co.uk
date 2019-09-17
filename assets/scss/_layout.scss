@@ -248,7 +248,7 @@ a {
 }
 
 .underline {
-  border-bottom: 3px solid get-color(primary);
+  border-bottom: 2px solid get-color(primary);
 }
 
 i, cite, em, var, address, dfn {
@@ -464,7 +464,15 @@ section {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50%;
+  @include breakpoint(small) {
+  padding: 2rem 1rem;
+  }
+  @include breakpoint(medium) {
+  padding: 2rem 2rem;
+  }
+  @include breakpoint(large) {
   padding: 5rem 3rem;
+  }
 }
 
 .snapping {
@@ -560,13 +568,17 @@ z-index: 21;
 }
 
 .about {
+/*
   background: rgb(251,81,49);
   background: linear-gradient(90deg, rgba(251,81,49,1) 19%, rgba(68,39,211,1) 100%);
+*/
 }
 
 .editorial {
+/*
 background: rgb(251,81,49);
 background: linear-gradient(-90deg, rgba(251,81,49,1) 19%, rgba(68,39,211,1) 100%);
+*/
 }
 
 /*
@@ -587,4 +599,14 @@ line-height: 1.6
 .ml3 {
   font-size: 120px;
   letter-spacing: -5px 
+}
+
+video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -10;
 }
