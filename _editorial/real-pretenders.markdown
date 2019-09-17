@@ -1,7 +1,7 @@
 ---
 title: Real Pretenders
 date: 2019-09-05 15:29:00 Z
-
+image: "/uploads/real-pretenders.jpg"
 client: BBC Radio 3
 episodes: 1
 run-time: 57 mins

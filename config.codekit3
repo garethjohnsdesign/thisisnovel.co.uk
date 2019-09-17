@@ -1099,6 +1099,17 @@
 		"oAP": "/_uploads/real-pretenders-preview.mp3",
 		"oF": 0
 		},
+	"/_uploads/real-pretenders.jpg": {
+		"ft": 16384,
+		"iS": 309271,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/real-pretenders.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/_uploads/remembering-hitchens-rev.jpg": {
 		"ft": 16384,
 		"iS": 269864,
@@ -1210,6 +1221,17 @@
 		"oA": 2,
 		"oAP": "/_uploads/the-rise-and-fall-of-the-meritocracy-preview.mp3",
 		"oF": 0
+		},
+	"/_uploads/trump.jpg": {
+		"ft": 16384,
+		"iS": 267577,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/trump.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"/assets/css/app.css": {
 		"aP": 0,
