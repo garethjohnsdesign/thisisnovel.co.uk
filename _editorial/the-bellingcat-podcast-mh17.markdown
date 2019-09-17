@@ -8,7 +8,7 @@ logo: radio-four
 episodes: 6
 run-time: Various
 listen: "/uploads/bellingcat-preview.mp3"
-link: https://www.bbc.co.uk/programmes/m0000xqs
+link: https://www.bellingcat.com/resources/podcasts/2019/07/17/mh17-episode-guide-1/
 is-highlight: true
 ---
 
