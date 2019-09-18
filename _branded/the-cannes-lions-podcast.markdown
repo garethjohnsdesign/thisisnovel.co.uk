@@ -1,5 +1,5 @@
 ---
-title: The Cannes Lions Podcast
+title: Cannes Lions
 date: 2019-09-05 20:40:00 Z
 position: 1
 image: "/uploads/cannes-lions-rev1.jpg"
