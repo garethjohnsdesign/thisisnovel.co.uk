@@ -1,5 +1,5 @@
 ---
-title: The Official Fantasy Premier League Podcast
+title: Fantasy Premier League
 date: 2019-09-05 20:40:00 Z
 position: 0
 image: "/uploads/premier-league.jpg"
