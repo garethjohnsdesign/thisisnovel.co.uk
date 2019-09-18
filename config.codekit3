@@ -846,6 +846,17 @@
 		"opt": 1,
 		"q": 100
 		},
+	"/_uploads/bellingcat-rev1.jpg": {
+		"ft": 16384,
+		"iS": 779652,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/bellingcat-rev1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/_uploads/bellingcat.jpg": {
 		"ft": 16384,
 		"iS": 721969,
@@ -866,6 +877,39 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
+		"q": 100
+		},
+	"/_uploads/butterfly-rev1.jpg": {
+		"ft": 16384,
+		"iS": 309622,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/butterfly-rev1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/butterfly-rev2-ddad36.jpg": {
+		"ft": 16384,
+		"iS": 381995,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/butterfly-rev2-ddad36.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/butterfly-rev2.jpg": {
+		"ft": 16384,
+		"iS": 250688,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/butterfly-rev2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"/_uploads/butterfly.jpg": {
@@ -1021,6 +1065,39 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
+		"q": 100
+		},
+	"/_uploads/hitchens-rev1-27c52c.jpg": {
+		"ft": 16384,
+		"iS": 370199,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/hitchens-rev1-27c52c.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/hitchens-rev1-f560e6.jpg": {
+		"ft": 16384,
+		"iS": 397354,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/hitchens-rev1-f560e6.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/hitchens-rev1.jpg": {
+		"ft": 16384,
+		"iS": 467737,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/hitchens-rev1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"/_uploads/its-obscene-preview.mp3": {
