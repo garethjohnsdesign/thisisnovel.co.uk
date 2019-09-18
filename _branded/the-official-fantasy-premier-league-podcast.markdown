@@ -1,7 +1,7 @@
 ---
 title: The Official Fantasy Premier League Podcast
 date: 2019-09-05 20:40:00 Z
-image: "/uploads/fantasy-premier-league.jpg"
+image: "/uploads/premier-league.jpg"
 client: The Premier League
 logo: premier-league
 episodes: 32
