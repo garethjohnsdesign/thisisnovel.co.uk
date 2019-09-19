@@ -21,6 +21,10 @@ Foundation.Interchange.SPECIAL_QUERIES[ "xxlarge-retina" ] = 'only screen and (m
 
 $( document ).foundation();
 
+
+// 1. Logo Animation
+// -----------------
+
 // Wrap every letter in a span
 var textWrapper = document.querySelector('.ml3');
 textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
@@ -195,15 +199,6 @@ var $this = $(this)
    return false;
 })
 
-// 2. Video Player
-// ----------------
-
-var video = document.getElementById("video_background");
-video.addEventListener("canplay", function() {
-  setTimeout(function() {
-    video.play();
-  }, 3000);
-});
 
 // 2. Snapping
 // ----------------
