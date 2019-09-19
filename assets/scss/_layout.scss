@@ -629,6 +629,7 @@ line-height: 1.6
   letter-spacing: -5px 
 }
 
+/*
 video {
   object-fit: cover;
   width: 100vw;
@@ -643,6 +644,7 @@ video {
   left: 0;
   z-index: -10;
 }
+*/
 
 header {
   @include breakpoint(small) {
