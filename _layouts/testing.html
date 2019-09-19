@@ -1,0 +1,98 @@
+---
+layout: default
+---
+
+<!-- About -->
+<section class="snapping grid-y grid-padding-y align-center about" id="about" {% if image %}data-interchange="{% include images/interchange-img-small-12-medium-12-cell.html %}"{% endif %}>
+  <div class="shrink cell">
+    <div class="grid-container">
+      <div class="grid-x grid-padding-x grid-padding-y">
+        <div class="small-12 medium-10 large-10 cell" data-aos="fade-in">
+<!--           <h4 class="text-uppercase sans-bold margin-bottom-3 show-for-medium"><span class="underline show-for-medium margin-right-1">#01</span> <span class="underline">About</span></h4> -->
+          <h2>{{page.about-text}}</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+<!--
+  <video class="show-for-medium" id="video_background" preload="true" muted playsinline>
+  <source src="uploads/background.mp4" type="video/mp4">
+  </video>
+-->
+
+</section>
+<!-- End About -->
+
+<!-- Editorial -->
+{% assign image = page.editorial-image %}
+<section class="snapping grid-y grid-padding-y align-center editorial" id="editorial" {% if image %}data-interchange="{% include images/interchange-img-small-12-medium-12-cell.html %}"{% endif %}>
+  <div class="cell">
+    <div class="grid-container">
+      <div class="grid-x grid-padding-x grid-padding-y">
+        <div class="small-12 medium-10 large-10 cell" data-aos="fade-in">
+          <h4 class="text-uppercase sans-bold margin-bottom-3"><span class="underline show-for-medium margin-right-1">#02</span> <span class="underline">Editorial Higlights</span></h4>
+          <div class="h2">{{page.editorial-text | markdownify}}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Editorial -->
+
+<!-- Editorial Highlights -->
+{% assign projects = site.editorial | sort: 'position' | where: "is-highlight", "true" %}
+{% include partials/highlight.html %}
+<!-- End Editorial Highlights -->
+
+<!-- Editorial Archive -->
+{% assign projects = site.editorial | sort: 'position' | where: "is-highlight", "false" %}
+{% assign section = "Editorial" %}
+{% assign section-number = "2" %}
+{% include partials/archive.html %}
+<!-- End Editorial Archive -->
+
+<!-- Branded -->
+{% assign image = page.branded-image %}
+<section class="snapping grid-y grid-padding-y align-center" id="branded" {% if image %}data-interchange="{% include images/interchange-img-small-12-medium-12-cell.html %}"{% endif %}>
+  <div class="cell"  data-aos="fade-in">
+    <div class="grid-container">
+      <div class="grid-x grid-padding-x grid-padding-y">
+        <div class="small-12 medium-10 large-10 cell">
+          <h4 class="text-uppercase sans-bold margin-bottom-3"><span class="underline show-for-medium margin-right-1">#03</span> <span class="underline">Branded</span></h4>
+          <h2>{{page.branded-text | markdownify}}</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Branded -->
+
+<!-- Branded Highlights -->
+{% assign projects = site.branded | sort: 'position' | where: "is-highlight", "true" %}
+{% include partials/highlight.html %}
+<!-- End Branded Highlights -->
+
+<!-- Branded Archive -->
+{% assign projects = site.branded | sort: 'position' | where: "is-highlight", "false" %}
+{% assign section = "Branded" %}
+{% assign section-number = "3" %}
+{% include partials/archive.html %}
+<!-- End Branded Archive -->
+
+<!-- Contact -->
+{% assign image = page.contact-image %}
+<section class="snapping grid-y grid-padding-y align-center contact" id="contact" {% if image %}data-interchange="{% include images/interchange-img-small-12-medium-12-cell.html %}"{% endif %}>
+  <div class="cell" data-aos="fade-in">
+    <div class="grid-container">
+      <div class="grid-x grid-padding-x grid-padding-y">
+        <div class="small-12 medium-8 cell h2">
+          <h4 class="text-uppercase sans-bold margin-bottom-3"><span class="underline show-for-medium margin-right-1">#04</span> <span class="underline">Contact</span></h4>
+          <div class="h2">{{page.contact-text | markdownify}}</div>
+          <div><a href="mailto:{{site.email}}">{{site.email}}</a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Contact -->
