@@ -6,7 +6,7 @@ hero-image:
 about-image: 
 branded-image: 
 contact-image: 
-about-text: "This is Novel. \n\nA premium audio content company. \n\nWhether it’s
+about-text: "Novel. \n\nA premium audio content company. \n\nWhether it’s
   compelling journalism, powerful podcasts or innovative branded content, we tell
   stories in sound that make people listen."
 editorial-text: |-
