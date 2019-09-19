@@ -770,6 +770,17 @@
 		"oAP": "/build/_site",
 		"oF": 0
 		},
+	"/_uploads/airbnb-rev1.jpg": {
+		"ft": 16384,
+		"iS": 157271,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/airbnb-rev1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/_uploads/airbnb.jpg": {
 		"ft": 16384,
 		"iS": 536819,
@@ -912,6 +923,28 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/_uploads/butterfly-rev3-2abd96.jpg": {
+		"ft": 16384,
+		"iS": 427578,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/butterfly-rev3-2abd96.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/butterfly-rev3.jpg": {
+		"ft": 16384,
+		"iS": 498667,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/butterfly-rev3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/_uploads/butterfly.jpg": {
 		"ft": 16384,
 		"iS": 366207,
@@ -930,6 +963,17 @@
 		"oA": 2,
 		"oAP": "/_uploads/cannes-lions-preview.mp3",
 		"oF": 0
+		},
+	"/_uploads/cannes-lions-rev1.jpg": {
+		"ft": 16384,
+		"iS": 747104,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/cannes-lions-rev1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"/_uploads/cannes-lions.jpg": {
 		"ft": 16384,
@@ -1138,6 +1182,17 @@
 		"opt": 1,
 		"q": 100
 		},
+	"/_uploads/og-image.png": {
+		"ft": 32768,
+		"iS": 29636,
+		"oA": 0,
+		"oAP": "/_uploads/og-image.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/_uploads/our-daily-bread-preview.mp3": {
 		"cB": 0,
 		"ft": 8192,
@@ -1194,6 +1249,17 @@
 		"oA": 2,
 		"oAP": "/_uploads/premier-league-preview.mp3",
 		"oF": 0
+		},
+	"/_uploads/premier-league.jpg": {
+		"ft": 16384,
+		"iS": 751394,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/premier-league.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"/_uploads/real-pretenders-preview.mp3": {
 		"cB": 0,
@@ -1601,7 +1667,7 @@
 		},
 	"/assets/img/og-image.png": {
 		"ft": 32768,
-		"iS": 29636,
+		"iS": 7357,
 		"oA": 0,
 		"oAP": "/assets/img/og-image.png",
 		"oF": 0,
@@ -2312,17 +2378,6 @@
 		"oAP": "/build/node_modules",
 		"oF": 0
 		},
-	"/node_modules/animejs/lib/anime.es.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/node_modules/animejs/lib/min/anime.es-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
 	"/node_modules/aos/dist/aos.js": {
 		"bF": 0,
 		"ft": 64,
@@ -2356,17 +2411,6 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"/node_modules/panelsnap/lib/panelsnap.esm.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/node_modules/panelsnap/lib/min/panelsnap.esm-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
 	"/node_modules/plyr/dist/plyr.min.mjs": {
 		"cB": 0,
 		"ft": 8192,
@@ -2374,17 +2418,6 @@
 		"oA": 1,
 		"oAP": "/node_modules/plyr/dist/plyr.min.mjs",
 		"oF": 0
-		},
-	"/node_modules/tweezer.js/dist/tweezer.module.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/node_modules/tweezer.js/dist/min/tweezer.module-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
 		},
 	"/package.json": {
 		"ft": 524288,
