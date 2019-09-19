@@ -537,6 +537,10 @@ background: linear-gradient(90deg, rgba(255,68,27,1) 0%, rgba(125,67,198,1) 100%
   background-color: $red
 }
 
+.archive {
+  background-color: $red
+}
+
 .editorial-archive {
   background-color: $red;
 }
@@ -547,6 +551,17 @@ background: linear-gradient(90deg, rgba(255,68,27,1) 0%, rgba(125,67,198,1) 100%
 
 .contact {
   background-color: brown
+}
+*/
+
+/*
+.archive {
+  background-color: $light-gray;
+  color: $black;
+  @include links ($black, $medium-gray);
+  .button.clear {
+  color: $black;
+  }
 }
 */
 
