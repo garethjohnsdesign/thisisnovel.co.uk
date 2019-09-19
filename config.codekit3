@@ -1411,6 +1411,14 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/assets/animation/burger.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/assets/animation/burger-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
 	"/assets/css/app.css": {
 		"aP": 0,
 		"bl": 0,

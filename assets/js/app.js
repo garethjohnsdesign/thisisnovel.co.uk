@@ -8,6 +8,7 @@ import AOS from 'aos';
 import Plyr from 'plyr';
 import PanelSnap from 'panelsnap';
 
+
 // 1. Special Queries
 // ------------------
 
@@ -25,6 +26,7 @@ $( document ).foundation();
 // 1. Logo Animation
 // -----------------
 
+/*
 // Wrap every letter in a span
 var textWrapper = document.querySelector('.ml3');
 textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
@@ -43,6 +45,7 @@ anime.timeline({loop: false})
     easing: "easeOutExpo",
     delay: 1000
   });
+*/
 
 
 // 1. Loader
