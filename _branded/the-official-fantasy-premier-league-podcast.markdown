@@ -2,13 +2,13 @@
 title: Fantasy Premier League
 date: 2019-09-05 20:40:00 Z
 position: 0
-image: "/uploads/premier-league.jpg"
+image: "/uploads/premier-284a69.jpg"
 client: The Premier League
 logo: premier-league
 episodes: 32
 run-time: Various
 listen: "/uploads/premier-league-preview.mp3"
-link: https://www.google.com
+link: https://podcasts.apple.com/us/podcast/the-official-fantasy-premier-league-podcast/id1475466071
 is-highlight: true
 ---
 
