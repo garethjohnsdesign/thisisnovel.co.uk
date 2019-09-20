@@ -8,7 +8,7 @@ logo: radio-four
 episodes: 6
 run-time: Various
 listen: "/uploads/bellingcat-preview.mp3"
-link: https://www.bellingcat.com/resources/podcasts/2019/07/17/mh17-episode-guide-1/
+link: https://podcasts.apple.com/gb/podcast/the-bellingcat-podcast/id1472354896
 is-highlight: true
 ---
 
