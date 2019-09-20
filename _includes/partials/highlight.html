@@ -1,6 +1,15 @@
 {% for project in projects %}
 {% assign image = project.image %}
-<section class="snapping grid-y grid-padding-y align-right" data-interchange="{% include images/interchange-img-small-12-medium-12-cell.html %}">
+<section class="snapping grid-y grid-padding-y align-justify" data-interchange="{% include images/interchange-img-small-12-medium-12-cell.html %}">
+<div class="cell" data-aos="fade-in">
+  <div class="grid-container">
+    <div class="grid-x grid-padding-x grid-padding-y">
+    <div class="small-12 cell">
+    <h4 class="text-uppercase sans-bold margin-bottom-3"><span class="underline show-for-medium margin-right-1">#0{{ section-number }}</span> <span class="underline">{{ section }} Highlight</span></h4>
+    </div>
+    </div>
+  </div>
+</div>
 <div class="cell" data-aos="fade-in">
   <div class="grid-container">
     <div class="grid-x grid-padding-x grid-padding-y">

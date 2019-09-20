@@ -8,7 +8,11 @@
         <div class="grid-y align-center" style="height: 100%">
 
         <div class="shrink cell text-center">
-        {{project.client}}
+        {% if project.logo %}
+        <div><svg class="icon icon-{{project.logo}} icon-client"><use xlink:href="/assets/icons/symbol-defs.svg#icon-{{project.logo}}"></use></svg></div>
+        {% else %}
+        <div class="h5">{{project.client }}</div>
+        {% endif %}
         </div>
 
         </div>

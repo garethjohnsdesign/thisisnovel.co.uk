@@ -4,6 +4,7 @@ date: 2019-09-05 20:25:00 Z
 position: 15
 image: "/uploads/goliath.jpg"
 client: BBC Radio 4
+logo: radio-four
 episodes: 1
 run-time: 28 mins
 listen: "/uploads/goliath-how-monopolies-came-to-be-preview.mp3"

@@ -4,6 +4,7 @@ date: 2019-09-05 15:20:00 Z
 position: 4
 image: "/uploads/the-arab.jpg"
 client: BBC Radio 4
+logo: radio-four
 episodes: 1
 run-time: 28 mins
 listen: "/uploads/arab-whodunnit-preview.mp3"

@@ -4,6 +4,7 @@ date: 2019-09-05 15:21:00 Z
 position: 5
 image: "/uploads/slaughter-of-innocents.jpg"
 client: BBC Radio 4
+logo: radio-four
 episodes: 1
 run-time: 28 mins
 listen: "/uploads/slaughter-of-the-innocents-preview.mp3"

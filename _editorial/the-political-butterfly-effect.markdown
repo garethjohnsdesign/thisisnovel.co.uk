@@ -5,6 +5,7 @@ position: 0
 image: "/uploads/butterfly-rev3-2abd96.jpg"
 client: BBC Radio 4
 logo: radio-four
+logo: radio-four
 episodes: 5
 run-time: 14 mins
 listen: "/uploads/political-butterfly-preview-updated.mp3"

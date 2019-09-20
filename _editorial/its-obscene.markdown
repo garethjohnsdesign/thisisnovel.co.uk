@@ -4,6 +4,7 @@ date: 2019-09-05 15:42:00 Z
 position: 12
 image: "/uploads/its-obscene.jpg"
 client: BBC Radio 4
+logo: radio-four
 episodes: 1
 run-time: 28 mins
 listen: "/uploads/its-obscene-preview.mp3"
