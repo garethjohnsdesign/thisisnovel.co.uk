@@ -2,11 +2,6 @@
 # yarn lockfile v1
 
 
-animejs@^3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/animejs/-/animejs-3.1.0.tgz#748a90fc1d4bef3efed64508af9a6a82babf5c47"
-  integrity sha512-BjnCroPPQPEAngT0M89pz9TBcOGgOFLnVoq3+jV2upl4rn60k57/AXvESTnuILsNgOEjGuhMEOMp7IlQzk40kA==
-
 aos@^2.3.4:
   version "2.3.4"
   resolved "https://registry.yarnpkg.com/aos/-/aos-2.3.4.tgz#eb1c29f5c1806a197cf6323080747547edd3db8e"
@@ -88,16 +83,6 @@ rangetouch@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/rangetouch/-/rangetouch-2.0.0.tgz#5459cdb38b929326c5484ab47aac9632fbe3a896"
   integrity sha512-y66wTFbwh7KafYligRsmIYYR1kZY8U9tGHH9PgbVhBUFmGzPMsOSjslXPedgR5D3M9W1QKVbAf1AtaVAt7JJTw==
-
-scroll-snap@^2.0.4:
-  version "2.0.4"
-  resolved "https://registry.yarnpkg.com/scroll-snap/-/scroll-snap-2.0.4.tgz#0387d78a1edb95792de5d5dcd8386d1f87153f77"
-  integrity sha512-7EkOVqfiSK3bb6aZUlalWjoU+FT3muP+VZx0R04Et7cW0NYnAC8aN3PqwP6lf3OF6csly7zHbZ3jcmg67dcWBg==
-
-snapscroll@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/snapscroll/-/snapscroll-2.0.0.tgz#f99c80b32e92176c23fd3480145a5bd2a05e2a5b"
-  integrity sha512-WixBDVHeeZNqvKHG0pSHtGl+mf4sg+rAHeNn/4YAnvTI9un8S9eOOKtx7dQx9ATU30SkUwQYdkejwHu4GsR3BQ==
 
 tweezer.js@^1.4.0:
   version "1.5.0"
