@@ -5,7 +5,6 @@ position: 2
 image: "/uploads/hitchens-rev1-f560e6.jpg"
 client: BBC Radio 4
 logo: radio-four
-logo: radio-four
 episodes: 1
 run-time: 54 mins
 listen: "/uploads/christopher-hitchens-preview.mp3"
