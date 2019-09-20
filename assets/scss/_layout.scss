@@ -92,9 +92,9 @@
     opacity: 1;
   }
   &.loaded {
-    z-index: 0;
-    transition: opacity 800ms;
-    transition-delay: 800ms;
+    z-index: 19;
+    transition: opacity 500ms;
+    transition-delay: 1500ms;
     opacity: 0;
   }
 }
