@@ -498,6 +498,18 @@ section {
   }
 }
 
+.non-snapping {
+  @include breakpoint(small) {
+  padding: 2rem 1rem 2rem 1rem;
+  }
+  @include breakpoint(medium) {
+  padding: 2rem 4rem;
+  }
+  @include breakpoint(large) {
+  padding: 4rem 5rem;
+  }
+}
+
 .navigation-small {
   position: fixed;
   z-index: 10;
