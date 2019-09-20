@@ -1,0 +1,57 @@
+  <div class="grid-container">
+    <div class="grid-x grid-padding-x grid-padding-y" data-aos="fade-in">
+
+      <div class="small-12 large-4 cell">
+        {% assign image = project.image %}
+        <div class="image--16-9" data-interchange="{% include images/interchange-img-small-12-medium-4-cell.html %}">
+        <div class="content">
+        <div class="grid-y align-center" style="height: 100%">
+
+        <div class="shrink cell text-center">
+        {{project.client}}
+        </div>
+
+        </div>
+        </div>
+
+        </div>      
+      </div>
+
+      <div class="small-12 large-5 cell">
+
+      <div class="grid-y align-justify" style="height: 100%">
+
+        <div class="shrink cell">
+
+        <div class="h3 margin-top-0">{{project.title }}</div>
+  
+        </div>
+        
+        <div class="shrink cell">
+        <div class="margin-bottom-1">{{project.content | markdownify }}</div>
+        </div>
+
+      </div>
+
+      </div>
+
+      <div class="small-12 large-3 cell">
+
+      <div class="grid-y align-justify" style="height: 100%">
+        <div class="shrink cell">
+          <div class="margin-bottom-0 mono-bold">Episodes:{{project.episodes }}</div>
+          <div class="margin-bottom-1 mono-bold">Run Time:{{project.run-time }}</div>
+        </div>
+
+        <div class="shrink cell">
+          {% if project.listen %}
+            <button class="button clear" data-audio-title="{{project.title}}" data-src="{{project.listen}}"><svg class="icon icon-listen-small"><use xlink:href="/assets/icons/symbol-defs.svg#icon-listen-small"></use></svg></button>
+          {% endif %}
+            <a href="{{project.link}}" class="button clear"><svg class="icon icon-link-small"><use xlink:href="/assets/icons/symbol-defs.svg#icon-link-small"></use></svg></a>
+        </div>
+      </div>
+          
+      </div>
+
+    </div>
+  </div>

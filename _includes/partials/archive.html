@@ -9,40 +9,7 @@
   </div>
 
   {% for project in projects limit:5 %}
-  <div class="grid-container">
-    <div class="grid-x grid-padding-x grid-padding-y" data-aos="fade-in">
-
-      <div class="small-12 medium-4 cell">
-        {% assign image = project.image %}
-        <div class="image--7-5" data-interchange="{% include images/interchange-img-small-12-medium-4-cell.html %}"></div>      
-      </div>
-
-      <div class="small-12 medium-6 cell">
-
-      <div class="grid-y align-justify" style="height: 100%">
-
-        <div class="shrink cell">
-
-        <div class="h3 margin-top-0">{{project.title }}</div>
-        <div class="margin-bottom-1">{{project.content }}</div>
-        <div class="margin-bottom-1 mono-bold">Episodes:{{project.episodes }} — Run Time:{{project.run-time }}</div>
-        </div>
-
-        <div class="shrink cell">
-          <div>
-          {% if project.listen %}
-            <button class="button clear" data-audio-title="{{project.title}}" data-src="{{project.listen}}"><svg class="icon icon-listen"><use xlink:href="/assets/icons/symbol-defs.svg#icon-listen"></use></svg></button>
-          {% endif %}
-            <a href="{{project.link}}" class="button clear"><svg class="icon icon-learn"><use xlink:href="/assets/icons/symbol-defs.svg#icon-learn"></use></svg></a>
-          </div>
-        </div>
-
-      </div>
-
-      </div>
-
-    </div>
-  </div>
+  {% include partials/project.html %}
   {% endfor %}
 
   {% if projects.size > 5 %}
@@ -56,37 +23,7 @@
 
   <div class="read-more-content" id="read-more-content" data-toggler data-animate="fade-in fade-out">
   {% for project in projects offset:5 %}
-  <div class="grid-container">
-    <div class="grid-x grid-padding-x grid-padding-y" data-aos="fade-in">
-
-      <div class="small-12 medium-4 cell">
-        {% assign image = project.image %}
-        <div class="image--7-5" data-interchange="{% include images/interchange-img-small-12-medium-4-cell.html %}"></div>      
-      </div>
-
-      <div class="small-12 medium-6 cell">
-      <div class="grid-y" style="height: 100%">
-
-        <div class="auto cell">
-
-        <div class="h3 margin-top-0">{{project.title }}</div>
-        <div class="margin-bottom-1">{{project.content }}</div>
-        <div class="margin-bottom-1 mono-bold">Episodes:{{project.episodes }} — Run Time:{{project.run-time }}</div>
-        </div>
-
-        <div class="shrink cell">
-          <div>
-          {% if project.listen %}
-            <button class="button clear" data-audio-title="{{project.title}}" data-src="{{project.listen}}"><svg class="icon icon-listen"><use xlink:href="/assets/icons/symbol-defs.svg#icon-listen"></use></svg></button>
-          {% endif %}
-            <a href="{{project.link}}" class="button clear"><svg class="icon icon-learn"><use xlink:href="/assets/icons/symbol-defs.svg#icon-learn"></use></svg></a>
-          </div>
-        </div>
-
-      </div>
-      </div>
-    </div>
-  </div>
+  {% include partials/project.html %}
   {% endfor %}
   </div>
   {% endif %}
