@@ -8,7 +8,7 @@ logo: radio-four
 episodes: 5
 run-time: 14 mins
 listen: "/uploads/political-butterfly-preview-updated.mp3"
-link: https://podcasts.apple.com/gb/podcast/the-official-fantasy-premier-league-podcast/id1475466071
+link: https://www.bbc.co.uk/programmes/m00082dd
 is-highlight: true
 ---
 
