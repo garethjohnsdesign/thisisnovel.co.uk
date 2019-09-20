@@ -8,6 +8,7 @@
     "email": "info@garethjohnsdesign.com"
   },
   "dependencies": {
+    "@lottiefiles/lottie-player": "^0.2.0",
     "aos": "^2.3.4",
     "foundation-sites": "^6.5.1",
     "jquery": ">=3.0.0",

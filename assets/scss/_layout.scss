@@ -87,17 +87,14 @@
     width: 100%; 
     opacity: 1;
     visibility: visible; 
-    transform: translateY(0%);
-    transition: transform 800ms;
-    transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
     overflow: hidden;
   &.loading {
     opacity: 1;
   }
   &.loaded {
-    transform: translateY(-100%);
-    transition: transform 800ms;
-    transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: opacity 800ms;
+    transition-delay: 800ms;
+    opacity: 0;
   }
 }
 
@@ -145,10 +142,15 @@ body {
 //   text-transform: lowercase;
 }
 
-body[data-aos-duration='4000'] [data-aos],
-  [data-aos][data-aos][data-aos-duration='4000'] {
-    transition-duration: 4000ms;
+body[data-aos-delay='custom'] [data-aos],
+[data-aos][data-aos][data-aos-delay='custom']{
+    transition-delay: 0s;
+  
+  &.aos-animate {
+    transition-delay: 4000ms;
   }
+}
+
 
 /*
 body {
@@ -702,4 +704,14 @@ header {
 .contact {
   background: rgb(251,81,49);
   background: linear-gradient(90deg, rgba(251,81,49,1) 19%, rgba(68,39,211,1) 100%);
+  position: relative;
+}
+
+.contact-animation {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
 }

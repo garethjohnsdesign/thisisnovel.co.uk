@@ -2392,6 +2392,17 @@
 		"oAP": "/build/node_modules",
 		"oF": 0
 		},
+	"/node_modules/@lottiefiles/lottie-player/dist/lottie-player.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/@lottiefiles/lottie-player/dist/min/lottie-player-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"/node_modules/aos/dist/aos.js": {
 		"bF": 0,
 		"ft": 64,
@@ -2421,6 +2432,17 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "/node_modules/jquery/dist/min/jquery-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/lottie-web/./build/player/lottie.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/lottie-web/./build/player/min/lottie-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
