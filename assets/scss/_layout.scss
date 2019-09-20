@@ -73,7 +73,7 @@
 // ----------
 
 .loader {
-    z-index: 1040;
+    z-index: 19;
     position: absolute;
 //     background: $black;
 /*
@@ -258,11 +258,18 @@ a {
 }
 
 .underline {
+    transition: border-bottom .35s cubic-bezier(.39, .575, .565, 1);
   @include breakpoint(small) {
     border-bottom: 1px solid get-color(primary);
+    &:hover {
+    border-bottom: 1px solid transparent;   
+    }
   }
   @include breakpoint(medium) {
     border-bottom: 2px solid get-color(primary);
+    &:hover {
+    border-bottom: 2px solid transparent;   
+    }
   }
 }
 

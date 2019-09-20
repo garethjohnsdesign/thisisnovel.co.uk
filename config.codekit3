@@ -1669,6 +1669,16 @@
 		"oAP": "/assets/fonts/titling-gothic-wide-bold.woff2",
 		"oF": 0
 		},
+	"/assets/icons/symbol-defs.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/assets/icons/symbol-defs.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"/assets/img/logo.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -1719,17 +1729,6 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "/assets/js/min/min/svgxuse-min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/assets/js/scroll-snap.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/assets/js/min/scroll-snap-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -2392,17 +2391,6 @@
 		"oAP": "/build/node_modules",
 		"oF": 0
 		},
-	"/node_modules/@lottiefiles/lottie-player/dist/lottie-player.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/node_modules/@lottiefiles/lottie-player/dist/min/lottie-player-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
 	"/node_modules/aos/dist/aos.js": {
 		"bF": 0,
 		"ft": 64,
@@ -2432,17 +2420,6 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "/node_modules/jquery/dist/min/jquery-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/node_modules/lottie-web/./build/player/lottie.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/node_modules/lottie-web/./build/player/min/lottie-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
