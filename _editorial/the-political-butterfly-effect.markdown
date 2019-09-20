@@ -2,13 +2,13 @@
 title: The Political Butterfly Effect
 date: 2019-09-04 17:38:00 Z
 position: 0
-image: "/uploads/butterfly-rev3-2abd96.jpg"
+image: "/uploads/premier.jpg"
 client: BBC Radio 4
 logo: radio-four
 episodes: 5
 run-time: 14 mins
 listen: "/uploads/political-butterfly-preview-updated.mp3"
-link: https://www.bbc.co.uk/programmes/m00081t8
+link: https://podcasts.apple.com/gb/podcast/the-official-fantasy-premier-league-podcast/id1475466071
 is-highlight: true
 ---
 
