@@ -4,7 +4,7 @@ date: 2019-09-05 15:27:00 Z
 published: false
 position: 22
 client: BBC Radio 4
-logo: radio-four
+logo: bbc-radio-4
 episodes: 10
 run-time: 14 mins
 listen: "/uploads/five-green-bottles-preview.mp3"

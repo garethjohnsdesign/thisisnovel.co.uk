@@ -4,7 +4,7 @@ date: 2019-09-05 15:40:00 Z
 position: 11
 image: "/uploads/rise-and-fall.jpg"
 client: BBC Radio 4
-logo: radio-four
+logo: bbc-radio-4
 episodes: 1
 run-time: 28 mins
 listen: "/uploads/the-rise-and-fall-of-the-meritocracy-preview.mp3"

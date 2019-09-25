@@ -4,7 +4,7 @@ date: 2019-09-05 15:38:00 Z
 position: 10
 image: "/uploads/right-click.jpg"
 client: BBC Radio 4
-logo: radio-four
+logo: bbc-radio-4
 episodes: 1
 run-time: 28 mins
 listen: "/uploads/right-click-preview.mp3"
