@@ -4,6 +4,7 @@ date: 2019-09-05 15:29:00 Z
 position: 6
 image: "/uploads/real-pretenders.jpg"
 client: BBC Radio 3
+logo: bbc-radio-3
 episodes: 1
 run-time: 57 mins
 listen: "/uploads/real-pretenders-preview.mp3"

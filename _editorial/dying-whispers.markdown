@@ -4,6 +4,7 @@ date: 2019-09-05 15:37:00 Z
 position: 8
 image: "/uploads/dying-whispers.jpg"
 client: BBC World Service
+logo: bbc-world-service
 episodes: 1
 run-time: 28 mins
 listen: "/uploads/dying-whispers-preview.mp3"
