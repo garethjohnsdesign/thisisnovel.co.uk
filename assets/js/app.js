@@ -191,3 +191,22 @@ var defaultOptions = {
   };
 
 new PanelSnap(defaultOptions);
+
+
+
+
+$(".play-button")
+  .on("mouseenter", function() {
+    $(this).find("use").attr("xlink:href", "/assets/icons/symbol-defs.svg#icon-play-button-hover");
+  })
+  .on("mouseleave", function() {
+    $(this).find("use").attr("xlink:href", "/assets/icons/symbol-defs.svg#icon-play-button");
+  });
+
+$(".link-button")
+  .on("mouseenter", function() {
+    $(this).find("use").attr("xlink:href", "/assets/icons/symbol-defs.svg#icon-link-button-hover");
+  })
+  .on("mouseleave", function() {
+    $(this).find("use").attr("xlink:href", "/assets/icons/symbol-defs.svg#icon-link-button");
+  });

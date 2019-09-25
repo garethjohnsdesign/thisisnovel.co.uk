@@ -744,3 +744,18 @@ header {
 background-color: red
 }
 */
+
+.expand-link .icon-contract {
+  display: none;
+}
+
+.expand-link:hover .icon-expand,
+.expand-link:active .icon-expand {
+  border: 0px;
+  display: none;
+}
+.expand-link:hover .icon-contract,
+.expand-link:active .icon-contract {
+  border: 0px;
+  display: block;
+}

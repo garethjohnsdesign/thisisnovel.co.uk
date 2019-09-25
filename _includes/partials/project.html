@@ -49,9 +49,11 @@
 
         <div class="shrink cell">
           {% if project.listen %}
-            <button class="button clear" data-audio-title="{{project.title}}" data-src="{{project.listen}}"><svg class="icon icon-listen-small"><use xlink:href="/assets/icons/symbol-defs.svg#icon-listen-small"></use></svg></button>
+            <button class="button clear play-button" data-audio-title="{{project.title}}" data-src="{{project.listen}}">
+              <svg class="icon icon-play-button"><use xlink:href="/assets/icons/symbol-defs.svg#icon-play-button"></use></svg>
+            </button>
           {% endif %}
-            <a href="{{project.link}}" target="_blank" class="button clear"><svg class="icon icon-link-small"><use xlink:href="/assets/icons/symbol-defs.svg#icon-link-small"></use></svg></a>
+            <a href="{{project.link}}" target="_blank" class="button clear link-button"><svg class="icon icon-link-button"><use xlink:href="/assets/icons/symbol-defs.svg#icon-link-button"></use></svg></a>
         </div>
       </div>
           
