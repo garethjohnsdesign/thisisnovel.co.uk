@@ -133,7 +133,6 @@ const player = window.pl = new Plyr('#player', {
 });
 
 function playSrc (url, $source) {
-  //console.log(url)
   player.source = {
       type: 'audio',
       title: $source.data("audio-title") || '',
@@ -144,7 +143,6 @@ function playSrc (url, $source) {
         }
       ]
   };
-   
   $("[data-src]").removeClass("playing");
   $source.addClass("playing");
   player.play();
