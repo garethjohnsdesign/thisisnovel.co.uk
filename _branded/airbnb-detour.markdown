@@ -2,7 +2,7 @@
 title: AirBnB Detour
 date: 2019-09-05 20:41:00 Z
 position: 2
-image: "/uploads/airbnb-rev1.jpg"
+image: "/uploads/airbnb-rev2.jpg"
 client: AirBnB
 logo: airbnb
 episodes: 10
