@@ -486,6 +486,9 @@ section {
   @include breakpoint(small) {
     min-height: -webkit-fill-available;
   }
+  @include breakpoint(small) {
+	  min-height: 100vh;
+  }
   @include breakpoint(medium) {
 	  min-height: 100vh;
   }
