@@ -4,7 +4,7 @@ date: 2019-09-04 17:38:00 Z
 position: 0
 image: "/uploads/bellingcat-rev1.jpg"
 client: BBC Radio 4
-logo: "/uploads/bbc-radio-4.svg"
+logo: bbc-radio-4
 episodes: 6
 run-time: Various
 listen: "/uploads/bellingcat-preview.mp3"
