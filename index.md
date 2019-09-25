@@ -9,10 +9,9 @@ contact-image:
 about-text: "Novel. \n\nA premium audio content company. \n\nWhether it’s compelling
   journalism, powerful podcasts or innovative branded content, we tell stories in
   sound that make people listen."
-editorial-text: |-
-  Novel produces chart topping independent podcasts and award-winning content for leading broadcast networks and platforms, including the [BBC](https://www.bbc.co.uk), [Audible](https://www.audible.co.uk) and [Spotify](https://www.spotify.com/uk/).
-
-  Our output spans everything from factual and comedy to sports, and drama, all united by our ear for stories that need to be told.
+editorial-text: Novel produces chart topping independent podcasts and award winning
+  content for leading broadcast networks and platforms, including the BBC, Audible
+  and Spotify.
 branded-text: We help brands get heard. Novel delivers innovative branded content
   that people actually want to listen to. We’ve partnered with the likes of [The Premier
   League](https://www.premierleague.com), [Jaguar Land Rover](https://www.jaguarlandrover.com),
