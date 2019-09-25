@@ -2,7 +2,7 @@
 title: Cannes Lions
 date: 2019-09-05 20:40:00 Z
 position: 1
-image: "/uploads/cannes-lions-rev1.jpg"
+image: "/uploads/cannes-lions-rev2.jpg"
 client: Cannes Lions
 logo: cannes-lions
 episodes: 5
