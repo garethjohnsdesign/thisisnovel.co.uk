@@ -1,4 +1,4 @@
-<footer class="snapping grid-x grid-padding-x grid-padding-y align-justify" id="details">
+<footer class="grid-x grid-padding-x grid-padding-y align-justify" id="details">
   <div class="shrink cell" data-aos="fade-in">
     <ul class="menu simple">
         {% for entry in site.data.navigation.footer %}{% capture fullurl %}{{ site.baseurl }}{{ entry.url }}{% endcapture %}{% if fullurl == page.url %}{% assign current_page = fullurl %}{% break %}{% elsif page.url contains fullurl %}{% assign current_page = fullurl %}{% endif %}{% endfor %}
