@@ -44,6 +44,46 @@
 		"oAP": "/_branded/airbnb-detour.markdown",
 		"oF": 0
 		},
+	"/_branded/angels-of-the-bayou.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_branded/angels-of-the-bayou.markdown",
+		"oF": 0
+		},
+	"/_branded/capitalism-on-a-knife-edge.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_branded/capitalism-on-a-knife-edge.markdown",
+		"oF": 0
+		},
+	"/_branded/communisms-forgotten-victims.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_branded/communisms-forgotten-victims.markdown",
+		"oF": 0
+		},
+	"/_branded/economics-101.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_branded/economics-101.markdown",
+		"oF": 0
+		},
+	"/_branded/goliath-how-monopolies-came-to-be.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_branded/goliath-how-monopolies-came-to-be.markdown",
+		"oF": 0
+		},
 	"/_branded/the-cannes-lions-podcast.markdown": {
 		"cB": 0,
 		"ft": 8192,
@@ -854,6 +894,38 @@
 		"oAP": "/_uploads/background.mp4",
 		"oF": 0
 		},
+	"/_uploads/bbc-radio-4-negative-556b42.png": {
+		"ft": 32768,
+		"iS": 7414,
+		"oA": 0,
+		"oAP": "/_uploads/bbc-radio-4-negative-556b42.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/_uploads/bbc-radio-4-negative.png": {
+		"ft": 32768,
+		"iS": 7414,
+		"oA": 0,
+		"oAP": "/_uploads/bbc-radio-4-negative.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/_uploads/bbc-radio-4.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/_uploads/bbc-radio-4.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"/_uploads/bellingcat-preview.mp3": {
 		"cB": 0,
 		"ft": 8192,
@@ -904,6 +976,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
+		"q": 100
+		},
+	"/_uploads/butterfly-ed00a8.jpg": {
+		"ft": 16384,
+		"iS": 483334,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/butterfly-ed00a8.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"/_uploads/butterfly-rev1.jpg": {
@@ -1258,6 +1341,39 @@
 		"opt": 1,
 		"q": 100
 		},
+	"/_uploads/premier-284a69.jpg": {
+		"ft": 16384,
+		"iS": 242496,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/premier-284a69.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/premier-c7942d.jpg": {
+		"ft": 16384,
+		"iS": 242496,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/premier-c7942d.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/premier-fd589f.jpg": {
+		"ft": 16384,
+		"iS": 242496,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/premier-fd589f.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/_uploads/premier-league-preview.mp3": {
 		"cB": 0,
 		"ft": 8192,
@@ -1272,6 +1388,17 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/_uploads/premier-league.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/premier.jpg": {
+		"ft": 16384,
+		"iS": 299330,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/premier.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1668,6 +1795,16 @@
 		"oA": 2,
 		"oAP": "/assets/fonts/titling-gothic-wide-bold.woff2",
 		"oF": 0
+		},
+	"/assets/icons/symbol-defs.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/assets/icons/symbol-defs.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"/assets/img/logo.svg": {
 		"ft": 2097152,
