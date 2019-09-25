@@ -1,5 +1,5 @@
 ---
-title: Goliath - How Monopolies Came to Be
+title: Goliath - How Monopolies Came to Be Test
 date: 2019-09-05 20:25:00 Z
 position: 15
 image: "/uploads/goliath.jpg"

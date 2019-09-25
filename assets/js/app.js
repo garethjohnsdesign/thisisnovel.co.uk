@@ -190,9 +190,6 @@ var defaultOptions = {
 
 new PanelSnap(defaultOptions);
 
-
-
-
 /*
 $( ".play-button" ).click(function() {
   $( this ).toggleClass( "playing" );
@@ -204,6 +201,7 @@ $( ".play-button" ).click(function() {
 });
 */
 
+/*
 $(".play-button")
   .on("mouseenter", function() {
     $(this).find("use").attr("xlink:href", "/assets/icons/symbol-defs.svg#icon-play-button-hover");
@@ -237,6 +235,7 @@ $(".play-button-large")
   .on("mouseleave", function() {
     $(this).find("use").attr("xlink:href", "/assets/icons/symbol-defs.svg#icon-play-button-large");
   });
+*/
 
 
 
@@ -259,6 +258,7 @@ $('.play-button').click(function(event) {
 });
 */
 
+/*
 $(".link-button")
   .on("mouseenter", function() {
     $(this).find("use").attr("xlink:href", "/assets/icons/symbol-defs.svg#icon-link-button-hover");
@@ -266,3 +266,4 @@ $(".link-button")
   .on("mouseleave", function() {
     $(this).find("use").attr("xlink:href", "/assets/icons/symbol-defs.svg#icon-link-button");
   });
+*/

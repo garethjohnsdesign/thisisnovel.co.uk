@@ -1,5 +1,5 @@
 ---
-title: Economics 101
+title: Economics 101 Test
 date: 2019-09-05 20:23:00 Z
 position: 13
 image: "/uploads/economics-101.jpg"

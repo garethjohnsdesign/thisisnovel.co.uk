@@ -705,12 +705,6 @@ header {
   }
 }
 
-/*
-.testing {
-  border-left: 1px solid inherit;
-}
-*/
-
 .animation {
   position: absolute;
   top: 0;
@@ -739,25 +733,106 @@ header {
 //   width: 50%;
 }
 
-/*
-.button.clear:hover, .button.clear:focus {
-background-color: red
-}
-*/
+// Play Button Large
 
-
-
-/*
-.play-button .icon-pause-button {
+.play-button-large .icon-play-button-large-hover,
+.play-button-large .icon-playing-button-large,
+.play-button-large .icon-playing-button-large-hover {
   display: none;
 }
 
-.play-button:hover .icon-pause-button,
-.play-button:active .icon-pause-button {
+.play-button-large:hover .icon-play-button-large {
   display: none;
 }
-.play-button:hover .icon-play-button,
-.play-button:active .icon-play-button {
+
+.play-button-large:hover .icon-play-button-large-hover {
   display: block;
 }
-*/
+
+
+.playing .icon-play-button-large,
+.playing .icon-play-button-large-hover,
+.playing .icon-playing-button-large-hover {
+  display: none;
+}
+
+.playing .icon-playing-button-large {
+  display: block;
+}
+
+.playing:hover .icon-play-button-large-hover,
+.playing:hover .icon-playing-button-large {
+  display: none;
+}
+
+.playing:hover .icon-playing-button-large-hover {
+  display: block;
+}
+
+
+// Link Button Large
+
+
+.link-button-large .icon-link-button-large-hover {
+  display: none;
+}
+
+.link-button-large:hover .icon-link-button-large {
+  display: none;
+}
+
+.link-button-large:hover .icon-link-button-large-hover {
+  display: block;
+}
+
+// Play Button
+
+.play-button .icon-play-button-hover,
+.play-button .icon-playing-button,
+.play-button .icon-playing-button-hover {
+  display: none;
+}
+
+.play-button:hover .icon-play-button {
+  display: none;
+}
+
+.play-button:hover .icon-play-button-hover {
+  display: block;
+}
+
+
+.playing .icon-play-button,
+.playing .icon-play-button-hover,
+.playing .icon-playing-button-hover {
+  display: none;
+}
+
+.playing .icon-playing-button {
+  display: block;
+}
+
+.playing:hover .icon-play-button-hover,
+.playing:hover .icon-playing-button {
+  display: none;
+}
+
+.playing:hover .icon-playing-button-hover {
+  display: block;
+}
+
+
+// Link Button
+
+
+.link-button .icon-link-button-hover {
+  display: none;
+}
+
+.link-button:hover .icon-link-button {
+  display: none;
+}
+
+.link-button:hover .icon-link-button-hover {
+  display: block;
+}

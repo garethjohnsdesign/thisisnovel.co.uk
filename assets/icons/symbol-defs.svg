@@ -36,6 +36,17 @@
 <title>arrow_forward_ios</title>
 <path d="M5.859 4.125l2.156-2.109 9.984 9.984-9.984 9.984-2.156-2.109 7.922-7.875z"></path>
 </symbol>
+<symbol id="icon-playing-button-hover" viewBox="0 0 32 32">
+<title>playing-button-hover</title>
+<path fill="#fff" style="fill: var(--color1, #fff)" d="M0 0v32h32v-32h-32zM30.5 30.4h-29v-28.8h29v28.8z"></path>
+<path fill="#000" style="fill: var(--color2, #000)" d="M1.5 1.6v28.8h29v-28.8h-29zM14 23h-4v-14h4v14zM22 23h-4v-14h4v14z"></path>
+<path fill="#fff" style="fill: var(--color1, #fff)" d="M10 9v14h4v-14h-4zM18 9v14h4v-14h-4z"></path>
+</symbol>
+<symbol id="icon-playing-button" viewBox="0 0 32 32">
+<title>playing-button</title>
+<path d="M32 0v32h-32v-32h32zM1.5 1.6v28.8h29v-28.8c0 0-29 0-29 0z"></path>
+<path d="M18 9h4v14h-4c0 0 0-14 0-14zM10 23v-14h4v14h-4z"></path>
+</symbol>
 <symbol id="icon-playing-button-large-hover" viewBox="0 0 121 32">
 <title>playing-button-large-hover</title>
 <path fill="#fff" style="fill: var(--color1, #fff)" d="M88.6 0v32h32v-32h-32zM119.1 30.4h-29v-28.8h29v28.8z"></path>
@@ -154,11 +165,6 @@
 <title>play-button</title>
 <path d="M10.6 9.6l-0.2 12.8 11.2-6.2-11-6.6z"></path>
 <path d="M32 0v32h-32v-32h32zM1.5 1.6v28.8h29v-28.8c0 0-29 0-29 0z"></path>
-</symbol>
-<symbol id="icon-pause-button" viewBox="0 0 32 32">
-<title>pause-button</title>
-<path d="M32 0v32h-32v-32h32zM1.5 1.6v28.8h29v-28.8c0 0-29 0-29 0z"></path>
-<path d="M18 9h4v14h-4c0 0 0-14 0-14zM10 23v-14h4v14h-4z"></path>
 </symbol>
 <symbol id="icon-bbc-world-service" viewBox="0 0 45 32">
 <title>bbc-world-service</title>

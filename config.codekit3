@@ -52,22 +52,6 @@
 		"oAP": "/_branded/angels-of-the-bayou.markdown",
 		"oF": 0
 		},
-	"/_branded/capitalism-on-a-knife-edge.markdown": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/_branded/capitalism-on-a-knife-edge.markdown",
-		"oF": 0
-		},
-	"/_branded/communisms-forgotten-victims.markdown": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/_branded/communisms-forgotten-victims.markdown",
-		"oF": 0
-		},
 	"/_branded/economics-101.markdown": {
 		"cB": 0,
 		"ft": 8192,
@@ -837,6 +821,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/_uploads/airbnb-rev2.jpg": {
+		"ft": 16384,
+		"iS": 159892,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/airbnb-rev2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/_uploads/airbnb.jpg": {
 		"ft": 16384,
 		"iS": 536819,
@@ -1069,6 +1064,17 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/_uploads/cannes-lions-rev1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/cannes-lions-rev2.jpg": {
+		"ft": 16384,
+		"iS": 309461,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/cannes-lions-rev2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1795,6 +1801,16 @@
 		"oA": 2,
 		"oAP": "/assets/fonts/titling-gothic-wide-bold.woff2",
 		"oF": 0
+		},
+	"/assets/icons/symbol-defs.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/assets/icons/symbol-defs.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"/assets/img/logo.svg": {
 		"ft": 2097152,
