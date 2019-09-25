@@ -745,17 +745,19 @@ background-color: red
 }
 */
 
-.expand-link .icon-contract {
+
+
+/*
+.play-button .icon-pause-button {
   display: none;
 }
 
-.expand-link:hover .icon-expand,
-.expand-link:active .icon-expand {
-  border: 0px;
+.play-button:hover .icon-pause-button,
+.play-button:active .icon-pause-button {
   display: none;
 }
-.expand-link:hover .icon-contract,
-.expand-link:active .icon-contract {
-  border: 0px;
+.play-button:hover .icon-play-button,
+.play-button:active .icon-play-button {
   display: block;
 }
+*/

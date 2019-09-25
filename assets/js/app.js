@@ -145,8 +145,8 @@ function playSrc (url, $source) {
       ]
   };
    
-  $("[data-src]").removeClass("secondary");
-  $source.addClass("secondary");
+  $("[data-src]").removeClass("playing");
+  $source.addClass("playing");
   player.play();
 }
 
@@ -195,6 +195,17 @@ new PanelSnap(defaultOptions);
 
 
 
+/*
+$( ".play-button" ).click(function() {
+  $( this ).toggleClass( "playing" );
+  var icon = 'icon-play-button';
+  icon += ( ! $(this).hasClass('playing') ) ? '-hover' : '';
+
+//   $('svg', this).attr('class', icon);
+  $('svg use', this ).attr('xlink:href', '/assets/icons/symbol-defs.svg#' + icon);
+});
+*/
+
 $(".play-button")
   .on("mouseenter", function() {
     $(this).find("use").attr("xlink:href", "/assets/icons/symbol-defs.svg#icon-play-button-hover");
@@ -202,6 +213,53 @@ $(".play-button")
   .on("mouseleave", function() {
     $(this).find("use").attr("xlink:href", "/assets/icons/symbol-defs.svg#icon-play-button");
   });
+
+$(".play-button").on("click", function () {
+    if ($(this).parent().hasClass("playing")) {
+        console.log("test");
+        $(this).parent().removeClass("playing");
+    } else {
+        $(this).parent().addClass("playing");
+    }
+
+});
+
+$(".link-button-large")
+  .on("mouseenter", function() {
+    $(this).find("use").attr("xlink:href", "/assets/icons/symbol-defs.svg#icon-link-button-large-hover");
+  })
+  .on("mouseleave", function() {
+    $(this).find("use").attr("xlink:href", "/assets/icons/symbol-defs.svg#icon-link-button-large");
+  });
+
+$(".play-button-large")
+  .on("mouseenter", function() {
+    $(this).find("use").attr("xlink:href", "/assets/icons/symbol-defs.svg#icon-play-button-large-hover");
+  })
+  .on("mouseleave", function() {
+    $(this).find("use").attr("xlink:href", "/assets/icons/symbol-defs.svg#icon-play-button-large");
+  });
+
+
+
+/*
+$(".play-button")
+  .on("click", function() {
+    $(this).find("use").attr("xlink:href", "/assets/icons/symbol-defs.svg#icon-play-button-hover");
+  })
+  .on("mouseleave", function() {
+    $(this).find("use").attr("xlink:href", "/assets/icons/symbol-defs.svg#icon-play-button");
+  });
+*/
+
+
+/*
+$('.play-button').click(function(event) {
+   event.preventDefault();
+   $(this).find("use").attr("xlink:href", "/assets/icons/symbol-defs.svg#icon-pause-button").toggle();
+   $(this).find("use").attr("xlink:href", "/assets/icons/symbol-defs.svg#icon-play-button").toggle();
+});
+*/
 
 $(".link-button")
   .on("mouseenter", function() {
