@@ -921,6 +921,14 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"/_uploads/bellingcat-preview-home.mp3": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_uploads/bellingcat-preview-home.mp3",
+		"oF": 0
+		},
 	"/_uploads/bellingcat-preview.mp3": {
 		"cB": 0,
 		"ft": 8192,
@@ -1837,7 +1845,7 @@
 		"bF": 4,
 		"ft": 64,
 		"ma": 0,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "/assets/js/min/app-min.js",
 		"oF": 1,

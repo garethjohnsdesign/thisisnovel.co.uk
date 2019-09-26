@@ -128,11 +128,31 @@ const controls = `
 `;
 
 // Setup the player
-const player = window.pl = new Plyr('#player', {
+const player = new Plyr('#player', {
   controls
 });
 
+const getRelativePlayerSource = () => {
+  return "/" + player.source.split("/").slice(3).join("/")
+}
+
+player.on("play", function () {
+  $("[data-src]").removeClass("playing");
+  $("[data-src='" + getRelativePlayerSource() + "']").addClass("playing");
+})
+
+player.on("pause", function () {
+  $("[data-src]").removeClass("playing");
+})
+
+
 function playSrc (url, $source) {
+
+  const sameSource = getRelativePlayerSource() === url
+  if (sameSource && player.playing) {
+    return player.pause()
+  }
+
   player.source = {
       type: 'audio',
       title: $source.data("audio-title") || '',
@@ -143,8 +163,8 @@ function playSrc (url, $source) {
         }
       ]
   };
-  $("[data-src]").removeClass("playing");
-  $source.addClass("playing");
+
+  
   player.play();
 }
 
@@ -166,6 +186,7 @@ $(".home").on("click", ".plyr__control.prev-audio-item", function () {
 
 // $("[data-src]:first").addClass("secondary");
 
+/*
 $(".home").on("click", "[data-src]", function (e) {
 var $this = $(this)
   var src = $this.data("src")
@@ -174,6 +195,7 @@ var $this = $(this)
    e.preventDefault()
    return false;
 })
+*/
 
 
 // 2. Snapping
