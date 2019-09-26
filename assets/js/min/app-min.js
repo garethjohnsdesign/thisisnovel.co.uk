@@ -22491,6 +22491,29 @@
 	});
 
 
+	function playSrc (url, $source) {
+
+	  const sameSource = getRelativePlayerSource() === url;
+	  if (sameSource && player.playing) {
+	    return player.pause()
+	  }
+
+	  player.source = {
+	      type: 'audio',
+	      title: $source.data("audio-title") || '',
+	      sources: [
+	        {
+	            src: url,
+	            type: ~url.indexOf(".ogg") ? "audio/ogg" : "audio/mp3"
+	        }
+	      ]
+	  };
+
+	  
+	  player.play();
+	}
+
+
 	jquery(".home").on("click", ".plyr__control.next-audio-item", function () {
 	  var $allSources = jquery("[data-src");
 	  var activeIndex = $allSources.index(jquery(".secondary[data-src]"));
@@ -22508,16 +22531,14 @@
 
 	// $("[data-src]:first").addClass("secondary");
 
-	/*
-	$(".home").on("click", "[data-src]", function (e) {
-	var $this = $(this)
-	  var src = $this.data("src")
-	  playSrc(src, $this)
+	jquery(".home").on("click", "[data-src]", function (e) {
+	var $this = jquery(this);
+	  var src = $this.data("src");
+	  playSrc(src, $this);
 
-	   e.preventDefault()
+	   e.preventDefault();
 	   return false;
-	})
-	*/
+	});
 
 
 	// 2. Snapping

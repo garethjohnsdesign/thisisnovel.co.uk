@@ -186,7 +186,6 @@ $(".home").on("click", ".plyr__control.prev-audio-item", function () {
 
 // $("[data-src]:first").addClass("secondary");
 
-/*
 $(".home").on("click", "[data-src]", function (e) {
 var $this = $(this)
   var src = $this.data("src")
@@ -195,7 +194,6 @@ var $this = $(this)
    e.preventDefault()
    return false;
 })
-*/
 
 
 // 2. Snapping
