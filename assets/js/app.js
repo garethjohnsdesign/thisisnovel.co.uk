@@ -137,8 +137,8 @@ const getRelativePlayerSource = () => {
 }
 
 player.on("play", function () {
-  $("[data-src]").removeClass("playing");
-  $("[data-src='" + getRelativePlayerSource() + "']").addClass("playing");
+  $("[data-src]").removeClass("playing audio-active");
+  $("[data-src='" + getRelativePlayerSource() + "']").addClass("playing  audio-active");
 })
 
 player.on("pause", function () {
@@ -146,7 +146,7 @@ player.on("pause", function () {
 })
 
 
-function playSrc (url, $source) {
+function playSrc (url, $source, loadOnly) {
 
   const sameSource = getRelativePlayerSource() === url
   if (sameSource && player.playing) {
@@ -165,26 +165,32 @@ function playSrc (url, $source) {
   };
 
   
+  if (loadOnly) {
+    $source.addClass("audio-active");
+    return;
+  }
   player.play();
 }
 
 
+// Next button 
 $(".home").on("click", ".plyr__control.next-audio-item", function () {
-  var $allSources = $("[data-src")
-  var activeIndex = $allSources.index($(".secondary[data-src]"))
+  var $allSources = $("[data-src]")
+  var activeIndex = $allSources.index($(".audio-active[data-src]"))
   var $next = $allSources.eq((activeIndex + 1) % $allSources.length)
   $next.click()
 })
 
+// Previus
 
 $(".home").on("click", ".plyr__control.prev-audio-item", function () {
-  var $allSources = $("[data-src")
-  var activeIndex = $allSources.index($(".secondary[data-src]"))
+  var $allSources = $("[data-src]")
+  var activeIndex = $allSources.index($(".audio-active[data-src]"))
   var $prev = $allSources.eq(activeIndex - 1)
   $prev.click()
 })
 
-// $("[data-src]:first").addClass("secondary");
+playSrc($("[data-src]:first").data("src"), $("[data-src]:first"), true)
 
 $(".home").on("click", "[data-src]", function (e) {
 var $this = $(this)
@@ -209,81 +215,3 @@ var defaultOptions = {
   };
 
 new PanelSnap(defaultOptions);
-
-/*
-$( ".play-button" ).click(function() {
-  $( this ).toggleClass( "playing" );
-  var icon = 'icon-play-button';
-  icon += ( ! $(this).hasClass('playing') ) ? '-hover' : '';
-
-//   $('svg', this).attr('class', icon);
-  $('svg use', this ).attr('xlink:href', '/assets/icons/symbol-defs.svg#' + icon);
-});
-*/
-
-/*
-$(".play-button")
-  .on("mouseenter", function() {
-    $(this).find("use").attr("xlink:href", "/assets/icons/symbol-defs.svg#icon-play-button-hover");
-  })
-  .on("mouseleave", function() {
-    $(this).find("use").attr("xlink:href", "/assets/icons/symbol-defs.svg#icon-play-button");
-  });
-
-$(".play-button").on("click", function () {
-    if ($(this).parent().hasClass("playing")) {
-        console.log("test");
-        $(this).parent().removeClass("playing");
-    } else {
-        $(this).parent().addClass("playing");
-    }
-
-});
-
-$(".link-button-large")
-  .on("mouseenter", function() {
-    $(this).find("use").attr("xlink:href", "/assets/icons/symbol-defs.svg#icon-link-button-large-hover");
-  })
-  .on("mouseleave", function() {
-    $(this).find("use").attr("xlink:href", "/assets/icons/symbol-defs.svg#icon-link-button-large");
-  });
-
-$(".play-button-large")
-  .on("mouseenter", function() {
-    $(this).find("use").attr("xlink:href", "/assets/icons/symbol-defs.svg#icon-play-button-large-hover");
-  })
-  .on("mouseleave", function() {
-    $(this).find("use").attr("xlink:href", "/assets/icons/symbol-defs.svg#icon-play-button-large");
-  });
-*/
-
-
-
-/*
-$(".play-button")
-  .on("click", function() {
-    $(this).find("use").attr("xlink:href", "/assets/icons/symbol-defs.svg#icon-play-button-hover");
-  })
-  .on("mouseleave", function() {
-    $(this).find("use").attr("xlink:href", "/assets/icons/symbol-defs.svg#icon-play-button");
-  });
-*/
-
-
-/*
-$('.play-button').click(function(event) {
-   event.preventDefault();
-   $(this).find("use").attr("xlink:href", "/assets/icons/symbol-defs.svg#icon-pause-button").toggle();
-   $(this).find("use").attr("xlink:href", "/assets/icons/symbol-defs.svg#icon-play-button").toggle();
-});
-*/
-
-/*
-$(".link-button")
-  .on("mouseenter", function() {
-    $(this).find("use").attr("xlink:href", "/assets/icons/symbol-defs.svg#icon-link-button-hover");
-  })
-  .on("mouseleave", function() {
-    $(this).find("use").attr("xlink:href", "/assets/icons/symbol-defs.svg#icon-link-button");
-  });
-*/
