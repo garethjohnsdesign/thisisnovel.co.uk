@@ -1669,7 +1669,7 @@
 		"bF": 4,
 		"ft": 64,
 		"ma": 0,
-		"mi": 0,
+		"mi": 1,
 		"oA": 0,
 		"oAP": "/assets/js/min/app-min.js",
 		"oF": 1,
