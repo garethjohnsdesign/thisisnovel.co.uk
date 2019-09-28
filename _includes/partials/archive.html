@@ -12,7 +12,7 @@
   {% include partials/project.html %}
   {% endfor %}
 
-  {% if projects.size > 5 %}
+  {% if projects.size > 3 %}
   <div class="grid-container">
     <div class="grid-x grid-padding-x grid-padding-y align-center" data-aos="fade-in">
       <div class="small-12 medium-8 cell text-center">
@@ -22,7 +22,7 @@
   </div>
 
   <div class="read-more-content" id="read-more-content" data-toggler data-animate="fade-in fade-out">
-  {% for project in projects offset:5 %}
+  {% for project in projects offset:3 %}
   {% include partials/project.html %}
   {% endfor %}
   </div>
