@@ -215,3 +215,5 @@ var defaultOptions = {
   };
 
 new PanelSnap(defaultOptions);
+
+// Test
