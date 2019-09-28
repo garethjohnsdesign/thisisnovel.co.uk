@@ -636,6 +636,14 @@
 		"oAP": "/_includes/partials/highlight.html",
 		"oF": 0
 		},
+	"/_includes/partials/project.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_includes/partials/project.html",
+		"oF": 0
+		},
 	"/_includes/reveal/meta.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -764,6 +772,14 @@
 		"oAP": "/_layouts/page.html",
 		"oF": 0
 		},
+	"/_layouts/testing.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_layouts/testing.html",
+		"oF": 0
+		},
 	"/_site": {
 		"ft": 65536,
 		"oA": 1,
@@ -776,6 +792,17 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/_uploads/airbnb-rev1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/airbnb-rev2.jpg": {
+		"ft": 16384,
+		"iS": 159892,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/airbnb-rev2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -838,6 +865,46 @@
 		"oAP": "/_uploads/background.mp4",
 		"oF": 0
 		},
+	"/_uploads/bbc-radio-4-negative-556b42.png": {
+		"ft": 32768,
+		"iS": 7414,
+		"oA": 0,
+		"oAP": "/_uploads/bbc-radio-4-negative-556b42.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/_uploads/bbc-radio-4-negative.png": {
+		"ft": 32768,
+		"iS": 7414,
+		"oA": 0,
+		"oAP": "/_uploads/bbc-radio-4-negative.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/_uploads/bbc-radio-4.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/_uploads/bbc-radio-4.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/_uploads/bellingcat-preview-home.mp3": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_uploads/bellingcat-preview-home.mp3",
+		"oF": 0
+		},
 	"/_uploads/bellingcat-preview.mp3": {
 		"cB": 0,
 		"ft": 8192,
@@ -888,6 +955,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
+		"q": 100
+		},
+	"/_uploads/butterfly-ed00a8.jpg": {
+		"ft": 16384,
+		"iS": 483334,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/butterfly-ed00a8.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"/_uploads/butterfly-rev1.jpg": {
@@ -970,6 +1048,17 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/_uploads/cannes-lions-rev1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/cannes-lions-rev2.jpg": {
+		"ft": 16384,
+		"iS": 309461,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/cannes-lions-rev2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1182,6 +1271,17 @@
 		"opt": 1,
 		"q": 100
 		},
+	"/_uploads/og-image.png": {
+		"ft": 32768,
+		"iS": 29636,
+		"oA": 0,
+		"oAP": "/_uploads/og-image.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/_uploads/our-daily-bread-preview.mp3": {
 		"cB": 0,
 		"ft": 8192,
@@ -1231,6 +1331,39 @@
 		"opt": 1,
 		"q": 100
 		},
+	"/_uploads/premier-284a69.jpg": {
+		"ft": 16384,
+		"iS": 242496,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/premier-284a69.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/premier-c7942d.jpg": {
+		"ft": 16384,
+		"iS": 242496,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/premier-c7942d.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/premier-fd589f.jpg": {
+		"ft": 16384,
+		"iS": 242496,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/premier-fd589f.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/_uploads/premier-league-preview.mp3": {
 		"cB": 0,
 		"ft": 8192,
@@ -1245,6 +1378,17 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/_uploads/premier-league.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/premier.jpg": {
+		"ft": 16384,
+		"iS": 299330,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/premier.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1391,6 +1535,14 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"/assets/animation/burger.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/assets/animation/burger-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
 		},
 	"/assets/css/app.css": {
 		"aP": 0,
@@ -1694,17 +1846,6 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "/assets/js/min/min/svgxuse-min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/assets/js/scroll-snap.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/assets/js/min/scroll-snap-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -2366,17 +2507,6 @@
 		"oA": 2,
 		"oAP": "/build/node_modules",
 		"oF": 0
-		},
-	"/node_modules/animejs/lib/anime.es.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/node_modules/animejs/lib/min/anime.es-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
 		},
 	"/node_modules/aos/dist/aos.js": {
 		"bF": 0,
