@@ -22383,9 +22383,10 @@
 	// 1. Scroll Hide Navigation
 	// ---------------
 
+	/*
 	var prev = 0;
-	var $window = jquery(window);
-	var nav = jquery('.scrollhide-nav');
+	var $window = $(window);
+	var nav = $('.scrollhide-nav');
 
 	$window.off('scroll');
 	$window.on('scroll', function() {
@@ -22394,6 +22395,7 @@
 	    nav.toggleClass('hidden', scrollTop > prev);
 	    prev = scrollTop;
 	});
+	*/
 
 
 	// 8. Animate on Scroll

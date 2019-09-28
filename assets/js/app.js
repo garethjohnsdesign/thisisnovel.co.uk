@@ -37,6 +37,7 @@ if ($("body").hasClass("home")) {
 // 1. Scroll Hide Navigation
 // ---------------
 
+/*
 var prev = 0;
 var $window = $(window);
 var nav = $('.scrollhide-nav');
@@ -48,6 +49,7 @@ $window.on('scroll', function() {
     nav.toggleClass('hidden', scrollTop > prev);
     prev = scrollTop;
 });
+*/
 
 
 // 8. Animate on Scroll
