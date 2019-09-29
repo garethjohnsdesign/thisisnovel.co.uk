@@ -1,7 +1,7 @@
 ---
 title: Fantasy Premier League
 date: 2019-09-05 20:40:00 Z
-position: 1
+position: 0
 image: "/uploads/premier-284a69.jpg"
 client: The Premier League
 logo: premier-league
