@@ -4,6 +4,7 @@ date: 2019-09-29 13:01:00 Z
 position: 3
 image: "/uploads/Landrover.jpg"
 client: Jaguar Land Rover
+logo: landrover
 episodes: 1
 ---
 

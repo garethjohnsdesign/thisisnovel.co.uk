@@ -4,6 +4,7 @@ date: 2019-09-05 15:40:00 Z
 position: 9
 image: "/uploads/Believers.jpg"
 client: UnHerd
+logo: unherd
 episodes: 1
 run-time: 32 mins
 link: https://www.google.com

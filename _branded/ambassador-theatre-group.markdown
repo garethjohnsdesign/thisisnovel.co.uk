@@ -4,6 +4,7 @@ date: 2019-09-29 12:59:00 Z
 position: 5
 image: "/uploads/Ambass.jpg"
 client: Ambassador Theatre Group
+logo: ambassador
 episodes: 1
 ---
 

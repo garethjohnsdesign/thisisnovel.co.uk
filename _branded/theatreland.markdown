@@ -4,6 +4,7 @@ date: 2019-09-29 13:02:00 Z
 position: 4
 image: "/uploads/Theatre.jpg"
 client: Theatreland
+logo: theatreland
 episodes: 1
 ---
 

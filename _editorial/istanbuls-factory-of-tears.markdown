@@ -4,7 +4,7 @@ date: 2019-09-05 15:37:00 Z
 position: 7
 image: "/uploads/Istanbul.jpg"
 client: BBC Radio 4
-logo: "/uploads/bbc-radio-4-negative-556b42.png"
+logo: bbc-radio-4
 link: https://www.bbc.co.uk/programmes/m00060w4
 ---
 
