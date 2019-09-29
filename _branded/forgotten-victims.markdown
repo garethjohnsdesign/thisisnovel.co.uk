@@ -1,7 +1,7 @@
 ---
 title: The Forgotten Victims of Communism
 date: 2019-09-29 11:50:00 Z
-position: 4
+position: 6
 image: "/uploads/forgottenVictims.jpg"
 client: Unheard
 link: https://soundcloud.com/user-350933778/communisms-forgotten-victims
