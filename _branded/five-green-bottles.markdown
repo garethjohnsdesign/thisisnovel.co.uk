@@ -1,13 +1,11 @@
 ---
-title: Five Green Bottles
+title: The Sympathy of Things
 date: 2019-09-05 15:36:00 Z
 position: 7
-image: "/uploads/five-green-bottles.jpg"
+image: "/uploads/Sympathy.jpg"
 client: BBC Radio 4
 logo: bbc-radio-4
-episodes: 5
-run-time: 14 mins
-link: https://www.google.com
+link: https://www.bbc.co.uk/programmes/m0000xqs
 ---
 
-In this series, wine critics offer personal reflections on the personal, political and historical stories of bygone bottles of wine.
+In this two-part series, Turner Prize-winning architectural collective Assemble explore the designed and manufactured world.
