@@ -1765,10 +1765,18 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/assets/animation/burger.json": {
+	"/assets/animation/circles.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "/assets/animation/burger-min.json",
+		"oAP": "/assets/animation/circles-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/assets/animation/logo.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/assets/animation/logo-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1

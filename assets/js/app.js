@@ -31,7 +31,7 @@ if ($("body").hasClass("home")) {
   $( ".loader" ).addClass( "loading" );
   setTimeout( function() {
   $( ".loader" ).addClass( "loaded" );
-  }, 2500
+  }, 3000
   );
 }
 // 1. Scroll Hide Navigation

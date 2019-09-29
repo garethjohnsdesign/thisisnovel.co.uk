@@ -22377,7 +22377,7 @@
 	  jquery( ".loader" ).addClass( "loading" );
 	  setTimeout( function() {
 	  jquery( ".loader" ).addClass( "loaded" );
-	  }, 2500
+	  }, 3000
 	  );
 	}
 	// 1. Scroll Hide Navigation

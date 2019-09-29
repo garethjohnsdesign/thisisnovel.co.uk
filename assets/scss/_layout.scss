@@ -94,7 +94,7 @@
   &.loaded {
     z-index: 19;
     transition: opacity 500ms;
-    transition-delay: 1500ms;
+    transition-delay: 2500ms;
     opacity: 0;
   }
 }
@@ -148,7 +148,7 @@ body[data-aos-delay='custom'] [data-aos],
     transition-delay: 0s;
   
   &.aos-animate {
-    transition-delay: 4000ms;
+    transition-delay: 5000ms;
   }
 }
 
