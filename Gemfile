@@ -11,4 +11,5 @@ group :jekyll_plugins do
   gem 'rouge'
   gem 'kramdown'
   gem 'liquid'
+  gem "nokogiri", ">= 1.10.4"
 end
