@@ -2,7 +2,7 @@
 title: Our Daily Bread
 date: 2019-09-05 20:27:00 Z
 position: 3
-image: "/uploads/our-daily-bread.jpg"
+image: "/uploads/Todays-Bread.jpg"
 client: BBC World Service
 logo: bbc-world-service
 episodes: 1
