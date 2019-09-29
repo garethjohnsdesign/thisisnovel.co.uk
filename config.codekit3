@@ -44,30 +44,6 @@
 		"oAP": "/_branded/airbnb-detour.markdown",
 		"oF": 0
 		},
-	"/_branded/dying-whispers.markdown": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/_branded/dying-whispers.markdown",
-		"oF": 0
-		},
-	"/_branded/economics-101.markdown": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/_branded/economics-101.markdown",
-		"oF": 0
-		},
-	"/_branded/five-green-bottles.markdown": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/_branded/five-green-bottles.markdown",
-		"oF": 0
-		},
 	"/_branded/the-cannes-lions-podcast.markdown": {
 		"cB": 0,
 		"ft": 8192,
@@ -98,6 +74,22 @@
 		"hM": 0,
 		"oA": 2,
 		"oAP": "/_data/navigation.yml",
+		"oF": 0
+		},
+	"/_editorial/a-hacks-progress.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_editorial/a-hacks-progress.markdown",
+		"oF": 0
+		},
+	"/_editorial/ambassador-theatre-group.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_editorial/ambassador-theatre-group.markdown",
 		"oF": 0
 		},
 	"/_editorial/angels-of-the-bayou.markdown": {
@@ -148,6 +140,14 @@
 		"oAP": "/_editorial/five-green-bottles.markdown",
 		"oF": 0
 		},
+	"/_editorial/forgotten-victims.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_editorial/forgotten-victims.markdown",
+		"oF": 0
+		},
 	"/_editorial/friends-and-foes-a-narrative-history-of-diplomacy.markdown": {
 		"cB": 0,
 		"ft": 8192,
@@ -196,6 +196,14 @@
 		"oAP": "/_editorial/is-the-news-industry-undermining-the-west.markdown",
 		"oF": 0
 		},
+	"/_editorial/istanbuls-factory-of-tears.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_editorial/istanbuls-factory-of-tears.markdown",
+		"oF": 0
+		},
 	"/_editorial/its-obscene.markdown": {
 		"cB": 0,
 		"ft": 8192,
@@ -210,6 +218,14 @@
 		"hM": 0,
 		"oA": 2,
 		"oAP": "/_editorial/murad-subay-the-walls-remember.markdown",
+		"oF": 0
+		},
+	"/_editorial/narrative-history-of-diplomacy.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_editorial/narrative-history-of-diplomacy.markdown",
 		"oF": 0
 		},
 	"/_editorial/our-daily-bread.markdown": {
@@ -250,6 +266,14 @@
 		"hM": 0,
 		"oA": 2,
 		"oAP": "/_editorial/slaughter-of-the-innocents.markdown",
+		"oF": 0
+		},
+	"/_editorial/sympathy-of-things.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_editorial/sympathy-of-things.markdown",
 		"oF": 0
 		},
 	"/_editorial/taking-on-china.markdown": {
@@ -810,6 +834,17 @@
 		"oAP": "/build/_site",
 		"oF": 0
 		},
+	"/_uploads/A-Hacks.jpg": {
+		"ft": 16384,
+		"iS": 400163,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/A-Hacks.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/_uploads/airbnb-rev1.jpg": {
 		"ft": 16384,
 		"iS": 157271,
@@ -843,6 +878,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/_uploads/Ambass.jpg": {
+		"ft": 16384,
+		"iS": 106189,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/Ambass.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/_uploads/angels-of-bayou.jpg": {
 		"ft": 16384,
 		"iS": 1132083,
@@ -861,6 +907,17 @@
 		"oA": 2,
 		"oAP": "/_uploads/angels-of-the-bayou-preview.mp3",
 		"oF": 0
+		},
+	"/_uploads/Angels2.jpg": {
+		"ft": 16384,
+		"iS": 217689,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/Angels2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"/_uploads/anita-hill.jpg": {
 		"ft": 16384,
@@ -920,6 +977,17 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"/_uploads/Believers.jpg": {
+		"ft": 16384,
+		"iS": 715487,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/Believers.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"/_uploads/bellingcat-preview-home.mp3": {
 		"cB": 0,
@@ -1197,6 +1265,17 @@
 		"opt": 1,
 		"q": 100
 		},
+	"/_uploads/forgottenVictims.jpg": {
+		"ft": 16384,
+		"iS": 229220,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/forgottenVictims.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/_uploads/friends-and-foes-history-of-dimocracy-preview.mp3": {
 		"cB": 0,
 		"ft": 8192,
@@ -1257,6 +1336,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/_uploads/India.jpg": {
+		"ft": 16384,
+		"iS": 157423,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/India.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/_uploads/Istanbul.jpg": {
 		"ft": 16384,
 		"iS": 71673,
@@ -1287,6 +1377,28 @@
 		"opt": 1,
 		"q": 100
 		},
+	"/_uploads/itsobscene.jpg": {
+		"ft": 16384,
+		"iS": 650397,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/itsobscene.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/Landrover.jpg": {
+		"ft": 16384,
+		"iS": 185369,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/Landrover.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/_uploads/murad-subay-preview.mp3": {
 		"cB": 0,
 		"ft": 8192,
@@ -1304,6 +1416,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
+		"q": 100
+		},
+	"/_uploads/Narrative.jpg": {
+		"ft": 16384,
+		"iS": 161311,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/Narrative.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"/_uploads/og-image.png": {
@@ -1519,6 +1642,17 @@
 		"oAP": "/_uploads/slaughter-of-the-innocents-preview.mp3",
 		"oF": 0
 		},
+	"/_uploads/Slaughter.jpg": {
+		"ft": 16384,
+		"iS": 546069,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/Slaughter.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/_uploads/Sympathy.jpg": {
 		"ft": 16384,
 		"iS": 140513,
@@ -1570,6 +1704,17 @@
 		"oA": 2,
 		"oAP": "/_uploads/the-rise-and-fall-of-the-meritocracy-preview.mp3",
 		"oF": 0
+		},
+	"/_uploads/Todays-Bread.jpg": {
+		"ft": 16384,
+		"iS": 572293,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/Todays-Bread.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"/_uploads/trump.jpg": {
 		"ft": 16384,
@@ -1892,6 +2037,17 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "/assets/js/min/min/app-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/assets/js/min/jquery.marquee-min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/assets/js/min/min/jquery.marquee-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
