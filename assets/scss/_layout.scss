@@ -274,6 +274,22 @@ a {
   }
 }
 
+.underline--navigation {
+  transition: border-bottom .35s cubic-bezier(.39, .575, .565, 1);
+  @include breakpoint(small) {
+    border-bottom: 1px solid transparent;
+    &:hover {
+    border-bottom: 1px solid get-color(primary);   
+    }
+  }
+  @include breakpoint(medium) {
+    border-bottom: 2px solid transparent;
+    &:hover {
+    border-bottom: 2px solid get-color(primary);   
+    }
+  }
+}
+
 i, cite, em, var, address, dfn {
   font-style: normal;
 }
