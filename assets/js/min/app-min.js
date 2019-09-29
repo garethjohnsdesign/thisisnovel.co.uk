@@ -22457,8 +22457,8 @@
 
 	const controls = `
 <div class="plyr__controls">
-    <div class="plyr__control show-for-medium">
-      {title}
+    <div class="plyr__control show-for-medium marquee">
+      <span>{title}</span>
     </div>
     <button type="button" class="plyr__control next-audio-item show-for-medium">
         <svg class="icon icon-arrow_forward_ios"><use xlink:href="/assets/icons/symbol-defs.svg#icon-arrow_forward_ios"></use></svg>
