@@ -16,12 +16,12 @@
   <div class="grid-container">
     <div class="grid-x grid-padding-x grid-padding-y align-center" data-aos="fade-in">
       <div class="small-12 medium-8 cell text-center">
-        <button class="button clear" data-toggle="read-more-content"><svg class="icon icon-load"><use xlink:href="/assets/icons/symbol-defs.svg#icon-load"></use></svg></button>
+        <button class="button clear" data-toggle="read-more-content-{{ section }}"><svg class="icon icon-load"><use xlink:href="/assets/icons/symbol-defs.svg#icon-load"></use></svg></button>
       </div>
     </div>
   </div>
 
-  <div class="read-more-content" id="read-more-content" data-toggler data-animate="fade-in fade-out">
+  <div class="read-more-content" id="read-more-content-{{ section }}" data-toggler data-animate="fade-in fade-out">
   {% for project in projects offset:3 %}
   {% include partials/project.html %}
   {% endfor %}
