@@ -2,7 +2,7 @@
 title: Right Click - The New Online Culture Wars
 date: 2019-09-05 15:38:00 Z
 position: 10
-image: "/uploads/right-click.jpg"
+image: "/uploads/RightCLick.jpg"
 client: BBC Radio 4
 logo: bbc-radio-4
 episodes: 1
