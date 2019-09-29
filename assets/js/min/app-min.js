@@ -22457,8 +22457,12 @@
 
 	const controls = `
 <div class="plyr__controls grid-x align-justify">
+    <div class="shrink cell">
 
-    <div class="auto cell">
+    <a href="#header"><svg class="icon icon-logo"><use xlink:href="/assets/icons/symbol-defs.svg#icon-logo"></use></svg></a>
+
+    </div>
+    <div class="auto cell padding-horizontal-1">
 
       <div class="plyr__control show-for-medium marquee">
         <span>{title}</span>
