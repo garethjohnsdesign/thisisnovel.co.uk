@@ -111,21 +111,31 @@ $('a[href*="#"]')
 // ----------------
 
 const controls = `
-<div class="plyr__controls">
-    <div class="plyr__control show-for-medium marquee">
-      <span>{title}</span>
+<div class="plyr__controls grid-x align-justify">
+
+    <div class="auto cell">
+
+      <div class="plyr__control show-for-medium marquee">
+        <span>{title}</span>
+      </div>
+
     </div>
-    <button type="button" class="plyr__control next-audio-item show-for-medium">
-        <svg class="icon icon-arrow_forward_ios"><use xlink:href="/assets/icons/symbol-defs.svg#icon-arrow_forward_ios"></use></svg>
-    </button>
-    <button type="button" class="plyr__control prev-audio-item show-for-medium">
-        <svg class="icon icon-arrow_back_ios"><use xlink:href="/assets/icons/symbol-defs.svg#icon-arrow_back_ios"></use></svg>
-    </button>
-    <button type="button" class="plyr__control play-audio-item" aria-label="Play, {title}" data-plyr="play">
-        <svg class="icon--pressed icon icon-pause"><use xlink:href="/assets/icons/symbol-defs.svg#icon-pause"></use></svg>
-        <svg class="icon--not-pressed icon icon-play_arrow"><use xlink:href="/assets/icons/symbol-defs.svg#icon-play_arrow"></use></svg>
-    </button>
+
+    <div class="shrink cell">
+
+      <button type="button" class="plyr__control next-audio-item show-for-medium">
+          <svg class="icon icon-arrow_forward_ios"><use xlink:href="/assets/icons/symbol-defs.svg#icon-arrow_forward_ios"></use></svg>
+      </button>
+      <button type="button" class="plyr__control prev-audio-item show-for-medium">
+          <svg class="icon icon-arrow_back_ios"><use xlink:href="/assets/icons/symbol-defs.svg#icon-arrow_back_ios"></use></svg>
+      </button>
+      <button type="button" class="plyr__control play-audio-item" aria-label="Play, {title}" data-plyr="play">
+          <svg class="icon--pressed icon icon-pause"><use xlink:href="/assets/icons/symbol-defs.svg#icon-pause"></use></svg>
+          <svg class="icon--not-pressed icon icon-play_arrow"><use xlink:href="/assets/icons/symbol-defs.svg#icon-play_arrow"></use></svg>
+      </button>
+      
     </div>
+
 </div>
 `;
 
