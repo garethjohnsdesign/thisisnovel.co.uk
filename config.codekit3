@@ -1257,6 +1257,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/_uploads/Istanbul.jpg": {
+		"ft": 16384,
+		"iS": 71673,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/Istanbul.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/_uploads/its-obscene-preview.mp3": {
 		"cB": 0,
 		"ft": 8192,
@@ -1507,6 +1518,17 @@
 		"oA": 2,
 		"oAP": "/_uploads/slaughter-of-the-innocents-preview.mp3",
 		"oF": 0
+		},
+	"/_uploads/Sympathy.jpg": {
+		"ft": 16384,
+		"iS": 140513,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/Sympathy.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"/_uploads/taliban.jpg": {
 		"ft": 16384,
@@ -1850,6 +1872,17 @@
 		"oAP": "/assets/js/min/app-min.js",
 		"oF": 1,
 		"sC": 0,
+		"tS": 0
+		},
+	"/assets/js/jquery.marquee.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/assets/js/min/jquery.marquee-min.js",
+		"oF": 0,
+		"sC": 1,
 		"tS": 0
 		},
 	"/assets/js/min/app-min.js": {
