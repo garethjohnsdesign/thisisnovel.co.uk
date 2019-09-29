@@ -515,13 +515,13 @@ section {
 
 .snapping {
   @include breakpoint(small) {
-  padding: 2rem 1rem 2rem 1rem;
+  padding: 5rem 2rem;
   }
   @include breakpoint(medium) {
-  padding: 2rem 4rem;
+  padding: 5rem 3rem;
   }
   @include breakpoint(large) {
-  padding: 4rem 5rem;
+  padding: 5rem 5rem;
   }
 }
 
@@ -714,10 +714,10 @@ header {
   padding: 1rem;
   }
   @include breakpoint(medium) {
-  padding: 1.5rem;
+  padding: 1rem;
   }
   @include breakpoint(large) {
-  padding: 2rem;
+  padding: 1rem;
   }
 }
 
