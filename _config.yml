@@ -73,7 +73,7 @@ future: true
 social:
   facebook: https://www.facebook.com/thisisnovel
   instagram: https://www.instagram.com/thisisnoveluk/
-  twitter: https://twitter.com/thisisnovel
+  twitter: https://twitter.com/thisisnoveluk
 compress_html:
   comments:
   - "<!-- "
