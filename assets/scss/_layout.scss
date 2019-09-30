@@ -560,66 +560,14 @@ $scrollhide-nav-transition-speed: 1s;
   }
 }
 
-.hero {
-/*
-  background-attachment: fixed;
-  -webkit-transform: translate3d(0,0,0);
-*/
-/*
-background: rgb(255,68,27);
-background: linear-gradient(90deg, rgba(255,68,27,1) 0%, rgba(125,67,198,1) 100%);
-*/
-}
-
-/*
-.hero {
-  background-color: blue
-}
-
-.about {
-  background-color: green
-}
-
-.editorial {
-  background-color: $red
-}
-
-.archive {
-  background-color: $red
-}
-
-.editorial-archive {
-  background-color: $red;
-}
-
-.branded {
-  background-color: pink
-}
-
-.contact {
-  background-color: brown
-}
-*/
-
-/*
-.archive {
-  background-color: $light-gray;
-  color: $black;
-  @include links ($black, $medium-gray);
-  .button.clear {
-  color: $black;
-  }
-}
-*/
-
 .navigation {
-width: 100vh;
-left: calc(100% - 3rem);
-position: fixed;
-top: 50%;
-transform: rotate(-90deg) translate(-50%, 0%);
-transform-origin: left top;
-z-index: 21;
+  width: 100vh;
+  left: calc(100% - 3rem);
+  position: fixed;
+  top: 50%;
+  transform: rotate(-90deg) translate(-50%, 0%);
+  transform-origin: left top;
+  z-index: 21;
 }
 
 .audio {
@@ -887,6 +835,7 @@ header {
   text-indent: 0;
   /*border: 1px red solid;*/
   animation: marquee 10s linear infinite;
+  transform: translateZ(0);
 }
 
 .marquee span:hover {
