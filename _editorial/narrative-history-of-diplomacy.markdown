@@ -6,6 +6,7 @@ image: "/uploads/Narrative.jpg"
 client: BBC Radio 4
 logo: bbc-radio-4
 episodes: 10
+run-time: 14
 link: https://www.bbc.co.uk/programmes/b08fcj84
 is-highlight: false
 ---
