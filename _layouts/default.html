@@ -11,6 +11,10 @@ layout: compress
 
 <body class="{{page.layout | slugify}}" id="header">
 
+<!-- Main -->
+{{content}}
+<!-- Main -->
+
 <!-- Navigation -->
 <div class="hide-for-small-only">
 {% include site/navigation.html %}
@@ -22,10 +26,6 @@ layout: compress
 {% include site/audio.html %}
 </div>
 <!-- Audio Player -->
-
-<!-- Main -->
-{{content}}
-<!-- Main -->
 
 <!-- Footer -->
 {% include site/footer.html %}
