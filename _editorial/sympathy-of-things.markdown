@@ -5,6 +5,8 @@ position: 14
 image: "/uploads/Sympathy.jpg"
 client: BBC Radio 4
 logo: bbc-radio-4
+episodes: 2
+run-time: 28 mins
 link: https://www.bbc.co.uk/programmes/m0000xqs
 ---
 
