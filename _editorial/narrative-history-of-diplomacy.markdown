@@ -1,5 +1,5 @@
 ---
-title: A Narrative History of Diplomacy
+title: 'Friends & Foes: A Narrative History of Diplomacy'
 date: 2019-09-05 20:23:00 Z
 position: 4
 image: "/uploads/Narrative.jpg"
