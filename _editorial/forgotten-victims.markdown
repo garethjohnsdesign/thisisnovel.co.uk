@@ -5,6 +5,8 @@ position: 9
 image: "/uploads/forgottenVictims.jpg"
 client: Unherd
 logo: unherd
+episodes: 1
+run-time: 34 mins
 link: https://soundcloud.com/user-350933778/communisms-forgotten-victims
 ---
 
