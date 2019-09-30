@@ -22,7 +22,7 @@ Foundation.Interchange.SPECIAL_QUERIES[ "xxlarge-retina" ] = 'only screen and (m
 $( document ).foundation();
 
 
-$(window).bind("load", function() {
+$( document ).ready(function() {
 
 // 1. Loader
 // ---------------

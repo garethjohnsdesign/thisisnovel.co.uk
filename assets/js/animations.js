@@ -7,7 +7,7 @@ var logoItem = bodymovin.loadAnimation({
   path: 'logo.json'
 });
 
-setTimeout(function(){ logoItem.play(); }, 500);
+setTimeout(function(){ logoItem.play(); }, 1500);
 
 var circles = document.getElementById('circles');
 var circlesItem = bodymovin.loadAnimation({
@@ -18,4 +18,4 @@ var circlesItem = bodymovin.loadAnimation({
   path: 'circles.json'
 });
 
-setTimeout(function(){ circlesItem.play(); }, 3000);
+setTimeout(function(){ circlesItem.play(); }, 4000);
