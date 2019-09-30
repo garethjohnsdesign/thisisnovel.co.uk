@@ -5,6 +5,8 @@ position: 11
 image: "/uploads/Istanbul.jpg"
 client: BBC Radio 4
 logo: bbc-radio-4
+episodes: 1
+run-time: 28 mins
 link: https://www.bbc.co.uk/programmes/m00060w4
 ---
 
