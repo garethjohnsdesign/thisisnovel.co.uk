@@ -22,6 +22,7 @@ Foundation.Interchange.SPECIAL_QUERIES[ "xxlarge-retina" ] = 'only screen and (m
 $( document ).foundation();
 
 
+$(window).bind("load", function() {
 
 // 1. Loader
 // ---------------
@@ -233,3 +234,5 @@ var defaultOptions = {
 new PanelSnap(defaultOptions);
 
 // Test
+
+});

@@ -11,12 +11,12 @@ layout: default
     </div>
   </div>
 
-  <div class="grid-y align-center about--text" style="height: 100%">
+  <div class="grid-y align-center about--text" style="height: 100%" data-aos="fade-in" data-aos-delay="custom">
     <div class="shrink cell">
       <div class="grid-container">
 
         <div class="grid-x grid-padding-x align-center">
-          <div class="small-11 medium-10 large-10 cell" data-aos="fade-in" data-aos-delay="custom">
+          <div class="small-11 medium-10 large-10 cell">
             <h2>{{page.about-text}}</h2>
           </div>
         </div>
@@ -26,10 +26,10 @@ layout: default
   </div>
 
   <div class="grid-y align-center about--animation" style="height: 100%">
-    <div class="shrink cell text-center" data-aos="fade-in">
+    <div class="shrink cell text-center">
         <div class="grid-x align-left">
-          <div class="small-12 cell" data-aos="fade-in">
-            <lottie-player src="/assets/animation/circles.json"  background="transparent"  speed="1"  style="width: 100%; height: 100%;" autoplay ></lottie-player>
+          <div class="small-12 cell">
+            <div id="circles"></div>
           </div>
         </div>
     </div>
@@ -111,18 +111,5 @@ layout: default
       </div>
     </div>
   </div>
-
-  <div class="contact--animation grid-y align-center" style="height: 100%">
-    <div class="shrink cell text-center" data-aos="fade-in">
-      <div class="grid-x align-left">
-
-        <div class="small-12 cell" data-aos="fade-in">
-          <lottie-player src="/assets/animation/circles.json"  background="transparent"  speed="1"  style="width: 100%; height: 100%;" autoplay ></lottie-player>
-        </div>
-
-      </div>
-    </div>
-  </div>
-
 </section>
 <!-- End Contact -->
