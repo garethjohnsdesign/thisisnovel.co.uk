@@ -1,7 +1,7 @@
 ---
 title: The Rise and Fall of the Meritocracy
 date: 2019-09-05 15:40:00 Z
-position: 16
+position: 17
 image: "/uploads/rise-and-fall.jpg"
 client: BBC Radio 4
 logo: bbc-radio-4
