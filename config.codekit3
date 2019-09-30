@@ -2076,6 +2076,17 @@
 		"sC": 0,
 		"tS": 0
 		},
+	"/assets/js/audio.js": {
+		"bF": 4,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/assets/js/min/audio-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"/assets/js/bodymovin.js": {
 		"bF": 0,
 		"ft": 64,
