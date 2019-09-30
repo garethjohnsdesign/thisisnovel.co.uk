@@ -5,6 +5,8 @@ position: 16
 image: "/uploads/A-Hacks.jpg"
 client: BBC Radio 4
 logo: bbc-radio-4
+episodes: 1
+run-time: 57 mins
 link: https://www.bbc.co.uk/programmes/b0b90lng
 ---
 
