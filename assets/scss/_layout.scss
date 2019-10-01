@@ -638,11 +638,18 @@ header {
   top: 0;
   left: 0;
   z-index: 5;
-/*
   width: 100%;
   height: 100%;
-*/
   overflow: hidden;
+  @include breakpoint(small) {
+  padding: 2rem 1rem;
+  }
+  @include breakpoint(medium) {
+  padding: 3rem 3rem;
+  }
+  @include breakpoint(large) {
+  padding: 3rem 4rem;
+  }
 }
 
 .contact--animation {
