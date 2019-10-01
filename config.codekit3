@@ -44,6 +44,22 @@
 		"oAP": "/_branded/airbnb-detour.markdown",
 		"oF": 0
 		},
+	"/_branded/ambassador-theatre-group.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_branded/ambassador-theatre-group.markdown",
+		"oF": 0
+		},
+	"/_branded/jaguar-land-rover.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_branded/jaguar-land-rover.markdown",
+		"oF": 0
+		},
 	"/_branded/the-cannes-lions-podcast.markdown": {
 		"cB": 0,
 		"ft": 8192,
@@ -60,6 +76,14 @@
 		"oAP": "/_branded/the-official-fantasy-premier-league-podcast.markdown",
 		"oF": 0
 		},
+	"/_branded/theatreland.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_branded/theatreland.markdown",
+		"oF": 0
+		},
 	"/_config.yml": {
 		"cB": 0,
 		"ft": 8192,
@@ -74,6 +98,14 @@
 		"hM": 0,
 		"oA": 2,
 		"oAP": "/_data/navigation.yml",
+		"oF": 0
+		},
+	"/_editorial/a-hacks-progress.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_editorial/a-hacks-progress.markdown",
 		"oF": 0
 		},
 	"/_editorial/angels-of-the-bayou.markdown": {
@@ -124,6 +156,14 @@
 		"oAP": "/_editorial/five-green-bottles.markdown",
 		"oF": 0
 		},
+	"/_editorial/forgotten-victims.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_editorial/forgotten-victims.markdown",
+		"oF": 0
+		},
 	"/_editorial/friends-and-foes-a-narrative-history-of-diplomacy.markdown": {
 		"cB": 0,
 		"ft": 8192,
@@ -172,6 +212,14 @@
 		"oAP": "/_editorial/is-the-news-industry-undermining-the-west.markdown",
 		"oF": 0
 		},
+	"/_editorial/istanbuls-factory-of-tears.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_editorial/istanbuls-factory-of-tears.markdown",
+		"oF": 0
+		},
 	"/_editorial/its-obscene.markdown": {
 		"cB": 0,
 		"ft": 8192,
@@ -186,6 +234,14 @@
 		"hM": 0,
 		"oA": 2,
 		"oAP": "/_editorial/murad-subay-the-walls-remember.markdown",
+		"oF": 0
+		},
+	"/_editorial/narrative-history-of-diplomacy.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_editorial/narrative-history-of-diplomacy.markdown",
 		"oF": 0
 		},
 	"/_editorial/our-daily-bread.markdown": {
@@ -226,6 +282,14 @@
 		"hM": 0,
 		"oA": 2,
 		"oAP": "/_editorial/slaughter-of-the-innocents.markdown",
+		"oF": 0
+		},
+	"/_editorial/sympathy-of-things.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_editorial/sympathy-of-things.markdown",
 		"oF": 0
 		},
 	"/_editorial/taking-on-china.markdown": {
@@ -636,6 +700,14 @@
 		"oAP": "/_includes/partials/highlight.html",
 		"oF": 0
 		},
+	"/_includes/partials/project.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_includes/partials/project.html",
+		"oF": 0
+		},
 	"/_includes/reveal/meta.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -764,11 +836,30 @@
 		"oAP": "/_layouts/page.html",
 		"oF": 0
 		},
+	"/_layouts/testing.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_layouts/testing.html",
+		"oF": 0
+		},
 	"/_site": {
 		"ft": 65536,
 		"oA": 1,
 		"oAP": "/build/_site",
 		"oF": 0
+		},
+	"/_uploads/A-Hacks.jpg": {
+		"ft": 16384,
+		"iS": 400163,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/A-Hacks.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"/_uploads/airbnb-rev1.jpg": {
 		"ft": 16384,
@@ -781,12 +872,34 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/_uploads/airbnb-rev2.jpg": {
+		"ft": 16384,
+		"iS": 159892,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/airbnb-rev2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/_uploads/airbnb.jpg": {
 		"ft": 16384,
 		"iS": 536819,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/_uploads/airbnb.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/Ambass.jpg": {
+		"ft": 16384,
+		"iS": 106189,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/Ambass.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -810,6 +923,17 @@
 		"oA": 2,
 		"oAP": "/_uploads/angels-of-the-bayou-preview.mp3",
 		"oF": 0
+		},
+	"/_uploads/Angels2.jpg": {
+		"ft": 16384,
+		"iS": 217689,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/Angels2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"/_uploads/anita-hill.jpg": {
 		"ft": 16384,
@@ -836,6 +960,57 @@
 		"hM": 0,
 		"oA": 2,
 		"oAP": "/_uploads/background.mp4",
+		"oF": 0
+		},
+	"/_uploads/bbc-radio-4-negative-556b42.png": {
+		"ft": 32768,
+		"iS": 7414,
+		"oA": 0,
+		"oAP": "/_uploads/bbc-radio-4-negative-556b42.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/_uploads/bbc-radio-4-negative.png": {
+		"ft": 32768,
+		"iS": 7414,
+		"oA": 0,
+		"oAP": "/_uploads/bbc-radio-4-negative.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/_uploads/bbc-radio-4.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/_uploads/bbc-radio-4.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/_uploads/Believers.jpg": {
+		"ft": 16384,
+		"iS": 715487,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/Believers.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/bellingcat-preview-home.mp3": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_uploads/bellingcat-preview-home.mp3",
 		"oF": 0
 		},
 	"/_uploads/bellingcat-preview.mp3": {
@@ -888,6 +1063,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
+		"q": 100
+		},
+	"/_uploads/butterfly-ed00a8.jpg": {
+		"ft": 16384,
+		"iS": 483334,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/butterfly-ed00a8.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"/_uploads/butterfly-rev1.jpg": {
@@ -970,6 +1156,17 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/_uploads/cannes-lions-rev1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/cannes-lions-rev2.jpg": {
+		"ft": 16384,
+		"iS": 309461,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/cannes-lions-rev2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1084,6 +1281,17 @@
 		"opt": 1,
 		"q": 100
 		},
+	"/_uploads/forgottenVictims.jpg": {
+		"ft": 16384,
+		"iS": 229220,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/forgottenVictims.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/_uploads/friends-and-foes-history-of-dimocracy-preview.mp3": {
 		"cB": 0,
 		"ft": 8192,
@@ -1144,6 +1352,28 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/_uploads/India.jpg": {
+		"ft": 16384,
+		"iS": 157423,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/India.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/Istanbul.jpg": {
+		"ft": 16384,
+		"iS": 71673,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/Istanbul.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/_uploads/its-obscene-preview.mp3": {
 		"cB": 0,
 		"ft": 8192,
@@ -1163,6 +1393,28 @@
 		"opt": 1,
 		"q": 100
 		},
+	"/_uploads/itsobscene.jpg": {
+		"ft": 16384,
+		"iS": 650397,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/itsobscene.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/Landrover.jpg": {
+		"ft": 16384,
+		"iS": 185369,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/Landrover.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/_uploads/murad-subay-preview.mp3": {
 		"cB": 0,
 		"ft": 8192,
@@ -1180,6 +1432,28 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
+		"q": 100
+		},
+	"/_uploads/Narrative.jpg": {
+		"ft": 16384,
+		"iS": 161311,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/Narrative.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/og-image.png": {
+		"ft": 32768,
+		"iS": 29636,
+		"oA": 0,
+		"oAP": "/_uploads/og-image.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"/_uploads/our-daily-bread-preview.mp3": {
@@ -1231,6 +1505,39 @@
 		"opt": 1,
 		"q": 100
 		},
+	"/_uploads/premier-284a69.jpg": {
+		"ft": 16384,
+		"iS": 242496,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/premier-284a69.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/premier-c7942d.jpg": {
+		"ft": 16384,
+		"iS": 242496,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/premier-c7942d.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/premier-fd589f.jpg": {
+		"ft": 16384,
+		"iS": 242496,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/premier-fd589f.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/_uploads/premier-league-preview.mp3": {
 		"cB": 0,
 		"ft": 8192,
@@ -1245,6 +1552,17 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/_uploads/premier-league.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/premier.jpg": {
+		"ft": 16384,
+		"iS": 299330,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/premier.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1310,6 +1628,17 @@
 		"opt": 1,
 		"q": 100
 		},
+	"/_uploads/RightCLick.jpg": {
+		"ft": 16384,
+		"iS": 234445,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/RightCLick.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/_uploads/rise-and-fall.jpg": {
 		"ft": 16384,
 		"iS": 1071897,
@@ -1339,6 +1668,28 @@
 		"oA": 2,
 		"oAP": "/_uploads/slaughter-of-the-innocents-preview.mp3",
 		"oF": 0
+		},
+	"/_uploads/Slaughter.jpg": {
+		"ft": 16384,
+		"iS": 546069,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/Slaughter.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/Sympathy.jpg": {
+		"ft": 16384,
+		"iS": 140513,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/Sympathy.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"/_uploads/taliban.jpg": {
 		"ft": 16384,
@@ -1381,6 +1732,28 @@
 		"oAP": "/_uploads/the-rise-and-fall-of-the-meritocracy-preview.mp3",
 		"oF": 0
 		},
+	"/_uploads/Theatre.jpg": {
+		"ft": 16384,
+		"iS": 229401,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/Theatre.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/Todays-Bread.jpg": {
+		"ft": 16384,
+		"iS": 572293,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/Todays-Bread.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/_uploads/trump.jpg": {
 		"ft": 16384,
 		"iS": 267577,
@@ -1391,6 +1764,22 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"/assets/animation/circles.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/assets/animation/circles-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/assets/animation/logo.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/assets/animation/logo-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
 		},
 	"/assets/css/app.css": {
 		"aP": 0,
@@ -1687,6 +2076,17 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"/assets/js/min/jquery.marquee-min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/assets/js/min/min/jquery.marquee-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"/assets/js/min/svgxuse-min.js": {
 		"bF": 0,
 		"ft": 64,
@@ -1694,17 +2094,6 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "/assets/js/min/min/svgxuse-min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/assets/js/scroll-snap.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/assets/js/min/scroll-snap-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -2366,17 +2755,6 @@
 		"oA": 2,
 		"oAP": "/build/node_modules",
 		"oF": 0
-		},
-	"/node_modules/animejs/lib/anime.es.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/node_modules/animejs/lib/min/anime.es-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
 		},
 	"/node_modules/aos/dist/aos.js": {
 		"bF": 0,
