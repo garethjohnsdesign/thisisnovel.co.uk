@@ -2,10 +2,6 @@
 title: Novel
 position: 0
 image: "/uploads/og-image.png"
-hero-image: 
-about-image: 
-branded-image: 
-contact-image: 
 about-text: "Novel. \n\nA premium audio content company. \n\nWhether it’s compelling
   journalism, powerful podcasts or innovative branded content, we tell stories in
   sound that make people listen."
@@ -15,6 +11,7 @@ editorial-text: Novel produces chart topping independent podcasts and award winn
 branded-text: Novel helps brands get heard. We deliver innovative branded content
   that people actually want to listen to.
 contact-text: Whatever the story you want to tell, we’d love to hear from you.
+address-text: Studio 30, Hackney Downs Studio, 17 Amhurst Terrace, Hackney Downs, London E8 2BT  
 layout: home
 ---
 
