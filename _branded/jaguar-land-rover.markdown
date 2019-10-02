@@ -6,6 +6,7 @@ image: "/uploads/Landrover.jpg"
 client: Jaguar Land Rover
 logo: landrover
 episodes: 1
+listen: "/uploads/Landrover.mp3"
 link: |2-
 
   https://podcasts.apple.com/gb/podcast/the-discovery-adventures/id1283454475
