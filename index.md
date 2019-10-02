@@ -11,10 +11,8 @@ editorial-text: Novel produces chart topping independent podcasts and award winn
 branded-text: Novel helps brands get heard. We deliver innovative branded content
   that people actually want to listen to.
 contact-text: Whatever the story you want to tell, we’d love to hear from you.
-address-text: |-
-  Studio 30, Hackney Downs Studio  
-  17 Amhurst Terrace, Hackney Downs  
-  London E8 2BT
+address-text: "Studio 30, Hackney Downs Studio  \n17 Amhurst Terrace, Hackney Downs
+  \ \nLondon E8 2BT"
 layout: home
 ---
 
