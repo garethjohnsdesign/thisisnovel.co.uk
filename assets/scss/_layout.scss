@@ -538,12 +538,12 @@ z-index: 21;
  {
   display: none;
   margin-top: 1rem;
+}
 
-  &.expanded {
-    .read-more {
-      display: block;
-    }
-  }
+.read-less,
+ {
+  display: none;
+  margin-top: 1rem;
 }
 
 .rotate-90 {
