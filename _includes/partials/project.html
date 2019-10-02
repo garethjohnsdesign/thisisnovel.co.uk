@@ -27,12 +27,12 @@
 
         <div class="shrink cell">
 
-        <div class="h3 margin-top-0">{{project.title }}</div>
+        <div class="h3 margin-top-0">{{project.title}}</div>
   
         </div>
         
         <div class="shrink cell">
-        <div class="margin-bottom-1">{{project.content | markdownify }}</div>
+        <div class="margin-bottom-0">{{project.content | remove: '<p>' | remove: '</p>'}}</div>
         </div>
 
       </div>
