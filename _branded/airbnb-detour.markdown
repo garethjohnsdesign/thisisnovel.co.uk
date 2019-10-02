@@ -7,6 +7,7 @@ client: AirBnB
 logo: airbnb
 episodes: 10
 run-time: Various
+listen: "/uploads/Airbnb.mp3"
 link: https://www.google.com
 is-highlight: true
 ---
