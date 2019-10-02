@@ -2,7 +2,7 @@
 title: Capitalism on a Knife Edge
 date: 2019-09-05 15:18:00 Z
 published: false
-position: 25
+position: 24
 client: UnHerd
 episodes: 1
 run-time: 42 mins
