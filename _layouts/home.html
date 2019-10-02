@@ -45,7 +45,7 @@ layout: default
       <div class="grid-x grid-padding-x grid-padding-y">
         <div class="small-12 medium-10 large-10 cell" data-aos="fade-in">
           <h4 class="text-uppercase sans-bold margin-bottom-3"><span class="underline">Editorial</span></h4>
-          <div class="h2">{{page.editorial-text | markdownify}}</div>
+          <div class="h2">{{page.editorial-text}}</div>
         </div>
       </div>
     </div>
@@ -105,7 +105,7 @@ layout: default
           <h4 class="text-uppercase sans-bold margin-bottom-3"><span class="underline">Contact</span></h4>
           <div class="h2">{{page.contact-text | markdownify}}</div>
           <div class="margin-bottom-2 h2"><a href="mailto:{{site.email}}" class="underline">{{site.email}}</a></div>
-          <div>{{page.address-text | markdownify}}</div>
+          {{page.address-text | markdownify}}
         </div>
       </div>
     </div>
