@@ -124,14 +124,6 @@
 		"oAP": "/_editorial/capitalism-on-a-knife-edge.markdown",
 		"oF": 0
 		},
-	"/_editorial/communisms-forgotten-victims.markdown": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/_editorial/communisms-forgotten-victims.markdown",
-		"oF": 0
-		},
 	"/_editorial/dying-whispers.markdown": {
 		"cB": 0,
 		"ft": 8192,
@@ -2072,8 +2064,8 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "/assets/js/min/app-min.js",
-		"oF": 1,
-		"sC": 0,
+		"oF": 0,
+		"sC": 1,
 		"tS": 0
 		},
 	"/assets/js/audio.js": {
@@ -2116,6 +2108,17 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "/assets/js/min/min/app-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/assets/js/min/audio-min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/assets/js/min/min/audio-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -2163,22 +2166,6 @@
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
-		},
-	"/assets/partials/overlay-default.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/assets/partials/overlay-default.html",
-		"oF": 0
-		},
-	"/assets/partials/overlay-medium.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/assets/partials/overlay-medium.html",
-		"oF": 0
 		},
 	"/assets/scss/_fonts.scss": {
 		"aP": 0,
@@ -2782,14 +2769,6 @@
 		"ft": 524288,
 		"oA": 1,
 		"oAP": "/circles-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"/data.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "/data-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
