@@ -10,4 +10,4 @@ run-time: 57 mins
 link: https://www.bbc.co.uk/programmes/b0b90lng
 ---
 
-In this archival documentary, journalist and author Jonathan Freedland looks at how journalists and newspapers have been depicted in fiction.
+Journalist and author Jonathan Freedland looks at how journalists and newspapers have been depicted in fiction from the advent of the mass popular press to the present day, examining the changing public image of the fourth estate and its practitioners.
