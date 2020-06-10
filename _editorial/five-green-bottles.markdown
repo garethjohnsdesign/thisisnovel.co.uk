@@ -8,7 +8,7 @@ logo: bbc-radio-4
 episodes: 5
 run-time: 14 mins
 listen: "/uploads/five-green-bottles-preview.mp3"
-link: https://www.google.com
+link: https://www.bbc.co.uk/programmes/b09d9tsd
 ---
 
 In this series, wine critics offer personal reflections on the personal, political and historical stories of bygone bottles of wine.
