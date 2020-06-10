@@ -8,7 +8,7 @@ logo: bbc-radio-4
 episodes: 1
 run-time: 28 mins
 listen: "/uploads/goliath-how-monopolies-came-to-be-preview.mp3"
-link: https://www.google.com
+link: https://www.bbc.co.uk/programmes/m0003zvn
 ---
 
 Will Hutton considers the ironies and tensions central to modern monopolies, tracing the history of monopolies and public attitudes towards them.
