@@ -8,7 +8,7 @@ logo: bbc-radio-4
 episodes: 1
 run-time: 28 mins
 listen: "/uploads/angels-of-the-bayou-preview.mp3"
-link: https://www.google.com
+link: https://www.bbc.co.uk/programmes/m00070my
 ---
 
 The story of a flood-threatened town in Louisiana, in which a bricklayer spent 13 years building a mysterious sculpture park before vanishing.
