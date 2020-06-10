@@ -10,4 +10,4 @@ run-time: 28 mins
 link: https://www.bbc.co.uk/programmes/m0000xqs
 ---
 
-In this two-part series, Turner Prize-winning architectural collective Assemble explore the designed and manufactured world.
+In this two-part series, Turner Prize-winning architectural collective Assemble explore the designed and manufactured world. These programmes explore the way that mass production has upended our relationship to the material world, and explain how the advent of digital technologies will do so again - but not in the way you think.
