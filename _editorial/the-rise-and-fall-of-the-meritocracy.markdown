@@ -8,7 +8,7 @@ logo: bbc-radio-4
 episodes: 1
 run-time: 28 mins
 listen: "/uploads/the-rise-and-fall-of-the-meritocracy-preview.mp3"
-link: https://www.google.com
+link: https://www.bbc.co.uk/programmes/b08lgq9n
 ---
 
 Toby Young asks if the Brexit and Trump votes signal the death knell for the popular political vision of the modern meritocracy.
