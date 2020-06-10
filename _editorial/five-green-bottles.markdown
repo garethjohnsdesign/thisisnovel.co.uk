@@ -11,4 +11,4 @@ listen: "/uploads/five-green-bottles-preview.mp3"
 link: https://www.bbc.co.uk/programmes/b09d9tsd
 ---
 
-In this series, wine critics offer personal reflections on the personal, political and historical stories of bygone bottles of wine.
+In this series, critics offer personal reflections on the personal, political and historical stories of bygone bottles of wine. We hear about the world's most powerful wine critic and sample the oldest wine ever to have been tasted.
