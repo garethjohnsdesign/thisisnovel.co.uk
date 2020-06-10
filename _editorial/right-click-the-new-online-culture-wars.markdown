@@ -8,7 +8,7 @@ logo: bbc-radio-4
 episodes: 1
 run-time: 28 mins
 listen: "/uploads/right-click-preview.mp3"
-link: https://www.google.com
+link: https://www.bbc.co.uk/programmes/m0000qv5
 ---
 
 Gavin Haynes goes in search of a new wave of online political thought and discovers a never-ending culture war.
