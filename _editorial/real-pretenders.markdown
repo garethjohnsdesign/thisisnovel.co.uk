@@ -8,7 +8,7 @@ logo: bbc-radio-3
 episodes: 1
 run-time: 57 mins
 listen: "/uploads/real-pretenders-preview.mp3"
-link: https://www.google.com
+link: https://www.bbc.co.uk/programmes/b071chpd
 ---
 
 Antonia Quirke investigates the history of acting – how the stars of screen and stage have evolved their craft throughout history.
