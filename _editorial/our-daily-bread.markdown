@@ -8,7 +8,7 @@ logo: bbc-world-service
 episodes: 1
 run-time: 26 mins
 listen: "/uploads/our-daily-bread-preview.mp3"
-link: https://www.google.com
+link: https://www.bbc.co.uk/programmes/w3csz575
 ---
 
 Rachel O’Connell invites us to experience life within a secretive community of nuns who live high on a Greek mountainside
