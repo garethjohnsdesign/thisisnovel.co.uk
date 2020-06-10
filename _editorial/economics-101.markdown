@@ -8,7 +8,7 @@ logo: bbc-radio-4
 episodes: 1
 run-time: 28 mins
 listen: "/uploads/economics-101-preview.mp3"
-link: https://www.google.com
+link: https://www.bbc.co.uk/programmes/b0bbtbcs
 is-highlight: false
 ---
 
