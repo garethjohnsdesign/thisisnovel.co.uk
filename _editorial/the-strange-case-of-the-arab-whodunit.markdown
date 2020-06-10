@@ -8,7 +8,7 @@ logo: bbc-radio-4
 episodes: 1
 run-time: 28 mins
 listen: "/uploads/arab-whodunnit-preview.mp3"
-link: https://www.google.com
+link: https://www.bbc.co.uk/programmes/b09f2cxy
 ---
 
 Jonathan Guyer examines the different forms of noir fiction addressing the failed revolutions, jihadism, and chaos in Egypt
