@@ -10,4 +10,4 @@ run-time: 34 mins
 link: https://soundcloud.com/user-350933778/communisms-forgotten-victims
 ---
 
-Author Douglas Murray asks why don’t we remember the victims of communism the way we do those killed by fascism?
+Author Douglas Murray explores why the communist ideology that killed many more people than Nazism – and in many more parts of the world, from Russia to China and to Cambodia – is so poorly remembered when compared to the Hitler's national socialism.
