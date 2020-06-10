@@ -11,4 +11,4 @@ listen: "/uploads/slaughter-of-the-innocents-preview.mp3"
 link: https://www.bbc.co.uk/programmes/b085x6rq
 ---
 
-Tim Montgomerie reflects on the largely forgotten Collect for Holy Innocents day, celebrated on the 28th of December.
+Tim Montgomerie reflects on the largely forgotten Collect for Holy Innocents Day. This religious holiday is for recalling the murder of innocent lives and remembering the violence and injustice of our world. Yet, despite its contemporary relevance, it has fallen into obscurity.
