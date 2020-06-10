@@ -8,7 +8,7 @@ logo: bbc-world-service
 episodes: 1
 run-time: 28 mins
 listen: "/uploads/dying-whispers-preview.mp3"
-link: https://www.google.com
+link: https://www.bbc.co.uk/programmes/w3csy0yg
 ---
 
 Sahar Zand travels to Belarus and discovers one of the world’s oldest, strangest spiritual traditions.
