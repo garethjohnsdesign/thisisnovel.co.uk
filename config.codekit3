@@ -692,12 +692,28 @@
 		"oAP": "/_includes/partials/highlight.html",
 		"oF": 0
 		},
+	"/_includes/partials/member.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_includes/partials/member.html",
+		"oF": 0
+		},
 	"/_includes/partials/project.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 2,
 		"oAP": "/_includes/partials/project.html",
+		"oF": 0
+		},
+	"/_includes/partials/team.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_includes/partials/team.html",
 		"oF": 0
 		},
 	"/_includes/reveal/meta.html": {
@@ -840,6 +856,54 @@
 		"ft": 65536,
 		"oA": 1,
 		"oAP": "/build/_site",
+		"oF": 0
+		},
+	"/_team/caroline-thornham.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_team/caroline-thornham.markdown",
+		"oF": 0
+		},
+	"/_team/james-morris.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_team/james-morris.markdown",
+		"oF": 0
+		},
+	"/_team/matt-omara.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_team/matt-omara.markdown",
+		"oF": 0
+		},
+	"/_team/max-obrien.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_team/max-obrien.markdown",
+		"oF": 0
+		},
+	"/_team/robbie-macinnes.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_team/robbie-macinnes.markdown",
+		"oF": 0
+		},
+	"/_team/sean-glynn.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_team/sean-glynn.markdown",
 		"oF": 0
 		},
 	"/_uploads/A-Hacks-Progress.jpg": {
@@ -1213,6 +1277,17 @@
 		"opt": 1,
 		"q": 100
 		},
+	"/_uploads/caroline-thornham.jpg": {
+		"ft": 16384,
+		"iS": 796236,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/caroline-thornham.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/_uploads/christopher-hitchens-preview.mp3": {
 		"cB": 0,
 		"ft": 8192,
@@ -1434,6 +1509,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/_uploads/james-morris.jpg": {
+		"ft": 16384,
+		"iS": 339626,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/james-morris.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/_uploads/Landrover.jpg": {
 		"ft": 16384,
 		"iS": 185369,
@@ -1452,6 +1538,28 @@
 		"oA": 2,
 		"oAP": "/_uploads/Landrover.mp3",
 		"oF": 0
+		},
+	"/_uploads/matt-omara.jpg": {
+		"ft": 16384,
+		"iS": 225739,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/matt-omara.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/max-obrien.jpg": {
+		"ft": 16384,
+		"iS": 348847,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/max-obrien.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"/_uploads/murad-subay-preview.mp3": {
 		"cB": 0,
@@ -1710,6 +1818,28 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/_uploads/robbie-macinnes.jpg": {
+		"ft": 16384,
+		"iS": 364434,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/robbie-macinnes.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/sean-glynn.jpg": {
+		"ft": 16384,
+		"iS": 439666,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/sean-glynn.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/_uploads/slaughter-of-innocents.jpg": {
 		"ft": 16384,
 		"iS": 206553,
@@ -1760,6 +1890,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
+		"q": 100
+		},
+	"/_uploads/team.jpg": {
+		"ft": 16384,
+		"iS": 891582,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/team.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"/_uploads/test.jpg": {

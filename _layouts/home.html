@@ -96,13 +96,64 @@ layout: default
 {% include partials/archive.html %}
 <!-- End Branded Archive -->
 
-<!-- Contact -->
+
+{% assign image = page.contact-image %}
+<section class="snapping grid-y grid-padding-y align-justify" data-interchange="{% include images/interchange-img-small-12-medium-12-cell.html %}">
+<div class="cell" data-aos="fade-in">
+  <div class="grid-container">
+    <div class="grid-x grid-padding-x grid-padding-y">
+    <div class="small-12 cell">
+    <h4 class="text-uppercase sans-bold margin-bottom-3"><span class="underline">Contact</span></h4>
+    </div>
+    </div>
+  </div>
+</div>
+<div class="cell" data-aos="fade-in">
+  <div class="grid-container">
+    <div class="grid-x grid-padding-x grid-padding-y align-justify">
+      <div class="small-12 medium-8 cell description">
+        <div class="h2">
+        {{page.contact-hero-text}}
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+</section>
+
+
+<!-- Team -->
+{% assign members = site.team | sort: 'position' %}
+{% if members.size > 0 %}
+<section class="snapping grid-y grid-padding-y align-center contact" id="contact">
+  <div class="cell" data-aos="fade-in" style="z-index: 5">
+    <div class="grid-container">
+        <div class="grid-x grid-padding-x grid-padding-y">
+        {% for member in members %}
+        <div class="small-12 medium-4 cell">
+        {% assign image = member.image %}
+        <div class="image--5-7 margin-bottom-1" data-interchange="{% include images/interchange-img-small-12-medium-4-cell.html %}"></div>
+        <div class="text-uppercase sans-bold">{{member.title}}</div>
+        <div>{{member.job-title}}</div>
+        <div>{{member.email}}</div>
+        </div>
+        {% endfor %}
+        </div>
+    </div>
+  </div>
+</div>
+{% endif %}
+
+<!-- End Team -->
+          
+
+<!-- Contact Details -->
 <section class="snapping grid-y grid-padding-y align-center contact" id="contact">
   <div class="cell" data-aos="fade-in" style="z-index: 5">
     <div class="grid-container">
       <div class="grid-x grid-padding-x grid-padding-y">
         <div class="small-12 medium-8 cell">
-          <h4 class="text-uppercase sans-bold margin-bottom-3"><span class="underline">Contact</span></h4>
           <div class="h2">{{page.contact-text | markdownify}}</div>
           <div class="margin-bottom-2 h2"><a href="mailto:{{site.email}}" class="underline">{{site.email}}</a></div>
           {{page.address-text | markdownify}}
@@ -124,4 +175,4 @@ layout: default
   </div>
 
 </section>
-<!-- End Contact -->
+<!-- End Contact Details -->

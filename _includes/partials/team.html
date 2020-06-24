@@ -1,0 +1,12 @@
+{% if members.size > 0 %}
+<div class="snapping contact">
+
+  {% for member in members %}
+  {% assign image = member.image %}
+  <div class="image--16-9" data-interchange="{% include images/interchange-img-small-12-medium-4-cell.html %}">
+  {{member.title}}
+  {% endfor %}
+
+
+</div>
+{% endif %}
