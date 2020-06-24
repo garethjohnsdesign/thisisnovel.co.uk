@@ -24,7 +24,17 @@
     </div>
     <div class="grid-x grid-padding-x grid-padding-y align-justify">
       <div class="small-12 medium-6 cell description">
+        <div class="">
         {{project.content | markdownify }}
+        </div>
+
+        {% if project.awards %}
+        <div class="text-uppercase sans-bold margin-top-1 margin-bottom-1 small"><span class="underline">Awards</span></div>
+        {% for award in project.awards %}
+        <div>{{ award }}</div>
+        {% endfor %}
+        {% endif %}
+
       </div>
       <div class="small-12 medium-shrink cell text-left">
         <div class="margin-bottom-1 mono-bold">Episodes:{{project.episodes }} — Run Time:{{project.run-time }}</div>
