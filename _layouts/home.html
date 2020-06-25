@@ -96,7 +96,7 @@ layout: default
 {% include partials/archive.html %}
 <!-- End Branded Archive -->
 
-
+<!-- Contact Hero -->
 {% assign image = page.contact-image %}
 <section class="snapping grid-y grid-padding-y align-justify" data-interchange="{% include images/interchange-img-small-12-medium-12-cell.html %}" id="contact">
 <div class="cell" data-aos="fade-in">
@@ -111,7 +111,7 @@ layout: default
 <div class="cell" data-aos="fade-in">
   <div class="grid-container">
     <div class="grid-x grid-padding-x grid-padding-y align-justify">
-      <div class="small-12 medium-8 cell description">
+      <div class="small-12 medium-10 cell description">
         <div class="h2">
         {{page.contact-hero-text}}
         </div>
@@ -121,9 +121,10 @@ layout: default
   </div>
 </div>
 </section>
+<!-- End Contact Hero -->
 
 
-<!-- Team -->
+<!-- Contact Team -->
 {% assign members = site.team | sort: 'position' %}
 {% if members.size > 0 %}
 <section class="snapping grid-y grid-padding-y align-center contact" id="contact">
@@ -136,16 +137,17 @@ layout: default
         <div class="image--5-7 margin-bottom-1" data-interchange="{% include images/interchange-img-small-12-medium-4-cell.html %}"></div>
         <div class="text-uppercase sans-bold">{{member.title}}</div>
         <div>{{member.job-title}}</div>
-        <div>{{member.email}}</div>
+        <div><a href="mailto:{{member.email}}">{{member.email}}</a></div>
         </div>
         {% endfor %}
         </div>
     </div>
   </div>
 </div>
+</section>
 {% endif %}
 
-<!-- End Team -->
+<!-- End Contact Team -->
           
 
 <!-- Contact Details -->
@@ -154,7 +156,7 @@ layout: default
     <div class="grid-container">
       <div class="grid-x grid-padding-x grid-padding-y">
         <div class="small-12 medium-8 cell">
-          <div class="h2">{{page.contact-text | markdownify}}</div>
+          <div class="h2">{{page.contact-text}}</div>
           <div class="margin-bottom-2 h2"><a href="mailto:{{site.email}}" class="underline">{{site.email}}</a></div>
           {{page.address-text | markdownify}}
         </div>

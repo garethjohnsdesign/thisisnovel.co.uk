@@ -1892,6 +1892,17 @@
 		"opt": 1,
 		"q": 100
 		},
+	"/_uploads/team-rev.jpg": {
+		"ft": 16384,
+		"iS": 1032341,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/team-rev.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/_uploads/team.jpg": {
 		"ft": 16384,
 		"iS": 891582,
@@ -2282,7 +2293,7 @@
 		"oA": 0,
 		"oAP": "/assets/js/min/app-min.js",
 		"oF": 0,
-		"sC": 1,
+		"sC": 3,
 		"tS": 0
 		},
 	"/assets/js/audio.js": {

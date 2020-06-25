@@ -98,13 +98,12 @@ $('a[href*="#"]')
 var defaultOptions = {
     container: document.body,
     panelSelector: '.snapping',
-    directionThreshold: 50,
+    directionThreshold: 25,
     delay: 0,
     duration: 300,
     easing: function(t) { return t }
   };
 
 new PanelSnap(defaultOptions);
-
 
 });
