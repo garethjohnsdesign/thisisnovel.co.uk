@@ -119,7 +119,7 @@ $(document).ready(function () {
     var mySwiper = new Swiper ('.swiper-container', {
 
       direction: 'horizontal',
-      slidesPerView: 'auto',
+      slidesPerView: '3',
       centeredSlides: true,
       initialSlide: firstSlide,
       loop: true,
@@ -132,8 +132,8 @@ $(document).ready(function () {
   },
 
     navigation: {
-      nextEl: '.swiper-button-next-test',
-      prevEl: '.swiper-button-prev-test'
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev'
     }
 
    

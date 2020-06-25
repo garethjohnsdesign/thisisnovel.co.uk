@@ -2463,6 +2463,19 @@
 		"oS": 0,
 		"sct": 1
 		},
+	"/assets/scss/_swiper.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/assets/css/_swiper.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
 	"/assets/scss/_transitions.scss": {
 		"aP": 0,
 		"bl": 0,

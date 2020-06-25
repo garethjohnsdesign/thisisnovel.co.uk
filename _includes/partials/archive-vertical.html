@@ -9,11 +9,35 @@
     </div>
   </div>
 
+ <!-- Swiper -->
+ <div class="grid-container">
+   <div class="grid-x grid-padding-x grid-padding-y" data-aos="fade-in">
+     <div class="small-12 medium-12 cell">
+    
+      <div class="swiper-container black-background">
+        <div class="swiper-wrapper" data-equalizer id="test-eq">
+          
+        {% for project in projects limit:6 %}
+        <div class="swiper-slide">
+        {% include partials/project-vertical.html %}
+        </div>
+        {% endfor %}
+    
+        </div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    
+     </div>
+   </div>
+ </div>
+
   <div class="grid-container">
     <div class="grid-x grid-padding-x grid-padding-y" data-aos="fade-in">
-    {% for project in projects limit:6 %}
-    {% include partials/project-vertical.html %}
-    {% endfor %}
+      <div class="small-12 medium-12 cell text-center">
+        <h4 class="text-uppercase mono-bold margin-bottom-2"><span class="underline">See All ({{ projects.size }}) <svg class="icon icon-call_made"><use xlink:href="/assets/icons/symbol-defs.svg#icon-call_made"></use></svg></span></h4>
+      </div>
     </div>
   </div>
 
