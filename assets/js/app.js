@@ -5,6 +5,7 @@ import $ from "jquery";
 import Foundation from 'foundation-sites';
 import AOS from 'aos';
 import PanelSnap from 'panelsnap';
+import Swiper from 'swiper';
 
 
 // 1. Special Queries
@@ -107,3 +108,34 @@ var defaultOptions = {
 new PanelSnap(defaultOptions);
 
 });
+
+// 5. Swiper
+// -----------
+
+$(document).ready(function () {
+
+    var firstSlide = Math.floor(Math.random() * 5);
+    //initialize swiper when document ready
+    var mySwiper = new Swiper ('.swiper-container', {
+
+      direction: 'horizontal',
+      slidesPerView: 'auto',
+      centeredSlides: true,
+      initialSlide: firstSlide,
+      loop: true,
+      preventClicks: true,
+      slideToClickedSlide: false,
+
+  keyboard: {
+    enabled: true,
+    onlyInViewport: false
+  },
+
+    navigation: {
+      nextEl: '.swiper-button-next-test',
+      prevEl: '.swiper-button-prev-test'
+    }
+
+   
+    })
+  });
