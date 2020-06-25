@@ -5,3 +5,4 @@ job-title: Founder/Director
 image: "/uploads/sean-glynn.jpg"
 email: sean.glynn@thisisnovel.co.uk
 ---
+
