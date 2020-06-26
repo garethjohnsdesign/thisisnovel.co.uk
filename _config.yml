@@ -103,4 +103,4 @@ pagination:
 autopages:
   enabled: false
 imgix:
-  source: thisisnovel.imgix.net
+  source: thisisnovel-beta.imgix.net
