@@ -1,5 +1,5 @@
 ---
-title: Editorial Archive
+title: Branded Archive
 collection: editorial
 layout: archive
 ---

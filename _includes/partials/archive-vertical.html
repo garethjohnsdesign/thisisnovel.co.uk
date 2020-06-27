@@ -14,11 +14,11 @@
    <div class="grid-x grid-padding-x grid-padding-y" data-aos="fade-in">
      <div class="small-12 medium-12 cell">
     
-      <div class="swiper-container black-background">
+      <div class="swiper-container">
         <div class="swiper-wrapper" data-equalizer id="test-eq">
           
         {% for project in projects limit:6 %}
-        <div class="swiper-slide">
+        <div class="swiper-slide black-background">
         {% include partials/project-vertical.html %}
         </div>
         {% endfor %}

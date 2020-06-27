@@ -3017,6 +3017,25 @@
 		"oS": 0,
 		"sct": 1
 		},
+	"/branded-archive.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/branded-archive.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
 	"/circles.json": {
 		"ft": 524288,
 		"oA": 1,
@@ -3024,14 +3043,6 @@
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
-		},
-	"/editorial-archive.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/editorial-archive.html",
-		"oF": 0
 		},
 	"/editorial-archive.md": {
 		"cB": 0,
@@ -3042,9 +3053,9 @@
 		"eSQ": 1,
 		"ft": 4096,
 		"hM": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/editorial-archive.html",
-		"oF": 0,
+		"oF": 1,
 		"oFM": 0,
 		"oS": 0,
 		"pHT": 0,

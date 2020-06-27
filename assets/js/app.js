@@ -123,6 +123,7 @@ $(document).ready(function () {
       centeredSlides: true,
       initialSlide: firstSlide,
       loop: true,
+      spaceBetween: 4,
       preventClicks: true,
       slideToClickedSlide: false,
 
