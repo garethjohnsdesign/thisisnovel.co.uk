@@ -100,6 +100,14 @@
 		"oAP": "/_data/navigation.yml",
 		"oF": 0
 		},
+	"/_editorial/a-cure-at-what-cost.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_editorial/a-cure-at-what-cost.markdown",
+		"oF": 0
+		},
 	"/_editorial/a-hacks-progress.markdown": {
 		"cB": 0,
 		"ft": 8192,
@@ -108,12 +116,36 @@
 		"oAP": "/_editorial/a-hacks-progress.markdown",
 		"oF": 0
 		},
+	"/_editorial/a-very-john-kearns-christmas.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_editorial/a-very-john-kearns-christmas.markdown",
+		"oF": 0
+		},
+	"/_editorial/alhans-world.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_editorial/alhans-world.markdown",
+		"oF": 0
+		},
 	"/_editorial/angels-of-the-bayou.markdown": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 2,
 		"oAP": "/_editorial/angels-of-the-bayou.markdown",
+		"oF": 0
+		},
+	"/_editorial/awkward-conversations-about-money.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_editorial/awkward-conversations-about-money.markdown",
 		"oF": 0
 		},
 	"/_editorial/capitalism-on-a-knife-edge.markdown": {
@@ -140,6 +172,22 @@
 		"oAP": "/_editorial/economics-101.markdown",
 		"oF": 0
 		},
+	"/_editorial/el-impenetrable.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_editorial/el-impenetrable.markdown",
+		"oF": 0
+		},
+	"/_editorial/fallout.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_editorial/fallout.markdown",
+		"oF": 0
+		},
 	"/_editorial/five-green-bottles.markdown": {
 		"cB": 0,
 		"ft": 8192,
@@ -164,12 +212,36 @@
 		"oAP": "/_editorial/friends-and-foes-a-narrative-history-of-diplomacy.markdown",
 		"oF": 0
 		},
+	"/_editorial/futile-attempts.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_editorial/futile-attempts.markdown",
+		"oF": 0
+		},
+	"/_editorial/girl-power-rip.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_editorial/girl-power-rip.markdown",
+		"oF": 0
+		},
 	"/_editorial/goliath-how-monopolies-came-to-be.markdown": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 2,
 		"oAP": "/_editorial/goliath-how-monopolies-came-to-be.markdown",
+		"oF": 0
+		},
+	"/_editorial/hijacked-histories.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_editorial/hijacked-histories.markdown",
 		"oF": 0
 		},
 	"/_editorial/how-dead-end-jobs-killed-small-town-pride.markdown": {
@@ -316,12 +388,60 @@
 		"oAP": "/_editorial/the-bureau-gun-running-in-mexico.markdown",
 		"oF": 0
 		},
+	"/_editorial/the-burnt-notebook.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_editorial/the-burnt-notebook.markdown",
+		"oF": 0
+		},
+	"/_editorial/the-crisis-inside.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_editorial/the-crisis-inside.markdown",
+		"oF": 0
+		},
+	"/_editorial/the-poetry-pharmacy.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_editorial/the-poetry-pharmacy.markdown",
+		"oF": 0
+		},
 	"/_editorial/the-political-butterfly-effect.markdown": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 2,
 		"oAP": "/_editorial/the-political-butterfly-effect.markdown",
+		"oF": 0
+		},
+	"/_editorial/the-political-school.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_editorial/the-political-school.markdown",
+		"oF": 0
+		},
+	"/_editorial/the-purity-spiral.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_editorial/the-purity-spiral.markdown",
+		"oF": 0
+		},
+	"/_editorial/the-quran-rescuing-monk-of-timbuktu.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_editorial/the-quran-rescuing-monk-of-timbuktu.markdown",
 		"oF": 0
 		},
 	"/_editorial/the-rise-and-fall-of-the-meritocracy.markdown": {
@@ -993,6 +1113,17 @@
 		"oAP": "/_uploads/Airbnb.mp3",
 		"oF": 0
 		},
+	"/_uploads/alhans-world.jpg": {
+		"ft": 16384,
+		"iS": 128146,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/alhans-world.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/_uploads/Ambass.jpg": {
 		"ft": 16384,
 		"iS": 106189,
@@ -1060,6 +1191,17 @@
 		"oA": 2,
 		"oAP": "/_uploads/ATG.mp3",
 		"oF": 0
+		},
+	"/_uploads/awkward-conversations.jpg": {
+		"ft": 16384,
+		"iS": 158876,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/awkward-conversations.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"/_uploads/background.mp4": {
 		"cB": 0,
@@ -1170,6 +1312,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
+		"q": 100
+		},
+	"/_uploads/burnt-notebook.jpg": {
+		"ft": 16384,
+		"iS": 182868,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/burnt-notebook.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"/_uploads/butterfly-ed00a8.jpg": {
@@ -1380,6 +1533,28 @@
 		"opt": 1,
 		"q": 100
 		},
+	"/_uploads/el-impenetrable.jpg": {
+		"ft": 16384,
+		"iS": 405111,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/el-impenetrable.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/fallout.jpg": {
+		"ft": 16384,
+		"iS": 76400,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/fallout.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/_uploads/fantasy-premier-league.jpg": {
 		"ft": 16384,
 		"iS": 222275,
@@ -1429,6 +1604,17 @@
 		"oAP": "/_uploads/friends-and-foes-history-of-dimocracy-preview.mp3",
 		"oF": 0
 		},
+	"/_uploads/futile-attempts.jpg": {
+		"ft": 16384,
+		"iS": 255832,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/futile-attempts.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/_uploads/goliath-how-monopolies-came-to-be-preview.mp3": {
 		"cB": 0,
 		"ft": 8192,
@@ -1446,6 +1632,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
+		"q": 100
+		},
+	"/_uploads/hijacked-histories.jpg": {
+		"ft": 16384,
+		"iS": 156424,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/hijacked-histories.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"/_uploads/hitchens-rev1-27c52c.jpg": {
@@ -1539,6 +1736,17 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/_uploads/james-morris.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/john-kern-christmas.jpg": {
+		"ft": 16384,
+		"iS": 221453,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/john-kern-christmas.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1645,6 +1853,17 @@
 		"opt": 1,
 		"q": 100
 		},
+	"/_uploads/poetry-pharmacy.jpg": {
+		"ft": 16384,
+		"iS": 179532,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/poetry-pharmacy.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/_uploads/political-butterfly-preview-updated.mp3": {
 		"cB": 0,
 		"ft": 8192,
@@ -1673,6 +1892,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
+		"q": 100
+		},
+	"/_uploads/political-school.jpg": {
+		"ft": 16384,
+		"iS": 442479,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/political-school.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"/_uploads/premier-284a69.jpg": {
@@ -1733,6 +1963,39 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/_uploads/premier.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/purity-spiral.jpg": {
+		"ft": 16384,
+		"iS": 337918,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/purity-spiral.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/quaran-monk.jpg": {
+		"ft": 16384,
+		"iS": 282410,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/quaran-monk.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/quaran.jpg": {
+		"ft": 16384,
+		"iS": 229897,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/quaran.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1958,6 +2221,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
+		"q": 100
+		},
+	"/_uploads/the-crisis-inside.jpg": {
+		"ft": 16384,
+		"iS": 171789,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/the-crisis-inside.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"/_uploads/the-rise-and-fall-of-the-meritocracy-preview.mp3": {
