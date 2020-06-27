@@ -3,7 +3,7 @@ title: The Poetry Pharmacy
 date: 2020-06-27 15:20:00 Z
 position: 10
 image: "/uploads/poetry-pharmacy.jpg"
-client: BBC Radio 4 
+client: BBC Radio 4
 episodes: 1
 run-time: 28 minutes
 ---

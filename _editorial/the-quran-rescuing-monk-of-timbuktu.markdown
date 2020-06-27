@@ -1,5 +1,5 @@
 ---
-title: The Quran Rescuing Monk of Timbuktu 
+title: The Quran Rescuing Monk of Timbuktu
 date: 2020-06-27 15:20:00 Z
 position: 10
 image: "/uploads/quaran.jpg"
