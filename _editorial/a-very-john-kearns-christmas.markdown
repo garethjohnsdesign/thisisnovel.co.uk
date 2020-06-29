@@ -4,6 +4,7 @@ date: 2020-06-27 15:20:00 Z
 position: 9
 image: "/uploads/john-kern-christmas.jpg"
 client: BBC Radio 4
+logo: bbc-radio-4
 episodes: 1
 run-time: 28 minutes
 link: https://www.bbc.co.uk/programmes/m000cl48
