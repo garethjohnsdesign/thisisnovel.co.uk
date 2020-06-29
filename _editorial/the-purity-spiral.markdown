@@ -6,6 +6,7 @@ image: "/uploads/purity-spiral.jpg"
 client: BBC Radio 4
 episodes: 1
 run-time: 28 minutes
+link: https://www.bbc.co.uk/programmes/m000d70h
 ---
 
 Gavin Haynes heads into the eye of two seemingly unlikely moral storms. He discovers bitter rows over diversity and racism within the world of Young Adult literature and Instagram knitting.

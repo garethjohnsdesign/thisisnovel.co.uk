@@ -6,6 +6,7 @@ image: "/uploads/burnt-notebook.jpg"
 client: Audible
 episodes: 6
 run-time: Various
+link: https://www.audible.co.uk/pd/The-Burnt-Notebook-Audiobook/B082VC1ZGQ
 ---
 
 Writer Ross Sutherland offers you a suite of writing techniques to get your creative juices flowing. Through a series of playful exercises he’s encouraging you to have fun, to experiment, to play and to fall in love with the written word.

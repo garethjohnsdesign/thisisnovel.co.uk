@@ -6,6 +6,7 @@ image: "/uploads/el-impenetrable.jpg"
 client: Audible
 episodes: 6
 run-time: Various Lengths
+link: https://www.audible.co.uk/pd/El-Impenetrable-Death-in-the-Forest-Audiobook/B0842SD2RZ
 is-highlight: true
 awards:
 - One of Esquire’s Best Podcasts of 2020
