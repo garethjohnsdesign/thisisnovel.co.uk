@@ -1,7 +1,7 @@
 ---
 title: The Purity Spiral
 date: 2020-06-27 15:20:00 Z
-position: 18
+position: 19
 image: "/uploads/purity-spiral.jpg"
 client: BBC Radio 4
 episodes: 1
