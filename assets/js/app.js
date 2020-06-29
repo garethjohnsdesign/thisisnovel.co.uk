@@ -115,16 +115,12 @@ new PanelSnap(defaultOptions);
 // 5. Swiper
 // -----------
 
-
-
-var firstSlide = Math.floor(Math.random() * 5);
 //initialize swiper when document ready
 var mySwiper = new Swiper ('.swiper-container', {
 
 direction: 'horizontal',
 slidesPerView: '1',
 centeredSlides: true,
-initialSlide: firstSlide,
 loop: true,
 spaceBetween: 4,
 preventClicks: true,
