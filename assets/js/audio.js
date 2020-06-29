@@ -86,7 +86,7 @@ function playSrc (url, $source, loadOnly) {
 
 
 // Next button 
-$(".home").on("click", ".plyr__control.next-audio-item", function () {
+$(".playable").on("click", ".plyr__control.next-audio-item", function () {
   var $allSources = $("[data-src]")
   var activeIndex = $allSources.index($(".audio-active[data-src]"))
   var $next = $allSources.eq((activeIndex + 1) % $allSources.length)
@@ -95,7 +95,7 @@ $(".home").on("click", ".plyr__control.next-audio-item", function () {
 
 // Previus
 
-$(".home").on("click", ".plyr__control.prev-audio-item", function () {
+$(".playable").on("click", ".plyr__control.prev-audio-item", function () {
   var $allSources = $("[data-src]")
   var activeIndex = $allSources.index($(".audio-active[data-src]"))
   var $prev = $allSources.eq(activeIndex - 1)
@@ -104,7 +104,7 @@ $(".home").on("click", ".plyr__control.prev-audio-item", function () {
 
 playSrc($("[data-src]:first").data("src"), $("[data-src]:first"), true)
 
-$(".home").on("click", "[data-src]", function (e) {
+$(".playable").on("click", "[data-src]", function (e) {
 var $this = $(this)
   var src = $this.data("src")
   playSrc(src, $this)

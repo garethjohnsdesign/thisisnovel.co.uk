@@ -9,7 +9,7 @@ layout: compress
 {% include site/head.html %}
 <!-- End Head -->
 
-<body class="{{page.layout | slugify}}" id="header">
+<body class="{{page.layout | slugify}} {% if page.layout == 'home' or page.layout == 'archive' %}playable{% endif %}" id="header">
 
 <!-- Navigation -->
 {% include site/navigation.html %}

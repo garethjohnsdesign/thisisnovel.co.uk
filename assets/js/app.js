@@ -96,6 +96,8 @@ $('a[href*="#"]')
 // 2. Snapping
 // ----------------
 
+
+/*
 var defaultOptions = {
     container: document.body,
     panelSelector: '.snapping',
@@ -106,52 +108,52 @@ var defaultOptions = {
   };
 
 new PanelSnap(defaultOptions);
+*/
 
 });
 
 // 5. Swiper
 // -----------
 
-$(document).ready(function () {
 
-    var firstSlide = Math.floor(Math.random() * 5);
-    //initialize swiper when document ready
-    var mySwiper = new Swiper ('.swiper-container', {
 
-      direction: 'horizontal',
-      slidesPerView: '1',
-      centeredSlides: true,
-      initialSlide: firstSlide,
-      loop: true,
-      spaceBetween: 4,
-      preventClicks: true,
-      slideToClickedSlide: false,
+var firstSlide = Math.floor(Math.random() * 5);
+//initialize swiper when document ready
+var mySwiper = new Swiper ('.swiper-container', {
 
-  keyboard: {
-    enabled: true,
-    onlyInViewport: false
+direction: 'horizontal',
+slidesPerView: '1',
+centeredSlides: true,
+initialSlide: firstSlide,
+loop: true,
+spaceBetween: 4,
+preventClicks: true,
+slideToClickedSlide: false,
+
+keyboard: {
+enabled: true,
+onlyInViewport: false
+},
+
+breakpoints: {
+  640: {
+    slidesPerView: 1,
+    spaceBetween: 0,
   },
+  768: {
+    slidesPerView: 2,
+    spaceBetween: 4,
+  },
+  1024: {
+    slidesPerView: 3,
+    spaceBetween: 4,
+  },
+},
 
- breakpoints: {
-        640: {
-          slidesPerView: 1,
-          spaceBetween: 0,
-        },
-        768: {
-          slidesPerView: 2,
-          spaceBetween: 4,
-        },
-        1024: {
-          slidesPerView: 3,
-          spaceBetween: 4,
-        },
-      },
+navigation: {
+nextEl: '.swiper-button-next',
+prevEl: '.swiper-button-prev'
+}
 
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev'
-    }
 
-   
-    })
-  });
+});
