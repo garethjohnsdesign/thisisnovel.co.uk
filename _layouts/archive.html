@@ -2,63 +2,85 @@
 layout: default
 ---
 
-{% assign projects = site.editorial | sort: 'position' | where: "is-highlight", "false" %}
-
-<!-- Page Content -->
-<div class="padding-horizontal-3 padding-vertical-3" data-aos="fade-in">
-<div class="padding-horizontal-3 padding-vertical-3">
+<div class="grid-container">
   <div class="grid-x grid-padding-x grid-padding-y">
+  <div class="small-12 cell">
+  <h4 class="text-uppercase sans-bold margin-bottom-3"><span class="underline">{{ page.collection }} Archive</span></h4>
+  </div>
+  </div>
+</div>
 
-
+{% assign projects = site.editorial | sort: 'position' | where: "is-highlight", "false" %}
+<!-- Page Content -->
 {% for project in projects %}
-<div class="small-12 medium-4 cell">
+  <div class="grid-container">
+    <div class="grid-x" data-aos="fade-in" style="padding-bottom: 4px;">
 
-  {% assign image = project.image %}
-  <div class="image--16-9" data-interchange="{% include images/interchange-img-small-12-medium-4-cell.html %}">
-    <div class="content">
-    <div class="grid-y align-center" style="height: 100%">
+      <div class="small-12 large-4 cell">
+        {% assign image = project.image %}
+        <div class="image--7-5" data-interchange="{% include images/interchange-img-small-12-medium-4-cell.html %}">
+        <div class="content">
+        <div class="grid-y align-center" style="height: 100%">
 
-    <div class="shrink cell text-center">
-    {% if project.logo %}
-    <div><svg class="icon icon-{{project.logo}} icon-client"><use xlink:href="/assets/icons/symbol-defs.svg#icon-{{project.logo}}"></use></svg></div>
-    {% else %}
-    <div class="h5">{{project.client }}</div>
-    {% endif %}
-    </div>
+        <div class="shrink cell text-center">
+        {% if project.logo %}
+        <div><svg class="icon icon-{{project.logo}} icon-client"><use xlink:href="/assets/icons/symbol-defs.svg#icon-{{project.logo}}"></use></svg></div>
+        {% else %}
+        <div class="h5">{{project.client }}</div>
+        {% endif %}
+        </div>
 
-    </div>
-    </div>
-  </div>
+        </div>
+        </div>
 
-  <div class="callout">
-    <div class="h3 margin-top-0">{{project.title}}</div>
-    <div class="margin-bottom-1">{{project.content | remove: '<p>' | remove: '</p>'}}</div>
+        </div>      
+      </div>
+
+      <div class="small-12 large-5 cell black-background padding-1">
+
+      <div class="grid-y align-justify" style="height: 100%">
+
+        <div class="shrink cell">
+
+        <div class="h3 margin-top-0">{{project.title}}</div>
   
-    <div class="listen">
-      {% if project.listen %}
-        <button class="button clear play-button" data-audio-title="{{project.title}}" data-src="{{project.listen}}">
-          <svg class="icon icon-play-button"><use xlink:href="/assets/icons/symbol-defs.svg#icon-play-button"></use></svg>
-          <svg class="icon icon-play-button-hover"><use xlink:href="/assets/icons/symbol-defs.svg#icon-play-button-hover"></use></svg>
-          <svg class="icon icon-playing-button"><use xlink:href="/assets/icons/symbol-defs.svg#icon-playing-button"></use></svg>
-          <svg class="icon icon-playing-button-hover"><use xlink:href="/assets/icons/symbol-defs.svg#icon-playing-button-hover"></use></svg>
-        </button>
-      {% endif %}
-        <a href="{{project.link}}" target="_blank" class="button clear link-button">
-          <svg class="icon icon-link-button"><use xlink:href="/assets/icons/symbol-defs.svg#icon-link-button"></use></svg>
-          <svg class="icon icon-link-button-hover"><use xlink:href="/assets/icons/symbol-defs.svg#icon-link-button-hover"></use></svg>
-        </a>
-    </div>
-    
-    <div class="meta">
-      <div class="margin-bottom-0 mono-bold">Episodes:{{project.episodes }}</div>
-      <div class="margin-bottom-1 mono-bold">Run Time:{{project.run-time }}</div>
+        </div>
+        
+        <div class="shrink cell">
+        <div class="margin-bottom-0">{{project.content | remove: '<p>' | remove: '</p>'}}</div>
+        </div>
+
+      </div>
+
+      </div>
+
+      <div class="small-12 large-3 cell black-background padding-1">
+
+      <div class="grid-y align-justify" style="height: 100%">
+        <div class="shrink cell">
+          <div class="margin-bottom-0 mono-bold">Episodes:{{project.episodes }}</div>
+          <div class="margin-bottom-1 mono-bold">Run Time:{{project.run-time }}</div>
+        </div>
+
+        <div class="shrink cell">
+          {% if project.listen %}
+            <button class="button clear play-button-large" data-audio-title="{{project.title}}" data-src="{{project.listen}}">
+              <svg class="icon icon-play-button-large"><use xlink:href="/assets/icons/symbol-defs.svg#icon-play-button-large"></use></svg>
+              <svg class="icon icon-play-button-large-hover"><use xlink:href="/assets/icons/symbol-defs.svg#icon-play-button-large-hover"></use></svg>
+              <svg class="icon icon-playing-button-large"><use xlink:href="/assets/icons/symbol-defs.svg#icon-playing-button-large"></use></svg>
+              <svg class="icon icon-playing-button-large-hover"><use xlink:href="/assets/icons/symbol-defs.svg#icon-playing-button-large-hover"></use></svg>
+            </button>
+          {% endif %}
+            <a href="{{project.link}}" target="_blank" class="button clear link-button-large">
+              <svg class="icon icon-link-button-large"><use xlink:href="/assets/icons/symbol-defs.svg#icon-link-button-large"></use></svg>
+              <svg class="icon icon-link-button-large-hover"><use xlink:href="/assets/icons/symbol-defs.svg#icon-link-button-large-hover"></use></svg>
+            </a>
+        </div>
+      </div>
+          
+      </div>
+
     </div>
   </div>
-
-</div>
 {% endfor %}
-
-  </div>
-</div>
-</div>
 <!-- End Page Content -->

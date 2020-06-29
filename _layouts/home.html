@@ -3,6 +3,7 @@ layout: default
 ---
 
 <!-- About -->
+<!--
 <section class="snapping about" id="about">
 
   <div class="grid-y align-center loader hide">
@@ -36,9 +37,11 @@ layout: default
   </div>
 
 </section>
+-->
 <!-- End About -->
 
 <!-- Editorial -->
+<!--
 <section class="snapping grid-y grid-padding-y align-center editorial" id="editorial">
   <div class="cell">
     <div class="grid-container">
@@ -51,13 +54,16 @@ layout: default
     </div>
   </div>
 </section>
+-->
 <!-- End Editorial -->
 
 <!-- Editorial Highlights -->
+<!--
 {% assign projects = site.editorial | sort: 'position' | where: "is-highlight", "true" %}
 {% assign section = "Editorial" %}
 {% assign section-number = "2" %}
 {% include partials/highlight.html %}
+-->
 <!-- End Editorial Highlights -->
 
 <!-- Editorial Archive -->
@@ -68,6 +74,7 @@ layout: default
 <!-- End Editorial Archive -->
 
 <!-- Branded -->
+<!--
 <section class="snapping grid-y grid-padding-y align-center branded" id="branded">
   <div class="cell"  data-aos="fade-in">
     <div class="grid-container">
@@ -80,46 +87,51 @@ layout: default
     </div>
   </div>
 </section>
+-->
 <!-- End Branded -->
 
 <!-- Branded Highlights -->
+<!--
 {% assign projects = site.branded | sort: 'position' | where: "is-highlight", "true" %}
 {% assign section = "Branded" %}
 {% assign section-number = "3" %}
 {% include partials/highlight.html %}
+-->
 <!-- End Branded Highlights -->
 
 <!-- Branded Archive -->
+<!--
 {% assign projects = site.branded | sort: 'position' | where: "is-highlight", "false" %}
 {% assign section = "Branded" %}
 {% assign section-number = "3" %}
 {% include partials/archive.html %}
+-->
 <!-- End Branded Archive -->
 
 <!-- Contact Hero -->
 {% assign image = page.contact-image %}
 <section class="snapping grid-y grid-padding-y align-justify" data-interchange="{% include images/interchange-img-small-12-medium-12-cell.html %}" id="contact">
-<div class="cell" data-aos="fade-in">
-  <div class="grid-container">
-    <div class="grid-x grid-padding-x grid-padding-y">
-    <div class="small-12 cell">
-    <h4 class="text-uppercase sans-bold margin-bottom-3"><span class="underline">Contact</span></h4>
-    </div>
-    </div>
-  </div>
-</div>
-<div class="cell" data-aos="fade-in">
-  <div class="grid-container">
-    <div class="grid-x grid-padding-x grid-padding-y align-justify">
-      <div class="small-12 medium-10 cell description">
-        <div class="h2">
-        {{page.contact-hero-text}}
-        </div>
+  <div class="cell" data-aos="fade-in">
+    <div class="grid-container">
+      <div class="grid-x grid-padding-x grid-padding-y">
+      <div class="small-12 cell">
+      <h4 class="text-uppercase sans-bold margin-bottom-3"><span class="underline">Contact</span></h4>
       </div>
-      
+      </div>
     </div>
   </div>
-</div>
+  <div class="cell" data-aos="fade-in">
+    <div class="grid-container">
+      <div class="grid-x grid-padding-x grid-padding-y align-justify">
+        <div class="small-12 medium-10 cell description">
+          <div class="h2">
+          {{page.contact-hero-text}}
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
 </section>
 <!-- End Contact Hero -->
 
@@ -132,7 +144,7 @@ layout: default
     <div class="grid-container">
         <div class="grid-x grid-padding-x grid-padding-y">
         {% for member in members %}
-        <div class="small-12 medium-4 cell">
+        <div class="small-12 medium-6 xlarge-4 cell">
         {% assign image = member.image %}
         <div class="image--5-7 margin-bottom-1" data-interchange="{% include images/interchange-img-small-12-medium-4-cell.html %}"></div>
         <div class="text-uppercase sans-bold">{{member.title}}</div>
@@ -143,7 +155,6 @@ layout: default
         </div>
     </div>
   </div>
-</div>
 </section>
 {% endif %}
 

@@ -119,7 +119,7 @@ $(document).ready(function () {
     var mySwiper = new Swiper ('.swiper-container', {
 
       direction: 'horizontal',
-      slidesPerView: '3',
+      slidesPerView: '1',
       centeredSlides: true,
       initialSlide: firstSlide,
       loop: true,
@@ -131,6 +131,21 @@ $(document).ready(function () {
     enabled: true,
     onlyInViewport: false
   },
+
+ breakpoints: {
+        640: {
+          slidesPerView: 1,
+          spaceBetween: 0,
+        },
+        768: {
+          slidesPerView: 2,
+          spaceBetween: 4,
+        },
+        1024: {
+          slidesPerView: 3,
+          spaceBetween: 4,
+        },
+      },
 
     navigation: {
       nextEl: '.swiper-button-next',
