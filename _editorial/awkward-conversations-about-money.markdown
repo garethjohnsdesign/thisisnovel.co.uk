@@ -1,7 +1,7 @@
 ---
 title: Awkward Conversations about Money
 date: 2020-06-27 15:20:00 Z
-position: 29
+position: 30
 image: "/uploads/awkward-conversations.jpg"
 client: Audible
 episodes: 6
