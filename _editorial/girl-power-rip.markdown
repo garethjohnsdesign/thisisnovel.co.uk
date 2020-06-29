@@ -1,7 +1,7 @@
 ---
 title: Girl Power RIP
 date: 2020-06-27 15:20:00 Z
-position: 11
+position: 12
 image: "/uploads/quaran.jpg"
 client: BBC World Service
 episodes: 1
