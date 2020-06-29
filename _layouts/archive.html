@@ -13,7 +13,11 @@ layout: default
   </div>
 </div>
 
+{% if page.collection == 'editorial' %}
 {% assign projects = site.editorial | sort: 'position' | where: "is-highlight", "false" %}
+{% else %}
+{% assign projects = site.branded | sort: 'position' | where: "is-highlight", "false" %}
+{% endif %}
 <!-- Page Content -->
 {% for project in projects %}
   <div class="grid-container">

@@ -1,6 +1,6 @@
 ---
 title: Branded Archive
-collection: editorial
+collection: branded
 layout: archive
 ---
 
