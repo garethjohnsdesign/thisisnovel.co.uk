@@ -1,7 +1,7 @@
 ---
 title: Our Daily Bread
 date: 2019-09-05 20:27:00 Z
-position: 13
+position: 14
 image: "/uploads/Todays-Bread.jpg"
 client: BBC World Service
 logo: bbc-world-service
