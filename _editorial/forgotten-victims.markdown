@@ -1,7 +1,7 @@
 ---
 title: The Forgotten Victims of Communism
 date: 2019-09-29 11:50:00 Z
-position: 23
+position: 24
 image: "/uploads/forgottenVictims.jpg"
 client: Unherd
 logo: unherd
