@@ -4,6 +4,7 @@ date: 2020-06-27 15:20:00 Z
 position: 5
 image: "/uploads/hijacked-histories.jpg"
 client: Audible
+logo: audible
 episodes: 6
 run-time: Various Lengths
 is-highlight: true

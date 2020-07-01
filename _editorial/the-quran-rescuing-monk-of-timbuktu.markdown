@@ -4,6 +4,7 @@ date: 2020-06-27 15:20:00 Z
 position: 11
 image: "/uploads/quaran.jpg"
 client: BBC World Service
+logo: bbc-world-service
 episodes: 1
 run-time: 28 minutes
 link: https://www.bbc.co.uk/programmes/w3ct048w

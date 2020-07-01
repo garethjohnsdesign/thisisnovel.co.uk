@@ -4,6 +4,7 @@ date: 2020-06-27 15:20:00 Z
 position: 36
 image: "/uploads/awkward-conversations.jpg"
 client: Audible
+logo: audible
 episodes: 6
 run-time: Various
 ---

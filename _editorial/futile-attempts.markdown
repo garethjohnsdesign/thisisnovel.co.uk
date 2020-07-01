@@ -4,6 +4,7 @@ date: 2020-06-27 15:20:00 Z
 position: 37
 image: "/uploads/futile-attempts.jpg"
 client: Spotify
+logo: spotify
 episodes: 10
 run-time: Various Lengths
 is-highlight: true

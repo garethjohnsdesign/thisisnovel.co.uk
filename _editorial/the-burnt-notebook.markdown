@@ -4,6 +4,7 @@ date: 2020-06-27 15:20:00 Z
 position: 7
 image: "/uploads/burnt-notebook.jpg"
 client: Audible
+logo: audible
 episodes: 6
 run-time: Various
 link: https://www.audible.co.uk/pd/The-Burnt-Notebook-Audiobook/B082VC1ZGQ
