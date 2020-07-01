@@ -117,7 +117,7 @@ new PanelSnap(defaultOptions);
 var mySwiper = new Swiper ('.swiper-container', {
 
 direction: 'horizontal',
-slidesPerView: '1',
+slidesPerView: '1.2',
 centeredSlides: true,
 loop: true,
 spaceBetween: 4,
@@ -131,17 +131,17 @@ onlyInViewport: false
 
 breakpoints: {
   640: {
-    slidesPerView: 1,
-    spaceBetween: 0,
+    slidesPerView: 1.2,
+    spaceBetween: 4,
   },
-  768: {
+  1200: {
     slidesPerView: 2,
     spaceBetween: 4,
   },
-  1024: {
-    slidesPerView: 3,
+  1440: {
+    slidesPerView: 2.8,
     spaceBetween: 4,
-  },
+  }
 },
 
 navigation: {
