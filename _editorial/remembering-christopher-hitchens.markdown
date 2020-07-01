@@ -10,7 +10,7 @@ run-time: 54 mins
 listen: "/uploads/christopher-hitchens-preview.mp3"
 link: https://www.bbc.co.uk/programmes/m00045t1
 is-highlight: true
-review:
+reviews:
 - cite: The Times
   is-five-star: true
   is-four-star: 

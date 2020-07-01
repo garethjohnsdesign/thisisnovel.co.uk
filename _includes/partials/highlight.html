@@ -35,6 +35,27 @@
         {% endfor %}
         {% endif %}
 
+        {% if project.reviews %}
+        <div class="text-uppercase sans-bold margin-top-1 margin-bottom-1 small"><span class="underline">Reviews</span></div>
+        {% for review in project.reviews %}
+        {% if review.is-four-star %}
+        <svg class="icon icon-stargrade icon-stargrade"><use xlink:href="/assets/icons/symbol-defs.svg#icon-stargrade"></use></svg>
+        <svg class="icon icon-stargrade icon-stargrade"><use xlink:href="/assets/icons/symbol-defs.svg#icon-stargrade"></use></svg>
+        <svg class="icon icon-stargrade icon-stargrade"><use xlink:href="/assets/icons/symbol-defs.svg#icon-stargrade"></use></svg>
+        <svg class="icon icon-stargrade icon-stargrade"><use xlink:href="/assets/icons/symbol-defs.svg#icon-stargrade"></use></svg>
+        {% endif %}
+        {% if review.is-five-star %}
+        <svg class="icon icon-stargrade icon-stargrade"><use xlink:href="/assets/icons/symbol-defs.svg#icon-stargrade"></use></svg>
+        <svg class="icon icon-stargrade icon-stargrade"><use xlink:href="/assets/icons/symbol-defs.svg#icon-stargrade"></use></svg>
+        <svg class="icon icon-stargrade icon-stargrade"><use xlink:href="/assets/icons/symbol-defs.svg#icon-stargrade"></use></svg>
+        <svg class="icon icon-stargrade icon-stargrade"><use xlink:href="/assets/icons/symbol-defs.svg#icon-stargrade"></use></svg>
+        <svg class="icon icon-stargrade icon-stargrade"><use xlink:href="/assets/icons/symbol-defs.svg#icon-stargrade"></use></svg>
+        {% endif %}
+        <div>{{ review.cite }}</div>
+        {% endfor %}
+        {% endif %}
+
+
       </div>
       <div class="small-12 medium-5 cell text-left medium-text-right">
 
