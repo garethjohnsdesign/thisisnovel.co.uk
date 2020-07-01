@@ -97,7 +97,6 @@ $('a[href*="#"]')
 // ----------------
 
 
-/*
 var defaultOptions = {
     container: document.body,
     panelSelector: '.snapping',
@@ -108,7 +107,6 @@ var defaultOptions = {
   };
 
 new PanelSnap(defaultOptions);
-*/
 
 });
 
