@@ -156,7 +156,7 @@ layout: default
     <div class="grid-container">
         <div class="grid-x grid-padding-x grid-padding-y">
         {% for member in members %}
-        <div class="small-12 medium-6 large-4 cell">
+        <div class="small-10 {% cycle 'small-offset-0', 'small-offset-2' %} medium-offset-0 medium-6 large-4 cell">
         {% assign image = member.image %}
         <div class="image--5-7 margin-bottom-1" data-interchange="{% include images/interchange-img-small-12-medium-4-cell.html %}"></div>
         <div class="text-uppercase sans-bold">{{member.title}}</div>
