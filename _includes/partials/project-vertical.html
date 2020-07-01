@@ -15,13 +15,13 @@
   </div>
 </div>
 
-<div class="callout" style="height: 450px">
+<div class="callout" style="height: 350px">
 
 <div class="grid-y align-justify" style="height: 100%">
 
   <div class="cell">
     <div class="h3 margin-top-0" style="height: 100px">{{project.title}}</div>
-    <div class="margin-bottom-1">{{project.content | remove: '<p>' | remove: '</p>'}}</div>
+    <div class="margin-bottom-1">{{project.content | remove: '<p>' | remove: '</p>' | truncate: 170}}</div>
   </div>
   
   <div class="cell">
