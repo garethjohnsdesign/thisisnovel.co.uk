@@ -480,7 +480,7 @@ section {
   background-position: 75% 50%;
 }
 
-.snapping {
+.snapping--padding {
   @include breakpoint(small) {
   padding: 2rem 1rem;
   }

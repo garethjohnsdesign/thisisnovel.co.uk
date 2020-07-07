@@ -1,6 +1,7 @@
 {% if projects.size > 0 %}
 <div class="snapping archive">
   
+  <div class="snapping--padding">
   <div class="grid-container">
     <div class="grid-x grid-padding-x grid-padding-y" data-aos="fade-in">
       <div class="small-12 medium-8 cell">
@@ -8,8 +9,34 @@
       </div>
     </div>
   </div>
+  </div>
 
  <!-- Swiper -->
+
+ <div class="show-for-small-only">
+   <div class="grid-x grid-padding-y" data-aos="fade-in">
+     <div class="small-12 medium-12 cell">
+    
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          
+        {% for project in projects limit:6 %}
+        <div class="swiper-slide black-background">
+        {% include partials/project-vertical.html %}
+        </div>
+        {% endfor %}
+    
+        </div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    
+     </div>
+   </div>
+ </div>
+
+ <div class="snapping--padding show-for-medium">
  <div class="grid-container">
    <div class="grid-x grid-padding-x grid-padding-y" data-aos="fade-in">
      <div class="small-12 medium-12 cell">
@@ -32,13 +59,16 @@
      </div>
    </div>
  </div>
+ </div>
 
+  <div class="snapping--padding">
   <div class="grid-container">
     <div class="grid-x grid-padding-x grid-padding-y" data-aos="fade-in">
       <div class="small-12 medium-12 cell text-center">
         <a href="/{{ section | slugify }}-archive" class="text-uppercase mono-bold margin-bottom-2 h4"><span class="underline">See All ({{ projects.size }}) <svg class="icon icon-call_made"><use xlink:href="/assets/icons/symbol-defs.svg#icon-call_made"></use></svg></span></a>
       </div>
     </div>
+  </div>
   </div>
 
 </div>
