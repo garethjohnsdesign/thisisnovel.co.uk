@@ -82,7 +82,6 @@ per_page: 12
 date_format: "%b %Y"
 future: true
 social:
-  facebook: https://www.facebook.com/thisisnoveluk
   instagram: https://www.instagram.com/thisisnoveluk/
   twitter: https://twitter.com/thisisnoveluk
 compress_html:
