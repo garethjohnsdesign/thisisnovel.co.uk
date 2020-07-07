@@ -31,7 +31,7 @@
         {% if project.awards %}
         <div class="text-uppercase sans-bold margin-top-1 margin-bottom-1 small"><span class="underline">Awards</span></div>
         {% for award in project.awards %}
-        <div>{{ award }}</div>
+        <a href="{{award.link}}" target="_blank">{{ award.award }}</a>
         {% endfor %}
         {% endif %}
 

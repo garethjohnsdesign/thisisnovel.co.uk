@@ -9,7 +9,8 @@ run-time: Various Lengths
 link: https://www.audible.co.uk/pd/El-Impenetrable-Death-in-the-Forest-Audiobook/B0842SD2RZ
 is-highlight: true
 awards:
-- One of Esquire’s Best Podcasts of 2020
+- award: 'One of Esquire’s Best Podcasts of 2020'
+  link: Esquire’s Best Podcasts of 2020
 ---
 
 A surreal murder mystery set in the heart of a dense forest in Argentina. Manuel Roseo, one of Argentina’s biggest landowners was tortured to death along with his sister in law. The prime suspect? A psychopath known to police as The Man With a Thousand Faces.
