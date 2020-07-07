@@ -118,7 +118,7 @@ var mySwiper = new Swiper ('.swiper-container', {
 
 direction: 'horizontal',
 slidesPerView: '1.2',
-centeredSlides: true,
+centeredSlides: false,
 loop: true,
 spaceBetween: 4,
 preventClicks: true,
