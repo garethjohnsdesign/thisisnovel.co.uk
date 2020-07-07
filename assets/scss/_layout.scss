@@ -477,7 +477,7 @@ section {
   }
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 75% 50%;
+  background-position: 50% 50%;
 }
 
 .snapping--padding {
@@ -844,3 +844,23 @@ vertical-align: text-bottom;
  height: auto;
 }
 */
+
+.special {
+  @include breakpoint(small) {
+    min-height: -webkit-fill-available;
+  }
+  @include breakpoint(small) {
+	  min-height: 50vh;
+  }
+  @include breakpoint(medium) {
+	  min-height: 100vh;
+  }
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 0%;
+}
+
+.special--background {
+  background: rgb(251,81,49);
+  background: linear-gradient(90deg, rgba(251,81,49,1) 19%, rgba(68,39,211,1) 100%);
+}

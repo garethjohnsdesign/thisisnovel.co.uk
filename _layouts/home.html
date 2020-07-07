@@ -122,7 +122,34 @@ layout: default
 
 <!-- Contact Hero -->
 {% assign image = page.contact-image %}
-<section class="snapping snapping--padding grid-y grid-padding-y align-justify" data-interchange="{% include images/interchange-img-small-12-medium-12-cell.html %}" id="contact">
+
+<div class="special--background">
+<section class="snapping snapping--padding grid-y grid-padding-y align-justify show-for-small-only special" data-interchange="{% include images/interchange-img-small-12-medium-12-cell.html %}" id="contact">
+  <div class="cell" data-aos="fade-in">
+    <div class="grid-container">
+      <div class="grid-x grid-padding-x grid-padding-y">
+      <div class="small-12 cell">
+      <h4 class="text-uppercase sans-bold margin-bottom-3"><span class="underline">Contact</span></h4>
+      </div>
+      </div>
+    </div>
+  </div>
+  <div class="cell" data-aos="fade-in">
+    <div class="grid-container">
+      <div class="grid-x grid-padding-x grid-padding-y align-justify">
+        <div class="small-12 medium-10 cell description">
+          <div class="h2">
+          {{page.contact-hero-text}}
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</section>
+</div>
+
+<section class="snapping snapping--padding grid-y grid-padding-y align-justify show-for-medium" data-interchange="{% include images/interchange-img-small-12-medium-12-cell.html %}" id="contact">
   <div class="cell" data-aos="fade-in">
     <div class="grid-container">
       <div class="grid-x grid-padding-x grid-padding-y">
