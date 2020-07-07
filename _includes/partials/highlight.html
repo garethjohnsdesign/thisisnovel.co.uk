@@ -27,7 +27,7 @@
         <div class="">
         {{project.content | markdownify }}
         </div>
-
+        <div class="show-for-medium">
         {% if project.awards %}
         <div class="text-uppercase sans-bold margin-top-1 margin-bottom-1 small"><span class="underline">Awards</span></div>
         {% for award in project.awards %}
@@ -54,6 +54,7 @@
         <div>{{ review.cite }}</div>
         {% endfor %}
         {% endif %}
+        </div>
 
 
       </div>
