@@ -4,6 +4,7 @@ date: 2020-06-27 15:20:00 Z
 position: 6
 image: "/uploads/alhans-world.jpg"
 client: BBC Sounds
+logo: "/uploads/bbc-sounds.svg"
 episodes: 6
 run-time: Various Lengths
 is-highlight: true
