@@ -2,12 +2,12 @@
 title: Hijacked Histories
 date: 2020-06-27 15:20:00 Z
 position: 5
-image: "/uploads/hijacked-histories.jpg"
+image: "/uploads/hichjacked-history-rev2.jpg"
 client: Audible
 logo: audible
 episodes: 6
 run-time: Various Lengths
-is-highlight: true
+is-highlight: false
 ---
 
 We’ve all heard of fake news, but what about fake history? Dominic Sandbrooke reveals that when it comes to history, separating fact from fiction isn’t always easy, with widely held beliefs about our past often based on a web of lies.
