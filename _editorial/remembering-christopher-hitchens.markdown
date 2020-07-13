@@ -13,7 +13,8 @@ is-highlight: true
 reviews:
 - cite: The Times
   is-five-star: true
-  is-four-star: 
+  is-four-star:
+  link: https://www.thetimes.co.uk/article/radio-review-archive-on-4-remembering-christopher-hitchens-zznbtngtn
 ---
 
 On the anniversary of what would have been the 70th birthday of the infamous journalist, orator and polemicist Christopher Hitchens, we explore his life and times featuring those closest to him including Martin Amis and Stephen Fry.

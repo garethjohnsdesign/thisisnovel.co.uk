@@ -38,6 +38,10 @@
         {% if project.reviews %}
         <div class="text-uppercase sans-bold margin-top-1 margin-bottom-1 small"><span class="underline">Reviews</span></div>
         {% for review in project.reviews %}
+        <a href="{{review.link}}" target="_blank">
+        {% if review.text %}
+        "{{review.text}}"
+        {% endif %}
         {% if review.is-four-star %}
         <svg class="icon icon-stargrade icon-stargrade"><use xlink:href="/assets/icons/symbol-defs.svg#icon-stargrade"></use></svg>
         <svg class="icon icon-stargrade icon-stargrade"><use xlink:href="/assets/icons/symbol-defs.svg#icon-stargrade"></use></svg>
@@ -51,7 +55,8 @@
         <svg class="icon icon-stargrade icon-stargrade"><use xlink:href="/assets/icons/symbol-defs.svg#icon-stargrade"></use></svg>
         <svg class="icon icon-stargrade icon-stargrade"><use xlink:href="/assets/icons/symbol-defs.svg#icon-stargrade"></use></svg>
         {% endif %}
-        <div>{{ review.cite }}</div>
+        <div>— {{ review.cite }}</div>
+        </a>
         {% endfor %}
         {% endif %}
         </div>
