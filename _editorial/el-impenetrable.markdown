@@ -4,6 +4,7 @@ date: 2020-06-27 15:20:00 Z
 position: 3
 image: "/uploads/el-impenetrable.jpg"
 client: Audible
+logo: audible
 episodes: 6
 run-time: Various Lengths
 link: https://www.audible.co.uk/pd/El-Impenetrable-Death-in-the-Forest-Audiobook/B0842SD2RZ
