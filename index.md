@@ -2,7 +2,7 @@
 title: Novel
 position: 0
 image: "/uploads/og-image.png"
-contact-image: "/uploads/team-rev.jpg"
+contact-image: "/uploads/novel-team-rev2.jpg"
 about-text: "Novel. \n\nA premium audio content company. \n\nWhether it’s compelling
   journalism, powerful podcasts or innovative branded content, we tell stories in
   sound that make people listen."
