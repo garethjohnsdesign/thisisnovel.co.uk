@@ -36,11 +36,11 @@ defaults:
     link: 
     is-highlight: false
     awards:
-    - award:
-      link:
+    - award: 
+      link: 
     reviews:
-    - cite:
-      is-five-star:
+    - cite: 
+      is-five-star: 
       is-four-star: 
 - scope:
     path: ''
