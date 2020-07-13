@@ -2,7 +2,7 @@
 title: Alhan’s World
 date: 2020-06-27 15:20:00 Z
 position: 6
-image: "/uploads/alhans-world.jpg"
+image: "/uploads/Alhan-rev2.jpg"
 client: BBC Sounds
 logo: "/uploads/bbc-sounds.png"
 episodes: 6
