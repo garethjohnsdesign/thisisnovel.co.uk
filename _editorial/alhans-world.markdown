@@ -4,7 +4,7 @@ date: 2020-06-27 15:20:00 Z
 position: 6
 image: "/uploads/Alhan-rev2.jpg"
 client: BBC Sounds
-logo: "/uploads/bbc-sounds.png"
+logo: bbc-sounds
 episodes: 6
 run-time: Various Lengths
 is-highlight: true
