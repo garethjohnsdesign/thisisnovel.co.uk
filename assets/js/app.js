@@ -139,7 +139,7 @@ breakpoints: {
     spaceBetween: 4,
   },
   1440: {
-    slidesPerView: 2.8,
+    slidesPerView: 3,
     spaceBetween: 4,
   }
 },
