@@ -13,7 +13,7 @@ is-highlight: true
 reviews:
 - cite: The Times
   is-five-star: true
-  is-four-star:
+  is-four-star: 
   link: https://www.thetimes.co.uk/article/radio-review-archive-on-4-remembering-christopher-hitchens-zznbtngtn
 ---
 
