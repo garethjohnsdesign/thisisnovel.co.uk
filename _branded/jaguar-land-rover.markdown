@@ -1,7 +1,6 @@
 ---
 title: Jaguar Land Rover
 date: 2019-09-29 13:01:00 Z
-published: false
 position: 3
 image: "/uploads/Landrover.jpg"
 client: Jaguar Land Rover
