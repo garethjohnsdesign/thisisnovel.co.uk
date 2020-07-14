@@ -2,7 +2,7 @@
 title: The Burnt Notebook
 date: 2020-06-27 15:20:00 Z
 position: 7
-image: "/uploads/burnt-notebook.jpg"
+image: "/uploads/burnt-notebook-319655.jpg"
 client: Audible
 logo: audible
 episodes: 6
