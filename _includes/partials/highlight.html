@@ -28,14 +28,14 @@
         {{project.content | markdownify }}
         </div>
         <div class="show-for-medium">
-        {% if project.awards %}
+        {% if project.awards.size %}
         <div class="text-uppercase sans-bold margin-top-1 margin-bottom-1 small"><span class="underline">Awards</span></div>
         {% for award in project.awards %}
         <div><a href="{{award.link}}" target="_blank">{{ award.award }}</a></div>
         {% endfor %}
         {% endif %}
 
-        {% if project.reviews %}
+        {% if project.reviews.size %}
         <div class="text-uppercase sans-bold margin-top-1 margin-bottom-1 small"><span class="underline">Reviews</span></div>
         {% for review in project.reviews %}
         <a href="{{review.link}}" target="_blank">

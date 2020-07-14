@@ -1,12 +1,16 @@
 {% if projects.size > 0 %}
-<div class="snapping archive">
+<section class="snapping archive">
   
   <div class="snapping--padding padding-bottom-0">
   <div class="grid-container">
     <div class="grid-x grid-padding-x grid-padding-y" data-aos="fade-in">
-      <div class="small-12 medium-8 cell padding-bottom-0">
+      <div class="small-12 medium-6 cell padding-bottom-0">
       <h4 class="text-uppercase sans-bold"><span class="underline">{{ section }} Archive</span></h4>
       </div>
+      <div class="small-12 medium-6 cell text-left medium-text-right">
+        <a href="/{{ section | slugify }}-archive" class="text-uppercase mono-bold margin-bottom-2 h4"><span class="underline">See All ({{ projects.size }}) <svg class="icon icon-call_made"><use xlink:href="/assets/icons/symbol-defs.svg#icon-call_made"></use></svg></span></a>
+      </div>
+
     </div>
   </div>
   </div>
@@ -61,15 +65,5 @@
  </div>
  </div>
 
-  <div class="snapping--padding padding-top-0">
-  <div class="grid-container">
-    <div class="grid-x grid-padding-x grid-padding-y" data-aos="fade-in">
-      <div class="small-12 medium-12 cell text-center">
-        <a href="/{{ section | slugify }}-archive" class="text-uppercase mono-bold margin-bottom-2 h4"><span class="underline">See All ({{ projects.size }}) <svg class="icon icon-call_made"><use xlink:href="/assets/icons/symbol-defs.svg#icon-call_made"></use></svg></span></a>
-      </div>
-    </div>
-  </div>
-  </div>
-
-</div>
+</section>
 {% endif %}
