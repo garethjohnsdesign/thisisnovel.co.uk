@@ -10,4 +10,4 @@ run-time: 32 mins
 link: https://www.google.com
 ---
 
-Katie Harrison explores a moral dilemma for Christians: why did 80% of white evangelicals vote for Donald Trump
+The huge role that the white evangelical Christians played in putting Donald Trump in the White House was a key part of 2016’s extraordinary electoral story. Why did 80% of these defenders of biblical values vote for a man criticised for blatant sexism? Katie Harrison heads to the US in search of answers.
