@@ -11,4 +11,4 @@ listen: "/uploads/the-rise-and-fall-of-the-meritocracy-preview.mp3"
 link: https://www.bbc.co.uk/programmes/b08lgq9n
 ---
 
-Toby Young asks if the Brexit and Trump votes signal the death knell for the popular political vision of the modern meritocracy. We learn that meritocracy itself is a term coined in 1958 by his father, a pioneering sociologist, in a work of dystopian satire.
+Toby Young asks if the Brexit and Trump votes signal the death knell for the popular political vision of the modern meritocracy. We learn that meritocracy itself is a term coined in 1958 by his father, a pioneering sociologist, in a work of dystopian satire. Toby asks whether his dad's vision has become a reality.
