@@ -10,4 +10,4 @@ run-time: 28 mins
 link: https://www.bbc.co.uk/programmes/m00060w4
 ---
 
-Isobel Finkel heads to Istanbul, where the kitsch, melancholy and forbidden sounds of the 70s are being rediscovered by a new generation of young people.
+Writer Isobel Finkel takes us to Istanbul, where art and censorship are never too far apart. She discovers a vibrant city with a rich musical tradition that has been frequently oppressed. Now the kitsch, melancholy and forbidden sounds of the 70s are being rediscovered by a new generation of young people.
