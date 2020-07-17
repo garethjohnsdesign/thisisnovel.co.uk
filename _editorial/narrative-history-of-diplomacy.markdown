@@ -11,4 +11,4 @@ link: https://www.bbc.co.uk/programmes/b08fcj84
 is-highlight: false
 ---
 
-Professor David Rothkopf charts the role of modern international diplomacy throughout recent history to discover where we are now and how we got here. From the tension of the Cuban Missile Crisis to the Good Friday Agreement, Rothkopf highlights seminal events or turning points where the fine art of diplomacy has evolved and - in some cases - been transformed.
+Professor David Rothkopf charts the role of diplomacy throughout recent history to discover where we are now and how we got here. From the Cuban Missile Crisis to the Good Friday Agreement, Rothkopf highlights seminal events or turning points where the fine art of diplomacy has evolved and ultimately been transformed.
