@@ -1,7 +1,7 @@
 ---
 title: Hijacked Histories
 date: 2020-06-27 15:20:00 Z
-position: 5
+position: 6
 image: "/uploads/hichjacked-history-rev2.jpg"
 client: Audible
 logo: audible
