@@ -10,4 +10,4 @@ run-time: Various
 link: https://www.audible.co.uk/pd/The-Burnt-Notebook-Audiobook/B082VC1ZGQ
 ---
 
-Writer Ross Sutherland offers you a suite of writing techniques to get your creative juices flowing. Through a series of playful exercises he’s encouraging you to have fun, to experiment, to play and to fall in love with the written word.
+Writer Ross Sutherland reveals a suite of writing techniques to get your creative juices flowing. Learn how people watching can spark your next short story and try out the "cut up" method to forge wild new poems. Through a series of playful exercises, Ross encourages you to experiment and to fall in love with the written word.
