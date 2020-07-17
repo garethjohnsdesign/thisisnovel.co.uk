@@ -11,4 +11,4 @@ listen: "/uploads/the-rise-and-fall-of-the-meritocracy-preview.mp3"
 link: https://www.bbc.co.uk/programmes/b08lgq9n
 ---
 
-That satire was written by Michael Young - a pioneering sociologist as well as a lifelong socialist, author of the 1945 Labour manifesto, creator of the Open University and Which? Magazine and, towards the end of his life, a member of the House of Lords.
+Toby Young asks if the Brexit and Trump votes signal the death knell for the popular political vision of the modern meritocracy. We learn that meritocracy itself is a term coined in 1958 by his father, a pioneering sociologist, in a work of dystopian satire.
