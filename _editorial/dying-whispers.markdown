@@ -11,4 +11,4 @@ listen: "/uploads/dying-whispers-preview.mp3"
 link: https://www.bbc.co.uk/programmes/w3csy0yg
 ---
 
-Sahar Zand travels to Belarus and discovers one of the world’s oldest, strangest spiritual traditions - the practice of "breathing whispers. Sahar meets the last remaining whisperers keeping their belief systems alive in the face of countless obstacles.
+Sahar Zand travels to Belarus and discovers one of the world’s oldest, strangest spiritual traditions - the occult practice of "breathing whispers". Sahar meets the last remaining whisperers keeping their belief systems alive in the face of countless obstacles, healing the sick when modern medicine has failed.
