@@ -10,4 +10,4 @@ run-time: 28 minutes
 link: https://www.bbc.co.uk/programmes/w3ct048w
 ---
 
-Father Columba Stewart travels to Timbuktu with a team of experts trying to persuade the Imams of the City's three great Mosques to allow them to digitise their highly endangered manuscript collections. 
+Father Columba Stewart travels to Timbuktu in Mali with a team of experts trying to persuade the Imams of the City’s three great Mosques to allow them to digitise their highly endangered manuscript collections. These priceless documents are under threat from Islamic militants intent on destroying them.
