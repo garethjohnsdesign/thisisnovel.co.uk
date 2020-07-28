@@ -10,4 +10,4 @@ run-time: 28 minutes
 link: https://www.bbc.co.uk/programmes/m000df98
 ---
 
-William Sieghart welcomes you into his Poetry Pharmacy where he serves up poetic prescriptions to soothe the soul. This is a process in which poetry leaps off the page and reveals its vital curative properties.
+William Sieghart welcomes you into his Poetry Pharmacy where he serves up poetic prescriptions to soothe the soul. William dips into his extensive library and selects a poem perfectly suited to advise, console or otherwise illuminate whatever is preoccupying his patient. This is a process in which poetry leaps off the page and reveals its vital curative properties.
