@@ -11,4 +11,4 @@ listen: "/uploads/right-click-preview.mp3"
 link: https://www.bbc.co.uk/programmes/m0000qv5
 ---
 
-On the internet, a huge new political movement is taking shape. Some are calling it classical liberalism or the intellectual dark web. Gavin Haynes goes in search of a new wave of online political thought and discovers a never-ending culture war.
+On the internet, a new political movement is taking shape. Some are calling it classical liberalism or the intellectual dark web. The phenomenon has American roots, but a British contingent has found massive online support. Gavin Haynes goes in search of this new wave of online political thought and discovers a never-ending culture war.
