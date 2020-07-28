@@ -11,4 +11,4 @@ listen: "/uploads/our-daily-bread-preview.mp3"
 link: https://www.bbc.co.uk/programmes/w3csz575
 ---
 
-Rachel O’Connell invites us to experience life within a secretive community of nuns who live high on a Greek mountainside. We explore this spiritual oasis as its residents prepare for their biggest annual ritual. We are transported by the mesmerising Byzantine chanting of the sisters and the musical bells of mountain goats, to a world far removed from the frenzied pace of modern life.
+Rachel O’Connell invites us to experience life within a secretive community of nuns who live high on a Greek mountainside. This spiritual oasis, filled with ritual and reflection. We are transported by the mesmerising Byzantine chanting of the sisters and the musical bells of mountain goats, to a world far removed from the frenzied pace of modern life.
