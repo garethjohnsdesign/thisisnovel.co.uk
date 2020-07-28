@@ -11,4 +11,4 @@ listen: "/uploads/goliath-how-monopolies-came-to-be-preview.mp3"
 link: https://www.bbc.co.uk/programmes/m0003zvn
 ---
 
-Will Hutton considers the ironies and tensions central to modern monopolies, tracing the history of monopolies and public attitudes towards them.
+Political economist, academic and journalist Will Hutton considers the great ironies and tensions central to modern monopolies, tracing the story of monopolies and public attitudes towards them. This wide ranging journey through our political history allows Hutton to ask fundamental questions about the assumptions and ideologies upon which our economic system is based.
