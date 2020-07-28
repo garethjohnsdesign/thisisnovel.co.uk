@@ -11,4 +11,4 @@ listen: "/uploads/real-pretenders-preview.mp3"
 link: https://www.bbc.co.uk/programmes/b071chpd
 ---
 
-Film critic Antonia Quirke investigates the evolution of acting and asks - what makes a perfect performance? Antonia meets some of the leading talents in British theatre and film, including Michael Sheen and Simon Callow, charting the making of British acting, from the greats like Olivier and Gielgud to the impact of Method and of playwrights like Pinter.
+Film critic Antonia Quirke investigates the evolution of acting and asks - what makes a perfect performance? Antonia meets some of the leading talents in British theatre and film, charting the making of British acting, from the greats like Laurence Olivier and John Gielgud to the impact of Method and of playwrights like Pinter.
