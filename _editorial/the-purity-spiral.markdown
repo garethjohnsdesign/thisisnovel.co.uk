@@ -10,4 +10,4 @@ run-time: 28 minutes
 link: https://www.bbc.co.uk/programmes/m000d70h
 ---
 
-Gavin Haynes heads into the eye of two seemingly unlikely moral storms. He discovers bitter rows over diversity and racism within the world of Young Adult literature and Instagram knitting.
+Gavin Haynes heads into the eye of two seemingly unlikely moral storms. He discovers bitter rows over diversity and racism within the world of Young Adult literature and Instagram knitting. You might think online knitting and teen fiction would be innocuous cosy communities. However both scenes have recently become embroiled in what Gavin calls The Purity Spiral.
