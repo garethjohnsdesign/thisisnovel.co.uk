@@ -11,4 +11,4 @@ listen: "/uploads/slaughter-of-the-innocents-preview.mp3"
 link: https://www.bbc.co.uk/programmes/b085x6rq
 ---
 
-Tim Montgomerie reflects on the largely forgotten Collect for Holy Innocents Day. Tim traces this melancholy commemoration back to one of the most harrowing stories from the Bible - Herod’s massacre of the innocents. This religious holiday calls us to remember the violence and injustice of our world. Yet, despite its contemporary relevance, it has fallen into obscurity.
+Tim Montgomerie reflects on the largely forgotten Collect for Holy Innocents Day. Tim traces this melancholy commemoration back Herod’s massacre of the innocents. This religious holiday calls us to remember the violence and injustice of our world. Yet, despite its contemporary relevance, it has fallen into obscurity.
