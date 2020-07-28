@@ -11,4 +11,4 @@ listen: "/uploads/five-green-bottles-preview.mp3"
 link: https://www.bbc.co.uk/programmes/b09d9tsd
 ---
 
-In this series, five of the world's leading critics offer insightful reflections on the personal, political and historical stories of bygone bottles of wine. We hear about the world’s most powerful wine critic, the wine Napoleon asked for on his deathbed and sample the oldest wine ever tasted.
+In this series, five of the world's leading critics offer insightful reflections on the personal, political and historical stories of bygone bottles of wine. We hear about the world’s most powerful (and controversial) wine critic, the wine Napoleon asked for on his deathbed and sample the oldest wine ever to have been tasted.
