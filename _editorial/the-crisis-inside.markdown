@@ -10,4 +10,4 @@ run-time: 28 minutes
 link: https://www.bbc.co.uk/programmes/m000dpjf
 ---
 
-Ian Acheson asks whether more could have been done to prevent Usman Khan from carrying out his murderous rampage in 2019. Acheson explores every stage of Khan’s radicalisation journey through the British criminal justice system.
+Three years before Usman Khan stabbed two people to death on London Bridge, Ian Acheson warned that the way the justice system treated violent extremists was a shambles. Here he explores Khan's journey through the criminal justice system and asks whether more could have been done to prevent Khan from carrying out his murderous rampage in 2019.
