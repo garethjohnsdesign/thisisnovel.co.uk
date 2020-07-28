@@ -1,5 +1,5 @@
 ---
-title: The Poetry Pharmacy
+title: William Sieghart's Poetry Pharmacy
 date: 2020-06-27 15:20:00 Z
 position: 20
 image: "/uploads/poetry-pharmacy-rev.jpg"
