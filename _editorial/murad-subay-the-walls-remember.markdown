@@ -11,4 +11,4 @@ listen: "/uploads/murad-subay-preview.mp3"
 link: https://www.bbc.co.uk/programmes/w3csyn9v
 ---
 
-The story of the radical mural painter and activist Murad Subay who paints on the shelled and bullet-marked buildings of Yemen.
+The story of the radical mural painter and activist Murad Subay who paints on the shelled and bullet-marked buildings of Yemen. Journalist Sumaya Bakhsh traces Murad’s journey as he leaves Yemen for Cairo and then Britain before ultimately concluding that he must return to war-torn Yemen to continue his resistance to the forces of oppression, armed only with a can of spray paint.
