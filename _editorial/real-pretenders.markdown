@@ -11,4 +11,4 @@ listen: "/uploads/real-pretenders-preview.mp3"
 link: https://www.bbc.co.uk/programmes/b071chpd
 ---
 
-Antonia Quirke investigates the history of acting – how the stars of screen and stage have evolved their craft throughout history.
+Film critic Antonia Quirke investigates the evolution of acting and asks - what makes a perfect performance? Antonia meets some of the leading talents in British theatre and film, including Michael Sheen and Simon Callow, charting the making of British acting, from the greats like Olivier and Gielgud to the impact of Method and of playwrights like Pinter.
