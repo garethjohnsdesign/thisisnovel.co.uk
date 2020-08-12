@@ -2,7 +2,7 @@
 title: Awkward Conversations about Money
 date: 2020-06-27 15:20:00 Z
 position: 36
-image: "/uploads/awkward-conversations.jpg"
+image: "/uploads/Alex%20Holder.png"
 client: Audible
 logo: audible
 episodes: 6
