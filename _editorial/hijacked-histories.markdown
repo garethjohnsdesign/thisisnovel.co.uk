@@ -7,6 +7,8 @@ client: Audible
 logo: audible
 episodes: 6
 run-time: Various Lengths
+listen: "/uploads/Hijacked%20Histories.mp3"
+link: https://www.audible.co.uk/pd/Hijacked-Histories-Audiobook/B088X2BWTS#:~:text=Dominic%20Sandbrook%20explores%20two%20and,been%20manipulated%2C%20rewritten%20and%20reshaped.
 is-highlight: false
 ---
 
