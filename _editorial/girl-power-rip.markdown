@@ -7,6 +7,7 @@ client: BBC World Service
 logo: bbc-world-service
 episodes: 1
 run-time: 57 minutes
+listen: "/uploads/Girl%20Power%20RIP.mp3"
 link: https://www.bbc.co.uk/programmes/m000k8d4
 ---
 
