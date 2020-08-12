@@ -7,6 +7,7 @@ client: Audible
 logo: audible
 episodes: 6
 run-time: Various
+listen: "/uploads/The%20Burnt%20Notebook.mp3"
 link: https://www.audible.co.uk/pd/The-Burnt-Notebook-Audiobook/B082VC1ZGQ
 ---
 
