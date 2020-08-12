@@ -7,6 +7,7 @@ client: BBC Radio 4
 logo: bbc-radio-4
 episodes: 1
 run-time: 28 minutes
+listen: "/uploads/A%20Very%20John%20Kearns%20Christmas.mp3"
 link: https://www.bbc.co.uk/programmes/m000cl48
 ---
 
