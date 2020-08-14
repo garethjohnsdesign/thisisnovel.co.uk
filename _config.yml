@@ -11,6 +11,9 @@ collections:
   posts:
     title: Posts
     output: true
+  team:
+    title: Team
+    output: false
   uploads:
     title: Uploads
     output: false
@@ -44,6 +47,14 @@ defaults:
     listen: 
     link: 
     is-highlight: false
+- scope:
+    path: ''
+    type: team
+  values:
+    job-title: 
+    image: 
+    email: 
+    social: 
 url: https://www.thisisnovel.co.uk
 description: A premium audio content company. Whether it’s compelling journalism,
   powerful podcasts or innovative branded content, we tell stories in sound that make
@@ -71,7 +82,6 @@ per_page: 12
 date_format: "%b %Y"
 future: true
 social:
-  facebook: https://www.facebook.com/thisisnoveluk
   instagram: https://www.instagram.com/thisisnoveluk/
   twitter: https://twitter.com/thisisnoveluk
 compress_html:
@@ -92,4 +102,4 @@ pagination:
 autopages:
   enabled: false
 imgix:
-  source: thisisnovel.imgix.net
+  source: thisisnovel-beta.imgix.net

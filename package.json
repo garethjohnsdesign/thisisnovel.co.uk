@@ -1,22 +1,25 @@
 {
-  "name": "garethjohnsdesign",
-  "version": "1.0.0",
-  "description": "Basic template for a new web project.",
-  "author": "Gareth Johns <info@garethjohnsdesign.com>",
-  "license": "UNLICENSED",
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "private": true,
   "bugs": {
     "email": "info@garethjohnsdesign.com"
   },
   "dependencies": {
-    "@lottiefiles/lottie-player": "^0.2.0",
+    "@lottiefiles/lottie-player": "^0.5.1",
     "aos": "^2.3.4",
-    "foundation-sites": "^6.5.1",
-    "jquery": ">=3.0.0",
-    "lottie-web": "^5.5.9",
+    "foundation-sites": "^6.6.3",
+    "jquery": "^3.5.1",
+    "lottie-web": "^5.6.10",
     "motion-ui": "~2.0.0",
     "panelsnap": "^1.3.0",
-    "plyr": "^3.5.6",
-    "what-input": "^5.1.2"
+    "plyr": "^3.6.2",
+    "swiper": "^5.4.5",
+    "what-input": "^5.2.10"
   },
-  "private": true
+  "version": "1.0.0",
+  "description": "Basic template for a new web project.",
+  "name": "garethjohnsdesign",
+  "license": "UNLICENSED",
+  "author": "Gareth Johns <info@garethjohnsdesign.com>"
 }

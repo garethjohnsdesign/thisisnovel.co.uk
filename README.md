@@ -6,4 +6,4 @@ Site for Novel. Please go to [www.thisisnovel.co.uk](https://www.thisisnovel.co.
 
 * * *
 
-Copyright (c) 2019 Gareth Johns Design + Development – info@garethjohnsdesign.com
+Copyright (c) 2020 Gareth Johns Design + Development – info@garethjohnsdesign.com

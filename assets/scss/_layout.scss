@@ -207,7 +207,6 @@ svg {
 
 .small {
   font-size: 80%;
-  letter-spacing: 0.1rem;
 }
 
 .menu .menu-text {
@@ -478,10 +477,10 @@ section {
   }
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 75% 50%;
+  background-position: 50% 50%;
 }
 
-.snapping {
+.snapping--padding {
   @include breakpoint(small) {
   padding: 2rem 1rem;
   }
@@ -820,4 +819,53 @@ header {
 
 .plyr button {
 vertical-align: text-bottom;
+}
+
+.swiper-slide {
+  height: auto;
+}
+
+/*
+.swiper-slide-next {
+  opacity: 0.75;
+}
+*/
+
+/*
+.position-absolute-bottom {
+  @include position(absolute, null, null, 1, null);
+}
+*/
+
+/*
+.position-absolute-bottom {
+ position: absolute;
+ bottom: 0;
+ height: auto;
+}
+*/
+
+.special {
+  @include breakpoint(small) {
+    min-height: -webkit-fill-available;
+  }
+  @include breakpoint(small) {
+	  min-height: 50vh;
+  }
+  @include breakpoint(medium) {
+	  min-height: 100vh;
+  }
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 0%;
+}
+
+.special--background {
+  background: rgb(251,81,49);
+  background: linear-gradient(90deg, rgba(251,81,49,1) 19%, rgba(68,39,211,1) 100%);
+}
+
+.project__title {
+  font-size: 20px;
+  line-height: 1.2;
 }

@@ -5,6 +5,7 @@ import $ from "jquery";
 import Foundation from 'foundation-sites';
 import AOS from 'aos';
 import PanelSnap from 'panelsnap';
+import Swiper from 'swiper';
 
 
 // 1. Special Queries
@@ -34,22 +35,6 @@ if ($("body").hasClass("home")) {
   }, 3000
   );
 }
-// 1. Scroll Hide Navigation
-// ---------------
-
-/*
-var prev = 0;
-var $window = $(window);
-var nav = $('.scrollhide-nav');
-
-$window.off('scroll');
-$window.on('scroll', function() {
-    var scrollTop = $window.scrollTop();
-    if (scrollTop < 0) scrollTop = 0;
-    nav.toggleClass('hidden', scrollTop > prev);
-    prev = scrollTop;
-});
-*/
 
 
 // 8. Animate on Scroll
@@ -111,16 +96,62 @@ $('a[href*="#"]')
 // 2. Snapping
 // ----------------
 
+
 var defaultOptions = {
     container: document.body,
     panelSelector: '.snapping',
-    directionThreshold: 50,
+    directionThreshold: 25,
     delay: 0,
     duration: 300,
     easing: function(t) { return t }
   };
 
 new PanelSnap(defaultOptions);
+
+});
+
+// 5. Swiper
+// -----------
+
+//initialize swiper when document ready
+var mySwiper = new Swiper ('.swiper-container', {
+
+direction: 'horizontal',
+slidesPerView: '1.2',
+centeredSlides: false,
+loop: true,
+spaceBetween: 4,
+preventClicks: true,
+slideToClickedSlide: false,
+
+keyboard: {
+enabled: true,
+onlyInViewport: false
+},
+
+breakpoints: {
+  640: {
+    slidesPerView: 1.2,
+    spaceBetween: 4,
+  },
+  800: {
+    slidesPerView: 2,
+    spaceBetween: 4,
+  },
+  1200: {
+    slidesPerView: 3,
+    spaceBetween: 4,
+  },
+  1440: {
+    slidesPerView: 3,
+    spaceBetween: 4,
+  }
+},
+
+navigation: {
+nextEl: '.swiper-button-next',
+prevEl: '.swiper-button-prev'
+}
 
 
 });

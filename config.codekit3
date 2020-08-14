@@ -7,7 +7,7 @@
 		"uuidString": "EDB44E38-DB9B-408C-B9C2-C572FB45B1A6"
 		}
 	],
-"creatorBuild": "31491",
+"creatorBuild": "32186",
 "files": {
 	"/.gitignore": {
 		"cB": 0,
@@ -100,6 +100,14 @@
 		"oAP": "/_data/navigation.yml",
 		"oF": 0
 		},
+	"/_editorial/a-cure-at-what-cost.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_editorial/a-cure-at-what-cost.markdown",
+		"oF": 0
+		},
 	"/_editorial/a-hacks-progress.markdown": {
 		"cB": 0,
 		"ft": 8192,
@@ -108,12 +116,36 @@
 		"oAP": "/_editorial/a-hacks-progress.markdown",
 		"oF": 0
 		},
+	"/_editorial/a-very-john-kearns-christmas.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_editorial/a-very-john-kearns-christmas.markdown",
+		"oF": 0
+		},
+	"/_editorial/alhans-world.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_editorial/alhans-world.markdown",
+		"oF": 0
+		},
 	"/_editorial/angels-of-the-bayou.markdown": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 2,
 		"oAP": "/_editorial/angels-of-the-bayou.markdown",
+		"oF": 0
+		},
+	"/_editorial/awkward-conversations-about-money.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_editorial/awkward-conversations-about-money.markdown",
 		"oF": 0
 		},
 	"/_editorial/capitalism-on-a-knife-edge.markdown": {
@@ -140,6 +172,22 @@
 		"oAP": "/_editorial/economics-101.markdown",
 		"oF": 0
 		},
+	"/_editorial/el-impenetrable.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_editorial/el-impenetrable.markdown",
+		"oF": 0
+		},
+	"/_editorial/fallout.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_editorial/fallout.markdown",
+		"oF": 0
+		},
 	"/_editorial/five-green-bottles.markdown": {
 		"cB": 0,
 		"ft": 8192,
@@ -164,12 +212,36 @@
 		"oAP": "/_editorial/friends-and-foes-a-narrative-history-of-diplomacy.markdown",
 		"oF": 0
 		},
+	"/_editorial/futile-attempts.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_editorial/futile-attempts.markdown",
+		"oF": 0
+		},
+	"/_editorial/girl-power-rip.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_editorial/girl-power-rip.markdown",
+		"oF": 0
+		},
 	"/_editorial/goliath-how-monopolies-came-to-be.markdown": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 2,
 		"oAP": "/_editorial/goliath-how-monopolies-came-to-be.markdown",
+		"oF": 0
+		},
+	"/_editorial/hijacked-histories.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_editorial/hijacked-histories.markdown",
 		"oF": 0
 		},
 	"/_editorial/how-dead-end-jobs-killed-small-town-pride.markdown": {
@@ -316,12 +388,60 @@
 		"oAP": "/_editorial/the-bureau-gun-running-in-mexico.markdown",
 		"oF": 0
 		},
+	"/_editorial/the-burnt-notebook.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_editorial/the-burnt-notebook.markdown",
+		"oF": 0
+		},
+	"/_editorial/the-crisis-inside.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_editorial/the-crisis-inside.markdown",
+		"oF": 0
+		},
+	"/_editorial/the-poetry-pharmacy.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_editorial/the-poetry-pharmacy.markdown",
+		"oF": 0
+		},
 	"/_editorial/the-political-butterfly-effect.markdown": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 2,
 		"oAP": "/_editorial/the-political-butterfly-effect.markdown",
+		"oF": 0
+		},
+	"/_editorial/the-political-school.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_editorial/the-political-school.markdown",
+		"oF": 0
+		},
+	"/_editorial/the-purity-spiral.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_editorial/the-purity-spiral.markdown",
+		"oF": 0
+		},
+	"/_editorial/the-quran-rescuing-monk-of-timbuktu.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_editorial/the-quran-rescuing-monk-of-timbuktu.markdown",
 		"oF": 0
 		},
 	"/_editorial/the-rise-and-fall-of-the-meritocracy.markdown": {
@@ -644,6 +764,14 @@
 		"oAP": "/_includes/images/full/full/interchange-img-small-12-medium-12.html",
 		"oF": 0
 		},
+	"/_includes/images/interchange-img-small-12-medium-12-cell-highlight.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_includes/images/interchange-img-small-12-medium-12-cell-highlight.html",
+		"oF": 0
+		},
 	"/_includes/images/interchange-img-small-12-medium-12-cell.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -676,6 +804,14 @@
 		"oAP": "/_includes/pagination/collection.html",
 		"oF": 0
 		},
+	"/_includes/partials/archive-vertical.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_includes/partials/archive-vertical.html",
+		"oF": 0
+		},
 	"/_includes/partials/archive.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -692,12 +828,36 @@
 		"oAP": "/_includes/partials/highlight.html",
 		"oF": 0
 		},
+	"/_includes/partials/member.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_includes/partials/member.html",
+		"oF": 0
+		},
+	"/_includes/partials/project-vertical.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_includes/partials/project-vertical.html",
+		"oF": 0
+		},
 	"/_includes/partials/project.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 2,
 		"oAP": "/_includes/partials/project.html",
+		"oF": 0
+		},
+	"/_includes/partials/team.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_includes/partials/team.html",
 		"oF": 0
 		},
 	"/_includes/reveal/meta.html": {
@@ -780,6 +940,14 @@
 		"oAP": "/_includes/site/scripts.html",
 		"oF": 0
 		},
+	"/_layouts/archive.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_layouts/archive.html",
+		"oF": 0
+		},
 	"/_layouts/compress.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -842,6 +1010,65 @@
 		"oAP": "/build/_site",
 		"oF": 0
 		},
+	"/_team/caroline-thornham.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_team/caroline-thornham.markdown",
+		"oF": 0
+		},
+	"/_team/james-morris.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_team/james-morris.markdown",
+		"oF": 0
+		},
+	"/_team/matt-omara.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_team/matt-omara.markdown",
+		"oF": 0
+		},
+	"/_team/max-obrien.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_team/max-obrien.markdown",
+		"oF": 0
+		},
+	"/_team/robbie-macinnes.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_team/robbie-macinnes.markdown",
+		"oF": 0
+		},
+	"/_team/sean-glynn.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_team/sean-glynn.markdown",
+		"oF": 0
+		},
+	"/_uploads/A-Hacks-Progress.jpg": {
+		"ft": 16384,
+		"iS": 347973,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/A-Hacks-Progress.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/_uploads/A-Hacks.jpg": {
 		"ft": 16384,
 		"iS": 400163,
@@ -881,6 +1108,25 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/_uploads/airbnb.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/Airbnb.mp3": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_uploads/Airbnb.mp3",
+		"oF": 0
+		},
+	"/_uploads/alhans-world.jpg": {
+		"ft": 16384,
+		"iS": 128146,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/alhans-world.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -945,6 +1191,25 @@
 		"oA": 2,
 		"oAP": "/_uploads/arab-whodunnit-preview.mp3",
 		"oF": 0
+		},
+	"/_uploads/ATG.mp3": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_uploads/ATG.mp3",
+		"oF": 0
+		},
+	"/_uploads/awkward-conversations.jpg": {
+		"ft": 16384,
+		"iS": 158876,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/awkward-conversations.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"/_uploads/background.mp4": {
 		"cB": 0,
@@ -1055,6 +1320,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
+		"q": 100
+		},
+	"/_uploads/burnt-notebook.jpg": {
+		"ft": 16384,
+		"iS": 182868,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/burnt-notebook.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"/_uploads/butterfly-ed00a8.jpg": {
@@ -1186,6 +1462,17 @@
 		"opt": 1,
 		"q": 100
 		},
+	"/_uploads/caroline-thornham.jpg": {
+		"ft": 16384,
+		"iS": 796236,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/caroline-thornham.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/_uploads/christopher-hitchens-preview.mp3": {
 		"cB": 0,
 		"ft": 8192,
@@ -1224,6 +1511,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/_uploads/DyingWhispers.jpg": {
+		"ft": 16384,
+		"iS": 715113,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/DyingWhispers.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/_uploads/economics-101-preview.mp3": {
 		"cB": 0,
 		"ft": 8192,
@@ -1241,6 +1539,28 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
+		"q": 100
+		},
+	"/_uploads/el-impenetrable.jpg": {
+		"ft": 16384,
+		"iS": 405111,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/el-impenetrable.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/fallout.jpg": {
+		"ft": 16384,
+		"iS": 76400,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/fallout.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"/_uploads/fantasy-premier-league.jpg": {
@@ -1292,6 +1612,17 @@
 		"oAP": "/_uploads/friends-and-foes-history-of-dimocracy-preview.mp3",
 		"oF": 0
 		},
+	"/_uploads/futile-attempts.jpg": {
+		"ft": 16384,
+		"iS": 255832,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/futile-attempts.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/_uploads/goliath-how-monopolies-came-to-be-preview.mp3": {
 		"cB": 0,
 		"ft": 8192,
@@ -1309,6 +1640,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
+		"q": 100
+		},
+	"/_uploads/hijacked-histories.jpg": {
+		"ft": 16384,
+		"iS": 156424,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/hijacked-histories.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"/_uploads/hitchens-rev1-27c52c.jpg": {
@@ -1396,12 +1738,64 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/_uploads/james-morris.jpg": {
+		"ft": 16384,
+		"iS": 339626,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/james-morris.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/john-kern-christmas.jpg": {
+		"ft": 16384,
+		"iS": 221453,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/john-kern-christmas.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/_uploads/Landrover.jpg": {
 		"ft": 16384,
 		"iS": 185369,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/_uploads/Landrover.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/Landrover.mp3": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_uploads/Landrover.mp3",
+		"oF": 0
+		},
+	"/_uploads/matt-omara.jpg": {
+		"ft": 16384,
+		"iS": 225739,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/matt-omara.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/max-obrien.jpg": {
+		"ft": 16384,
+		"iS": 348847,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/max-obrien.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1467,6 +1861,28 @@
 		"opt": 1,
 		"q": 100
 		},
+	"/_uploads/poetry-pharmacy-rev.jpg": {
+		"ft": 16384,
+		"iS": 204579,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/poetry-pharmacy-rev.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/poetry-pharmacy.jpg": {
+		"ft": 16384,
+		"iS": 179532,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/poetry-pharmacy.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/_uploads/political-butterfly-preview-updated.mp3": {
 		"cB": 0,
 		"ft": 8192,
@@ -1495,6 +1911,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
+		"q": 100
+		},
+	"/_uploads/political-school.jpg": {
+		"ft": 16384,
+		"iS": 442479,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/political-school.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"/_uploads/premier-284a69.jpg": {
@@ -1555,6 +1982,39 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/_uploads/premier.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/purity-spiral.jpg": {
+		"ft": 16384,
+		"iS": 337918,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/purity-spiral.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/quaran-monk.jpg": {
+		"ft": 16384,
+		"iS": 282410,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/quaran-monk.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/quaran.jpg": {
+		"ft": 16384,
+		"iS": 229897,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/quaran.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1642,6 +2102,50 @@
 		"opt": 1,
 		"q": 100
 		},
+	"/_uploads/riseandfall-no2.jpg": {
+		"ft": 16384,
+		"iS": 61887,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/riseandfall-no2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/riseandfall.jpg": {
+		"ft": 16384,
+		"iS": 86414,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/riseandfall.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/robbie-macinnes.jpg": {
+		"ft": 16384,
+		"iS": 364434,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/robbie-macinnes.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/sean-glynn.jpg": {
+		"ft": 16384,
+		"iS": 439666,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/sean-glynn.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/_uploads/slaughter-of-innocents.jpg": {
 		"ft": 16384,
 		"iS": 206553,
@@ -1694,6 +2198,28 @@
 		"opt": 1,
 		"q": 100
 		},
+	"/_uploads/team-rev.jpg": {
+		"ft": 16384,
+		"iS": 1032341,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/team-rev.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/team.jpg": {
+		"ft": 16384,
+		"iS": 891582,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/team.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/_uploads/test.jpg": {
 		"ft": 16384,
 		"iS": 52479,
@@ -1716,6 +2242,17 @@
 		"opt": 1,
 		"q": 100
 		},
+	"/_uploads/the-crisis-inside.jpg": {
+		"ft": 16384,
+		"iS": 171789,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/the-crisis-inside.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/_uploads/the-rise-and-fall-of-the-meritocracy-preview.mp3": {
 		"cB": 0,
 		"ft": 8192,
@@ -1734,6 +2271,14 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"/_uploads/Theatreland.mp3": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_uploads/Theatreland.mp3",
+		"oF": 0
 		},
 	"/_uploads/Todays-Bread.jpg": {
 		"ft": 16384,
@@ -2055,7 +2600,7 @@
 		"oA": 0,
 		"oAP": "/assets/js/min/app-min.js",
 		"oF": 0,
-		"sC": 1,
+		"sC": 3,
 		"tS": 0
 		},
 	"/assets/js/audio.js": {
@@ -2161,599 +2706,618 @@
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/assets/css/_fonts.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/assets/scss/_icons.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/assets/css/_icons.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/assets/scss/_layout.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/assets/css/_layout.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
-		},
-	"/assets/scss/_lightgallery.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/assets/css/_lightgallery.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/assets/scss/_settings.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/assets/css/_settings.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
+		},
+	"/assets/scss/_swiper.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/assets/css/_swiper.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
 		},
 	"/assets/scss/_transitions.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/assets/css/_transitions.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/assets/scss/_typography.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/assets/css/_typography.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/assets/scss/app.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
 		"oAP": "/assets/css/app.css",
 		"oF": 0,
 		"oS": 3,
-		"uL": 1
+		"sct": 1
 		},
 	"/assets/scss/plyr/base.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/assets/scss/css/base.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/assets/scss/plyr/components/badges.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/assets/scss/plyr/css/badges.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/assets/scss/plyr/components/captions.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/assets/scss/plyr/css/captions.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/assets/scss/plyr/components/control.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/assets/scss/plyr/css/control.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/assets/scss/plyr/components/controls.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/assets/scss/plyr/css/controls.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/assets/scss/plyr/components/menus.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/assets/scss/plyr/css/menus.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/assets/scss/plyr/components/poster.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/assets/scss/plyr/css/poster.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/assets/scss/plyr/components/progress.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/assets/scss/plyr/css/progress.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/assets/scss/plyr/components/sliders.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/assets/scss/plyr/css/sliders.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/assets/scss/plyr/components/times.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/assets/scss/plyr/css/times.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/assets/scss/plyr/components/tooltips.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/assets/scss/plyr/css/tooltips.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/assets/scss/plyr/components/video.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/assets/scss/plyr/css/video.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/assets/scss/plyr/components/volume.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/assets/scss/plyr/css/volume.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/assets/scss/plyr/lib/animation.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/assets/scss/plyr/css/animation.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/assets/scss/plyr/lib/functions.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/assets/scss/plyr/css/functions.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/assets/scss/plyr/lib/mixins.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/assets/scss/plyr/css/mixins.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/assets/scss/plyr/plugins/ads.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/assets/scss/plyr/css/ads.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/assets/scss/plyr/plugins/preview-thumbnails.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/assets/scss/plyr/css/preview-thumbnails.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/assets/scss/plyr/plyr.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/assets/scss/css/plyr.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/assets/scss/plyr/settings/badges.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/assets/scss/plyr/css/badges.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/assets/scss/plyr/settings/breakpoints.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/assets/scss/plyr/css/breakpoints.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/assets/scss/plyr/settings/captions.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/assets/scss/plyr/css/captions.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/assets/scss/plyr/settings/colors.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/assets/scss/plyr/css/colors.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/assets/scss/plyr/settings/controls.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/assets/scss/plyr/css/controls.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/assets/scss/plyr/settings/cosmetics.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/assets/scss/plyr/css/cosmetics.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/assets/scss/plyr/settings/helpers.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/assets/scss/plyr/css/helpers.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/assets/scss/plyr/settings/menus.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/assets/scss/plyr/css/menus.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/assets/scss/plyr/settings/progress.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/assets/scss/plyr/css/progress.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/assets/scss/plyr/settings/sliders.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/assets/scss/plyr/css/sliders.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/assets/scss/plyr/settings/tooltips.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/assets/scss/plyr/css/tooltips.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/assets/scss/plyr/settings/type.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/assets/scss/plyr/css/type.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/assets/scss/plyr/states/fullscreen.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/assets/scss/plyr/css/fullscreen.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/assets/scss/plyr/utils/animation.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/assets/scss/plyr/css/animation.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/assets/scss/plyr/utils/hidden.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/assets/scss/plyr/css/hidden.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/assets/scss/scroll/_animations.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/assets/scss/css/_animations.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/assets/scss/scroll/_core.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/assets/scss/css/_core.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/assets/scss/scroll/_easing.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/assets/scss/css/_easing.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/assets/scss/scroll/aos.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/assets/scss/css/aos.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
+		},
+	"/branded-archive.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/branded-archive.html",
+		"oF": 1,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
 		},
 	"/circles.json": {
 		"ft": 524288,
@@ -2762,6 +3326,25 @@
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
+		},
+	"/editorial-archive.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/editorial-archive.html",
+		"oF": 1,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
 		},
 	"/Gemfile": {
 		"cB": 0,
@@ -2872,6 +3455,28 @@
 		"oAP": "/node_modules/plyr/dist/plyr.min.mjs",
 		"oF": 0
 		},
+	"/node_modules/ssr-window/dist/ssr-window.esm.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/ssr-window/dist/min/ssr-window.esm-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/js/swiper.esm.bundle.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/js/min/swiper.esm.bundle-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"/node_modules/tweezer.js/dist/tweezer.module.js": {
 		"bF": 0,
 		"ft": 64,
@@ -2882,6 +3487,14 @@
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
+		},
+	"/package-lock.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/package-lock-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
 		},
 	"/package.json": {
 		"ft": 524288,
@@ -3409,6 +4022,7 @@
 			"flagValue": -1
 			}
 		},
+	"environmentVariablesString": "NODE_ENV:::production",
 	"esLintConfigFileHandlingType": 0,
 	"esLintECMAVersion": 7,
 	"esLintEnvironmentsMask": 1,
@@ -3513,6 +4127,14 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"default-case-last": {
+			"active": 0,
+			"optionString": ""
+			},
+		"default-param-last": {
+			"active": 0,
+			"optionString": ""
+			},
 		"dot-location": {
 			"active": 0,
 			"optionString": "'object'"
@@ -3564,6 +4186,10 @@
 		"global-require": {
 			"active": 0,
 			"optionString": ""
+			},
+		"grouped-accessor-pairs": {
+			"active": 0,
+			"optionString": "'anyOrder'"
 			},
 		"guard-for-in": {
 			"active": 0,
@@ -3741,6 +4367,10 @@
 			"active": 1,
 			"optionString": "{'checkLoops': true}"
 			},
+		"no-constructor-return": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-continue": {
 			"active": 0,
 			"optionString": ""
@@ -3766,6 +4396,10 @@
 			"optionString": ""
 			},
 		"no-dupe-class-members": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-dupe-else-if": {
 			"active": 1,
 			"optionString": ""
 			},
@@ -3861,6 +4495,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-import-assign": {
+			"active": 1,
+			"optionString": ""
+			},
 		"no-inline-comments": {
 			"active": 0,
 			"optionString": ""
@@ -3902,6 +4540,10 @@
 			"optionString": ""
 			},
 		"no-loop-func": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-loss-of-precision": {
 			"active": 0,
 			"optionString": ""
 			},
@@ -4021,6 +4663,10 @@
 			"active": 1,
 			"optionString": ""
 			},
+		"no-restricted-exports": {
+			"active": 0,
+			"optionString": "{'restrictedNamedExports': []}"
+			},
 		"no-restricted-globals": {
 			"active": 0,
 			"optionString": "'event', 'fdescribe'"
@@ -4063,6 +4709,10 @@
 			},
 		"no-sequences": {
 			"active": 0,
+			"optionString": ""
+			},
+		"no-setter-return": {
+			"active": 1,
 			"optionString": ""
 			},
 		"no-shadow": {
@@ -4160,6 +4810,10 @@
 		"no-use-before-define": {
 			"active": 0,
 			"optionString": "{'functions': true, 'classes': true}"
+			},
+		"no-useless-backreference": {
+			"active": 0,
+			"optionString": ""
 			},
 		"no-useless-call": {
 			"active": 0,
@@ -4269,6 +4923,10 @@
 			"active": 0,
 			"optionString": "{'array': true, 'object': true}, {'enforceForRenamedProperties': false}"
 			},
+		"prefer-exponentiation-operator": {
+			"active": 0,
+			"optionString": ""
+			},
 		"prefer-named-capture-group": {
 			"active": 0,
 			"optionString": ""
@@ -4284,6 +4942,10 @@
 		"prefer-promise-reject-errors": {
 			"active": 0,
 			"optionString": "{'allowEmptyReject': false}"
+			},
+		"prefer-regex-literals": {
+			"active": 0,
+			"optionString": ""
 			},
 		"prefer-rest-params": {
 			"active": 0,
@@ -4893,7 +5555,6 @@
 		"autoOutputPathStyle": 2,
 		"createSourceMap": 0,
 		"enableJavascript": 0,
-		"ieCompatibility": 1,
 		"mathStyle": 0,
 		"outputStyle": 0,
 		"rewriteURLStyle": 0,
@@ -4962,13 +5623,13 @@
 		"autoOutputPathReplace1": "sass",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 2,
+		"compilerType": 1,
 		"createSourceMap": 0,
-		"debugStyle": 0,
 		"decimalPrecision": 10,
+		"emitCharset": 1,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 1
+		"shouldRunBless": 0
 		},
 	"languageDefaultsSLIM": {
 		"autoOutputAction": 0,
@@ -5033,6 +5694,9 @@
 	"npmTargetDependencyListType": 1,
 	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
+	"rollupExternals": "",
+	"rollupReplacements": "process.env.NODE_ENV:::$NODE_ENV,,,ENVIRONMENT:::$NODE_ENV",
+	"rollupTreeshakingEnabled": 1,
 	"skippedFoldersString": "log, _logs, logs, _cache, cache, /storage/framework/sessions, node_modules, /_site",
 	"sourceFolderName": "source",
 	"susyVersion": 3,

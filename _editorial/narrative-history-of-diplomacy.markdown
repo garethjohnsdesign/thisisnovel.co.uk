@@ -1,7 +1,7 @@
 ---
 title: 'Friends & Foes: A Narrative History of Diplomacy'
 date: 2019-09-05 20:23:00 Z
-position: 3
+position: 8
 image: "/uploads/Narrative.jpg"
 client: BBC Radio 4
 logo: bbc-radio-4
@@ -11,4 +11,4 @@ link: https://www.bbc.co.uk/programmes/b08fcj84
 is-highlight: false
 ---
 
-In this ten-part series, Professor David Rothkopf highlights seminal events or turning points where diplomacy has evolved and - in some cases - lastingly changed.
+Professor David Rothkopf charts the role of diplomacy throughout recent history. From the high stakes stand off of the Cuban Missile Crisis to the Good Friday Agreement, Rothkopf highlights seminal events where the fine art of diplomacy has evolved and ultimately been transformed.

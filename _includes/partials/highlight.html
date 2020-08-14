@@ -1,6 +1,6 @@
 {% for project in projects %}
 {% assign image = project.image %}
-<section class="snapping grid-y grid-padding-y align-justify" data-interchange="{% include images/interchange-img-small-12-medium-12-cell.html %}">
+<section class="snapping snapping--padding grid-y grid-padding-y align-justify" data-interchange="{% include images/interchange-img-small-12-medium-12-cell-highlight.html %}">
 <div class="cell" data-aos="fade-in">
   <div class="grid-container">
     <div class="grid-x grid-padding-x grid-padding-y">
@@ -24,9 +24,49 @@
     </div>
     <div class="grid-x grid-padding-x grid-padding-y align-justify">
       <div class="small-12 medium-6 cell description">
+        <div class="">
         {{project.content | markdownify }}
+        </div>
+        <div class="show-for-medium">
+        {% if project.awards.size %}
+        <div class="text-uppercase sans-bold margin-top-1 margin-bottom-1 small"><span class="underline">Awards</span></div>
+        {% for award in project.awards %}
+        <div><a href="{{award.link}}" target="_blank">{{ award.award }}</a></div>
+        {% endfor %}
+        {% endif %}
+
+        {% if project.reviews.size %}
+        <div class="text-uppercase sans-bold margin-top-1 margin-bottom-1 small"><span class="underline">Reviews</span></div>
+        {% for review in project.reviews %}
+        <a href="{{review.link}}" target="_blank">
+        {% if review.text %}
+        "{{review.text}}"
+        {% endif %}
+        {% if review.is-four-star %}
+        <svg class="icon icon-stargrade icon-stargrade"><use xlink:href="/assets/icons/symbol-defs.svg#icon-stargrade"></use></svg>
+        <svg class="icon icon-stargrade icon-stargrade"><use xlink:href="/assets/icons/symbol-defs.svg#icon-stargrade"></use></svg>
+        <svg class="icon icon-stargrade icon-stargrade"><use xlink:href="/assets/icons/symbol-defs.svg#icon-stargrade"></use></svg>
+        <svg class="icon icon-stargrade icon-stargrade"><use xlink:href="/assets/icons/symbol-defs.svg#icon-stargrade"></use></svg>
+        {% endif %}
+        {% if review.is-five-star %}
+        <svg class="icon icon-stargrade icon-stargrade"><use xlink:href="/assets/icons/symbol-defs.svg#icon-stargrade"></use></svg>
+        <svg class="icon icon-stargrade icon-stargrade"><use xlink:href="/assets/icons/symbol-defs.svg#icon-stargrade"></use></svg>
+        <svg class="icon icon-stargrade icon-stargrade"><use xlink:href="/assets/icons/symbol-defs.svg#icon-stargrade"></use></svg>
+        <svg class="icon icon-stargrade icon-stargrade"><use xlink:href="/assets/icons/symbol-defs.svg#icon-stargrade"></use></svg>
+        <svg class="icon icon-stargrade icon-stargrade"><use xlink:href="/assets/icons/symbol-defs.svg#icon-stargrade"></use></svg>
+        {% endif %}
+        <div>— {{ review.cite }}</div>
+        </a>
+        {% endfor %}
+        {% endif %}
+        </div>
+
+
       </div>
-      <div class="small-12 medium-shrink cell text-left">
+      <div class="small-12 medium-5 cell text-left medium-text-right">
+
+      <div class="grid-y align-right" style="height: 100%">
+      <div class="shrink cell">
         <div class="margin-bottom-1 mono-bold">Episodes:{{project.episodes }} — Run Time:{{project.run-time }}</div>
           <div>
           {% if project.listen %}
@@ -42,6 +82,10 @@
               <svg class="icon icon-link-button-large-hover"><use xlink:href="/assets/icons/symbol-defs.svg#icon-link-button-large-hover"></use></svg>
             </a>
           </div>
+      </div>
+      </div>
+
+
       </div>
     </div>
   </div>

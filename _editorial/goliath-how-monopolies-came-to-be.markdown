@@ -1,7 +1,7 @@
 ---
 title: Goliath - How Monopolies Came to Be
 date: 2019-09-05 20:25:00 Z
-position: 19
+position: 27
 image: "/uploads/goliath.jpg"
 client: BBC Radio 4
 logo: bbc-radio-4
@@ -11,4 +11,4 @@ listen: "/uploads/goliath-how-monopolies-came-to-be-preview.mp3"
 link: https://www.bbc.co.uk/programmes/m0003zvn
 ---
 
-Will Hutton considers the ironies and tensions central to modern monopolies, tracing the history of monopolies and public attitudes towards them.
+Political economist and journalist Will Hutton considers the tensions central to modern monopolies, tracing the story of monopolies and public attitudes towards them. This journey through our political history allows Hutton to ask fundamental questions about the ideologies underpinning our economic system.
