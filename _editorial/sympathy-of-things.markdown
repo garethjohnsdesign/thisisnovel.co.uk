@@ -7,6 +7,7 @@ client: BBC Radio 4
 logo: bbc-radio-4
 episodes: 2
 run-time: 28 mins
+listen: "/uploads/The%20Sympathy%20of%20Things.mp3"
 link: https://www.bbc.co.uk/programmes/m0000xqs
 ---
 
