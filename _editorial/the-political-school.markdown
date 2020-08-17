@@ -7,6 +7,7 @@ client: BBC Radio 4
 logo: bbc-radio-4
 episodes: 3
 run-time: 28 mins
+listen: "/uploads/The%20Political%20School.mp3"
 is-highlight: true
 ---
 
