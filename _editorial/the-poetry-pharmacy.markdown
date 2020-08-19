@@ -7,6 +7,7 @@ client: BBC Radio 4
 logo: bbc-radio-4
 episodes: 1
 run-time: 28 minutes
+listen: "/uploads/Poetry%20Pharmacy.mp3"
 link: https://www.bbc.co.uk/programmes/m000df98
 ---
 

@@ -7,6 +7,7 @@ client: BBC Radio 4
 logo: bbc-radio-4
 episodes: 10
 run-time: 14 mins
+listen: "/uploads/Friends%20and%20Foes%20111.mp3"
 link: https://www.google.com
 ---
 

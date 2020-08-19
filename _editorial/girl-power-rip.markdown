@@ -3,8 +3,8 @@ title: Girl Power RIP
 date: 2020-06-27 15:20:00 Z
 position: 17
 image: "/uploads/girl-power.jpg"
-client: BBC World Service
-logo: bbc-world-service
+client: BBC Rado 4
+logo: bbc-radio-4
 episodes: 1
 run-time: 57 minutes
 listen: "/uploads/Girl%20Power%20RIP.mp3"

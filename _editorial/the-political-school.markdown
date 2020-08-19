@@ -7,7 +7,8 @@ client: BBC Radio 4
 logo: bbc-radio-4
 episodes: 3
 run-time: 28 mins
-is-highlight: true
+listen: "/uploads/The%20Political%20School.mp3"
+is-highlight: false
 ---
 
 Timandra Harkness designs a new curriculum to give our politicians an upgrade - re-educating Westminster with the revolutionary performance enhancing techniques honed by data savvy scientists, leadership gurus and Silicon Valley CEOs. 
