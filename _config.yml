@@ -37,14 +37,14 @@ defaults:
     is-highlight: false
     has-reviews: false
     reviews:
-    - cite:
-      is-five-star:
+    - cite: 
+      is-five-star: 
       is-four-star: 
-      link:
+      link: 
     has-awards: false
     awards:
-    - award:
-      link:
+    - award: 
+      link: 
 - scope:
     path: ''
     type: branded

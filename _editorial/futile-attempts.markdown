@@ -12,7 +12,7 @@ is-highlight: true
 has-reviews: true
 reviews:
 - cite: The Guardian
-  is-five-star:
+  is-five-star: 
   is-four-star: true
   link: https://www.theguardian.com/stage/2020/aug/17/kim-noble-futile-attempts-at-surviving-tomorrow-review-twisted-and-tender
 ---
