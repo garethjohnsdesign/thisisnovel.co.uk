@@ -10,6 +10,7 @@ run-time: Various
 listen: "/uploads/bellingcat-preview.mp3"
 link: https://podcasts.apple.com/gb/podcast/the-bellingcat-podcast/id1472354896
 is-highlight: true
+has-awards: true
 awards:
 - award: 'ARIAS: Best Independent Podcast - Silver'
   link: https://www.radioacademy.org/arias/

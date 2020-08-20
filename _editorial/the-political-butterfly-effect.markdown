@@ -10,6 +10,7 @@ run-time: 14 mins
 listen: "/uploads/political-butterfly-preview-updated.mp3"
 link: https://www.bbc.co.uk/programmes/m00082dd
 is-highlight: true
+has-reviews: true
 reviews:
 - cite: The New Statesman
   text: Fun, forensic hypothesizing

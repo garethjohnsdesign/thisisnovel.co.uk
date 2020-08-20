@@ -35,6 +35,16 @@ defaults:
     listen: 
     link: 
     is-highlight: false
+    has-reviews: false
+    reviews:
+    - cite:
+      is-five-star:
+      is-four-star: 
+      link:
+    has-awards: false
+    awards:
+    - award:
+      link:
 - scope:
     path: ''
     type: branded
