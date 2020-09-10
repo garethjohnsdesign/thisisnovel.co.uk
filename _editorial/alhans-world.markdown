@@ -9,7 +9,7 @@ episodes: 6
 run-time: Various Lengths
 listen: "/uploads/Alhans%20World.mp3"
 is-highlight: true
-has-reviews: true
+has-reviews: false
 reviews:
 - cite: Jme
   text: The mad ting
