@@ -12,6 +12,7 @@ is-highlight: true
 has-reviews: true
 reviews:
 - cite: Jme
+  link: https://twitter.com/JmeBBK/status/1289270533423472640
   Text: The mad ting
 ---
 
