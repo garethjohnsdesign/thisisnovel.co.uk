@@ -1,0 +1,41 @@
+<div class="reveal project__meta" id="project__meta-{{page.title |slugify}}" data-reveal data-animation-in="fade-in fast" data-animation-out="fade-out fast">
+  <div class="grid-x grid-padding-x grid-padding-y align-center-middle" style="height: 100%">
+    <div class="shrink cell text-center">
+
+      {% if page.director %}
+      	<div class="dark-gray small text-uppercase">Director</div>
+      <div class="margin-bottom-1">
+      {{ page.director }}
+      </div>
+      {% endif %}
+  
+      {% if page.producer %}
+    	  <div class="dark-gray small text-uppercase">Producer</div>
+      <div class="margin-bottom-1">
+      {{ page.producer }}
+      </div>
+      {% endif %}
+  
+      {% if page.production-company %}
+    	  <div class="dark-gray small text-uppercase">Production Company</div>
+      <div class="margin-bottom-1">
+      {{ page.production-company }}
+      </div>
+      {% endif %}
+  
+      {% if page.awards %}
+    	  <div class="dark-gray small text-uppercase">Awards</div>
+      <div class="margin-bottom-1">
+      {% for award in page.awards %}
+      <div>{{ award }}</div>
+      {% endfor %}
+      </div>
+      {% endif %}
+
+  <button class="hollow button" data-close aria-label="Close modal" type="button">
+    <svg class="icon icon-remove"><use xlink:href="/assets/icons/symbol-defs.svg#icon-remove"></use></svg>
+  </button>
+
+    </div>
+  </div>
+</div>

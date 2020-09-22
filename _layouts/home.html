@@ -1,0 +1,230 @@
+---
+layout: default
+---
+
+<!-- About -->
+<section class="snapping snapping--padding about" id="about">
+
+  <div class="grid-y align-center loader hide">
+    <div class="shrink cell">
+
+    <!-- Hero -->
+    {% assign image = page.hero-image %}
+    <section class="grid-y grid-padding-y align-center hero" {% if image %}data-interchange="{% include images/interchange-img-small-12-medium-12-cell.html %}"{% endif %}>
+      <div class="shrink cell">
+        <div class="grid-container">
+    
+          <div class="grid-x grid-padding-x grid-padding-y align-center show-for-small-only">
+            <div class="small-10 medium-8 cell text-center aos-init aos-animate" data-aos="fade-in">
+              <h1 class="font-wide"><svg class="icon icon-logo-large"><use xlink:href="/assets/icons/symbol-defs.svg#icon-logo"></use></svg></h1>
+            </div>
+          </div>
+    
+          <div class="grid-x grid-padding-x grid-padding-y align-center show-for-medium">
+            <div class="small-11 cell text-center">
+    
+              <lottie-player src="/assets/animation/logo.json"  background="transparent"  speed="1"  style="width: 100%; height: 100%;" loop autoplay ></lottie-player>
+    
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Hero -->
+
+    </div>
+  </div>
+
+  <div class="grid-y align-center about--text" style="height: 100%">
+    <div class="shrink cell">
+
+      <div class="grid-container">
+        <div class="grid-x align-left">
+          <div class="small-11 medium-10 cell" data-aos="fade-in" data-aos-delay="custom">
+            <h2>{{page.about-text}}</h2>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="grid-y align-center about--animation" style="height: 100%">
+    <div class="shrink cell text-center" data-aos="fade-in">
+        <div class="grid-x align-left">
+          <div class="small-12 cell" data-aos="fade-in">
+            <lottie-player src="/assets/animation/circles.json"  background="transparent"  speed="1"  style="width: 100%; height: 100%;" autoplay ></lottie-player>
+          </div>
+        </div>
+    </div>
+  </div>
+
+</section>
+<!-- End About -->
+
+<!-- Editorial -->
+<section class="snapping snapping--padding grid-y grid-padding-y align-center editorial" id="editorial">
+  <div class="cell">
+    <div class="grid-container">
+      <div class="grid-x grid-padding-x grid-padding-y">
+        <div class="small-12 medium-10 large-10 cell" data-aos="fade-in">
+          <h4 class="text-uppercase sans-bold margin-bottom-3"><span class="underline">Editorial</span></h4>
+          <div class="h2">{{page.editorial-text}}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Editorial -->
+
+<!-- Editorial Highlights -->
+{% assign projects = site.editorial | sort: 'position' | where: "is-highlight", "true" %}
+{% assign section = "Editorial" %}
+{% assign section-number = "2" %}
+{% include partials/highlight.html %}
+<!-- End Editorial Highlights -->
+
+<!-- Editorial Archive -->
+{% assign projects = site.editorial | sort: 'position' | where: "is-highlight", "false" %}
+{% assign section = "Editorial" %}
+{% assign section-number = "2" %}
+{% include partials/archive-vertical.html %}
+<!-- End Editorial Archive -->
+
+<!-- Branded -->
+<section class="snapping snapping--padding grid-y grid-padding-y align-center branded" id="branded">
+  <div class="cell"  data-aos="fade-in">
+    <div class="grid-container">
+      <div class="grid-x grid-padding-x grid-padding-y">
+        <div class="small-12 medium-10 large-10 cell">
+          <h4 class="text-uppercase sans-bold margin-bottom-3"><span class="underline">Branded</span></h4>
+          <h2>{{page.branded-text | markdownify}}</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Branded -->
+
+<!-- Branded Highlights -->
+{% assign projects = site.branded | sort: 'position' | where: "is-highlight", "true" %}
+{% assign section = "Branded" %}
+{% assign section-number = "3" %}
+{% include partials/highlight.html %}
+<!-- End Branded Highlights -->
+
+<!-- Branded Archive -->
+{% assign projects = site.branded | sort: 'position' | where: "is-highlight", "false" %}
+{% assign section = "Branded" %}
+{% assign section-number = "3" %}
+{% include partials/archive-vertical.html %}
+<!-- End Branded Archive -->
+
+<!-- Contact Hero -->
+{% assign image = page.contact-image %}
+
+<div class="special--background">
+<section class="snapping snapping--padding grid-y grid-padding-y align-justify show-for-small-only special" data-interchange="{% include images/interchange-img-small-12-medium-12-cell.html %}" id="contact">
+  <div class="cell" data-aos="fade-in">
+    <div class="grid-container">
+      <div class="grid-x grid-padding-x grid-padding-y">
+      <div class="small-12 cell">
+      <h4 class="text-uppercase sans-bold margin-bottom-3"><span class="underline">Contact</span></h4>
+      </div>
+      </div>
+    </div>
+  </div>
+  <div class="cell" data-aos="fade-in">
+    <div class="grid-container">
+      <div class="grid-x grid-padding-x grid-padding-y align-justify">
+        <div class="small-12 medium-10 cell description">
+          <div class="h2">
+          {{page.contact-hero-text}}
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</section>
+</div>
+
+<section class="snapping snapping--padding grid-y grid-padding-y align-justify show-for-medium" data-interchange="{% include images/interchange-img-small-12-medium-12-cell.html %}" id="contact">
+  <div class="cell" data-aos="fade-in">
+    <div class="grid-container">
+      <div class="grid-x grid-padding-x grid-padding-y">
+      <div class="small-12 cell">
+      <h4 class="text-uppercase sans-bold margin-bottom-3"><span class="underline">Contact</span></h4>
+      </div>
+      </div>
+    </div>
+  </div>
+  <div class="cell" data-aos="fade-in">
+    <div class="grid-container">
+      <div class="grid-x grid-padding-x grid-padding-y align-justify">
+        <div class="small-12 medium-10 cell description">
+          <div class="h2">
+          {{page.contact-hero-text}}
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Contact Hero -->
+
+
+<!-- Contact Team -->
+{% assign members = site.team | sort: 'position' %}
+{% if members.size > 0 %}
+<section class="snapping snapping--padding grid-y grid-padding-y align-center contact" id="contact">
+  <div class="cell" data-aos="fade-in" style="z-index: 5">
+    <div class="grid-container">
+        <div class="grid-x grid-padding-x grid-padding-y">
+        {% for member in members %}
+        <div class="small-10 {% cycle 'small-offset-0', 'small-offset-2' %} medium-offset-0 medium-6 large-4 cell">
+        {% assign image = member.image %}
+        <div class="image--5-7 margin-bottom-1" data-interchange="{% include images/interchange-img-small-12-medium-4-cell.html %}"></div>
+        <div class="text-uppercase sans-bold">{{member.title}}</div>
+        <div>{{member.job-title}}</div>
+        <div><a href="mailto:{{member.email}}">{{member.email}}</a></div>
+        </div>
+        {% endfor %}
+        </div>
+    </div>
+  </div>
+</section>
+{% endif %}
+
+<!-- End Contact Team -->
+          
+
+<!-- Contact Details -->
+<section class="snapping snapping--padding grid-y grid-padding-y align-center contact">
+  <div class="cell" data-aos="fade-in" style="z-index: 5">
+    <div class="grid-container">
+      <div class="grid-x grid-padding-x grid-padding-y">
+        <div class="small-12 medium-8 cell">
+          <div class="h2">{{page.contact-text}}</div>
+          <div class="margin-bottom-2 h2"><a href="mailto:{{site.email}}" class="underline">{{site.email}}</a></div>
+          {{page.address-text | markdownify}}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="contact--animation grid-y align-center" style="height: 100%">
+    <div class="shrink cell text-center" data-aos="fade-in">
+      <div class="grid-x align-left">
+
+        <div class="small-12 cell" data-aos="fade-in">
+          <lottie-player src="/assets/animation/circles.json"  background="transparent"  speed="1"  style="width: 100%; height: 100%;" autoplay ></lottie-player>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</section>
+<!-- End Contact Details -->

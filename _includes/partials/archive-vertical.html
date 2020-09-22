@@ -1,0 +1,69 @@
+{% if projects.size > 0 %}
+<section class="snapping snapping--padding archive">
+  
+
+  <div class="grid-container">
+    <div class="grid-x grid-padding-x grid-padding-y" data-aos="fade-in">
+      <div class="small-12 medium-6 cell padding-bottom-0">
+      <h4 class="text-uppercase sans-bold"><span class="underline">{{ section }} Archive</span></h4>
+      </div>
+      <div class="small-12 medium-6 cell text-left medium-text-right">
+        <a href="/{{ section | slugify }}-archive" class="text-uppercase mono-bold margin-bottom-2 h4"><span class="underline">See All ({{ projects.size }}) <svg class="icon icon-call_made"><use xlink:href="/assets/icons/symbol-defs.svg#icon-call_made"></use></svg></span></a>
+      </div>
+
+    </div>
+  </div>
+
+
+ <!-- Swiper -->
+
+ <div class="show-for-small-only">
+   <div class="grid-x grid-padding-y" data-aos="fade-in">
+     <div class="small-12 medium-12 cell">
+    
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          
+        {% for project in projects limit:6 %}
+        <div class="swiper-slide black-background">
+        {% include partials/project-vertical.html %}
+        </div>
+        {% endfor %}
+    
+        </div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    
+     </div>
+   </div>
+ </div>
+
+ <div class="show-for-medium">
+ <div class="grid-container">
+   <div class="grid-x grid-padding-x grid-padding-y" data-aos="fade-in">
+     <div class="small-12 medium-12 cell">
+    
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          
+        {% for project in projects limit:6 %}
+        <div class="swiper-slide black-background">
+        {% include partials/project-vertical.html %}
+        </div>
+        {% endfor %}
+    
+        </div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    
+     </div>
+   </div>
+ </div>
+ </div>
+
+</section>
+{% endif %}

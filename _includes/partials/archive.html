@@ -1,0 +1,45 @@
+{% if projects.size > 0 %}
+<div class="snapping archive">
+  <div class="grid-container">
+    <div class="grid-x grid-padding-x grid-padding-y" data-aos="fade-in">
+      <div class="small-12 medium-8 cell">
+      <h4 class="text-uppercase sans-bold margin-bottom-2"><span class="underline">{{ section }} Archive</span></h4>
+      </div>
+    </div>
+  </div>
+
+  {% for project in projects limit:5 %}
+  {% include partials/project.html %}
+  {% endfor %}
+
+  {% if projects.size > 5 %}
+  <div class="read-more-content" id="read-more-content-{{ section }}" data-toggler data-animate="fade-in fade-out">
+  {% for project in projects offset:5 %}
+  {% include partials/project.html %}
+  {% endfor %}
+  </div>
+
+  <div class="read-less" id="read-less" data-toggler data-animate="fade-in fade-out">
+    <div class="grid-container">
+      <div class="grid-x grid-padding-x grid-padding-y align-center" data-aos="fade-in">
+        <div class="small-12 medium-8 cell text-center">
+          <button class="button clear" data-toggle="read-more-content-{{ section }} read-less read-more"><svg class="icon icon-show-less"><use xlink:href="/assets/icons/symbol-defs.svg#icon-show-less"></use></svg></button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="read-more" id="read-more" data-toggler data-animate="fade-in fade-out">
+  <div class="grid-container">
+    <div class="grid-x grid-padding-x grid-padding-y align-center" data-aos="fade-in">
+      <div class="small-12 medium-8 cell text-center">
+        <button class="button clear" data-toggle="read-more-content-{{ section }} read-less read-more"><svg class="icon icon-show-more"><use xlink:href="/assets/icons/symbol-defs.svg#icon-show-more"></use></svg></button>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  {% endif %}
+
+</div>
+{% endif %}

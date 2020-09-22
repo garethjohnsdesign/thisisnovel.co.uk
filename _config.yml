@@ -1,0 +1,105 @@
+---
+title: Novel
+timezone: UTC
+collections:
+  branded:
+    title: Branded
+    output: false
+  editorial:
+    title: Editorial
+    output: false
+  posts:
+    title: Posts
+    output: true
+  team:
+    title: Team
+    output: false
+  uploads:
+    title: Uploads
+    output: false
+defaults:
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: page
+- scope:
+    path: ''
+    type: editorial
+  values:
+    image: 
+    client: 
+    logo: 
+    episodes: 
+    run-time: 
+    listen: 
+    link: 
+    is-highlight: false
+- scope:
+    path: ''
+    type: branded
+  values:
+    image: 
+    client: 
+    logo: 
+    episodes: 
+    run-time: 
+    listen: 
+    link: 
+    is-highlight: false
+- scope:
+    path: ''
+    type: team
+  values:
+    job-title: 
+    image: 
+    email: 
+    social: 
+url: https://www.thisisnovel.co.uk
+description: A premium audio content company. Whether it’s compelling journalism,
+  powerful podcasts or innovative branded content, we tell stories in sound that make
+  people listen.
+permalink: pretty
+exclude:
+- package.json
+- config.codekit3
+- README*
+- LICENSE*
+- CHANGELOG*
+- node_modules
+- ".gitignore"
+- assets/scss
+plugins:
+- jekyll-seo-tag
+- jekyll-sitemap
+- jekyll-feed
+- jekyll/imgix
+company: Novel Ltd
+email: info@thisisnovel.co.uk
+analytics: UA-148099552-1
+logo: "/assets/img/logo.svg"
+per_page: 12
+date_format: "%b %Y"
+future: true
+social:
+  instagram: https://www.instagram.com/thisisnoveluk/
+  twitter: https://twitter.com/thisisnoveluk
+compress_html:
+  comments:
+  - "<!-- "
+  - " -->"
+  blanklines: true
+  profile: false
+pagination:
+  collection: posts
+  enabled: true
+  per_page: 12
+  limit: 0
+  permalink: "/page/:num/"
+  title: ":title"
+  sort_field: date
+  sort_reverse: true
+autopages:
+  enabled: false
+imgix:
+  source: thisisnovel-beta.imgix.net

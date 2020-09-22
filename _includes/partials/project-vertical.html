@@ -1,0 +1,52 @@
+{% assign image = project.image %}
+<div class="image--7-5" data-interchange="{% include images/interchange-img-small-12-medium-4-cell.html %}">
+  <div class="content">
+  <div class="grid-y align-center" style="height: 100%">
+
+  <div class="shrink cell text-center">
+  {% if project.logo %}
+  <div><svg class="icon icon-{{project.logo}} icon-client"><use xlink:href="/assets/icons/symbol-defs.svg#icon-{{project.logo}}"></use></svg></div>
+  {% else %}
+  <div class="h5">{{project.client }}</div>
+  {% endif %}
+  </div>
+
+  </div>
+  </div>
+</div>
+
+<div class="callout">
+
+<div class="grid-y align-justify" style="height: 100%">
+
+  <div class="cell">
+    <div class="project__title margin-top-0" style="height: 75px">{{project.title}}</div>
+    <div class="margin-bottom-1">{{project.content | remove: '<p>' | remove: '</p>' | truncate: 140}}</div>
+  </div>
+  
+  <div class="cell">
+  
+    <div class="listen">
+      {% if project.listen %}
+        <button class="button clear play-button margin-bottom-0" data-audio-title="{{project.title}}" data-src="{{project.listen}}">
+          <svg class="icon icon-play-button"><use xlink:href="/assets/icons/symbol-defs.svg#icon-play-button"></use></svg>
+          <svg class="icon icon-play-button-hover"><use xlink:href="/assets/icons/symbol-defs.svg#icon-play-button-hover"></use></svg>
+          <svg class="icon icon-playing-button"><use xlink:href="/assets/icons/symbol-defs.svg#icon-playing-button"></use></svg>
+          <svg class="icon icon-playing-button-hover"><use xlink:href="/assets/icons/symbol-defs.svg#icon-playing-button-hover"></use></svg>
+        </button>
+      {% endif %}
+        <a href="{{project.link}}" target="_blank" class="button clear link-button margin-bottom-0">
+          <svg class="icon icon-link-button"><use xlink:href="/assets/icons/symbol-defs.svg#icon-link-button"></use></svg>
+          <svg class="icon icon-link-button-hover"><use xlink:href="/assets/icons/symbol-defs.svg#icon-link-button-hover"></use></svg>
+        </a>
+    </div>  
+  
+  </div>
+
+</div>
+
+</div>
+
+
+
+
