@@ -1020,6 +1020,14 @@
 		"oAP": "/_layouts/testing.html",
 		"oF": 0
 		},
+	"/_redirects": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_redirects",
+		"oF": 0
+		},
 	"/_site": {
 		"ft": 65536,
 		"oA": 1,

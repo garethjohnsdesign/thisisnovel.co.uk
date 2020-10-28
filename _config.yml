@@ -84,6 +84,8 @@ plugins:
 - jekyll-sitemap
 - jekyll-feed
 - jekyll/imgix
+include:
+- "_redirects"
 company: Novel Ltd
 email: info@we-are-novel.com
 analytics: UA-148099552-1
