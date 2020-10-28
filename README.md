@@ -2,7 +2,7 @@
 
 # Novel
 
-Site for Novel. Please go to [www.thisisnovel.co.uk](https://www.thisisnovel.co.uk) in case you want to take a look at the website.
+Site for Novel. Please go to [www.we-are-novel.com](https://www.we-are-novel.com) in case you want to take a look at the website.
 
 * * *
 
