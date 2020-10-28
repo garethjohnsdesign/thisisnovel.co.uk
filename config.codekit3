@@ -1058,6 +1058,30 @@
 		"oAP": "/_team/sean-glynn.markdown",
 		"oF": 0
 		},
+	"/_uploads/A Cure At What Cost.mp3": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_uploads/A Cure At What Cost.mp3",
+		"oF": 0
+		},
+	"/_uploads/A Hacks Progress.mp3": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_uploads/A Hacks Progress.mp3",
+		"oF": 0
+		},
+	"/_uploads/A Very John Kearns Christmas.mp3": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_uploads/A Very John Kearns Christmas.mp3",
+		"oF": 0
+		},
 	"/_uploads/A-Hacks-Progress.jpg": {
 		"ft": 16384,
 		"iS": 347973,
@@ -1119,6 +1143,47 @@
 		"hM": 0,
 		"oA": 2,
 		"oAP": "/_uploads/Airbnb.mp3",
+		"oF": 0
+		},
+	"/_uploads/Alex Holder.png": {
+		"ft": 32768,
+		"iS": 435633,
+		"oA": 0,
+		"oAP": "/_uploads/Alex Holder.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/_uploads/Alhan-rev2.jpg": {
+		"ft": 16384,
+		"iS": 419571,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/Alhan-rev2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/Alhan3.jpg": {
+		"ft": 16384,
+		"iS": 1046088,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/Alhan3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/Alhans World.mp3": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_uploads/Alhans World.mp3",
 		"oF": 0
 		},
 	"/_uploads/alhans-world.jpg": {
@@ -1251,6 +1316,35 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"/_uploads/bbc-sounds.png": {
+		"ft": 32768,
+		"iS": 7220,
+		"oA": 0,
+		"oAP": "/_uploads/bbc-sounds.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/_uploads/bbc-sounds.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/_uploads/bbc-sounds.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/_uploads/Believers In Trump.mp3": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_uploads/Believers In Trump.mp3",
+		"oF": 0
+		},
 	"/_uploads/Believers.jpg": {
 		"ft": 16384,
 		"iS": 715487,
@@ -1320,6 +1414,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
+		"q": 100
+		},
+	"/_uploads/burnt-notebook-319655.jpg": {
+		"ft": 16384,
+		"iS": 425561,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/burnt-notebook-319655.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"/_uploads/burnt-notebook.jpg": {
@@ -1481,6 +1586,14 @@
 		"oAP": "/_uploads/christopher-hitchens-preview.mp3",
 		"oF": 0
 		},
+	"/_uploads/Communisms Forgotten Victims.mp3": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_uploads/Communisms Forgotten Victims.mp3",
+		"oF": 0
+		},
 	"/_uploads/contact.jpg": {
 		"ft": 16384,
 		"iS": 49024,
@@ -1541,6 +1654,14 @@
 		"opt": 1,
 		"q": 100
 		},
+	"/_uploads/El Impenetrable.mp3": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_uploads/El Impenetrable.mp3",
+		"oF": 0
+		},
 	"/_uploads/el-impenetrable.jpg": {
 		"ft": 16384,
 		"iS": 405111,
@@ -1562,6 +1683,14 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"/_uploads/Fallout.mp3": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_uploads/Fallout.mp3",
+		"oF": 0
 		},
 	"/_uploads/fantasy-premier-league.jpg": {
 		"ft": 16384,
@@ -1604,6 +1733,14 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/_uploads/Friends and Foes 111.mp3": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_uploads/Friends and Foes 111.mp3",
+		"oF": 0
+		},
 	"/_uploads/friends-and-foes-history-of-dimocracy-preview.mp3": {
 		"cB": 0,
 		"ft": 8192,
@@ -1612,12 +1749,39 @@
 		"oAP": "/_uploads/friends-and-foes-history-of-dimocracy-preview.mp3",
 		"oF": 0
 		},
+	"/_uploads/Futile Attempts.mp3": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_uploads/Futile Attempts.mp3",
+		"oF": 0
+		},
 	"/_uploads/futile-attempts.jpg": {
 		"ft": 16384,
 		"iS": 255832,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/_uploads/futile-attempts.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/Girl Power RIP.mp3": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_uploads/Girl Power RIP.mp3",
+		"oF": 0
+		},
+	"/_uploads/girl-power.jpg": {
+		"ft": 16384,
+		"iS": 1244969,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/girl-power.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1641,6 +1805,25 @@
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
+		},
+	"/_uploads/hichjacked-history-rev2.jpg": {
+		"ft": 16384,
+		"iS": 578717,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/hichjacked-history-rev2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/Hijacked Histories.mp3": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_uploads/Hijacked Histories.mp3",
+		"oF": 0
 		},
 	"/_uploads/hijacked-histories.jpg": {
 		"ft": 16384,
@@ -1707,6 +1890,14 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"/_uploads/Istanbuls Factory of Tears.mp3": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_uploads/Istanbuls Factory of Tears.mp3",
+		"oF": 0
 		},
 	"/_uploads/its-obscene-preview.mp3": {
 		"cB": 0,
@@ -1801,6 +1992,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/_uploads/merit.jpg": {
+		"ft": 16384,
+		"iS": 119542,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/merit.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/_uploads/murad-subay-preview.mp3": {
 		"cB": 0,
 		"ft": 8192,
@@ -1826,6 +2028,28 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/_uploads/Narrative.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/novel-team-rev2.jpg": {
+		"ft": 16384,
+		"iS": 412312,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/novel-team-rev2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/novel-team-rev3.jpg": {
+		"ft": 16384,
+		"iS": 536432,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/novel-team-rev3.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1860,6 +2084,14 @@
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
+		},
+	"/_uploads/Poetry Pharmacy.mp3": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_uploads/Poetry Pharmacy.mp3",
+		"oF": 0
 		},
 	"/_uploads/poetry-pharmacy-rev.jpg": {
 		"ft": 16384,
@@ -2187,6 +2419,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/_uploads/Sympathy2.jpg": {
+		"ft": 16384,
+		"iS": 450228,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/Sympathy2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/_uploads/taliban.jpg": {
 		"ft": 16384,
 		"iS": 345254,
@@ -2230,6 +2473,54 @@
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
+		},
+	"/_uploads/The Burnt Notebook.mp3": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_uploads/The Burnt Notebook.mp3",
+		"oF": 0
+		},
+	"/_uploads/The Crisis Inside.mp3": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_uploads/The Crisis Inside.mp3",
+		"oF": 0
+		},
+	"/_uploads/The Political School.mp3": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_uploads/The Political School.mp3",
+		"oF": 0
+		},
+	"/_uploads/The Purity Spiral.mp3": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_uploads/The Purity Spiral.mp3",
+		"oF": 0
+		},
+	"/_uploads/The Quran-rescuing Monk of Timbuktu.mp3": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_uploads/The Quran-rescuing Monk of Timbuktu.mp3",
+		"oF": 0
+		},
+	"/_uploads/The Sympathy of Things.mp3": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_uploads/The Sympathy of Things.mp3",
+		"oF": 0
 		},
 	"/_uploads/the-arab.jpg": {
 		"ft": 16384,
@@ -2559,6 +2850,16 @@
 		"oA": 2,
 		"oAP": "/assets/fonts/titling-gothic-wide-bold.woff2",
 		"oF": 0
+		},
+	"/assets/icons/symbol-defs.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/assets/icons/symbol-defs.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"/assets/img/logo.svg": {
 		"ft": 2097152,
