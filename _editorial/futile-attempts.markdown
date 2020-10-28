@@ -16,5 +16,4 @@ reviews:
   link: https://www.theguardian.com/stage/2020/aug/17/kim-noble-futile-attempts-at-surviving-tomorrow-review-twisted-and-tender
 ---
 
-
 Life’s rubbish. However artist, comedian and manic depressive Kim Noble has just bought a microphone and he’s decided to make a podcast (like every other loser). Over ten episodes, we join Kim on a surreal and hilarious sonic journey.
