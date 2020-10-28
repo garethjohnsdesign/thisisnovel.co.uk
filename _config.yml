@@ -35,6 +35,16 @@ defaults:
     listen: 
     link: 
     is-highlight: false
+    has-reviews: false
+    reviews:
+    - cite: 
+      is-five-star: 
+      is-four-star: 
+      link: 
+    has-awards: false
+    awards:
+    - award: 
+      link: 
 - scope:
     path: ''
     type: branded
@@ -55,7 +65,7 @@ defaults:
     image: 
     email: 
     social: 
-url: https://www.thisisnovel.co.uk
+url: https://www.we-are-novel.com
 description: A premium audio content company. Whether it’s compelling journalism,
   powerful podcasts or innovative branded content, we tell stories in sound that make
   people listen.
@@ -75,7 +85,7 @@ plugins:
 - jekyll-feed
 - jekyll/imgix
 company: Novel Ltd
-email: info@thisisnovel.co.uk
+email: info@we-are-novel.com
 analytics: UA-148099552-1
 logo: "/assets/img/logo.svg"
 per_page: 12

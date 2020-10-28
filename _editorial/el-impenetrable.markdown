@@ -10,6 +10,7 @@ run-time: Various Lengths
 listen: "/uploads/El%20Impenetrable.mp3"
 link: https://www.audible.co.uk/pd/El-Impenetrable-Death-in-the-Forest-Audiobook/B0842SD2RZ
 is-highlight: true
+has-awards: true
 awards:
 - award: One of Esquire’s Best Podcasts of 2020
   link: https://www.esquire.com/uk/latest-news/a26086091/best-podcasts/
