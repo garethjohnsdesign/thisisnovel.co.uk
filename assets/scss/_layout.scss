@@ -131,10 +131,10 @@ svg {
   max-width: 100%;
 }
 
-::selection {
-  background: $primary-color;
-  color: $white;
-}
+// ::selection {
+//   background: $primary-color;
+//   color: $white;
+// }
 
 :focus {
   outline: 0;
@@ -868,4 +868,12 @@ vertical-align: text-bottom;
 .project__title {
   font-size: 20px;
   line-height: 1.2;
+}
+
+.email {
+background-color: $white;
+color: $black;
+label {
+  color: $black;
+  }
 }

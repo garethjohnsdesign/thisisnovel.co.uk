@@ -3932,14 +3932,6 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"/email-signature.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/email-signature.html",
-		"oF": 0
-		},
 	"/email-signature.md": {
 		"cB": 0,
 		"cS": 0,
@@ -3949,9 +3941,9 @@
 		"eSQ": 1,
 		"ft": 4096,
 		"hM": 0,
-		"oA": 0,
-		"oAP": "/email-signature.html",
-		"oF": 0,
+		"oA": 2,
+		"oAP": "/email-signature.md",
+		"oF": 1,
 		"oFM": 0,
 		"oS": 0,
 		"pHT": 0,

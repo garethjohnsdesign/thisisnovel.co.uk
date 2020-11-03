@@ -1,0 +1,205 @@
+---
+layout: default
+---
+
+<div class="grid-container">
+  <div class="grid-x grid-padding-x grid-padding-y">
+    <div class="small-12 cell">
+    <h2>Email Signature Builder</h2>
+    </div>
+  </div>
+</div>
+
+<div class="grid-container">
+  <div class="grid-x grid-padding-x grid-padding-y">
+    <div class="small-6 cell">
+        <h3>Step One</h3>
+        <p>Fill in the information you want in your signature below</p>
+        <h3>Step Two — Gmail</h3>
+        <p>Click the select button, copy and paste the visual signature from here into your Gmail signature</p>
+        <h3>Step Two — Other</h3>
+        <p>You must use raw editor mode only. Do not enter visual mode. Then, copy and paste the HTML code.</p>
+      </p>
+      <div class="input-field">
+        <label>Name
+          <input id="name" type="text" placeholder="Seann Glynn">
+        </label>
+      </div>
+      <div class="input-field">
+      <label>Job Title
+        <input id="job-title" type="text" placeholder="Founder">
+      </label>
+      </div>
+      <div class="input-field">
+        <label>Email
+          <input id="email" type="text" placeholder="Email">
+        </label>
+      </div>
+      <div class="input-field">
+        <label>Phone Number
+          <input id="phone-number" type="text" placeholder="077 2573 7734">
+        </label>
+      </div>
+      <div class="input-field">
+        <label>Disclaimer
+          <input id="show-disclaimer" type="checkbox" checked="checked" />
+        </label>
+      </div>
+      <a id="select" class="success button" style="padding:0.85em 1em">Select</a>
+    </div>
+
+    <div class="small-6 cell">
+      <div id="signature"></div>
+      <textarea id="code" onclick="this.select()"></textarea>
+    </div>
+
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const inputs = document.getElementsByTagName('input');
+    const name = document.getElementById('name');
+    const jobTitle = document.getElementById('job-title');
+    const email = document.getElementById('email');
+    const phoneNumber = document.getElementById('phone-number');
+    const showDisclaimer = document.getElementById('show-disclaimer');
+
+    for (let i = 0; i < inputs.length; i++) {
+      inputs.item(i).addEventListener('change', update);
+      inputs.item(i).addEventListener('keyup', update);
+    }
+
+    update();
+    function update() {
+
+const code = `
+<div>
+<style>
+    .sh-src a {
+        text-decoration: none !important;
+    }
+</style>
+</div>
+<br />
+<table cellpadding="0" cellspacing="0" border="0" class="sh-src" style="">
+<tr>
+    <td style="padding: 0px 1px 26px 0px; font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 20px; white-space: nowrap;">
+        <p style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 20px; font-weight: 700; color: rgb(0, 0, 0); white-space: nowrap; margin: 1px;">${name.value}</p>
+        <p style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 20px; white-space: nowrap; color: rgb(0, 0, 0); margin: 1px;">${jobTitle.value}</p>
+    </td>
+</tr>
+<tr>
+    <td>
+        <table cellpadding="0" cellspacing="0" border="0" style="">
+            <tr>
+                <td style="padding: 32px 1px 32px 0px;">
+                    <p style="margin: 1px;">
+                        <a href="https://www.we-are-novel.com"><img src="https://www.we-are-novel.com/assets/img/logo.png" alt="" width="150" height="34" style="display: block; border: 0px; max-width: 150px;" /></a>
+                    </p>
+                </td>
+            </tr>
+        </table>
+    </td>
+</tr>
+<tr>
+    <td style="padding: 0px 1px 0px 0px;">
+        <table cellpadding="0" cellspacing="0" border="0" style="">
+            <tr>
+                <td
+                    style="padding: 21px 1px 21px 0px; border-top-width: 2px; border-top-style: solid; border-top-color: rgb(237, 236, 236); border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: rgb(237, 236, 236);"
+                >
+                    <table cellpadding="0" cellspacing="0" border="0" style="">
+                        <tr>
+                            <!---->
+                            <td style="line-height: 20px; padding: 0px 1px 0px 0px;">
+                                <p style="margin: 1px;">
+                                    <a
+                                        href="mailto:${email.value}"
+                                        style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 20px; white-space: nowrap; color: rgb(0, 0, 0); text-decoration: none !important;"
+                                    >
+                                        <span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 20px; white-space: nowrap; color: rgb(0, 0, 0); text-decoration: none !important;">
+                                            ${email.value}
+                                        </span>
+                                    </a>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <!---->
+                            <td style="line-height: 20px; padding: 0px 1px 0px 0px;">
+                                <p style="margin: 1px;">
+                                    <a href="tel:${phoneNumber.value}" style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 20px; white-space: nowrap; color: rgb(0, 0, 0); text-decoration: none !important;">
+                                        <span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 20px; white-space: nowrap; color: rgb(0, 0, 0); text-decoration: none !important;">${phoneNumber.value}</span>
+                                    </a>
+                                </p>
+                            </td>
+                        </tr>
+                        <!---->
+                        <tr>
+                            <!---->
+                            <td style="line-height: 20px; padding: 0px 1px 0px 0px;">
+                                <p style="margin: 1px;">
+                                    <a
+                                        href="https://www.we-are-novel.com"
+                                        style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 20px; white-space: nowrap; color: rgb(0, 0, 0); font-weight: 700; text-decoration: none !important;"
+                                    >
+                                        <span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 20px; white-space: nowrap; color: rgb(0, 0, 0); font-weight: 700; text-decoration: none !important;">
+                                            we-are-novel.com
+                                        </span>
+                                    </a>
+                                </p>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </td>
+</tr>
+
+${showDisclaimer.checked ? `
+<tr>
+<td style="padding: 0px 1px 0px 0px;">
+    <table cellpadding="0" cellspacing="0" border="0" style="max-width: 600px;">
+        <tr>
+            <td style="padding: 32px 1px 0px 0px; font-family: Arial, Helvetica, sans-serif; font-size: 11px; line-height: 15px; color: rgb(136, 136, 136);">
+                <p style="font-family: Arial, Helvetica, sans-serif; font-size: 11px; line-height: 15px; color: rgb(136, 136, 136); margin: 1px;">
+                    The content of this email is confidential and intended for the recipient specified in this message only. It is strictly forbidden to share any part of this message with any third party, without a written consent
+                    of the sender. If you received this message by mistake, please reply to this message and follow with its deletion, so that we can ensure such a mistake does not occur in the future.
+                </p>
+            </td>
+        </tr>
+    </table>
+</td>
+</tr>
+` : ''}
+</table>
+
+`;
+      document.getElementById('signature').innerHTML = code;
+      document.getElementById('code').value = code.trim();
+    }
+
+    document.getElementById('select').addEventListener('click', () => {
+      const el = document.getElementById('signature');
+      let body = document.body, range, sel;
+      if (document.createRange && window.getSelection) {
+        range = document.createRange();
+        sel = window.getSelection();
+        sel.removeAllRanges();
+        try {
+          range.selectNodeContents(el);
+          sel.addRange(range);
+        } catch (e) {
+          range.selectNode(el);
+          sel.addRange(range);
+        }
+      } else if (body.createTextRange) {
+        range = body.createTextRange();
+        range.moveToElementText(el);
+        range.select();
+      }
+    });
+  });
+</script>
