@@ -33,6 +33,14 @@
 		"oO": 0,
 		"oS": 1
 		},
+	"/.nova/Tasks/Build.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/.nova/Tasks/Build-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
 	"/404.md": {
 		"cB": 0,
 		"cS": 0,
@@ -978,6 +986,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/_layouts/default.html",
+		"oF": 0
+		},
+	"/_layouts/email.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_layouts/email.html",
 		"oF": 0
 		},
 	"/_layouts/holding.html": {
@@ -3909,6 +3925,33 @@
 		"oA": 1,
 		"oAP": "/editorial-archive.html",
 		"oF": 1,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"/email-signature.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/email-signature.html",
+		"oF": 0
+		},
+	"/email-signature.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/email-signature.html",
+		"oF": 0,
 		"oFM": 0,
 		"oS": 0,
 		"pHT": 0,
