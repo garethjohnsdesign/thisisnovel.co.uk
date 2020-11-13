@@ -31,11 +31,6 @@ layout: default
       </label>
       </div>
       <div class="input-field">
-        <label>Email
-          <input id="email" type="text" placeholder="sean.glynn@we-are-novel.com">
-        </label>
-      </div>
-      <div class="input-field">
         <label>Phone Number
           <input id="phone-number" type="text" placeholder="074 4760 0744">
         </label>
@@ -61,7 +56,6 @@ layout: default
     const inputs = document.getElementsByTagName('input');
     const name = document.getElementById('name');
     const jobTitle = document.getElementById('job-title');
-    const email = document.getElementById('email');
     const phoneNumber = document.getElementById('phone-number');
     const showDisclaimer = document.getElementById('show-disclaimer');
 
@@ -95,7 +89,7 @@ const code = `
             <tr>
                 <td style="padding: 32px 1px 32px 0px;">
                     <p style="margin: 1px;">
-                        <a href="https://www.we-are-novel.com"><img src="https://www.we-are-novel.com/assets/img/logo.png" alt="" width="150" height="34" style="display: block; border: 0px; max-width: 150px;" /></a>
+                        <a href="https://www.we-are-novel.com"><img src="https://www.we-are-novel.com/assets/img/logo.png" alt="" width="115" height="26" style="display: block; border: 0px; max-width: 150px;" /></a>
                     </p>
                 </td>
             </tr>
@@ -110,21 +104,6 @@ const code = `
                     style="padding: 21px 1px 21px 0px; border-top-width: 2px; border-top-style: solid; border-top-color: rgb(237, 236, 236); border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: rgb(237, 236, 236);"
                 >
                     <table cellpadding="0" cellspacing="0" border="0" style="">
-                        <tr>
-                            <!---->
-                            <td style="line-height: 20px; padding: 0px 1px 0px 0px;">
-                                <p style="margin: 1px;">
-                                    <a
-                                        href="mailto:${email.value}"
-                                        style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 20px; white-space: nowrap; color: rgb(0, 0, 0); text-decoration: none !important;"
-                                    >
-                                        <span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 20px; white-space: nowrap; color: rgb(0, 0, 0); text-decoration: none !important;">
-                                            ${email.value}
-                                        </span>
-                                    </a>
-                                </p>
-                            </td>
-                        </tr>
                         <tr>
                             <!---->
                             <td style="line-height: 20px; padding: 0px 1px 0px 0px;">
