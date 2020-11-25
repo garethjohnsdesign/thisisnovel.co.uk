@@ -551,8 +551,8 @@ z-index: 21;
 
 .about {
   @include breakpoint(small only) {
-  background: rgb(251,81,49);
-  background: linear-gradient(90deg, rgba(251,81,49,1) 19%, rgba(68,39,211,1) 100%);
+  // background: rgb(251,81,49);
+  // background: linear-gradient(90deg, rgba(251,81,49,1) 19%, rgba(68,39,211,1) 100%);
   height: 100vh;
   }
 }
@@ -662,13 +662,13 @@ header {
 }
 
 .about {
-  background: rgb(251,81,49);
-  background: linear-gradient(90deg, rgba(251,81,49,1) 19%, rgba(68,39,211,1) 100%);
+  // background: rgb(251,81,49);
+  // background: linear-gradient(90deg, rgba(251,81,49,1) 19%, rgba(68,39,211,1) 100%);
 }
 
 .contact {
-  background: rgb(251,81,49);
-  background: linear-gradient(90deg, rgba(251,81,49,1) 19%, rgba(68,39,211,1) 100%);
+  // background: rgb(251,81,49);
+  // background: linear-gradient(90deg, rgba(251,81,49,1) 19%, rgba(68,39,211,1) 100%);
   position: relative;
 }
 
@@ -861,8 +861,8 @@ vertical-align: text-bottom;
 }
 
 .special--background {
-  background: rgb(251,81,49);
-  background: linear-gradient(90deg, rgba(251,81,49,1) 19%, rgba(68,39,211,1) 100%);
+  // background: rgb(251,81,49);
+  // background: linear-gradient(90deg, rgba(251,81,49,1) 19%, rgba(68,39,211,1) 100%);
 }
 
 .project__title {
