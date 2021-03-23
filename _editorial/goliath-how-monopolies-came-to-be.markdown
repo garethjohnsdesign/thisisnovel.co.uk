@@ -1,7 +1,7 @@
 ---
 title: Goliath - How Monopolies Came to Be
 date: 2019-09-05 20:25:00 Z
-position: 27
+position: 28
 image: "/uploads/goliath.jpg"
 client: BBC Radio 4
 logo: bbc-radio-4

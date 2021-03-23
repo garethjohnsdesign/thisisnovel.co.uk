@@ -1,7 +1,7 @@
 ---
 title: A Cure at What Cost
 date: 2020-06-27 15:20:00 Z
-position: 19
+position: 20
 image: "/uploads/burnt-notebook.jpg"
 client: BBC Radio 4
 logo: bbc-radio-4
