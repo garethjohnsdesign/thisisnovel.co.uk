@@ -1,7 +1,7 @@
 ---
 title: The Political School
 date: 2020-06-27 15:20:00 Z
-position: 6
+position: 7
 image: "/uploads/political-school.jpg"
 client: BBC Radio 4
 logo: bbc-radio-4
