@@ -10,5 +10,6 @@
     }
   },
   "identifier" : "991147E3-D82D-4F7C-9FAB-75ED83E4068B",
+  "openLogOnRun" : "fail",
   "persistent" : true
 }

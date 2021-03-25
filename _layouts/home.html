@@ -113,12 +113,6 @@ layout: default
 {% include partials/highlight.html %}
 <!-- End Branded Highlights -->
 
-<!-- Branded Archive -->
-{% assign projects = site.branded | sort: 'position' | where: "is-highlight", "false" %}
-{% assign section = "Branded" %}
-{% assign section-number = "3" %}
-{% include partials/archive-vertical.html %}
-<!-- End Branded Archive -->
 
 <!-- Contact Hero -->
 {% assign image = page.contact-image %}
@@ -184,8 +178,10 @@ layout: default
         <div class="grid-x grid-padding-x grid-padding-y">
         {% for member in members %}
         <div class="small-10 {% cycle 'small-offset-0', 'small-offset-2' %} medium-offset-0 medium-6 large-4 cell">
+        {% if member.image %}
         {% assign image = member.image %}
         <div class="image--5-7 margin-bottom-1" data-interchange="{% include images/interchange-img-small-12-medium-4-cell.html %}"></div>
+        {% endif %}
         <div class="text-uppercase sans-bold">{{member.title}}</div>
         <div>{{member.job-title}}</div>
         <div><a href="mailto:{{member.email}}">{{member.email}}</a></div>
