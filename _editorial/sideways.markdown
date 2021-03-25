@@ -4,7 +4,7 @@ date: 2021-03-23 15:33:00 Z
 position: 1
 image: "/uploads/sideways-rev.jpg"
 client: BBC Radio 4
-logo: bbc-radio-4
+logo: "/uploads/bbc-radio-4.svg"
 episodes: 24
 run-time: 28 Mins
 is-highlight: true
