@@ -2,11 +2,11 @@
 title: Sideways
 date: 2021-03-23 15:33:00 Z
 position: 1
-image: "/uploads/Sideways.jpg"
+image: "/uploads/sideways-rev.jpg"
 client: BBC Radio 4
 episodes: 24
 run-time: 28 Mins
-is-highlight: false
+is-highlight: true
 has-reviews: true
 reviews:
 - cite: The Times
