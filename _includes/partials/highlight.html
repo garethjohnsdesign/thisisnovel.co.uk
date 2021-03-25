@@ -77,10 +77,12 @@
               <svg class="icon icon-playing-button-large-hover"><use xlink:href="/assets/icons/symbol-defs.svg#icon-playing-button-large-hover"></use></svg>
             </button>
           {% endif %}
+          {% if project.link %}
             <a href="{{project.link}}" target="_blank" class="button clear link-button-large">
               <svg class="icon icon-link-button-large"><use xlink:href="/assets/icons/symbol-defs.svg#icon-link-button-large"></use></svg>
               <svg class="icon icon-link-button-large-hover"><use xlink:href="/assets/icons/symbol-defs.svg#icon-link-button-large-hover"></use></svg>
             </a>
+          {% endif %}
           </div>
       </div>
       </div>
