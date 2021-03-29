@@ -7,8 +7,9 @@ run-time: Various
 is-highlight: true
 has-reviews: true
 reviews:
-- cite: Warmth and wisdom from queer trailblazers - The Guardian
-has-awards: true
+- cite: Warmth and wisdom from queer trailblazers
+  link: The Guardian
+has-awards: false
 awards:
 - award: Warmth and wisdom from queer trailblazers
 ---
