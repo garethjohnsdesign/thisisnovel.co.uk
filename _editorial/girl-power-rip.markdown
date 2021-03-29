@@ -1,7 +1,7 @@
 ---
 title: Girl Power RIP
 date: 2020-06-27 15:20:00 Z
-position: 18
+position: 19
 image: "/uploads/girl-power.jpg"
 client: BBC World Service
 logo: bbc-radio-4

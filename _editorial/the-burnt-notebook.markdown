@@ -1,7 +1,7 @@
 ---
 title: The Burnt Notebook
 date: 2020-06-27 15:20:00 Z
-position: 9
+position: 10
 image: "/uploads/burnt-notebook-319655.jpg"
 client: Audible
 logo: audible
