@@ -7,7 +7,7 @@
       "uuidString" : "EDB44E38-DB9B-408C-B9C2-C572FB45B1A6"
     }
   ],
-  "creatorBuild" : "34081",
+  "creatorBuild" : "34127",
   "files" : {
     "\/_branded\/airbnb-detour.markdown" : {
       "cB" : 0,
@@ -119,6 +119,14 @@
       "hM" : 0,
       "oA" : 2,
       "oAP" : "\/_editorial\/awkward-conversations-about-money.markdown",
+      "oF" : 0
+    },
+    "\/_editorial\/call-me-mother.markdown" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/_editorial\/call-me-mother.markdown",
       "oF" : 0
     },
     "\/_editorial\/capitalism-on-a-knife-edge.markdown" : {
@@ -1639,6 +1647,19 @@
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/_uploads\/butterfly.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/_uploads\/CallMeMother.jpg" : {
+      "ft" : 16384,
+      "iS" : 128793,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/_uploads\/CallMeMother.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -6414,6 +6435,9 @@
       "removeVariables" : 0,
       "safelistEntries" : [
 
+      ],
+      "skippedEntries" : [
+        "node_modules\/**"
       ]
     },
     "rollupContext" : "",
@@ -6448,6 +6472,7 @@
     "tsNoImplicitThis" : 0,
     "tsNoImplicitUseStrict" : 0,
     "tsNoLib" : 0,
+    "tsNoPropertyAccessFromIndexSignature" : 0,
     "tsNoResolve" : 0,
     "tsNoStrictGenericChecks" : 0,
     "tsNoUncheckedIndexAccess" : 0,
