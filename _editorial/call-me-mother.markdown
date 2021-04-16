@@ -8,8 +8,9 @@ run-time: Various
 is-highlight: true
 has-reviews: true
 reviews:
-- cite: Warmth and wisdom from queer trailblazers
-  link: The Guardian
+- cite: The Guardian
+  text: Warmth and wisdom from queer trailblazers
+  link: https://www.theguardian.com/tv-and-radio/2021/mar/19/warmth-and-wisdom-from-queer-trailblazers-podcasts-of-the-week
 has-awards: false
 awards:
 - award: Warmth and wisdom from queer trailblazers
