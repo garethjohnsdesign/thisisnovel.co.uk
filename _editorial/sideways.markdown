@@ -7,6 +7,8 @@ client: BBC Radio 4
 logo: bbc-radio-4
 episodes: 24
 run-time: 28 Mins
+listen: "/uploads/Sideways%20-%20Top%20of%20the%20Pops%20-%20Website%20Clip.mp3"
+link: https://www.bbc.co.uk/programmes/m000s2kt
 is-highlight: true
 has-reviews: true
 reviews:
