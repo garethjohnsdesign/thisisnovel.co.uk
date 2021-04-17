@@ -7,6 +7,7 @@ logo: podcast
 episodes: 8
 run-time: Various
 listen: "/uploads/Call%20Me%20Mother%20-%20Website%20Clip.mp3"
+link: https://podcasts.apple.com/gb/podcast/call-me-mother/id1556479286
 is-highlight: true
 has-reviews: true
 reviews:
