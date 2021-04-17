@@ -8,6 +8,7 @@ logo: spotify
 episodes: 10
 run-time: Various Lengths
 listen: "/uploads/Futile%20Attempts.mp3"
+link: https://podcasts.apple.com/gb/podcast/futile-attempts-at-surviving-tomorrow/id1525691553
 is-highlight: true
 has-reviews: true
 reviews:
