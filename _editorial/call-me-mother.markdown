@@ -3,6 +3,7 @@ title: Call Me Mother
 date: 2021-03-29 21:18:00 Z
 position: 1
 image: "/uploads/CallMeMother.jpg"
+logo: podcast
 episodes: 8
 run-time: Various
 listen: "/uploads/Call%20Me%20Mother%20-%20Website%20Clip.mp3"
