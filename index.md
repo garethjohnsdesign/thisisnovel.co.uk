@@ -10,7 +10,7 @@ editorial-text: Novel produces chart topping independent podcasts and award winn
   content for leading broadcast networks and platforms, including the BBC, Audible
   and Spotify.
 branded-text: Novel works with top-tier brands and IP owners such as Google & The
-  Premier League who appreciate our abilities to create innovative branded podcasts
+  Premier League who appreciate our ability to create innovative branded podcasts
   that people actually want to listen to.
 contact-text: Whatever the story you want to tell, we’d love to hear from you.
 contact-hero-text: Our team have been delivering award winning audio content for over
