@@ -94,7 +94,6 @@ per_page: 12
 date_format: "%b %Y"
 future: true
 social:
-  instagram: https://www.instagram.com/we_are_novel_
   twitter: https://twitter.com/we_are_novel_
 compress_html:
   comments:
