@@ -1,7 +1,7 @@
 ---
 title: Eleanor Biggs
-position: 7
+position: 3
 job-title: Producer
-email: eleanor.biggs@we-are-novel.com
+email: eleanor.biggs@novel.audio
 ---
 

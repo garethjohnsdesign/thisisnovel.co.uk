@@ -1,6 +1,6 @@
 ---
 title: Madeline Parr
-position: 10
+position: 9
 job-title: Researcher
 email: madeline.parr@we-are-novel.com
 ---

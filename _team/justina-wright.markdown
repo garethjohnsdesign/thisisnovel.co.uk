@@ -1,7 +1,7 @@
 ---
-title: Justina Wright
+title: Charlotte Wolf
 position: 8
-job-title: Senior Production Manager
-email: justina.wright@we-are-novel.com
+job-title: Head of Operations
+email: charlotte.wolf@novel.audio
 ---
 

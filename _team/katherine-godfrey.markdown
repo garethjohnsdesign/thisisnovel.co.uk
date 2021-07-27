@@ -1,7 +1,7 @@
 ---
 title: Katherine Godfrey
-position: 9
-job-title: Series Producer
-email: katherine.godfrey@we-are-novel.com
+position: 4
+job-title: Executive Producer
+email: katherine.godfrey@novel.audio
 ---
 

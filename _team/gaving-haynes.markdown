@@ -1,7 +1,7 @@
 ---
 title: Gavin Haynes
-position: 6
-job-title: Development Producer
-email: gavin.haynes@we-are-novel.com
+position: 7
+job-title: Senior Development Producer
+email: gavin.haynes@novel.audio
 ---
 
