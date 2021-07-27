@@ -1,8 +1,7 @@
 ---
 title: Robbie MacInnes
 position: 3
-job-title: Producer
-image: "/uploads/robbie-macinnes.jpg"
+job-title: Executive Producer
 email: robbie.macinnes@we-are-novel.com
 ---
 
