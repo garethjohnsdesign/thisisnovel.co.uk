@@ -1,6 +1,6 @@
 ---
 title: William Foxton
-position: 4
+position: 5
 job-title: Head of Development
 email: william.foxton@novel.audio
 ---
