@@ -1,7 +1,7 @@
 ---
 title: Sean Glynn
 position: 0
-job-title: Founder/Director
+job-title: Founder/CEO
 image: "/uploads/sean-glynn.jpg"
 email: sean.glynn@novel.audio
 ---
