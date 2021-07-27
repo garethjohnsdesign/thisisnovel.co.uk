@@ -1,7 +1,7 @@
 ---
 title: William Foxton
-position: 11
+position: 4
 job-title: Head of Development
-email: william.foxton@we-are-novel.com
+email: william.foxton@novel.audio
 ---
 
