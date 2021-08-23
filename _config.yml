@@ -65,7 +65,7 @@ defaults:
     image: 
     email: 
     social: 
-url: https://www.we-are-novel.com
+url: https://www.novel.audio
 description: A premium audio content company. Whether it’s compelling journalism,
   powerful podcasts or innovative branded content, we tell stories in sound that make
   people listen.
@@ -87,7 +87,7 @@ plugins:
 include:
 - _redirects
 company: Novel Ltd
-email: info@we-are-novel.com
+email: info@novel.audio
 analytics: UA-148099552-1
 logo: "/assets/img/logo.svg"
 per_page: 12
