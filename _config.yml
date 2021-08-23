@@ -18,76 +18,77 @@ collections:
     title: Uploads
     output: false
 defaults:
-- scope:
-    path: ''
-    type: pages
-  values:
-    layout: page
-- scope:
-    path: ''
-    type: editorial
-  values:
-    image: 
-    client: 
-    logo: 
-    episodes: 
-    run-time: 
-    listen: 
-    link: 
-    is-highlight: false
-    has-reviews: false
-    reviews:
-    - cite: 
-      is-five-star: 
-      is-four-star: 
-      link: 
-    has-awards: false
-    awards:
-    - award: 
-      link: 
-- scope:
-    path: ''
-    type: branded
-  values:
-    image: 
-    client: 
-    logo: 
-    episodes: 
-    run-time: 
-    listen: 
-    link: 
-    is-highlight: false
-- scope:
-    path: ''
-    type: team
-  values:
-    job-title: 
-    image: 
-    email: 
-    social: 
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: page
+  - scope:
+      path: ""
+      type: editorial
+    values:
+      image:
+      client:
+      logo:
+      episodes:
+      run-time:
+      listen:
+      link:
+      is-highlight: false
+      has-reviews: false
+      reviews:
+        - cite:
+          is-five-star:
+          is-four-star:
+          link:
+      has-awards: false
+      awards:
+        - award:
+          link:
+  - scope:
+      path: ""
+      type: branded
+    values:
+      image:
+      client:
+      logo:
+      episodes:
+      run-time:
+      listen:
+      link:
+      is-highlight: false
+  - scope:
+      path: ""
+      type: team
+    values:
+      job-title:
+      image:
+      email:
+      social:
 url: https://www.we-are-novel.com
-description: A premium audio content company. Whether it’s compelling journalism,
+description:
+  A premium audio content company. Whether it’s compelling journalism,
   powerful podcasts or innovative branded content, we tell stories in sound that make
   people listen.
 permalink: pretty
 exclude:
-- package.json
-- config.codekit3
-- README*
-- LICENSE*
-- CHANGELOG*
-- node_modules
-- ".gitignore"
-- assets/scss
+  - package.json
+  - config.codekit3
+  - README*
+  - LICENSE*
+  - CHANGELOG*
+  - node_modules
+  - ".gitignore"
+  - assets/scss
 plugins:
-- jekyll-seo-tag
-- jekyll-sitemap
-- jekyll-feed
-- jekyll/imgix
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll/imgix
 include:
-- _redirects
+  - _redirects
 company: Novel Ltd
-email: info@we-are-novel.com
+email: info@nove.audio
 analytics: UA-148099552-1
 logo: "/assets/img/logo.svg"
 per_page: 12
@@ -97,8 +98,8 @@ social:
   twitter: https://twitter.com/we_are_novel_
 compress_html:
   comments:
-  - "<!-- "
-  - " -->"
+    - "<!-- "
+    - " -->"
   blanklines: true
   profile: false
 pagination:
