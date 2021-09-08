@@ -6,6 +6,7 @@ client: Google
 logo: podcast
 episodes: 7
 run-time: Various
+listen: "/uploads/Google%20Planet%20Progress_sail%20drone%20intro_128.mp3"
 link: https://podcasts.apple.com/gb/podcast/planet-progress/id1560969127
 is-highlight: true
 ---
