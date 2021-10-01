@@ -2016,6 +2016,14 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/_uploads\/Google Planet Progress_sail drone intro_128.mp3" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/_uploads\/Google Planet Progress_sail drone intro_128.mp3",
+      "oF" : 0
+    },
     "\/_uploads\/hichjacked-history-rev2.jpg" : {
       "ft" : 16384,
       "iS" : 578717,
@@ -2333,6 +2341,19 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/_uploads\/Planet Progress - Reupload.jpeg" : {
+      "ft" : 16384,
+      "iS" : 17647,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/_uploads\/Planet Progress - Reupload.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
