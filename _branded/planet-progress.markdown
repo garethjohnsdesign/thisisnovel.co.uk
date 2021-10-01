@@ -1,5 +1,5 @@
 ---
-title: "Google: Planet Progress"
+title: 'Google: Planet Progress'
 date: 2021-08-11 15:34:00 Z
 image: "/uploads/planet-progress.jpg"
 client: Google
