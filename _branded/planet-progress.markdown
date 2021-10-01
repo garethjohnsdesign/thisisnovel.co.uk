@@ -1,7 +1,7 @@
 ---
-title: 'Google: Planet Progress'
+title: "Google: Planet Progress"
 date: 2021-08-11 15:34:00 Z
-image: "/uploads/Planet%20Progress%20-%20Reupload.jpeg"
+image: "/uploads/planet-progress.jpg"
 client: Google
 logo: podcast
 episodes: 7
