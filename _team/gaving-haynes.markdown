@@ -1,6 +1,6 @@
 ---
 title: Gavin Haynes
-position: 14
+position: 13
 job-title: Senior Development Producer
 email: gavin.haynes@novel.audio
 ---
