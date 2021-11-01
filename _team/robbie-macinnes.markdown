@@ -1,6 +1,6 @@
 ---
 title: Robbie MacInnes
-position: 12
+position: 11
 job-title: Executive Producer
 email: robbie.macinnes@novel.audio
 ---
