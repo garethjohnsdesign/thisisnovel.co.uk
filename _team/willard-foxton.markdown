@@ -1,6 +1,6 @@
 ---
 title: Willard Foxton
-position: 6
+position: 5
 job-title: Head of Development
 email: willard.foxton@novel.audio
 ---
