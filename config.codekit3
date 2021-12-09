@@ -7,7 +7,7 @@
       "uuidString" : "EDB44E38-DB9B-408C-B9C2-C572FB45B1A6"
     }
   ],
-  "creatorBuild" : "34127",
+  "creatorBuild" : "34264",
   "files" : {
     "\/_branded\/ambassador-theatre-group.markdown" : {
       "cB" : 0,
@@ -1007,6 +1007,22 @@
       "oAP" : "\/_site",
       "oF" : 0
     },
+    "\/_team\/amalie-sortland.markdown" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/_team\/amalie-sortland.markdown",
+      "oF" : 0
+    },
+    "\/_team\/anna-sinfield.markdown" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/_team\/anna-sinfield.markdown",
+      "oF" : 0
+    },
     "\/_team\/caroline-thornham.markdown" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1063,6 +1079,14 @@
       "oAP" : "\/_team\/jess-swinburne.markdown",
       "oF" : 0
     },
+    "\/_team\/jo-wheeler.markdown" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/_team\/jo-wheeler.markdown",
+      "oF" : 0
+    },
     "\/_team\/justina-wright.markdown" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1077,6 +1101,38 @@
       "hM" : 0,
       "oA" : 2,
       "oAP" : "\/_team\/katherine-godfrey.markdown",
+      "oF" : 0
+    },
+    "\/_team\/laura-zerilli.markdown" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/_team\/laura-zerilli.markdown",
+      "oF" : 0
+    },
+    "\/_team\/leigh-meyer.markdown" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/_team\/leigh-meyer.markdown",
+      "oF" : 0
+    },
+    "\/_team\/leona-hameed.markdown" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/_team\/leona-hameed.markdown",
+      "oF" : 0
+    },
+    "\/_team\/lina-chang.markdown" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/_team\/lina-chang.markdown",
       "oF" : 0
     },
     "\/_team\/madeline-parr.markdown" : {
@@ -1103,6 +1159,14 @@
       "oAP" : "\/_team\/max-obrien.markdown",
       "oF" : 0
     },
+    "\/_team\/nadia-mehdi.markdown" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/_team\/nadia-mehdi.markdown",
+      "oF" : 0
+    },
     "\/_team\/pippa-smith.markdown" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1127,6 +1191,14 @@
       "oAP" : "\/_team\/robin-stibbs.markdown",
       "oF" : 0
     },
+    "\/_team\/saskia-edwards.markdown" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/_team\/saskia-edwards.markdown",
+      "oF" : 0
+    },
     "\/_team\/sean-glynn.markdown" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1143,12 +1215,12 @@
       "oAP" : "\/_team\/tom-wright.markdown",
       "oF" : 0
     },
-    "\/_team\/william-foxton.markdown" : {
+    "\/_team\/willard-foxton.markdown" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 2,
-      "oAP" : "\/_team\/william-foxton.markdown",
+      "oAP" : "\/_team\/willard-foxton.markdown",
       "oF" : 0
     },
     "\/_uploads\/A Cure At What Cost.mp3" : {
@@ -3355,16 +3427,6 @@
       "oAP" : "\/assets\/fonts\/titling-gothic-wide-bold.woff2",
       "oF" : 0
     },
-    "\/assets\/icons\/symbol-defs.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/assets\/icons\/symbol-defs.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 3758088159,
-      "prP" : 0
-    },
     "\/assets\/img\/logo.png" : {
       "ft" : 32768,
       "iS" : 6478,
@@ -3409,7 +3471,7 @@
       "oA" : 0,
       "oAP" : "\/assets\/js\/min\/animations-min.js",
       "oF" : 0,
-      "sC" : 1,
+      "sC" : 3,
       "tS" : 0
     },
     "\/assets\/js\/app.js" : {
@@ -3431,7 +3493,7 @@
       "oA" : 0,
       "oAP" : "\/assets\/js\/min\/audio-min.js",
       "oF" : 0,
-      "sC" : 1,
+      "sC" : 3,
       "tS" : 0
     },
     "\/assets\/js\/bodymovin.js" : {
@@ -3442,7 +3504,7 @@
       "oA" : 0,
       "oAP" : "\/assets\/js\/min\/bodymovin-min.js",
       "oF" : 0,
-      "sC" : 1,
+      "sC" : 3,
       "tS" : 0
     },
     "\/assets\/js\/min\/animations-min.js" : {
@@ -3453,7 +3515,7 @@
       "oA" : 0,
       "oAP" : "\/assets\/js\/min\/min\/animations-min-min.js",
       "oF" : 0,
-      "sC" : 1,
+      "sC" : 3,
       "tS" : 0
     },
     "\/assets\/js\/min\/app-min.js" : {
@@ -3464,7 +3526,7 @@
       "oA" : 0,
       "oAP" : "\/assets\/js\/min\/min\/app-min-min.js",
       "oF" : 0,
-      "sC" : 1,
+      "sC" : 3,
       "tS" : 0
     },
     "\/assets\/js\/min\/audio-min.js" : {
@@ -3475,7 +3537,7 @@
       "oA" : 0,
       "oAP" : "\/assets\/js\/min\/min\/audio-min-min.js",
       "oF" : 0,
-      "sC" : 1,
+      "sC" : 3,
       "tS" : 0
     },
     "\/assets\/js\/min\/bodymovin-min.js" : {
@@ -3486,7 +3548,7 @@
       "oA" : 0,
       "oAP" : "\/assets\/js\/min\/min\/bodymovin-min-min.js",
       "oF" : 0,
-      "sC" : 1,
+      "sC" : 3,
       "tS" : 0
     },
     "\/assets\/js\/min\/jquery.marquee-min.js" : {
@@ -3497,7 +3559,7 @@
       "oA" : 0,
       "oAP" : "\/assets\/js\/min\/min\/jquery.marquee-min-min.js",
       "oF" : 0,
-      "sC" : 1,
+      "sC" : 3,
       "tS" : 0
     },
     "\/assets\/js\/min\/svgxuse-min.js" : {
@@ -3508,7 +3570,7 @@
       "oA" : 0,
       "oAP" : "\/assets\/js\/min\/min\/svgxuse-min-min.js",
       "oF" : 0,
-      "sC" : 1,
+      "sC" : 3,
       "tS" : 0
     },
     "\/assets\/js\/svgxuse.js" : {
@@ -3519,12 +3581,13 @@
       "oA" : 0,
       "oAP" : "\/assets\/js\/min\/svgxuse-min.js",
       "oF" : 0,
-      "sC" : 1,
+      "sC" : 3,
       "tS" : 0
     },
     "\/assets\/scss\/_fonts.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -3539,6 +3602,7 @@
     "\/assets\/scss\/_icons.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -3553,6 +3617,7 @@
     "\/assets\/scss\/_layout.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -3567,6 +3632,7 @@
     "\/assets\/scss\/_settings.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -3581,6 +3647,7 @@
     "\/assets\/scss\/_swiper.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -3595,6 +3662,7 @@
     "\/assets\/scss\/_transitions.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -3609,6 +3677,7 @@
     "\/assets\/scss\/_typography.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -3623,6 +3692,7 @@
     "\/assets\/scss\/app.scss" : {
       "aP" : 1,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -3637,6 +3707,7 @@
     "\/assets\/scss\/plyr\/base.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -3651,6 +3722,7 @@
     "\/assets\/scss\/plyr\/components\/badges.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -3665,6 +3737,7 @@
     "\/assets\/scss\/plyr\/components\/captions.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -3679,6 +3752,7 @@
     "\/assets\/scss\/plyr\/components\/control.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -3693,6 +3767,7 @@
     "\/assets\/scss\/plyr\/components\/controls.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -3707,6 +3782,7 @@
     "\/assets\/scss\/plyr\/components\/menus.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -3721,6 +3797,7 @@
     "\/assets\/scss\/plyr\/components\/poster.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -3735,6 +3812,7 @@
     "\/assets\/scss\/plyr\/components\/progress.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -3749,6 +3827,7 @@
     "\/assets\/scss\/plyr\/components\/sliders.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -3763,6 +3842,7 @@
     "\/assets\/scss\/plyr\/components\/times.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -3777,6 +3857,7 @@
     "\/assets\/scss\/plyr\/components\/tooltips.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -3791,6 +3872,7 @@
     "\/assets\/scss\/plyr\/components\/video.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -3805,6 +3887,7 @@
     "\/assets\/scss\/plyr\/components\/volume.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -3819,6 +3902,7 @@
     "\/assets\/scss\/plyr\/lib\/animation.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -3833,6 +3917,7 @@
     "\/assets\/scss\/plyr\/lib\/functions.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -3847,6 +3932,7 @@
     "\/assets\/scss\/plyr\/lib\/mixins.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -3861,6 +3947,7 @@
     "\/assets\/scss\/plyr\/plugins\/ads.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -3875,6 +3962,7 @@
     "\/assets\/scss\/plyr\/plugins\/preview-thumbnails.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -3889,6 +3977,7 @@
     "\/assets\/scss\/plyr\/plyr.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -3903,6 +3992,7 @@
     "\/assets\/scss\/plyr\/settings\/badges.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -3917,6 +4007,7 @@
     "\/assets\/scss\/plyr\/settings\/breakpoints.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -3931,6 +4022,7 @@
     "\/assets\/scss\/plyr\/settings\/captions.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -3945,6 +4037,7 @@
     "\/assets\/scss\/plyr\/settings\/colors.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -3959,6 +4052,7 @@
     "\/assets\/scss\/plyr\/settings\/controls.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -3973,6 +4067,7 @@
     "\/assets\/scss\/plyr\/settings\/cosmetics.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -3987,6 +4082,7 @@
     "\/assets\/scss\/plyr\/settings\/helpers.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -4001,6 +4097,7 @@
     "\/assets\/scss\/plyr\/settings\/menus.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -4015,6 +4112,7 @@
     "\/assets\/scss\/plyr\/settings\/progress.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -4029,6 +4127,7 @@
     "\/assets\/scss\/plyr\/settings\/sliders.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -4043,6 +4142,7 @@
     "\/assets\/scss\/plyr\/settings\/tooltips.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -4057,6 +4157,7 @@
     "\/assets\/scss\/plyr\/settings\/type.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -4071,6 +4172,7 @@
     "\/assets\/scss\/plyr\/states\/fullscreen.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -4085,6 +4187,7 @@
     "\/assets\/scss\/plyr\/utils\/animation.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -4099,6 +4202,7 @@
     "\/assets\/scss\/plyr\/utils\/hidden.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -4113,6 +4217,7 @@
     "\/assets\/scss\/scroll\/_animations.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -4127,6 +4232,7 @@
     "\/assets\/scss\/scroll\/_core.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -4141,6 +4247,7 @@
     "\/assets\/scss\/scroll\/_easing.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -4155,6 +4262,7 @@
     "\/assets\/scss\/scroll\/aos.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -4296,7 +4404,7 @@
       "oA" : 1,
       "oAP" : "\/node_modules\/aos\/dist\/min\/aos-min.js",
       "oF" : 0,
-      "sC" : 1,
+      "sC" : 3,
       "tS" : 0
     },
     "\/node_modules\/foundation-sites\/dist\/js\/foundation.esm.js" : {
@@ -4307,7 +4415,7 @@
       "oA" : 1,
       "oAP" : "\/node_modules\/foundation-sites\/dist\/js\/min\/foundation.esm-min.js",
       "oF" : 0,
-      "sC" : 1,
+      "sC" : 3,
       "tS" : 0
     },
     "\/node_modules\/jquery\/dist\/jquery.js" : {
@@ -4318,7 +4426,7 @@
       "oA" : 1,
       "oAP" : "\/node_modules\/jquery\/dist\/min\/jquery-min.js",
       "oF" : 0,
-      "sC" : 1,
+      "sC" : 3,
       "tS" : 0
     },
     "\/node_modules\/panelsnap\/lib\/panelsnap.esm.js" : {
@@ -4329,7 +4437,7 @@
       "oA" : 1,
       "oAP" : "\/node_modules\/panelsnap\/lib\/min\/panelsnap.esm-min.js",
       "oF" : 0,
-      "sC" : 1,
+      "sC" : 3,
       "tS" : 0
     },
     "\/node_modules\/plyr\/dist\/plyr.min.mjs" : {
@@ -4348,7 +4456,7 @@
       "oA" : 1,
       "oAP" : "\/node_modules\/ssr-window\/dist\/min\/ssr-window.esm-min.js",
       "oF" : 0,
-      "sC" : 1,
+      "sC" : 3,
       "tS" : 0
     },
     "\/node_modules\/swiper\/js\/swiper.esm.bundle.js" : {
@@ -4359,7 +4467,7 @@
       "oA" : 1,
       "oAP" : "\/node_modules\/swiper\/js\/min\/swiper.esm.bundle-min.js",
       "oF" : 0,
-      "sC" : 1,
+      "sC" : 3,
       "tS" : 0
     },
     "\/node_modules\/tweezer.js\/dist\/tweezer.module.js" : {
@@ -4370,7 +4478,7 @@
       "oA" : 1,
       "oAP" : "\/node_modules\/tweezer.js\/dist\/min\/tweezer.module-min.js",
       "oF" : 0,
-      "sC" : 1,
+      "sC" : 3,
       "tS" : 0
     },
     "\/package-lock.json" : {
@@ -5409,7 +5517,8 @@
         "optionString" : ""
       },
       "no-multi-assign" : {
-        "active" : 0
+        "active" : 0,
+        "optionString" : "{'ignoreNonDeclaration': false}"
       },
       "no-multi-spaces" : {
         "active" : 0,
@@ -5532,7 +5641,8 @@
         "active" : 1
       },
       "no-sequences" : {
-        "active" : 0
+        "active" : 0,
+        "optionString" : "{'allowInParentheses': true}"
       },
       "no-setter-return" : {
         "active" : 1
@@ -5619,6 +5729,9 @@
       },
       "no-unused-labels" : {
         "active" : 1
+      },
+      "no-unused-private-class-members" : {
+        "active" : 0
       },
       "no-unused-vars" : {
         "active" : 1,
@@ -5896,354 +6009,6 @@
     "gitIgnoreBuildFolder" : 1,
     "hideConfigFile" : 0,
     "jsCheckerReservedNamesString" : "",
-    "jsHintFlags2" : {
-      "asi" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "bitwise" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "boss" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "browser" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "browserify" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "camelcase" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "couch" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "curly" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "debug" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "devel" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "dojo" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "elision" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "eqeqeq" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "eqnull" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "es3" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "esnext" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "evil" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "expr" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "forin" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "freeze" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "funcscope" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "futurehostile" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "globalstrict" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "immed" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "indent" : {
-        "active" : 0,
-        "flagValue" : 4
-      },
-      "iterator" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "jasmine" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "jquery" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "lastsemic" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "latedef" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "laxbreak" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "laxcomma" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "loopfunc" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "maxcomplexity" : {
-        "active" : 0,
-        "flagValue" : 10
-      },
-      "maxdepth" : {
-        "active" : 0,
-        "flagValue" : 3
-      },
-      "maxlen" : {
-        "active" : 0,
-        "flagValue" : 150
-      },
-      "maxparams" : {
-        "active" : 0,
-        "flagValue" : 3
-      },
-      "maxstatements" : {
-        "active" : 0,
-        "flagValue" : 4
-      },
-      "mocha" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "mootools" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "moz" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "multistr" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "newcap" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "noarg" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "nocomma" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "node" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "noempty" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "nonbsp" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "nonew" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "nonstandard" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "notypeof" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "noyield" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "onecase" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "phantom" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "plusplus" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "proto" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "prototypejs" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "qunit" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "regexp" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "rhino" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "scripturl" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "shadow" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "shelljs" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "singleGroups" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "strict" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "sub" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "supernew" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "typed" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "undef" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "unused" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "varstmt" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "withstmt" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "worker" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "wsh" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "yui" : {
-        "active" : 0,
-        "flagValue" : -1
-      }
-    },
-    "jsLintFlags2" : {
-      "bitwise" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "browser" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "couch" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "devel" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "es6" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "eval" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "for" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "maxlen" : {
-        "active" : 0,
-        "flagValue" : 150
-      },
-      "node" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "this" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "white" : {
-        "active" : 0,
-        "flagValue" : -1
-      }
-    },
     "languageDefaultsCOFFEE" : {
       "autoOutputAction" : 0,
       "autoOutputPathFilenamePattern" : "*.js",
@@ -6319,7 +6084,7 @@
       "bundleFormat" : 0,
       "minifierStyle" : 1,
       "sourceMapStyle" : 0,
-      "syntaxCheckerStyle" : 1,
+      "syntaxCheckerStyle" : 3,
       "transpilerStyle" : 0
     },
     "languageDefaultsJSON" : {
@@ -6552,6 +6317,7 @@
     "tsEmitBOM" : 0,
     "tsEmitDecoratorMetadata" : 0,
     "tsESModuleInterop" : 0,
+    "tsExactOptionalPropertyTypes" : 0,
     "tsForceConsistentCasingInFileNames" : 0,
     "tsImportHelpers" : 0,
     "tsIsolatedModules" : 0,
@@ -6560,6 +6326,7 @@
     "tsNoEmitHelpers" : 0,
     "tsNoFallthroughCasesInSwitch" : 0,
     "tsNoImplicitAny" : 0,
+    "tsNoImplicitOverride" : 0,
     "tsNoImplicitReturns" : 0,
     "tsNoImplicitThis" : 0,
     "tsNoImplicitUseStrict" : 0,
@@ -6580,6 +6347,7 @@
     "tsStripInternal" : 0,
     "tsSuppressExcessPropertyErrors" : 0,
     "tsSuppressImplicitAnyIndexErrors" : 0,
+    "tsUseUnknownInCatchVariables" : 0,
     "uglifyDefinesString" : "",
     "uglifyFlags2" : {
       "arguments" : {
