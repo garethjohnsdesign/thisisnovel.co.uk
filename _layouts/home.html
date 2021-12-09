@@ -288,7 +288,10 @@ include partials/highlight.html %}
           <div class="margin-bottom-2 h2">
             <a href="mailto:{{site.email}}" class="underline">{{site.email}}</a>
           </div>
-          {{page.address-text | markdownify}}
+          <ul class="menu simple h5" style="z-index: 20">
+          <li><a href="{{site.social.linkedin}}" target="_blank"><svg class="icon icon-socials-bottom icon-linkedin"><use xlink:href="/assets/icons/symbol-defs.svg#icon-linkedin"></use></svg></a></li>
+          <li><a href="{{site.social.twitter}}" target="_blank"><svg class="icon icon-socials-bottom icon-twitter"><use xlink:href="/assets/icons/symbol-defs.svg#icon-twitter"></use></svg></a></li>
+          </ul>
         </div>
       </div>
     </div>
