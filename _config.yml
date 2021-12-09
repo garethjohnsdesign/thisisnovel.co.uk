@@ -95,6 +95,7 @@ date_format: "%b %Y"
 future: true
 social:
   twitter: https://twitter.com/we_are_novel_
+  linkedin: https://www.linkedin.com/company/thisisnovel
 compress_html:
   comments:
   - "<!-- "
