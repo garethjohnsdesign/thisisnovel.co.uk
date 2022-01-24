@@ -1,6 +1,6 @@
 ---
 title: Charlotte Wolf
-position: 3
+position: 16
 job-title: Head of Operations
 email: charlotte.wolf@novel.audio
 ---

@@ -1,6 +1,6 @@
 ---
 title: Sean Glynn
-position: 0
+position: 13
 job-title: Founder/CEO
 email: sean.glynn@novel.audio
 ---
