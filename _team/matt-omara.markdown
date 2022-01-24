@@ -1,6 +1,6 @@
 ---
 title: Matt O’Mara
-position: 6
+position: 5
 job-title: Managing Director
 email: matt.omara@novel.audio
 ---
