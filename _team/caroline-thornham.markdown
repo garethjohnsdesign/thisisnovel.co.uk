@@ -1,6 +1,6 @@
 ---
 title: Caroline Thornham
-position: 23
+position: 22
 job-title: Producer
 email: caroline.thornham@novel.audio
 ---
