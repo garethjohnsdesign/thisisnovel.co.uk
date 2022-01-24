@@ -1,7 +1,7 @@
 ---
 title: Sarah Taunton
 date: 2022-01-24 16:53:00 Z
-position: 20
+position: 19
 job-title: Head of HR
 email: sarah.taunton@novel.audio
 ---
