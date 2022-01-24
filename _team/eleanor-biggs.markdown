@@ -1,6 +1,6 @@
 ---
 title: Eleanor Biggs
-position: 21
+position: 20
 job-title: Producer
 email: eleanor.biggs@novel.audio
 ---
