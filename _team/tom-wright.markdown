@@ -1,6 +1,6 @@
 ---
 title: Tom Wright
-position: 24
+position: 23
 job-title: Producer
 email: tom.wright@novel.audio
 ---

@@ -1,6 +1,6 @@
 ---
 title: Pippa Smith
-position: 30
+position: 29
 job-title: Assistant Producer
 email: pippa.smith@novel.audio
 ---

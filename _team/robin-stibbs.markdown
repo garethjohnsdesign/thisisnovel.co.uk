@@ -1,6 +1,6 @@
 ---
 title: Robin Stibbs
-position: 37
+position: 36
 job-title: Financial Controller
 email: robin.stibbs@novel.audio
 ---
