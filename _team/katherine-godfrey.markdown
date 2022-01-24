@@ -1,6 +1,6 @@
 ---
 title: Katherine Godfrey
-position: 6
+position: 7
 job-title: Executive Producer
 email: katherine.godfrey@novel.audio
 ---
