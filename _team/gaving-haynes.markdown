@@ -1,6 +1,6 @@
 ---
 title: Gavin Haynes
-position: 12
+position: 11
 job-title: Head of Development
 email: gavin.haynes@novel.audio
 ---
