@@ -1,6 +1,6 @@
 ---
 title: Max O’Brien
-position: 3
+position: 2
 job-title: Chief Content Officer
 email: max.obrien@novel.audio
 ---
