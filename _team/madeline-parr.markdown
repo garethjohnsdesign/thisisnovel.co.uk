@@ -1,7 +1,7 @@
 ---
 title: Madeline Parr
-position: 18
-job-title: Junior Development Producer
+position: 25
+job-title: Development Producer
 email: madeline.parr@novel.audio
 ---
 
