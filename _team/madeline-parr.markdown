@@ -1,5 +1,5 @@
 ---
-title: Madeline Parr
+title: Madeleine Parr
 position: 25
 job-title: Development Producer
 email: madeline.parr@novel.audio
